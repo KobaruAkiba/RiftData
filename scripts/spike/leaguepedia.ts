@@ -60,7 +60,8 @@ export function classifyCargoResponse(res: HttpResult): CargoOutcome {
 const TOURNAMENTS_QUERY: CargoQuery = {
   tables: "Tournaments",
   fields: "Name,OverviewPage,DateStart,Region",
-  where: 'Name LIKE "%World Championship%" AND DateStart >= "2026-01-01"',
+  // Names vary ("Worlds 2026 ..."); the overview page is stable: "2026 Season World Championship/...".
+  where: 'OverviewPage LIKE "%Season World Championship%" AND DateStart >= "2026-01-01"',
   limit: 20,
 };
 

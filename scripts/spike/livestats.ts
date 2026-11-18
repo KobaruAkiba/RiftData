@@ -75,7 +75,13 @@ export function pickWorldsTournament(list: Tournament[], year: number): Tourname
   return bySlug ?? list.find((t) => t.startDate.startsWith(`${year}-`));
 }
 
-/** Path: data.schedule.events[].games[] with state === "completed". */
+/** A game counts as played if it is marked completed or, as in real getCompletedEvents payloads (no `state`), has VODs. */
+function isPlayedGame(game: Record<string, unknown>): boolean {
+  if (game.state !== undefined) return game.state === "completed";
+  return Array.isArray(game.vods) && game.vods.length > 0;
+}
+
+/** Path: data.schedule.events[].games[], played games only (see isPlayedGame). */
 export function extractGameIds(completedEvents: unknown): string[] {
   if (!isRecord(completedEvents) || !isRecord(completedEvents.data)) return [];
   const schedule = completedEvents.data.schedule;
@@ -84,7 +90,7 @@ export function extractGameIds(completedEvents: unknown): string[] {
   for (const event of schedule.events) {
     if (!isRecord(event) || !Array.isArray(event.games)) continue;
     for (const game of event.games) {
-      if (isRecord(game) && game.state === "completed" && typeof game.id === "string") ids.push(game.id);
+      if (isRecord(game) && isPlayedGame(game) && typeof game.id === "string") ids.push(game.id);
     }
   }
   return ids;

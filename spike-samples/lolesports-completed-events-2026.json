@@ -1,0 +1,285 @@
+{
+  "startTime": "2026-10-15T18:00:00Z",
+  "blockName": "Play-Ins",
+  "league": {
+    "name": "Worlds"
+  },
+  "match": {
+    "id": "115660588583171786",
+    "type": "normal",
+    "teams": [
+      {
+        "name": "Karmine Corp",
+        "code": "KC",
+        "image": "http://static.lolesports.com/teams/1704714951336_KC.png",
+        "result": {
+          "gameWins": 3
+        }
+      },
+      {
+        "name": "Cloud9 Kia",
+        "code": "C9",
+        "image": "http://static.lolesports.com/teams/1736924120254_C9Kia_IconBlue_Transparent_2000x2000.png",
+        "result": {
+          "gameWins": 2
+        }
+      }
+    ],
+    "strategy": {
+      "type": "bestOf",
+      "count": 5
+    }
+  },
+  "games": [
+    {
+      "id": "115660588583171787",
+      "vods": [
+        {
+          "parameter": "hegtEPxWCco"
+        },
+        {
+          "parameter": "MzoFIu6m4AU"
+        },
+        {
+          "parameter": "hcSaTxkD5Ck"
+        },
+        {
+          "parameter": "vRj_7F_dkBU"
+        },
+        {
+          "parameter": "P43KhERU89A"
+        },
+        {
+          "parameter": "2901526897"
+        },
+        {
+          "parameter": "TVSGPydn7Qg"
+        },
+        {
+          "parameter": "pW-6GnU6lHU"
+        },
+        {
+          "parameter": "ZUYnxmmhcfA"
+        },
+        {
+          "parameter": "nKzKtMJf6rc"
+        },
+        {
+          "parameter": "2PF3ktFZCyk"
+        },
+        {
+          "parameter": "5WDOO9XS-DY"
+        },
+        {
+          "parameter": "GpGaGhzcFw4"
+        },
+        {
+          "parameter": "8W-UvkyJEeI"
+        },
+        {
+          "parameter": "Q80U8DNbSZU"
+        }
+      ]
+    },
+    {
+      "id": "115660588583171788",
+      "vods": [
+        {
+          "parameter": "hegtEPxWCco"
+        },
+        {
+          "parameter": "MzoFIu6m4AU"
+        },
+        {
+          "parameter": "hcSaTxkD5Ck"
+        },
+        {
+          "parameter": "FQzLwM276rA"
+        },
+        {
+          "parameter": "P43KhERU89A"
+        },
+        {
+          "parameter": "2901526897"
+        },
+        {
+          "parameter": "TVSGPydn7Qg"
+        },
+        {
+          "parameter": "pW-6GnU6lHU"
+        },
+        {
+          "parameter": "ZUYnxmmhcfA"
+        },
+        {
+          "parameter": "nKzKtMJf6rc"
+        },
+        {
+          "parameter": "2PF3ktFZCyk"
+        },
+        {
+          "parameter": "5WDOO9XS-DY"
+        },
+        {
+          "parameter": "GpGaGhzcFw4"
+        },
+        {
+          "parameter": "fAnqYeEnSoE"
+        },
+        {
+          "parameter": "Q80U8DNbSZU"
+        }
+      ]
+    },
+    {
+      "id": "115660588583171789",
+      "vods": [
+        {
+          "parameter": "hegtEPxWCco"
+        },
+        {
+          "parameter": "MzoFIu6m4AU"
+        },
+        {
+          "parameter": "hcSaTxkD5Ck"
+        },
+        {
+          "parameter": "LbM_9rbDUoo"
+        },
+        {
+          "parameter": "P43KhERU89A"
+        },
+        {
+          "parameter": "2901526897"
+        },
+        {
+          "parameter": "TVSGPydn7Qg"
+        },
+        {
+          "parameter": "pW-6GnU6lHU"
+        },
+        {
+          "parameter": "ZUYnxmmhcfA"
+        },
+        {
+          "parameter": "nKzKtMJf6rc"
+        },
+        {
+          "parameter": "2PF3ktFZCyk"
+        },
+        {
+          "parameter": "5WDOO9XS-DY"
+        },
+        {
+          "parameter": "GpGaGhzcFw4"
+        },
+        {
+          "parameter": "kVDczxCXxqU"
+        },
+        {
+          "parameter": "Q80U8DNbSZU"
+        }
+      ]
+    },
+    {
+      "id": "116299649500204436",
+      "vods": [
+        {
+          "parameter": "hegtEPxWCco"
+        },
+        {
+          "parameter": "MzoFIu6m4AU"
+        },
+        {
+          "parameter": "hcSaTxkD5Ck"
+        },
+        {
+          "parameter": "2xC2Jpk_duM"
+        },
+        {
+          "parameter": "P43KhERU89A"
+        },
+        {
+          "parameter": "2901526897"
+        },
+        {
+          "parameter": "TVSGPydn7Qg"
+        },
+        {
+          "parameter": "pW-6GnU6lHU"
+        },
+        {
+          "parameter": "ZUYnxmmhcfA"
+        },
+        {
+          "parameter": "nKzKtMJf6rc"
+        },
+        {
+          "parameter": "2PF3ktFZCyk"
+        },
+        {
+          "parameter": "5WDOO9XS-DY"
+        },
+        {
+          "parameter": "GpGaGhzcFw4"
+        },
+        {
+          "parameter": "ZktRQB5VbCc"
+        },
+        {
+          "parameter": "Q80U8DNbSZU"
+        }
+      ]
+    },
+    {
+      "id": "116299649500204437",
+      "vods": [
+        {
+          "parameter": "hegtEPxWCco"
+        },
+        {
+          "parameter": "MzoFIu6m4AU"
+        },
+        {
+          "parameter": "hcSaTxkD5Ck"
+        },
+        {
+          "parameter": "yT6HBEteZuw"
+        },
+        {
+          "parameter": "P43KhERU89A"
+        },
+        {
+          "parameter": "2901526897"
+        },
+        {
+          "parameter": "TVSGPydn7Qg"
+        },
+        {
+          "parameter": "pW-6GnU6lHU"
+        },
+        {
+          "parameter": "ZUYnxmmhcfA"
+        },
+        {
+          "parameter": "nKzKtMJf6rc"
+        },
+        {
+          "parameter": "2PF3ktFZCyk"
+        },
+        {
+          "parameter": "5WDOO9XS-DY"
+        },
+        {
+          "parameter": "GpGaGhzcFw4"
+        },
+        {
+          "parameter": "SiLFesIxeGo"
+        },
+        {
+          "parameter": "Q80U8DNbSZU"
+        }
+      ]
+    }
+  ]
+}

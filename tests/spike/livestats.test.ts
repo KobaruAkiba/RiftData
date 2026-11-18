@@ -52,6 +52,13 @@ test("pickWorldsTournament matches slug, then start year", () => {
   expect(pickWorldsTournament(list, 2018)).toBeUndefined();
 });
 
+test("extractGameIds treats games without state as played only when they have VODs (real getCompletedEvents shape)", () => {
+  const json = {
+    data: { schedule: { events: [{ match: { id: "m1" }, games: [{ id: "g1", vods: [{ parameter: "abc" }] }, { id: "g2", vods: [] }] }] } },
+  };
+  expect(extractGameIds(json)).toEqual(["g1"]);
+});
+
 test("extractGameIds keeps only completed games", () => {
   const json = {
     data: {

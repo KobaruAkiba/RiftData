@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Worlds 2026",
+    "OverviewPage": "2026 Season World Championship",
+    "DateStart": "2026-10-15",
+    "Region": "International",
+    "DateStart__precision": "1"
+  },
+  {
+    "Name": "Worlds 2026 Main Event",
+    "OverviewPage": "2026 Season World Championship/Main Event",
+    "DateStart": "2026-10-23",
+    "Region": "International",
+    "DateStart__precision": "1"
+  },
+  {
+    "Name": "Worlds 2026 Play-In",
+    "OverviewPage": "2026 Season World Championship/Play-In",
+    "DateStart": "2026-10-15",
+    "Region": "International",
+    "DateStart__precision": "1"
+  }
+]
