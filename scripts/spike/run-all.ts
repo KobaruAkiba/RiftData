@@ -10,8 +10,12 @@ import {
   type ProbeResult,
 } from "./probe.js";
 
+import { corsProbe } from "./cors.js";
+import { leaguepediaProbe } from "./leaguepedia.js";
+import { livestatsProbe } from "./livestats.js";
+
 /** Probe registry: adding a probe = one import + one array entry. */
-export const PROBES: ProbeDefinition[] = [];
+export const PROBES: ProbeDefinition[] = [leaguepediaProbe, livestatsProbe, corsProbe];
 
 const DEFAULT_OUT = "docs/superpowers/spikes/2026-11-19-data-sources-report.md";
 const SAMPLES_DIR = "spike-samples";

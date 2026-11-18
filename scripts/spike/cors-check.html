@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>lolesports CORS check</title>
+</head>
+<body>
+  Checking...
+  <script>
+    // Public key embedded in the lolesports.com front-end; not a secret.
+    fetch("https://esports-api.lolesports.com/persisted/gw/getLive?hl=en-US", {
+      headers: { "x-api-key": "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z" },
+    })
+      .then(function (response) {
+        document.body.textContent = "CORS OK · status " + response.status;
+      })
+      .catch(function (error) {
+        document.body.textContent = "CORS FAIL · " + error.message;
+      });
+  </script>
+</body>
+</html>
