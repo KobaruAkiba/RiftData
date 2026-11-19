@@ -196,7 +196,7 @@ Struttura URL e layout delle pagine diverse dalla home: **[Costruttore]** (con p
 
 ## 11. Stile visivo e animazioni
 
-Bozza di riferimento: `G:\HOME\Repos\lol-esports-fansite\.superpowers\brainstorm\853-1795041992\content\visual-style-v2.html`
+Bozza di riferimento: `.superpowers/brainstorm/853-1795041992/content/visual-style-v2.html` (cartella locale, esclusa da git)
 
 ### 11.1 Direzione
 
