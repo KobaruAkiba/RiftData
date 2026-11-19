@@ -383,7 +383,7 @@ git commit -m "feat(pipeline): add typed Cargo queries and verify fields against
 
 Regole:
 - `slugify`: NFKD, rimozione dei diacritici, minuscolo, ogni sequenza non alfanumerica diventa `-`, trattini iniziali e finali rimossi.
-- `isSameOrgVerb(verb)`: vero se `verb` contiene `rename` e non contiene `acquir`, `slot`, `sold`, `purchas` (senza distinzione tra maiuscole e minuscole). Verificare i verbi reali in `tests/fixtures/leaguepedia/rename-verbs.json` (Task 3). Se compaiono verbi di rinomina diversi (es. `rebrand`), aggiungerli alla regola con un test.
+- `isSameOrgVerb(verb)` (senza distinzione tra maiuscole e minuscole): vero se `verb` contiene `rename`, `rebrand` o `reband` (refuso reale) e non contiene `acquir`, `acuir` (refuso reale), `slot`, `sold`, `purchas`, `partner`. Verbi reali in `tests/fixtures/leaguepedia/rename-verbs.json`: `acquire` 380, `Acquire` 1, `acuire` 2, `partner` 1, `reband` 1, `rebrand` 333, `rename` 539, `Rename` 1. `SK Telecom T1 → T1` è un `rebrand` del 2019-12-08.
 - Archi: `OriginalName → NewName` per le righe con `isSameOrgVerb`, più gli archi `from → into` degli override. Se un nome ha più archi, vale quello con `Date` più recente; l'override vince sempre.
 - `resolve`: segue gli archi fino al nome terminale, con protezione dai cicli (si ferma al primo nome già visitato). L'ID è `slugify(terminale)`.
 - Collisione: due terminali diversi con lo stesso slug → il secondo, in ordine alfabetico, riceve il suffisso `-<slugify(region)>`. Senza regione, il suffisso è `-2`.
@@ -473,7 +473,7 @@ git commit -m "feat(pipeline): resolve team identity through Leaguepedia rename 
   // normalize.ts
   export interface EditionInput { year: number; tournaments: TournamentRow[]; matches: MatchRow[]; games: GameRow[]; players: PlayerRow[] }
   export function normalizeEdition(input: EditionInput, identity: TeamIdentity, overrides: EditionOverrides, now: Date): Edition;
-  export function editionYear(row: TournamentRow): number;          // anno di DateStart
+  export function editionYear(row: TournamentRow): number | null;   // anno di DateStart; se vuoto, da OverviewPage: "^(d{4}) Season" → anno, "^Season (d+) " → 2010 + N; altrimenti null (riga ignorata)
   export function stageNameOf(row: MatchRow): string;               // Tab; se vuoto, parte di OverviewPage dopo l'ultimo "/"; se assente, "Main Event"
   export function inferStageType(name: string): StageType;
   export function editionStatus(edition: Pick<Edition, "stages" | "startDate" | "endDate">, now: Date): EditionStatus;
