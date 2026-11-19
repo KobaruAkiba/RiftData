@@ -474,8 +474,8 @@ git commit -m "feat(pipeline): resolve team identity through Leaguepedia rename 
   export interface EditionInput { year: number; tournaments: TournamentRow[]; matches: MatchRow[]; games: GameRow[]; players: PlayerRow[] }
   export function normalizeEdition(input: EditionInput, identity: TeamIdentity, overrides: EditionOverrides, now: Date): Edition;
   export function editionYear(row: TournamentRow): number | null;   // anno di DateStart; se vuoto, da OverviewPage: "^(\d{4}) Season" → anno, "^Season (\d+) " → 2010 + N; altrimenti null (riga ignorata)
-  export function stageNameOf(row: MatchRow): string;               // Tab; se vuoto, parte di OverviewPage dopo l'ultimo "/"; se assente, "Main Event"
-  export function inferStageType(name: string): StageType;
+  export function mainPhaseOf(rows: MatchRow[]): { name: string; type: StageType };   // fase principale dell'edizione, dai Tab
+  export function stageOf(row: MatchRow, mainPhase: { name: string; type: StageType }): { name: string; type: StageType };
   export function editionStatus(edition: Pick<Edition, "stages" | "startDate" | "endDate">, now: Date): EditionStatus;
   export function championOf(edition: Pick<Edition, "stages" | "status">): TeamId | null;
   export function parseList(value: string): string[];               // "A, B,,C" → ["A","B","C"]
@@ -484,8 +484,11 @@ git commit -m "feat(pipeline): resolve team identity through Leaguepedia rename 
 
 Regole:
 - `name` = `"Worlds <year>"`. `overviewPages` = `OverviewPage` delle righe torneo, ordinate. `startDate` = minimo `DateStart`; `endDate` = massimo `DateEnd`; omessi se vuoti.
-- Fasi: raggruppare le partite per `stageNameOf`. `id` = `slugify(nome)`; `order` per data della prima partita; `type` = `inferStageType(nome)`.
-- `inferStageType` (prima regola che corrisponde, senza distinzione tra maiuscole e minuscole): `play-in` → `play-in`; `swiss` → `swiss`; `group` → `groups`; `knockout|playoff|bracket|elimination|quarterfinal|semifinal|final` → `single-elimination`; altrimenti `other`.
+- Fasi. Nei dati reali `Tab` è il turno o la giornata (`Round 1`, `Day 3`, `Tiebreakers`, `Quarterfinals`…), non la fase; `Round` è sempre vuoto. Regole di `stageOf`, senza distinzione tra maiuscole e minuscole:
+  1. suffisso di `OverviewPage` dopo l'ultimo `/` che corrisponde a `play-?in` → `Play-In` / `play-in`;
+  2. altrimenti `Tab` che corrisponde a `final|knockout|playoff|bracket|elimination` → `Knockout Stage` / `single-elimination`;
+  3. altrimenti la fase principale (`mainPhaseOf`, calcolata su queste partite): un `Tab` `^round \d+` → `Swiss Stage` / `swiss`; altrimenti un `Tab` `^day \d+` o `group` → `Group Stage` / `groups`; altrimenti suffisso della pagina o `Main Event` / `other`.
+  `id` = `slugify(nome)`; `order` per data della prima partita; `match.round` = `Tab` (omesso se vuoto).
 - Partita: `team1`/`team2` via `identity.resolve`; `score` = intero o `null` se vuoto; `winner` = squadra del lato indicato da `Winner` (`"1"`/`"2"`), altrimenti `null`; `date` = `DateTimeUTC` in ISO con `Z` (il formato Cargo è `YYYY-MM-DD HH:MM:SS`, UTC); `bestOf` intero o assente; `round` = `Round` o assente.
 - Game: collegati alla partita tramite `MatchId`; `number` = `NGameInMatch`; `blue` = Team1, `red` = Team2; `winner` = `"blue"` se `WinTeam === Team1`, altrimenti `"red"`; `durationSec` = `Math.round(GamelengthNumber * 60)`; `deaths` di un lato = kill dell'altro lato; `assists` = somma degli `Assists` delle righe giocatore con lo stesso `GameId` e `Team`, omesso se non ci sono righe; numeri vuoti → campo omesso; `picks`/`bans` con `parseList`. I game senza partita corrispondente sono scartati. Il warning relativo è prodotto dall'ingest (Task 8): qui basta escluderli.
 - `coverage.matches` = almeno una partita; `coverage.games` = almeno un game.
@@ -514,17 +517,10 @@ test("match override patches only given fields and does not mutate input", () =>
 `tests/pipeline/normalize.test.ts`, su dati sintetici (helper `match(...)`, `game(...)`, `identity` con `buildTeamIdentity([], [], names, { merge: [] })`, `now = new Date("2026-11-19T00:00:00Z")`):
 
 ```ts
-test("inferStageType maps known stage names", () => {
-  expect(inferStageType("Play-In")).toBe("play-in");
-  expect(inferStageType("Swiss Stage")).toBe("swiss");
-  expect(inferStageType("Group A")).toBe("groups");
-  expect(inferStageType("Knockout Stage")).toBe("single-elimination");
-  expect(inferStageType("Finals")).toBe("single-elimination");
-  expect(inferStageType("Tiebreakers")).toBe("other");
-});
-test("stageNameOf falls back to the overview page suffix", () => {
-  expect(stageNameOf({ ...emptyMatch, Tab: "", OverviewPage: "2026 Season World Championship/Play-In" })).toBe("Play-In");
-  expect(stageNameOf({ ...emptyMatch, Tab: "", OverviewPage: "2013 Season World Championship" })).toBe("Main Event");
+test("stages follow the real Tab values", () => {
+  // 2026-like: Play-In page + Main Event with Round 1..5 and knockout tabs → play-in, swiss-stage, knockout-stage
+  // 2016-like single page: Day 1..8 + Quarterfinals..Finals → group-stage, knockout-stage
+  // 2019 Play-In "Tiebreakers" stays in play-in
 });
 test("TBD match without scores normalizes to nulls and keeps the edition ongoing", () => {
   const e = normalizeEdition(input({ matches: [match({ Team1: "TBD", Team2: "TBD", Team1Score: "", Team2Score: "", Winner: "" }), match({ MatchId: "m0", Winner: "1" })] }), identity, noOverrides, now);
