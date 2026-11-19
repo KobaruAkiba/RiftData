@@ -117,7 +117,7 @@ Current entries:
 
 ## Known gaps
 
-- 2011: 16 bracket games discarded. Their `MatchId` does not match the schedule (gap in Leaguepedia). The ingest reports them as orphan games. 2011 coverage is group stage games only.
+- 2011: 16 bracket games discarded. Their `MatchId` does not match the schedule (gap in Leaguepedia). The ingest reports them as orphan games. 2011 keeps 12 games, all in the `Main Event` stage. Its knockout match has no games.
 - 2027: `upcoming`, no matches (`coverage` both `false`).
 
 ## Attribution
