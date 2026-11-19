@@ -18,7 +18,7 @@ const currentPath = Astro.url.pathname;
         nav.map((item) => (
           <li>
             {item.href === null ? (
-              <span class="item disabled" title="Coming soon">
+              <span class="item disabled" aria-disabled="true" title="Coming soon">
                 {item.label}
                 <span class="visually-hidden"> (coming soon)</span>
               </span>

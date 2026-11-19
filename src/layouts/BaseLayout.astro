@@ -4,6 +4,10 @@ import "@fontsource/barlow-condensed/800.css";
 import "@fontsource/barlow-condensed/800-italic.css";
 import "@fontsource/inter/400.css";
 import "@fontsource/inter/600.css";
+import barlow700 from "@fontsource/barlow-condensed/files/barlow-condensed-latin-700-normal.woff2?url";
+import barlow800 from "@fontsource/barlow-condensed/files/barlow-condensed-latin-800-normal.woff2?url";
+import barlow800Italic from "@fontsource/barlow-condensed/files/barlow-condensed-latin-800-italic.woff2?url";
+import inter400 from "@fontsource/inter/files/inter-latin-400-normal.woff2?url";
 import "../styles/tokens.css";
 import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
@@ -17,6 +21,9 @@ interface Props {
   nav: NavItem[];
 }
 
+// Preload the fonts used above the fold so the swap does not shift the layout.
+const preloadedFonts = [barlow700, barlow800, barlow800Italic, inter400];
+
 const { title, description = "Statistics and results for the League of Legends Worlds.", nav } = Astro.props;
 ---
 
@@ -27,6 +34,9 @@ const { title, description = "Statistics and results for the League of Legends W
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <title>{title}</title>
+    {preloadedFonts.map((href) => (
+      <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />
+    ))}
     <ClientRouter />
   </head>
   <body>
