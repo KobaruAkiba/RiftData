@@ -1,11 +1,37 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import HomeHero from "../components/home/HomeHero.astro";
+import ChampionCard from "../components/home/ChampionCard.astro";
+import StageSection from "../components/home/StageSection.astro";
 import { buildNav } from "../lib/nav/sections.js";
+import { getSiteData } from "../lib/data/site-data.js";
+import { createTeamLookup } from "../lib/format/team.js";
+import { buildHomeModel } from "../lib/home/model.js";
 
-// Placeholder: replaced by the real home in Task 5, which takes the year from the data.
-const nav = buildNav(2026);
+const { featured, teams } = getSiteData();
+const model = buildHomeModel(featured, createTeamLookup(teams));
+const nav = buildNav(featured.year);
 ---
 
-<BaseLayout title="RiftData — Worlds 2026" nav={nav}>
-  <h1>Worlds <span class="text-accent">2026</span></h1>
+<BaseLayout title={`RiftData — Worlds ${model.year}`} nav={nav}>
+  <div class="home">
+    <HomeHero model={model}>
+      {model.champion && <ChampionCard champion={model.champion} />}
+    </HomeHero>
+    {model.stages.length === 0 && <p class="empty">No matches yet</p>}
+    {model.stages.map((stage) => <StageSection stage={stage} />)}
+  </div>
 </BaseLayout>
+
+<style>
+  .home {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-7);
+  }
+
+  .empty {
+    margin: 0;
+    color: var(--color-text-muted);
+  }
+</style>

@@ -1,0 +1,30 @@
+---
+interface Props {
+  text: string;
+  accent?: string;
+  level?: 1 | 2 | 3;
+}
+
+const { text, accent, level = 2 } = Astro.props;
+const Tag = `h${level}` as const;
+---
+
+<Tag class:list={["title", `level-${level}`]} data-split>
+  {text}
+  {accent !== undefined && " "}
+  {accent !== undefined && <span class="accent text-accent">{accent}</span>}
+</Tag>
+
+<style>
+  /* The hero title puts the accent (the year) on its own line. */
+  .level-1 .accent {
+    display: block;
+  }
+
+  .level-3 {
+    font-size: var(--text-md);
+    font-weight: var(--weight-label);
+    letter-spacing: var(--tracking-label);
+    color: var(--color-text-muted);
+  }
+</style>

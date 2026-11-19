@@ -1,0 +1,55 @@
+---
+interface Props {
+  score1: string;
+  score2: string;
+  size?: "lg" | "sm";
+}
+
+const { score1, score2, size = "sm" } = Astro.props;
+---
+
+<span class:list={["score-box", size]}>
+  <span class="digit">{score1}</span>
+  <span class="visually-hidden"> to </span>
+  <span class="divider" aria-hidden="true"></span>
+  <span class="digit">{score2}</span>
+</span>
+
+<style>
+  .score-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    padding: var(--space-1) var(--space-4);
+    background: var(--color-text);
+    color: var(--color-on-light);
+    clip-path: var(--clip-score);
+    font-family: var(--font-display);
+    font-weight: var(--weight-display);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+
+  .sm {
+    font-size: var(--text-md);
+  }
+
+  .lg {
+    padding: var(--space-2) var(--space-5);
+    font-size: var(--text-lg);
+  }
+
+  .digit {
+    min-width: 0.6em;
+    text-align: center;
+  }
+
+  .divider {
+    width: 2px;
+    height: 0.8em;
+    background: currentColor;
+    transform: skewX(-18deg);
+    opacity: 0.35;
+  }
+</style>

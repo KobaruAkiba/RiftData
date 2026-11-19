@@ -26,6 +26,12 @@
     var(--color-pattern-line) 48px 49px
   );
 
+  /* Match rows: strength of the team-side gradient by outcome */
+  --side-strength-winner: 1;
+  --side-strength-winner-team-2: 0.8; /* white text on blended pink ≈ 5.3:1 (AA) */
+  --side-strength-neutral: 0.7;
+  --side-strength-loser: 0.35;
+
   /* Typography */
   --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
   --font-body: "Inter", system-ui, sans-serif;

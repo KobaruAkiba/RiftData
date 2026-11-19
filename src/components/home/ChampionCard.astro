@@ -1,0 +1,48 @@
+---
+import type { ChampionView } from "../../lib/home/types.js";
+import Panel from "../broadcast/Panel.astro";
+import MatchupBar from "../broadcast/MatchupBar.astro";
+
+interface Props {
+  champion: ChampionView;
+}
+
+const { champion } = Astro.props;
+---
+
+<Panel label="Champion">
+  <p class="champion-name">{champion.team.name}</p>
+  <ul class="final">
+    <MatchupBar match={champion.final} featured />
+  </ul>
+  {champion.finalRound !== null && <p class="round">{champion.finalRound}</p>}
+</Panel>
+
+<style>
+  .champion-name {
+    margin: 0 0 var(--space-4);
+    font-family: var(--font-display);
+    font-weight: var(--weight-display);
+    font-style: italic;
+    font-size: var(--text-xl);
+    line-height: 0.95;
+    text-transform: uppercase;
+    overflow-wrap: anywhere;
+  }
+
+  .final {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .round {
+    margin: var(--space-3) 0 0;
+    color: var(--color-text-muted);
+    font-family: var(--font-display);
+    font-weight: var(--weight-label);
+    font-size: var(--text-sm);
+    letter-spacing: var(--tracking-wide);
+    text-transform: uppercase;
+  }
+</style>

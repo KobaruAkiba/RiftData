@@ -1,0 +1,57 @@
+---
+import type { StageView } from "../../lib/home/types.js";
+import SectionTitle from "../broadcast/SectionTitle.astro";
+import PhaseTag from "../broadcast/PhaseTag.astro";
+import MatchupBar from "../broadcast/MatchupBar.astro";
+
+interface Props {
+  stage: StageView;
+}
+
+const { stage } = Astro.props;
+---
+
+<section class="stage">
+  <header class="stage-head">
+    <SectionTitle level={2} text={stage.name} />
+    <PhaseTag label={stage.typeLabel} />
+  </header>
+  {
+    stage.rounds.map((round) => (
+      <div class="round">
+        {round.name !== null && <SectionTitle level={3} text={round.name} />}
+        <ul class="matches">
+          {round.matches.map((match) => (
+            <MatchupBar match={match} compact />
+          ))}
+        </ul>
+      </div>
+    ))
+  }
+</section>
+
+<style>
+  .stage-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2) var(--space-4);
+    padding-bottom: var(--space-3);
+    border-bottom: 1px solid var(--color-border-strong);
+  }
+
+  .round {
+    margin-top: var(--space-5);
+  }
+
+  .matches {
+    display: grid;
+    /* 32rem: matches MatchupBar's threshold for showing full team names. */
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 32rem), 1fr));
+    gap: var(--space-2) var(--space-5);
+    margin: var(--space-3) 0 0;
+    padding: 0;
+    list-style: none;
+  }
+</style>

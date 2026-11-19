@@ -1,0 +1,54 @@
+---
+import type { HomeModel } from "../../lib/home/types.js";
+import SectionTitle from "../broadcast/SectionTitle.astro";
+import PhaseTag from "../broadcast/PhaseTag.astro";
+import StatCounter from "../broadcast/StatCounter.astro";
+
+interface Props {
+  model: HomeModel;
+}
+
+const { model } = Astro.props;
+---
+
+<section class="hero">
+  <div class="intro">
+    <SectionTitle level={1} text="Worlds" accent={String(model.year)} />
+    <div class="tag"><PhaseTag label={model.statusLabel} /></div>
+    <div class="stats">
+      <StatCounter value={model.stats.teams} label="Teams" />
+      <StatCounter value={model.stats.regions} label="Regions" />
+      <StatCounter value={model.stats.games} label="Games" />
+    </div>
+  </div>
+  <div class="aside">
+    <slot />
+  </div>
+</section>
+
+<style>
+  .hero {
+    display: grid;
+    gap: var(--space-6);
+  }
+
+  .tag {
+    margin-top: var(--space-4);
+  }
+
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-5) var(--space-6);
+    margin-top: var(--space-5);
+  }
+
+  /* 56rem = --bp-md */
+  @media (min-width: 56rem) {
+    .hero {
+      grid-template-columns: 1.1fr 1fr;
+      align-items: center;
+      gap: var(--space-7);
+    }
+  }
+</style>

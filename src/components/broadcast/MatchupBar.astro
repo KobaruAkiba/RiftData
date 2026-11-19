@@ -1,0 +1,170 @@
+---
+import type { MatchView } from "../../lib/home/types.js";
+import ScoreBox from "./ScoreBox.astro";
+
+interface Props {
+  match: MatchView;
+  compact?: boolean;
+  /** Featured copy of a match shown elsewhere (e.g. the champion's final): no id and no reveal, so ids stay unique. */
+  featured?: boolean;
+}
+
+const { match, compact = false, featured = false } = Astro.props;
+
+const sides = [
+  { side: 1, team: match.team1 },
+  { side: 2, team: match.team2 },
+].map(({ side, team }) => ({
+  side,
+  team,
+  outcome: match.winner === null ? "neutral" : match.winner === side ? "winner" : "loser",
+}));
+
+const hooks = featured ? {} : { "data-match-id": match.id, "data-reveal": "" };
+---
+
+<li class:list={["matchup", { compact }]} {...hooks}>
+  <div class="row">
+    {match.day !== null && <span class="day">{match.day}</span>}
+    <div class="bar">
+      {
+        sides.map(({ side, team, outcome }, index) => (
+          <>
+            {index === 1 && <ScoreBox score1={match.score1} score2={match.score2} size={compact ? "sm" : "lg"} />}
+            <span class={`team side-${side} ${outcome}`}>
+              <span class:list={["name", { "has-short": team.short !== team.name }]}>
+                <span class="full">{team.name}</span>
+                {team.short !== team.name && (
+                  <span class="short" aria-hidden="true">
+                    {team.short}
+                  </span>
+                )}
+                {outcome === "winner" && <span class="visually-hidden"> (winner)</span>}
+              </span>
+            </span>
+          </>
+        ))
+      }
+    </div>
+  </div>
+</li>
+
+<style>
+  /* The row decides between short and full names from its own width, so multi-column lists adapt too. */
+  .matchup {
+    list-style: none;
+    container-type: inline-size;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .day {
+    flex: 0 0 3rem;
+    color: var(--color-text-muted);
+    font-family: var(--font-display);
+    font-weight: var(--weight-label);
+    font-size: var(--text-sm);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .bar {
+    flex: 1;
+    min-width: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+  }
+
+  .team {
+    position: relative;
+    isolation: isolate;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    padding: var(--space-2) var(--space-3);
+    font-family: var(--font-display);
+    font-weight: var(--weight-display);
+    font-style: italic;
+    font-size: var(--text-lg);
+    line-height: 1.05;
+    text-transform: uppercase;
+    overflow-wrap: anywhere;
+  }
+
+  .compact .team {
+    font-size: calc(var(--text-md) * 0.85);
+  }
+
+  /* Team-side gradient lives on a pseudo-element so its strength can follow the outcome. */
+  .team::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(var(--side-direction), var(--side-color), transparent);
+    opacity: var(--side-strength);
+  }
+
+  .side-1 {
+    --side-color: var(--color-team-1);
+    --side-direction: to right;
+  }
+
+  .side-2 {
+    --side-color: var(--color-team-2);
+    --side-direction: to left;
+    justify-content: flex-end;
+    text-align: right;
+  }
+
+  .winner {
+    --side-strength: var(--side-strength-winner);
+  }
+
+  /* White on full #ff2e63 is ~3.6:1, below AA for compact text: cap the pink side for the winner. */
+  .side-2.winner {
+    --side-strength: var(--side-strength-winner-team-2);
+  }
+
+  .neutral {
+    --side-strength: var(--side-strength-neutral);
+  }
+
+  .loser {
+    --side-strength: var(--side-strength-loser);
+    color: var(--color-text-muted);
+  }
+
+  /* Narrow rows: the short name is shown; the full name stays available to screen readers. */
+  .has-short .full {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  /* 32rem: also the minimum column width of the match grid in StageSection. */
+  @container (min-width: 32rem) {
+    .has-short .full {
+      position: static;
+      width: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      clip-path: none;
+      white-space: normal;
+    }
+
+    .short {
+      display: none;
+    }
+  }
+</style>
