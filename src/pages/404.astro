@@ -1,0 +1,13 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { buildNav } from "../lib/nav/sections.js";
+
+// Replaced in Task 5 with the featured year from the data.
+const nav = buildNav(2026);
+---
+
+<BaseLayout title="Page not found — RiftData" nav={nav}>
+  <h1 class="text-accent">404</h1>
+  <p>Page not found.</p>
+  <p><a href="/">Back to Worlds</a></p>
+</BaseLayout>

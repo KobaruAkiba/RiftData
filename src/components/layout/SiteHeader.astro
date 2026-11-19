@@ -1,0 +1,99 @@
+---
+import type { NavItem } from "../../lib/nav/sections.js";
+import Logo from "./Logo.astro";
+
+interface Props {
+  nav: NavItem[];
+}
+
+const { nav } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <Logo />
+  <nav aria-label="Main">
+    <ul>
+      {
+        nav.map((item) => (
+          <li>
+            {item.href === null ? (
+              <span class="item disabled" title="Coming soon">
+                {item.label}
+                <span class="visually-hidden"> (coming soon)</span>
+              </span>
+            ) : (
+              <a
+                class:list={["item", { current: item.href === currentPath }]}
+                href={item.href}
+                aria-current={item.href === currentPath ? "page" : undefined}
+              >
+                {item.label}
+              </a>
+            )}
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</header>
+
+<style>
+  .site-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: var(--space-5);
+    row-gap: var(--space-2);
+    padding: var(--space-3) var(--gutter);
+    border-bottom: 1px solid var(--color-border);
+    font-family: var(--font-display);
+    font-weight: var(--weight-label);
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-label);
+  }
+
+  .site-header :global(.logo) {
+    font-size: var(--text-lg);
+  }
+
+  nav {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: var(--space-5);
+    row-gap: var(--space-1);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .item {
+    display: inline-block;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    color: var(--color-text-muted);
+    font-size: var(--text-base);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--ease-out);
+  }
+
+  a.item:hover {
+    color: var(--color-text);
+  }
+
+  .current {
+    color: var(--color-text);
+    border-bottom-color: var(--color-accent);
+  }
+
+  .disabled {
+    color: var(--color-text-subtle);
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+</style>

@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { buildNav } from "../lib/nav/sections.js";
+
+// Placeholder: replaced by the real home in Task 5, which takes the year from the data.
+const nav = buildNav(2026);
+---
+
+<BaseLayout title="RiftData — Worlds 2026" nav={nav}>
+  <h1>Worlds <span class="text-accent">2026</span></h1>
+</BaseLayout>

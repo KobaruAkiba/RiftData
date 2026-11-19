@@ -1,0 +1,77 @@
+/* Single source of truth for design values. GSAP scripts read durations and easings from here. */
+:root {
+  /* Colors */
+  --color-bg: #07070a;
+  --color-text: #ffffff;
+  --color-text-muted: #9a9aab;
+  --color-text-subtle: #8a8a9a;
+  --color-border: #1c1c24;
+  --color-border-strong: #23232e;
+  --color-accent: #00e5ff;
+  --color-accent-glow: rgba(0, 229, 255, 0.55);
+  --color-phase: #ff2e63;
+  --color-on-phase: #07070a;
+  --color-team-1: #1b2cff;
+  --color-team-2: #ff2e63;
+  --color-surface-top: #101018;
+  --color-surface-bottom: #0a0a10;
+  --color-on-light: #07070a;
+  --color-pattern-line: rgba(255, 255, 255, 0.025);
+
+  /* Effects */
+  --glow-accent: 0 0 22px var(--color-accent-glow);
+  --pattern-diagonal: repeating-linear-gradient(
+    115deg,
+    transparent 0 48px,
+    var(--color-pattern-line) 48px 49px
+  );
+
+  /* Typography */
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --weight-display: 800;
+  --weight-label: 700;
+  --weight-body: 400;
+  --weight-body-strong: 600;
+  --tracking-label: 0.06em;
+  --tracking-wide: 0.15em;
+
+  /* Fluid type scale */
+  --text-xs: 0.6875rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: clamp(1.125rem, 1.05rem + 0.4vw, 1.375rem);
+  --text-lg: clamp(1.5rem, 1.3rem + 1vw, 2rem);
+  --text-xl: clamp(2rem, 1.6rem + 2vw, 3rem);
+  --text-hero: clamp(3.5rem, 2.2rem + 6.5vw, 5.25rem);
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+
+  /* Layout. Breakpoints are reference values: custom properties cannot be used inside @media. */
+  --content-max: 72rem;
+  --gutter: clamp(1rem, 0.5rem + 2.5vw, 1.5rem);
+  --bp-sm: 40rem;
+  --bp-md: 56rem;
+  --bp-lg: 72rem;
+
+  /* Diagonal cuts */
+  --clip-tag: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+  --clip-score: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+  --clip-panel: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%);
+
+  /* Motion */
+  --duration-fast: 180ms;
+  --duration-base: 320ms;
+  --duration-slow: 600ms;
+  --duration-page: 450ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}

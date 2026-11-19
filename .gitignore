@@ -4,3 +4,4 @@ dist/
 .superpowers/
 spike-report.md
 spike-ci/
+.astro/
