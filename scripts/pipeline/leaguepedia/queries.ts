@@ -60,6 +60,17 @@ export interface GameRow {
 export interface PlayerRow {
   GameId: string;
   Team: string;
+  /** In-game name. */
+  Name: string;
+  /** Page name, may carry a disambiguation: "Bin (Chen Ze-Bin)". */
+  Link: string;
+  /** Full champion name: "Jarvan IV". */
+  Champion: string;
+  /** Top | Jungle | Mid | Bot | Support */
+  Role: string;
+  RoleNumber: string;
+  /** "1" = blue, "2" = red. */
+  Side: string;
   Assists: string;
 }
 
@@ -159,7 +170,7 @@ export function gamesQuery(overviewPages: string[]): QueryDef {
 export function playersQuery(overviewPages: string[]): QueryDef {
   return {
     tables: "ScoreboardPlayers",
-    fields: fieldList(["GameId", "Team", "Assists"]),
+    fields: fieldList(["GameId", "Team", "Name", "Link", "Champion", "Role", ["Role_Number", "RoleNumber"], "Side", "Assists"]),
     where: `ScoreboardPlayers.OverviewPage IN ${inList(overviewPages)}`,
     orderBy: "ScoreboardPlayers.GameId, ScoreboardPlayers.Team",
   };

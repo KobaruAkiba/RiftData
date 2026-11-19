@@ -58,3 +58,10 @@ test("tournamentsQuery keeps Worlds pages only, excluding regional finals in the
   expect(where).toContain('Tournaments.League = "World Championship"');
   expect(where).toContain('Tournaments.OverviewPage LIKE "%World Championship%"');
 });
+
+test("playersQuery selects the fields the livestats roster needs, Role_Number aliased", () => {
+  const fields = fieldsOf(playersQuery(["P"]).fields);
+  for (const f of ["GameId", "Team", "Name", "Link", "Champion", "Role", "Role_Number=RoleNumber", "Side", "Assists"]) {
+    expect(fields).toContain(f);
+  }
+});

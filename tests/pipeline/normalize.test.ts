@@ -58,6 +58,19 @@ const emptyGame: GameRow = {
 };
 const game = (over: Partial<GameRow> = {}): GameRow => ({ ...emptyGame, ...over });
 
+const playerRow = (over: Partial<PlayerRow>): PlayerRow => ({
+  GameId: "g1",
+  Team: "T1",
+  Name: "",
+  Link: "",
+  Champion: "",
+  Role: "",
+  RoleNumber: "",
+  Side: "",
+  Assists: "0",
+  ...over,
+});
+
 function input(over: { year?: number; startDate?: string; endDate?: string; matches?: MatchRow[]; games?: GameRow[]; players?: PlayerRow[] } = {}): EditionInput {
   const tournament: TournamentRow = {
     Name: "Worlds 2026 Main Event",
@@ -208,8 +221,8 @@ describe("normalizeEdition", () => {
         matches: [match({ MatchId: "m1", Team1: "T1", Team2: "Gen.G", Winner: "1", Team1Score: "1", Team2Score: "0" })],
         games: [game({ GameId: "g1", MatchId: "m1", Team1: "T1", Team2: "Gen.G", WinTeam: "T1", Team1Kills: "15", Team2Kills: "4", GamelengthNumber: "33.2167", Team1Picks: "Ahri, Vi" })],
         players: [
-          { GameId: "g1", Team: "T1", Assists: "10" },
-          { GameId: "g1", Team: "T1", Assists: "12" },
+          playerRow({ Assists: "10" }),
+          playerRow({ Assists: "12" }),
         ],
       }),
       identity,
