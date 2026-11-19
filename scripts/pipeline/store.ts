@@ -10,9 +10,41 @@ export function editionPath(year: number): string {
   return posix.join(DATA_DIR, "worlds", `${year}.json`);
 }
 
+export function livestatsGamePath(year: number, gameId: string): string {
+  return posix.join(DATA_DIR, "livestats", String(year), `${gameId}.json`);
+}
+
+export function livestatsIndexPath(year: number): string {
+  return posix.join(DATA_DIR, "livestats", String(year), "index.json");
+}
+
+export interface StringifyOptions {
+  /** Arrays of only primitives are written on a single line. */
+  compactArrays?: boolean;
+}
+
 /** Serializes with recursively sorted keys, no undefined values, 2-space indent and a trailing newline. */
-export function stableStringify(value: unknown): string {
-  return `${JSON.stringify(sortKeys(value), null, 2)}\n`;
+export function stableStringify(value: unknown, opts: StringifyOptions = {}): string {
+  const sorted = sortKeys(value);
+  if (!opts.compactArrays) return `${JSON.stringify(sorted, null, 2)}\n`;
+  return `${compact(sorted, "")}\n`;
+}
+
+const isPrimitive = (v: unknown): boolean => v === null || typeof v !== "object";
+
+/** Same layout as JSON.stringify(_, null, 2), except that primitive-only arrays stay on one line. */
+function compact(value: unknown, indent: string): string {
+  if (isPrimitive(value)) return JSON.stringify(value);
+  const inner = `${indent}  `;
+  if (Array.isArray(value)) {
+    if (value.length === 0) return "[]";
+    if (value.every(isPrimitive)) return `[${value.map((v) => JSON.stringify(v)).join(", ")}]`;
+    return `[\n${value.map((v) => inner + compact(v, inner)).join(",\n")}\n${indent}]`;
+  }
+  const entries = Object.entries(value as Record<string, unknown>);
+  if (entries.length === 0) return "{}";
+  const body = entries.map(([k, v]) => `${inner}${JSON.stringify(k)}: ${compact(v, inner)}`);
+  return `{\n${body.join(",\n")}\n${indent}}`;
 }
 
 function sortKeys(value: unknown): unknown {
@@ -33,8 +65,8 @@ function isMissing(err: unknown): boolean {
 }
 
 /** Writes only when the content changes (existing CRLF is treated as LF). Returns true if it wrote. */
-export async function writeIfChanged(path: string, value: unknown): Promise<boolean> {
-  const next = stableStringify(value);
+export async function writeIfChanged(path: string, value: unknown, opts?: StringifyOptions): Promise<boolean> {
+  const next = stableStringify(value, opts);
   try {
     const current = (await readFile(path, "utf8")).replace(/\r\n/g, "\n");
     if (current === next) return false;

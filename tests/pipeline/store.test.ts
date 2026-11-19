@@ -3,7 +3,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { afterEach, beforeEach, describe, expect, test } from "vitest";
 import { TeamsFileSchema } from "../../src/data/schema/index.js";
-import { readJson, stableStringify, writeIfChanged } from "../../scripts/pipeline/store.js";
+import { livestatsGamePath, livestatsIndexPath, readJson, stableStringify, writeIfChanged } from "../../scripts/pipeline/store.js";
 
 let tmp: string;
 beforeEach(async () => {
@@ -14,6 +14,28 @@ afterEach(async () => {
 });
 
 describe("store", () => {
+  test("compact arrays put primitive arrays on one line and keep objects indented", () => {
+    expect(stableStringify({ b: [1, 2], a: { c: [3] } }, { compactArrays: true })).toBe(
+      '{\n  "a": {\n    "c": [3]\n  },\n  "b": [1, 2]\n}\n',
+    );
+    expect(stableStringify({ a: [{ x: 1 }], e: [] }, { compactArrays: true })).toBe(
+      '{\n  "a": [\n    {\n      "x": 1\n    }\n  ],\n  "e": []\n}\n',
+    );
+  });
+  test("default output is unchanged", () => {
+    expect(stableStringify({ a: [1] })).toBe('{\n  "a": [\n    1\n  ]\n}\n');
+  });
+  test("writeIfChanged honours compactArrays", async () => {
+    const file = join(tmp, "c.json");
+    expect(await writeIfChanged(file, { a: [1, 2] }, { compactArrays: true })).toBe(true);
+    expect(await readFile(file, "utf8")).toBe('{\n  "a": [1, 2]\n}\n');
+    expect(await writeIfChanged(file, { a: [1, 2] }, { compactArrays: true })).toBe(false);
+  });
+  test("livestats paths", () => {
+    expect(livestatsGamePath(2026, "123")).toBe("data/livestats/2026/123.json");
+    expect(livestatsIndexPath(2026)).toBe("data/livestats/2026/index.json");
+  });
+
   test("stableStringify is independent of key order and omits undefined", () => {
     expect(stableStringify({ b: 1, a: { d: 2, c: undefined } })).toBe(stableStringify({ a: { d: 2 }, b: 1 }));
     expect(stableStringify({ a: 1 })).toBe('{\n  "a": 1\n}\n');
