@@ -15,6 +15,7 @@ Fan site about League of Legends esports, centered on Worlds. Static Astro site;
 | `npm run dev:lan` | Dev server exposed on the local network, to test from a phone. Windows may ask for firewall permission. |
 | `npm run build` | Production build |
 | `npm run preview` | Serve the production build |
+| `npm run preview:lan` | Production build preview exposed on the local network, to test from a phone. |
 | `npm test` | Run tests (Vitest) |
 | `npm run typecheck` | Type check (`tsc --noEmit`) |
 | `npm run ingest` | Update data from Leaguepedia. Options: see [data/README.md](data/README.md) |

@@ -2,7 +2,8 @@ import { expect, test } from "vitest";
 import type { Edition, Match, Stage, Team } from "../../src/data/schema/index.js";
 import { getSiteData } from "../../src/lib/data/site-data.js";
 import { createTeamLookup } from "../../src/lib/format/team.js";
-import { buildHomeModel, toMatchView } from "../../src/lib/home/model.js";
+import { buildHomeModel } from "../../src/lib/home/model.js";
+import { toMatchView } from "../../src/lib/match/match-view.js";
 
 const teams: Team[] = [
   { id: "t1", name: "Team One", short: "ONE", region: "Korea", aliases: ["Team One"] },
@@ -89,4 +90,13 @@ test("real Worlds 2026 home model", () => {
   expect(m.champion).toMatchObject({ team: { id: "bilibili-gaming", short: "BLG" }, finalRound: "Finals", final: { score1: "3", score2: "1", winner: 1, team2: { short: "GEN" } } });
   expect(m.stages.map((s) => s.typeLabel)).toEqual(["Play-In", "Swiss", "Knockout"]);
   expect(m.stages.flatMap((s) => s.rounds.flatMap((r) => r.matches))).toHaveLength(46);
+});
+
+test("the final is a dated match won by the champion", () => {
+  const e = edition({ champion: "t1", stages: [stage("ko", "single-elimination", [
+    match({ id: "f", round: "Finals", date: "2026-11-14T10:00:00Z" }),
+    match({ id: "other", round: "Other", date: "2026-11-20T10:00:00Z", winner: "gen-g" }),
+    match({ id: "undated", round: "Undated", winner: "t1" }),
+  ])] });
+  expect(buildHomeModel(e, lookup).champion).toMatchObject({ final: { id: "f" } });
 });

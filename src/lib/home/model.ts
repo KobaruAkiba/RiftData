@@ -6,8 +6,7 @@ import { groupRounds } from "./rounds.js";
 import { computeStats } from "./stats.js";
 import type { HomeModel } from "./types.js";
 
-export { toMatchView } from "./match-view.js";
-export type { ChampionView, HomeModel, MatchView, RoundView, StageView } from "./types.js";
+export type { ChampionView, HomeModel, RoundView, StageView } from "./types.js";
 
 export function buildHomeModel(edition: Edition, lookup: TeamLookup): HomeModel {
   const allMatches = edition.stages.flatMap((stage) => stage.matches);

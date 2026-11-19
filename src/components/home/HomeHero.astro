@@ -9,9 +9,10 @@ interface Props {
 }
 
 const { model } = Astro.props;
+const hasAside = Astro.slots.has("default");
 ---
 
-<section class="hero">
+<section class:list={["hero", { "has-aside": hasAside }]}>
   <div class="intro">
     <SectionTitle level={1} text="Worlds" accent={String(model.year)} />
     <div class="tag"><PhaseTag label={model.statusLabel} /></div>
@@ -21,9 +22,11 @@ const { model } = Astro.props;
       <StatCounter value={model.stats.games} label="Games" />
     </div>
   </div>
-  <div class="aside">
-    <slot />
-  </div>
+  {hasAside && (
+    <div class="aside">
+      <slot />
+    </div>
+  )}
 </section>
 
 <style>
@@ -45,7 +48,7 @@ const { model } = Astro.props;
 
   /* 56rem = --bp-md */
   @media (min-width: 56rem) {
-    .hero {
+    .has-aside {
       grid-template-columns: 1.1fr 1fr;
       align-items: center;
       gap: var(--space-7);

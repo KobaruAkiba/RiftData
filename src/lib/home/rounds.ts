@@ -1,6 +1,6 @@
 import type { Match } from "../../data/schema/index.js";
 import type { TeamLookup } from "../format/team.js";
-import { toMatchView } from "./match-view.js";
+import { toMatchView } from "../match/match-view.js";
 import type { RoundView } from "./types.js";
 
 /** Groups matches by `round` in order of first appearance; matches without a round form the `null` group. */
