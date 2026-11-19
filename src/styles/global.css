@@ -90,3 +90,48 @@ svg {
   white-space: nowrap;
   border: 0;
 }
+
+/*
+ * Page transition: the new page is revealed by a diagonal cut sweeping left to right.
+ * The polygon keeps four vertices on both ends so clip-path can interpolate; the edge
+ * leans 20% across the viewport and travels from -20% to 100%.
+ */
+@keyframes page-cut-in {
+  from {
+    clip-path: polygon(0 0, 0 0, -20% 100%, 0 100%);
+  }
+  to {
+    clip-path: polygon(0 0, 120% 0, 100% 100%, 0 100%);
+  }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  /* The default blend mode adds the two snapshots together, which would brighten the overlap. */
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  animation: none;
+}
+
+::view-transition-new(root) {
+  animation: page-cut-in var(--duration-page) var(--ease-in-out) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+}
+
+/* Paper has no scroll: show everything the motion scripts would still be holding back. */
+@media print {
+  [data-reveal],
+  [data-split] * {
+    opacity: 1 !important;
+    transform: none !important;
+    translate: none !important;
+  }
+}
