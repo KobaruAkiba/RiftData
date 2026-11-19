@@ -19,7 +19,7 @@ const OTHER_ORG = ["acquir", "acuir", "slot", "sold", "purchas", "partner"]; // 
 export function slugify(name: string): string {
   return name
     .normalize("NFKD")
-    .replace(/[0300-036f]/g, "") // strip combining diacritics
+    .replace(/[̀-ͯ]/g, "") // strip combining diacritics
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
