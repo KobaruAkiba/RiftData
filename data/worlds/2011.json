@@ -1,0 +1,753 @@
+{
+  "champion": "fnatic",
+  "coverage": {
+    "games": true,
+    "matches": true
+  },
+  "endDate": "2011-06-20",
+  "name": "Worlds 2011",
+  "overviewPages": [
+    "Season 1 World Championship"
+  ],
+  "stages": [
+    {
+      "id": "swiss-stage",
+      "matches": [
+        {
+          "bestOf": 1,
+          "date": "2011-06-18T08:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 16,
+                "bans": [
+                  "Akali",
+                  "Vladimir",
+                  "Nunu & Willump"
+                ],
+                "picks": [
+                  "Irelia",
+                  "Amumu",
+                  "Karthus",
+                  "Miss Fortune",
+                  "Soraka"
+                ],
+                "team": "against-all-authority"
+              },
+              "durationSec": 2709,
+              "id": "Season 1 World Championship_Group Stage_1_1",
+              "number": 1,
+              "red": {
+                "assists": 73,
+                "bans": [
+                  "Rumble",
+                  "Nidalee",
+                  "Twisted Fate"
+                ],
+                "picks": [
+                  "Singed",
+                  "Warwick",
+                  "Annie",
+                  "Vayne",
+                  "Janna"
+                ],
+                "team": "epik-gamer"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 1 World Championship_Group Stage_1",
+          "round": "Group Stage",
+          "score1": 0,
+          "score2": 1,
+          "team1": "against-all-authority",
+          "team2": "epik-gamer",
+          "winner": "epik-gamer"
+        },
+        {
+          "bestOf": 1,
+          "date": "2011-06-18T09:45:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 49,
+                "bans": [
+                  "Jarvan IV",
+                  "Vayne",
+                  "Rumble"
+                ],
+                "picks": [
+                  "Malzahar",
+                  "Nunu & Willump",
+                  "Alistar",
+                  "Corki",
+                  "Janna"
+                ],
+                "team": "fnatic"
+              },
+              "durationSec": 1778,
+              "id": "Season 1 World Championship_Group Stage_2_1",
+              "number": 1,
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Nocturne",
+                  "Vladimir",
+                  "Soraka"
+                ],
+                "picks": [
+                  "Karthus",
+                  "Amumu",
+                  "Twisted Fate",
+                  "Garen",
+                  "Taric"
+                ],
+                "team": "team-pacific"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 1 World Championship_Group Stage_2",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "fnatic",
+          "team2": "team-pacific",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2011-06-18T11:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 32,
+                "bans": [
+                  "Alistar",
+                  "Rumble",
+                  "Twisted Fate"
+                ],
+                "picks": [
+                  "Gragas",
+                  "Nunu & Willump",
+                  "Anivia",
+                  "Ashe",
+                  "Sona"
+                ],
+                "team": "against-all-authority"
+              },
+              "durationSec": 2478,
+              "id": "Season 1 World Championship_Group Stage_3_1",
+              "number": 1,
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Irelia",
+                  "Karthus",
+                  "Nidalee"
+                ],
+                "picks": [
+                  "Vladimir",
+                  "Amumu",
+                  "Brand",
+                  "Miss Fortune",
+                  "Taric"
+                ],
+                "team": "fnatic"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 1 World Championship_Group Stage_3",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "against-all-authority",
+          "team2": "fnatic",
+          "winner": "against-all-authority"
+        },
+        {
+          "bestOf": 1,
+          "date": "2011-06-18T11:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 30,
+                "bans": [
+                  "Twisted Fate",
+                  "Rumble",
+                  "Zilean"
+                ],
+                "picks": [
+                  "Corki",
+                  "Nunu & Willump",
+                  "Vladimir",
+                  "Miss Fortune",
+                  "Taric"
+                ],
+                "team": "epik-gamer"
+              },
+              "durationSec": 1735,
+              "id": "Season 1 World Championship_Group Stage_4_1",
+              "number": 1,
+              "red": {
+                "assists": 16,
+                "bans": [
+                  "Vayne",
+                  "Akali",
+                  "Nocturne"
+                ],
+                "picks": [
+                  "Malzahar",
+                  "Warwick",
+                  "Urgot",
+                  "Poppy",
+                  "Soraka"
+                ],
+                "team": "team-pacific"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 1 World Championship_Group Stage_4",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "epik-gamer",
+          "team2": "team-pacific",
+          "winner": "epik-gamer"
+        },
+        {
+          "bestOf": 1,
+          "date": "2011-06-18T12:15:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 17,
+                "bans": [
+                  "Jarvan IV",
+                  "Vayne",
+                  "Twisted Fate"
+                ],
+                "picks": [
+                  "Nidalee",
+                  "Nunu & Willump",
+                  "Anivia",
+                  "Miss Fortune",
+                  "Sona"
+                ],
+                "team": "against-all-authority"
+              },
+              "durationSec": 1453,
+              "id": "Season 1 World Championship_Group Stage_5_1",
+              "number": 1,
+              "red": {
+                "assists": 11,
+                "bans": [
+                  "Alistar",
+                  "Nocturne",
+                  "Vladimir"
+                ],
+                "picks": [
+                  "Malzahar",
+                  "Trundle",
+                  "Ashe",
+                  "Corki",
+                  "Soraka"
+                ],
+                "team": "team-pacific"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 1 World Championship_Group Stage_5",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "against-all-authority",
+          "team2": "team-pacific",
+          "winner": "against-all-authority"
+        },
+        {
+          "bestOf": 1,
+          "date": "2011-06-18T12:15:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 57,
+                "bans": [
+                  "Rumble",
+                  "Nidalee",
+                  "Twisted Fate"
+                ],
+                "picks": [
+                  "Akali",
+                  "Amumu",
+                  "Vladimir",
+                  "Lee Sin",
+                  "Soraka"
+                ],
+                "team": "epik-gamer"
+              },
+              "durationSec": 2222,
+              "id": "Season 1 World Championship_Group Stage_6_1",
+              "number": 1,
+              "red": {
+                "assists": 37,
+                "bans": [
+                  "Corki",
+                  "Vayne",
+                  "Janna"
+                ],
+                "picks": [
+                  "Swain",
+                  "Jarvan IV",
+                  "Alistar",
+                  "Miss Fortune",
+                  "Taric"
+                ],
+                "team": "fnatic"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 1 World Championship_Group Stage_6",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "epik-gamer",
+          "team2": "fnatic",
+          "winner": "epik-gamer"
+        },
+        {
+          "bestOf": 1,
+          "date": "2011-06-18T14:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 5,
+                "bans": [
+                  "Corki",
+                  "Jarvan IV",
+                  "Twisted Fate"
+                ],
+                "picks": [
+                  "Cho'Gath",
+                  "Amumu",
+                  "Vladimir",
+                  "Caitlyn",
+                  "Sona"
+                ],
+                "team": "tsm"
+              },
+              "durationSec": 2261,
+              "id": "Season 1 World Championship_Group Stage_7_1",
+              "number": 1,
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Alistar",
+                  "Vayne",
+                  "Nunu & Willump"
+                ],
+                "picks": [
+                  "Mordekaiser",
+                  "Nocturne",
+                  "Brand",
+                  "Ashe",
+                  "Janna"
+                ],
+                "team": "xan"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 1 World Championship_Group Stage_7",
+          "round": "Group Stage",
+          "score1": 0,
+          "score2": 1,
+          "team1": "tsm",
+          "team2": "xan",
+          "winner": "xan"
+        },
+        {
+          "bestOf": 1,
+          "date": "2011-06-18T14:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 22,
+                "bans": [
+                  "Nunu & Willump",
+                  "Annie",
+                  "Nidalee"
+                ],
+                "picks": [
+                  "Gragas",
+                  "Alistar",
+                  "Brand",
+                  "Corki",
+                  "Janna"
+                ],
+                "team": "team-gamed-de"
+              },
+              "durationSec": 2823,
+              "id": "Season 1 World Championship_Group Stage_8_1",
+              "number": 1,
+              "red": {
+                "assists": 48,
+                "bans": [
+                  "Rumble",
+                  "Amumu",
+                  "Twisted Fate"
+                ],
+                "picks": [
+                  "Vladimir",
+                  "Warwick",
+                  "Swain",
+                  "Ashe",
+                  "Sona"
+                ],
+                "team": "counter-logic-gaming"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 1 World Championship_Group Stage_8",
+          "round": "Group Stage",
+          "score1": 0,
+          "score2": 1,
+          "team1": "team-gamed-de",
+          "team2": "counter-logic-gaming",
+          "winner": "counter-logic-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2011-06-18T16:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 36,
+                "bans": [
+                  "Mordekaiser",
+                  "Ashe",
+                  "Vladimir"
+                ],
+                "picks": [
+                  "Nidalee",
+                  "Alistar",
+                  "Brand",
+                  "Tristana",
+                  "Sona"
+                ],
+                "team": "team-gamed-de"
+              },
+              "durationSec": 2185,
+              "id": "Season 1 World Championship_Group Stage_9_1",
+              "number": 1,
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Rumble",
+                  "Twisted Fate",
+                  "Anivia"
+                ],
+                "picks": [
+                  "Jarvan IV",
+                  "Nunu & Willump",
+                  "Annie",
+                  "Vayne",
+                  "Janna"
+                ],
+                "team": "xan"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 1 World Championship_Group Stage_9",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "team-gamed-de",
+          "team2": "xan",
+          "winner": "team-gamed-de"
+        },
+        {
+          "bestOf": 1,
+          "date": "2011-06-18T17:15:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 37,
+                "bans": [
+                  "Nidalee",
+                  "Rumble",
+                  "Nunu & Willump"
+                ],
+                "picks": [
+                  "Jarvan IV",
+                  "Nocturne",
+                  "Annie",
+                  "Vayne",
+                  "Alistar"
+                ],
+                "team": "tsm"
+              },
+              "durationSec": 2431,
+              "id": "Season 1 World Championship_Group Stage_10_1",
+              "number": 1,
+              "red": {
+                "assists": 6,
+                "bans": [
+                  "Twisted Fate",
+                  "Vladimir",
+                  "Zilean"
+                ],
+                "picks": [
+                  "Malzahar",
+                  "Warwick",
+                  "Anivia",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "counter-logic-gaming"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 1 World Championship_Group Stage_10",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "tsm",
+          "team2": "counter-logic-gaming",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 1,
+          "date": "2011-06-18T18:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Mordekaiser",
+                  "Vayne",
+                  "Jarvan IV"
+                ],
+                "picks": [
+                  "Rumble",
+                  "Nunu & Willump",
+                  "Nidalee",
+                  "Ashe",
+                  "Taric"
+                ],
+                "team": "counter-logic-gaming"
+              },
+              "durationSec": 2102,
+              "id": "Season 1 World Championship_Group Stage_11_1",
+              "number": 1,
+              "red": {
+                "assists": 6,
+                "bans": [
+                  "Anivia",
+                  "Twisted Fate",
+                  "Alistar"
+                ],
+                "picks": [
+                  "Brand",
+                  "Trundle",
+                  "Lee Sin",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "xan"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 1 World Championship_Group Stage_11",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "counter-logic-gaming",
+          "team2": "xan",
+          "winner": "counter-logic-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2011-06-18T18:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 34,
+                "bans": [
+                  "Rumble",
+                  "Nidalee",
+                  "Sona"
+                ],
+                "picks": [
+                  "Singed",
+                  "Nunu & Willump",
+                  "Twisted Fate",
+                  "Vayne",
+                  "Soraka"
+                ],
+                "team": "tsm"
+              },
+              "durationSec": 1777,
+              "id": "Season 1 World Championship_Group Stage_12_1",
+              "number": 1,
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Zilean",
+                  "Vladimir",
+                  "Jarvan IV"
+                ],
+                "picks": [
+                  "Karthus",
+                  "Alistar",
+                  "Kassadin",
+                  "Ashe",
+                  "Taric"
+                ],
+                "team": "team-gamed-de"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 1 World Championship_Group Stage_12",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "tsm",
+          "team2": "team-gamed-de",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 3,
+          "date": "2011-06-19T09:30:00Z",
+          "games": [],
+          "id": "Season 1 World Championship_Round 1_1",
+          "round": "Round 1",
+          "score1": 2,
+          "score2": 0,
+          "team1": "against-all-authority",
+          "team2": "team-gamed-de",
+          "winner": "against-all-authority"
+        },
+        {
+          "bestOf": 3,
+          "date": "2011-06-19T10:45:00Z",
+          "games": [],
+          "id": "Season 1 World Championship_Round 1_2",
+          "round": "Round 1",
+          "score1": 1,
+          "score2": 2,
+          "team1": "counter-logic-gaming",
+          "team2": "fnatic",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2011-06-19T13:00:00Z",
+          "games": [],
+          "id": "Season 1 World Championship_5th Place_1",
+          "round": "5th Place",
+          "score1": 0,
+          "score2": 1,
+          "team1": "team-gamed-de",
+          "team2": "counter-logic-gaming",
+          "winner": "counter-logic-gaming"
+        },
+        {
+          "bestOf": 3,
+          "date": "2011-06-19T14:00:00Z",
+          "games": [],
+          "id": "Season 1 World Championship_Round 2_1",
+          "round": "Round 2",
+          "score1": 2,
+          "score2": 1,
+          "team1": "against-all-authority",
+          "team2": "tsm",
+          "winner": "against-all-authority"
+        },
+        {
+          "bestOf": 3,
+          "date": "2011-06-19T18:00:00Z",
+          "games": [],
+          "id": "Season 1 World Championship_Round 2_2",
+          "round": "Round 2",
+          "score1": 0,
+          "score2": 2,
+          "team1": "epik-gamer",
+          "team2": "fnatic",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 3,
+          "date": "2011-06-20T11:30:00Z",
+          "games": [],
+          "id": "Season 1 World Championship_Round 3_1",
+          "round": "Round 3",
+          "score1": 0,
+          "score2": 2,
+          "team1": "against-all-authority",
+          "team2": "fnatic",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 3,
+          "date": "2011-06-20T14:00:00Z",
+          "games": [],
+          "id": "Season 1 World Championship_Round 2_3",
+          "round": "Round 2",
+          "score1": 2,
+          "score2": 0,
+          "team1": "tsm",
+          "team2": "epik-gamer",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 3,
+          "date": "2011-06-20T17:30:00Z",
+          "games": [],
+          "id": "Season 1 World Championship_Round 3_2",
+          "round": "Round 3",
+          "score1": 2,
+          "score2": 0,
+          "team1": "against-all-authority",
+          "team2": "tsm",
+          "winner": "against-all-authority"
+        }
+      ],
+      "name": "Main Event",
+      "order": 0,
+      "type": "other"
+    },
+    {
+      "id": "knockout-stage",
+      "matches": [
+        {
+          "bestOf": 3,
+          "date": "2011-06-20T21:00:00Z",
+          "games": [],
+          "id": "Season 1 World Championship_Finals_1",
+          "round": "Finals",
+          "score1": 2,
+          "score2": 1,
+          "team1": "fnatic",
+          "team2": "against-all-authority",
+          "winner": "fnatic"
+        }
+      ],
+      "name": "Knockout Stage",
+      "order": 1,
+      "type": "single-elimination"
+    }
+  ],
+  "startDate": "2011-06-18",
+  "status": "completed",
+  "year": 2011
+}

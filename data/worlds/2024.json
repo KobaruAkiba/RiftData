@@ -1,0 +1,6523 @@
+{
+  "champion": "t1",
+  "coverage": {
+    "games": true,
+    "matches": true
+  },
+  "endDate": "2024-11-02",
+  "name": "Worlds 2024",
+  "overviewPages": [
+    "2024 Season World Championship",
+    "2024 Season World Championship/Main Event",
+    "2024 Season World Championship/Play-In"
+  ],
+  "stages": [
+    {
+      "id": "play-in",
+      "matches": [
+        {
+          "bestOf": 3,
+          "date": "2024-09-25T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 49,
+                "bans": [
+                  "Jax",
+                  "Senna",
+                  "Ziggs",
+                  "Jarvan IV",
+                  "Nocturne"
+                ],
+                "barons": 0,
+                "deaths": 9,
+                "dragons": 3,
+                "gold": 69896,
+                "kills": 17,
+                "picks": [
+                  "K'Sante",
+                  "Nidalee",
+                  "Syndra",
+                  "Jinx",
+                  "Nautilus"
+                ],
+                "team": "movistar-koi",
+                "towers": 10
+              },
+              "durationSec": 2216,
+              "id": "2024 Season World Championship/Play-In_Round 1_1_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Vi",
+                  "Ashe",
+                  "Skarner",
+                  "Yone",
+                  "Braum"
+                ],
+                "barons": 1,
+                "deaths": 17,
+                "dragons": 3,
+                "gold": 65608,
+                "kills": 9,
+                "picks": [
+                  "Camille",
+                  "Lee Sin",
+                  "Orianna",
+                  "Ezreal",
+                  "Poppy"
+                ],
+                "team": "mvk-esports",
+                "towers": 6
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 67,
+                "bans": [
+                  "Jax",
+                  "Senna",
+                  "Ziggs",
+                  "Poppy",
+                  "Leona"
+                ],
+                "barons": 1,
+                "deaths": 10,
+                "dragons": 2,
+                "gold": 64689,
+                "kills": 26,
+                "picks": [
+                  "K'Sante",
+                  "Nidalee",
+                  "Syndra",
+                  "Jinx",
+                  "Rell"
+                ],
+                "team": "movistar-koi",
+                "towers": 11
+              },
+              "durationSec": 1853,
+              "id": "2024 Season World Championship/Play-In_Round 1_1_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 23,
+                "bans": [
+                  "Vi",
+                  "Ashe",
+                  "Skarner",
+                  "Viego",
+                  "Bel'Veth"
+                ],
+                "barons": 0,
+                "deaths": 26,
+                "dragons": 1,
+                "gold": 52513,
+                "kills": 10,
+                "picks": [
+                  "Renekton",
+                  "Jarvan IV",
+                  "Orianna",
+                  "Jhin",
+                  "Alistar"
+                ],
+                "team": "mvk-esports",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Play-In_Round 1_1",
+          "round": "Round 1",
+          "score1": 2,
+          "score2": 0,
+          "team1": "movistar-koi",
+          "team2": "mvk-esports",
+          "winner": "movistar-koi"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-09-25T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 5,
+                "bans": [
+                  "Maokai",
+                  "Ashe",
+                  "Orianna",
+                  "Ziggs",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 0,
+                "gold": 50216,
+                "kills": 3,
+                "picks": [
+                  "Rumble",
+                  "Skarner",
+                  "Tristana",
+                  "Miss Fortune",
+                  "Rell"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 2
+              },
+              "durationSec": 1877,
+              "id": "2024 Season World Championship/Play-In_Round 1_2_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 47,
+                "bans": [
+                  "Aurora",
+                  "Syndra",
+                  "Kalista",
+                  "Varus",
+                  "Nautilus"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 4,
+                "gold": 58233,
+                "kills": 16,
+                "picks": [
+                  "Jax",
+                  "Sejuani",
+                  "Yone",
+                  "Lucian",
+                  "Nami"
+                ],
+                "team": "pain-gaming",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 60,
+                "bans": [
+                  "Maokai",
+                  "Ashe",
+                  "Sejuani",
+                  "Lucian",
+                  "Alistar"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 1,
+                "gold": 58845,
+                "kills": 22,
+                "picks": [
+                  "Gnar",
+                  "Skarner",
+                  "Akali",
+                  "Jhin",
+                  "Rell"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 10
+              },
+              "durationSec": 1677,
+              "id": "2024 Season World Championship/Play-In_Round 1_2_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 17,
+                "bans": [
+                  "Syndra",
+                  "Kalista",
+                  "Aurora",
+                  "Varus",
+                  "Rakan"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 2,
+                "gold": 42350,
+                "kills": 5,
+                "picks": [
+                  "Rumble",
+                  "Vi",
+                  "Yone",
+                  "Ezreal",
+                  "Braum"
+                ],
+                "team": "pain-gaming",
+                "towers": 0
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 22,
+                "bans": [
+                  "Skarner",
+                  "Ziggs",
+                  "Jarvan IV",
+                  "Poppy",
+                  "Bard"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 3,
+                "gold": 54088,
+                "kills": 9,
+                "picks": [
+                  "Gnar",
+                  "Lee Sin",
+                  "Syndra",
+                  "Ashe",
+                  "Alistar"
+                ],
+                "team": "pain-gaming",
+                "towers": 3
+              },
+              "durationSec": 1954,
+              "id": "2024 Season World Championship/Play-In_Round 1_2_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 39,
+                "bans": [
+                  "Sejuani",
+                  "Aurora",
+                  "Maokai",
+                  "Braum",
+                  "Jax"
+                ],
+                "barons": 2,
+                "deaths": 9,
+                "dragons": 2,
+                "gold": 64094,
+                "kills": 19,
+                "picks": [
+                  "Vayne",
+                  "Wukong",
+                  "Akali",
+                  "Jhin",
+                  "Leona"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Play-In_Round 1_2",
+          "round": "Round 1",
+          "score1": 2,
+          "score2": 1,
+          "team1": "talon-hong-kong-team",
+          "team2": "pain-gaming",
+          "winner": "talon-hong-kong-team"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-09-26T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 39,
+                "bans": [
+                  "Skarner",
+                  "Vi",
+                  "Kennen",
+                  "Yone",
+                  "Leona"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 3,
+                "gold": 59223,
+                "kills": 19,
+                "picks": [
+                  "Aurora",
+                  "Shyvana",
+                  "Tristana",
+                  "Jhin",
+                  "Poppy"
+                ],
+                "team": "gam-esports",
+                "towers": 10
+              },
+              "durationSec": 1674,
+              "id": "2024 Season World Championship/Play-In_Round 1_3_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Ashe",
+                  "K'Sante",
+                  "Jinx",
+                  "Nocturne",
+                  "Bard"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 1,
+                "gold": 45506,
+                "kills": 7,
+                "picks": [
+                  "Rumble",
+                  "Jarvan IV",
+                  "Lucian",
+                  "Ziggs",
+                  "Rell"
+                ],
+                "team": "fukuoka-softbank-hawks-gaming",
+                "towers": 1
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 27,
+                "bans": [
+                  "Shyvana",
+                  "Ziggs",
+                  "K'Sante",
+                  "Tristana",
+                  "Sejuani"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 1,
+                "gold": 47051,
+                "kills": 13,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "LeBlanc",
+                  "Ashe",
+                  "Poppy"
+                ],
+                "team": "fukuoka-softbank-hawks-gaming",
+                "towers": 2
+              },
+              "durationSec": 1611,
+              "id": "2024 Season World Championship/Play-In_Round 1_3_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 50,
+                "bans": [
+                  "Skarner",
+                  "Vi",
+                  "Kennen",
+                  "Akali",
+                  "Viego"
+                ],
+                "barons": 1,
+                "deaths": 13,
+                "dragons": 2,
+                "gold": 56634,
+                "kills": 23,
+                "picks": [
+                  "Aurora",
+                  "Wukong",
+                  "Yone",
+                  "Jhin",
+                  "Leona"
+                ],
+                "team": "gam-esports",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Play-In_Round 1_3",
+          "round": "Round 1",
+          "score1": 2,
+          "score2": 0,
+          "team1": "gam-esports",
+          "team2": "fukuoka-softbank-hawks-gaming",
+          "winner": "gam-esports"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-09-26T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 59,
+                "bans": [
+                  "Gnar",
+                  "Kai'Sa",
+                  "Skarner",
+                  "Ezreal",
+                  "Kalista"
+                ],
+                "barons": 2,
+                "deaths": 11,
+                "dragons": 3,
+                "gold": 79199,
+                "kills": 25,
+                "picks": [
+                  "K'Sante",
+                  "Jarvan IV",
+                  "Hwei",
+                  "Jhin",
+                  "Leona"
+                ],
+                "team": "100-thieves",
+                "towers": 9
+              },
+              "durationSec": 2379,
+              "id": "2024 Season World Championship/Play-In_Round 1_4_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 33,
+                "bans": [
+                  "Vi",
+                  "Yone",
+                  "Ziggs",
+                  "Ashe",
+                  "Senna"
+                ],
+                "barons": 1,
+                "deaths": 25,
+                "dragons": 2,
+                "gold": 73950,
+                "kills": 11,
+                "picks": [
+                  "Jax",
+                  "Brand",
+                  "Tristana",
+                  "Draven",
+                  "Rell"
+                ],
+                "team": "movistar-r7",
+                "towers": 6
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 42,
+                "bans": [
+                  "Gnar",
+                  "Skarner",
+                  "Kai'Sa",
+                  "Syndra",
+                  "Brand"
+                ],
+                "barons": 1,
+                "deaths": 26,
+                "dragons": 2,
+                "gold": 66216,
+                "kills": 18,
+                "picks": [
+                  "K'Sante",
+                  "Wukong",
+                  "Aurora",
+                  "Lucian",
+                  "Nami"
+                ],
+                "team": "100-thieves",
+                "towers": 6
+              },
+              "durationSec": 2233,
+              "id": "2024 Season World Championship/Play-In_Round 1_4_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 66,
+                "bans": [
+                  "Vi",
+                  "Yone",
+                  "Ziggs",
+                  "Yasuo",
+                  "Jarvan IV"
+                ],
+                "barons": 1,
+                "deaths": 18,
+                "dragons": 3,
+                "gold": 71607,
+                "kills": 26,
+                "picks": [
+                  "Renekton",
+                  "Nocturne",
+                  "Orianna",
+                  "Ezreal",
+                  "Nautilus"
+                ],
+                "team": "movistar-r7",
+                "towers": 8
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 68,
+                "bans": [
+                  "Vi",
+                  "Yone",
+                  "Ziggs",
+                  "Yasuo",
+                  "Syndra"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 4,
+                "gold": 73877,
+                "kills": 27,
+                "picks": [
+                  "Renekton",
+                  "Wukong",
+                  "LeBlanc",
+                  "Lucian",
+                  "Nami"
+                ],
+                "team": "movistar-r7",
+                "towers": 11
+              },
+              "durationSec": 2186,
+              "id": "2024 Season World Championship/Play-In_Round 1_4_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 33,
+                "bans": [
+                  "Gnar",
+                  "Orianna",
+                  "Skarner",
+                  "Jarvan IV",
+                  "Nocturne"
+                ],
+                "barons": 2,
+                "deaths": 27,
+                "dragons": 1,
+                "gold": 64374,
+                "kills": 16,
+                "picks": [
+                  "K'Sante",
+                  "Viego",
+                  "Vex",
+                  "Jinx",
+                  "Nautilus"
+                ],
+                "team": "100-thieves",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Play-In_Round 1_4",
+          "round": "Round 1",
+          "score1": 1,
+          "score2": 2,
+          "team1": "100-thieves",
+          "team2": "movistar-r7",
+          "winner": "movistar-r7"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-09-27T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 45,
+                "bans": [
+                  "Sejuani",
+                  "Zyra",
+                  "Aurora",
+                  "Vayne",
+                  "Gnar"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 3,
+                "gold": 67516,
+                "kills": 17,
+                "picks": [
+                  "Camille",
+                  "Skarner",
+                  "Renekton",
+                  "Ziggs",
+                  "Rell"
+                ],
+                "team": "movistar-koi",
+                "towers": 9
+              },
+              "durationSec": 2147,
+              "id": "2024 Season World Championship/Play-In_Round 2_1_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 34,
+                "bans": [
+                  "Nidalee",
+                  "K'Sante",
+                  "Jinx",
+                  "Leona",
+                  "Nautilus"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 2,
+                "gold": 58228,
+                "kills": 12,
+                "picks": [
+                  "Udyr",
+                  "Wukong",
+                  "Akali",
+                  "Ashe",
+                  "Braum"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 38,
+                "bans": [
+                  "Nidalee",
+                  "K'Sante",
+                  "Jinx",
+                  "Braum",
+                  "Neeko"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 2,
+                "gold": 68342,
+                "kills": 18,
+                "picks": [
+                  "Gnar",
+                  "Vi",
+                  "Ahri",
+                  "Miss Fortune",
+                  "Leona"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 10
+              },
+              "durationSec": 2096,
+              "id": "2024 Season World Championship/Play-In_Round 2_1_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 15,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Skarner",
+                  "Akali",
+                  "LeBlanc"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 2,
+                "gold": 58145,
+                "kills": 7,
+                "picks": [
+                  "Renekton",
+                  "Viego",
+                  "Syndra",
+                  "Ezreal",
+                  "Rell"
+                ],
+                "team": "movistar-koi",
+                "towers": 5
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 34,
+                "bans": [
+                  "Akali",
+                  "Yone",
+                  "Ashe",
+                  "Gnar",
+                  "Rumble"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 1,
+                "gold": 63490,
+                "kills": 14,
+                "picks": [
+                  "Aurora",
+                  "Jarvan IV",
+                  "Vex",
+                  "Ezreal",
+                  "Alistar"
+                ],
+                "team": "movistar-koi",
+                "towers": 10
+              },
+              "durationSec": 1987,
+              "id": "2024 Season World Championship/Play-In_Round 2_1_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 18,
+                "bans": [
+                  "Nidalee",
+                  "K'Sante",
+                  "Jinx",
+                  "Braum",
+                  "Rell"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 2,
+                "gold": 57201,
+                "kills": 9,
+                "picks": [
+                  "Corki",
+                  "Skarner",
+                  "LeBlanc",
+                  "Miss Fortune",
+                  "Leona"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Play-In_Round 2_1",
+          "round": "Round 2",
+          "score1": 2,
+          "score2": 1,
+          "team1": "movistar-koi",
+          "team2": "talon-hong-kong-team",
+          "winner": "movistar-koi"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-09-27T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 24,
+                "bans": [
+                  "Skarner",
+                  "Orianna",
+                  "LeBlanc",
+                  "Nautilus",
+                  "Leona"
+                ],
+                "barons": 2,
+                "deaths": 10,
+                "dragons": 1,
+                "gold": 68349,
+                "kills": 12,
+                "picks": [
+                  "Rumble",
+                  "Shyvana",
+                  "Yone",
+                  "Miss Fortune",
+                  "Poppy"
+                ],
+                "team": "gam-esports",
+                "towers": 11
+              },
+              "durationSec": 2009,
+              "id": "2024 Season World Championship/Play-In_Round 2_2_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 25,
+                "bans": [
+                  "Aurora",
+                  "Ziggs",
+                  "Vi",
+                  "Jhin",
+                  "Ashe"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 4,
+                "gold": 60138,
+                "kills": 10,
+                "picks": [
+                  "Gnar",
+                  "Wukong",
+                  "Syndra",
+                  "Ezreal",
+                  "Braum"
+                ],
+                "team": "movistar-r7",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Skarner",
+                  "Orianna",
+                  "LeBlanc",
+                  "Akali",
+                  "Leona"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 2,
+                "gold": 53059,
+                "kills": 12,
+                "picks": [
+                  "Rumble",
+                  "Wukong",
+                  "Yone",
+                  "Jhin",
+                  "Rakan"
+                ],
+                "team": "gam-esports",
+                "towers": 8
+              },
+              "durationSec": 1616,
+              "id": "2024 Season World Championship/Play-In_Round 2_2_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 2,
+                "bans": [
+                  "Aurora",
+                  "Vi",
+                  "Shyvana",
+                  "Poppy",
+                  "Sejuani"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 1,
+                "gold": 42081,
+                "kills": 1,
+                "picks": [
+                  "K'Sante",
+                  "Jarvan IV",
+                  "Jayce",
+                  "Ziggs",
+                  "Rell"
+                ],
+                "team": "movistar-r7",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Play-In_Round 2_2",
+          "round": "Round 2",
+          "score1": 2,
+          "score2": 0,
+          "team1": "gam-esports",
+          "team2": "movistar-r7",
+          "winner": "gam-esports"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-09-28T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Syndra",
+                  "Orianna",
+                  "Jax",
+                  "Renekton",
+                  "K'Sante"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 4,
+                "gold": 64361,
+                "kills": 19,
+                "picks": [
+                  "Rumble",
+                  "Skarner",
+                  "Tristana",
+                  "Kalista",
+                  "Neeko"
+                ],
+                "team": "pain-gaming",
+                "towers": 9
+              },
+              "durationSec": 2003,
+              "id": "2024 Season World Championship/Play-In_Round 1_5_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 34,
+                "bans": [
+                  "Ashe",
+                  "Zyra",
+                  "Yone",
+                  "Aurora",
+                  "Gnar"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 1,
+                "gold": 58058,
+                "kills": 12,
+                "picks": [
+                  "Udyr",
+                  "Brand",
+                  "Smolder",
+                  "Miss Fortune",
+                  "Leona"
+                ],
+                "team": "mvk-esports",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 12,
+                "bans": [
+                  "Rumble",
+                  "Yone",
+                  "Aurora",
+                  "Lucian",
+                  "Ezreal"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 1,
+                "gold": 58547,
+                "kills": 7,
+                "picks": [
+                  "K'Sante",
+                  "Shyvana",
+                  "Tristana",
+                  "Ashe",
+                  "Poppy"
+                ],
+                "team": "mvk-esports",
+                "towers": 2
+              },
+              "durationSec": 2076,
+              "id": "2024 Season World Championship/Play-In_Round 1_5_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 36,
+                "bans": [
+                  "Syndra",
+                  "Orianna",
+                  "Ziggs",
+                  "Lillia",
+                  "Brand"
+                ],
+                "barons": 2,
+                "deaths": 7,
+                "dragons": 4,
+                "gold": 68172,
+                "kills": 16,
+                "picks": [
+                  "Jax",
+                  "Sejuani",
+                  "Akali",
+                  "Jhin",
+                  "Bard"
+                ],
+                "team": "pain-gaming",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Play-In_Round 1_5",
+          "round": "Round 1",
+          "score1": 0,
+          "score2": 2,
+          "team1": "mvk-esports",
+          "team2": "pain-gaming",
+          "winner": "pain-gaming"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-09-28T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 13,
+                "bans": [
+                  "Ziggs",
+                  "K'Sante",
+                  "Jax",
+                  "Sejuani",
+                  "Nautilus"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 1,
+                "gold": 50418,
+                "kills": 6,
+                "picks": [
+                  "Aurora",
+                  "Wukong",
+                  "Akali",
+                  "Ezreal",
+                  "Poppy"
+                ],
+                "team": "fukuoka-softbank-hawks-gaming",
+                "towers": 3
+              },
+              "durationSec": 1892,
+              "id": "2024 Season World Championship/Play-In_Round 1_6_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 27,
+                "bans": [
+                  "Kennen",
+                  "Skarner",
+                  "Vi",
+                  "LeBlanc",
+                  "Braum"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 4,
+                "gold": 61337,
+                "kills": 13,
+                "picks": [
+                  "Renekton",
+                  "Brand",
+                  "Yone",
+                  "Kai'Sa",
+                  "Leona"
+                ],
+                "team": "100-thieves",
+                "towers": 8
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 21,
+                "bans": [
+                  "Ziggs",
+                  "Yone",
+                  "Aurora",
+                  "Jarvan IV",
+                  "Wukong"
+                ],
+                "barons": 0,
+                "deaths": 29,
+                "dragons": 1,
+                "gold": 39758,
+                "kills": 11,
+                "picks": [
+                  "Rek'Sai",
+                  "Sejuani",
+                  "Syndra",
+                  "Jhin",
+                  "Alistar"
+                ],
+                "team": "fukuoka-softbank-hawks-gaming",
+                "towers": 0
+              },
+              "durationSec": 1526,
+              "id": "2024 Season World Championship/Play-In_Round 1_6_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 64,
+                "bans": [
+                  "Kennen",
+                  "Vi",
+                  "Skarner",
+                  "Jax",
+                  "Urgot"
+                ],
+                "barons": 1,
+                "deaths": 11,
+                "dragons": 1,
+                "gold": 56495,
+                "kills": 29,
+                "picks": [
+                  "Renekton",
+                  "Nocturne",
+                  "Orianna",
+                  "Ashe",
+                  "Braum"
+                ],
+                "team": "100-thieves",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Play-In_Round 1_6",
+          "round": "Round 1",
+          "score1": 0,
+          "score2": 2,
+          "team1": "fukuoka-softbank-hawks-gaming",
+          "team2": "100-thieves",
+          "winner": "100-thieves"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-09-29T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 11,
+                "bans": [
+                  "LeBlanc",
+                  "Wukong",
+                  "Renekton",
+                  "Nautilus",
+                  "Kalista"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 2,
+                "gold": 46797,
+                "kills": 4,
+                "picks": [
+                  "Jax",
+                  "Maokai",
+                  "Ahri",
+                  "Lucian",
+                  "Nami"
+                ],
+                "team": "pain-gaming",
+                "towers": 6
+              },
+              "durationSec": 1682,
+              "id": "2024 Season World Championship/Play-In_Round 2_3_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 34,
+                "bans": [
+                  "Yone",
+                  "Skarner",
+                  "Orianna",
+                  "Sejuani",
+                  "Akali"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 2,
+                "gold": 53799,
+                "kills": 14,
+                "picks": [
+                  "K'Sante",
+                  "Poppy",
+                  "Syndra",
+                  "Xayah",
+                  "Rakan"
+                ],
+                "team": "movistar-r7",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 30,
+                "bans": [
+                  "LeBlanc",
+                  "Syndra",
+                  "Renekton",
+                  "Nautilus",
+                  "Kalista"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 3,
+                "gold": 59295,
+                "kills": 14,
+                "picks": [
+                  "Jax",
+                  "Sejuani",
+                  "Ahri",
+                  "Lucian",
+                  "Nami"
+                ],
+                "team": "pain-gaming",
+                "towers": 9
+              },
+              "durationSec": 1857,
+              "id": "2024 Season World Championship/Play-In_Round 2_3_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 10,
+                "bans": [
+                  "Yone",
+                  "Skarner",
+                  "Orianna",
+                  "Akali",
+                  "Vi"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 1,
+                "gold": 48864,
+                "kills": 5,
+                "picks": [
+                  "K'Sante",
+                  "Poppy",
+                  "Hwei",
+                  "Xayah",
+                  "Rakan"
+                ],
+                "team": "movistar-r7",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 67,
+                "bans": [
+                  "Yone",
+                  "Skarner",
+                  "Jax",
+                  "Renata Glasc",
+                  "Neeko"
+                ],
+                "barons": 1,
+                "deaths": 25,
+                "dragons": 3,
+                "gold": 84269,
+                "kills": 23,
+                "picks": [
+                  "Renekton",
+                  "Sejuani",
+                  "LeBlanc",
+                  "Varus",
+                  "Nautilus"
+                ],
+                "team": "movistar-r7",
+                "towers": 7
+              },
+              "durationSec": 2716,
+              "id": "2024 Season World Championship/Play-In_Round 2_3_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 72,
+                "bans": [
+                  "Syndra",
+                  "Orianna",
+                  "Lucian",
+                  "Ashe",
+                  "Draven"
+                ],
+                "barons": 2,
+                "deaths": 23,
+                "dragons": 4,
+                "gold": 83999,
+                "kills": 25,
+                "picks": [
+                  "K'Sante",
+                  "Wukong",
+                  "Ahri",
+                  "Kalista",
+                  "Rell"
+                ],
+                "team": "pain-gaming",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Play-In_Round 2_3",
+          "round": "Round 2",
+          "score1": 1,
+          "score2": 2,
+          "team1": "movistar-r7",
+          "team2": "pain-gaming",
+          "winner": "pain-gaming"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-09-29T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 54,
+                "bans": [
+                  "Viego",
+                  "Ashe",
+                  "Jarvan IV",
+                  "Lucian",
+                  "Braum"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 2,
+                "gold": 54133,
+                "kills": 20,
+                "picks": [
+                  "Gnar",
+                  "Skarner",
+                  "Orianna",
+                  "Jhin",
+                  "Alistar"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 10
+              },
+              "durationSec": 1578,
+              "id": "2024 Season World Championship/Play-In_Round 2_4_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 3,
+                "bans": [
+                  "Aurora",
+                  "Vi",
+                  "Yone",
+                  "Rell",
+                  "Nautilus"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 0,
+                "gold": 38872,
+                "kills": 1,
+                "picks": [
+                  "Renekton",
+                  "Sejuani",
+                  "Hwei",
+                  "Varus",
+                  "Renata Glasc"
+                ],
+                "team": "100-thieves",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 51,
+                "bans": [
+                  "Viego",
+                  "Ashe",
+                  "Jarvan IV",
+                  "Brand",
+                  "Shyvana"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 4,
+                "gold": 62521,
+                "kills": 21,
+                "picks": [
+                  "Rumble",
+                  "Sejuani",
+                  "Yone",
+                  "Ezreal",
+                  "Alistar"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 10
+              },
+              "durationSec": 1863,
+              "id": "2024 Season World Championship/Play-In_Round 2_4_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 21,
+                "bans": [
+                  "Aurora",
+                  "Skarner",
+                  "Gnar",
+                  "Jhin",
+                  "Kai'Sa"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 0,
+                "gold": 50947,
+                "kills": 9,
+                "picks": [
+                  "Aatrox",
+                  "Lillia",
+                  "Renekton",
+                  "Ziggs",
+                  "Rell"
+                ],
+                "team": "100-thieves",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Play-In_Round 2_4",
+          "round": "Round 2",
+          "score1": 2,
+          "score2": 0,
+          "team1": "talon-hong-kong-team",
+          "team2": "100-thieves",
+          "winner": "talon-hong-kong-team"
+        }
+      ],
+      "name": "Play-In",
+      "order": 0,
+      "type": "play-in"
+    },
+    {
+      "id": "swiss-stage",
+      "matches": [
+        {
+          "bestOf": 1,
+          "date": "2024-10-03T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 54,
+                "bans": [
+                  "Nidalee",
+                  "Jinx",
+                  "Ashe",
+                  "Renata Glasc",
+                  "Poppy"
+                ],
+                "barons": 1,
+                "deaths": 10,
+                "dragons": 4,
+                "gold": 56402,
+                "kills": 21,
+                "picks": [
+                  "Gnar",
+                  "Vi",
+                  "Ahri",
+                  "Kai'Sa",
+                  "Rell"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 11
+              },
+              "durationSec": 1596,
+              "id": "2024 Season World Championship/Main Event_Round 1_1_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 20,
+                "bans": [
+                  "Ziggs",
+                  "Aurora",
+                  "Ezreal",
+                  "Jhin",
+                  "Lucian"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 0,
+                "gold": 42169,
+                "kills": 10,
+                "picks": [
+                  "K'Sante",
+                  "Skarner",
+                  "Syndra",
+                  "Tristana",
+                  "Alistar"
+                ],
+                "team": "movistar-koi",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 1_1",
+          "round": "Round 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "bilibili-gaming",
+          "team2": "movistar-koi",
+          "winner": "bilibili-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-03T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 45,
+                "bans": [
+                  "Sejuani",
+                  "Orianna",
+                  "Gnar",
+                  "Renata Glasc",
+                  "Viego"
+                ],
+                "barons": 0,
+                "deaths": 9,
+                "dragons": 3,
+                "gold": 54986,
+                "kills": 14,
+                "picks": [
+                  "Renekton",
+                  "Skarner",
+                  "Aurora",
+                  "Jhin",
+                  "Rell"
+                ],
+                "team": "top-esports",
+                "towers": 6
+              },
+              "durationSec": 1835,
+              "id": "2024 Season World Championship/Main Event_Round 1_2_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 28,
+                "bans": [
+                  "Yone",
+                  "Tristana",
+                  "Ziggs",
+                  "Poppy",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 2,
+                "gold": 51254,
+                "kills": 9,
+                "picks": [
+                  "Jax",
+                  "Wukong",
+                  "Neeko",
+                  "Ashe",
+                  "Rakan"
+                ],
+                "team": "t1",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 1_2",
+          "round": "Round 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "top-esports",
+          "team2": "t1",
+          "winner": "top-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-03T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 50,
+                "bans": [
+                  "Orianna",
+                  "Renekton",
+                  "Ashe",
+                  "Nami",
+                  "Nidalee"
+                ],
+                "barons": 1,
+                "deaths": 10,
+                "dragons": 5,
+                "gold": 84573,
+                "kills": 19,
+                "picks": [
+                  "Rumble",
+                  "Maokai",
+                  "Smolder",
+                  "Kalista",
+                  "Renata Glasc"
+                ],
+                "team": "gen-g",
+                "towers": 9
+              },
+              "durationSec": 2713,
+              "id": "2024 Season World Championship/Main Event_Round 1_3_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 30,
+                "bans": [
+                  "Ziggs",
+                  "Aurora",
+                  "Yone",
+                  "Blitzcrank",
+                  "Jhin"
+                ],
+                "barons": 1,
+                "deaths": 19,
+                "dragons": 2,
+                "gold": 77146,
+                "kills": 10,
+                "picks": [
+                  "Jax",
+                  "Ivern",
+                  "Lucian",
+                  "Jinx",
+                  "Poppy"
+                ],
+                "team": "weibo-gaming",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 1_3",
+          "round": "Round 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "gen-g",
+          "team2": "weibo-gaming",
+          "winner": "gen-g"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-03T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 27,
+                "bans": [
+                  "Vi",
+                  "Ziggs",
+                  "Aurora",
+                  "Syndra",
+                  "Leona"
+                ],
+                "barons": 2,
+                "deaths": 18,
+                "dragons": 2,
+                "gold": 64682,
+                "kills": 11,
+                "picks": [
+                  "Renekton",
+                  "Zyra",
+                  "Yone",
+                  "Kai'Sa",
+                  "Rell"
+                ],
+                "team": "fnatic",
+                "towers": 4
+              },
+              "durationSec": 2136,
+              "id": "2024 Season World Championship/Main Event_Round 1_4_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 42,
+                "bans": [
+                  "Orianna",
+                  "Ivern",
+                  "Smolder",
+                  "Ashe",
+                  "Kalista"
+                ],
+                "barons": 0,
+                "deaths": 11,
+                "dragons": 4,
+                "gold": 66266,
+                "kills": 18,
+                "picks": [
+                  "Gnar",
+                  "Skarner",
+                  "LeBlanc",
+                  "Ezreal",
+                  "Braum"
+                ],
+                "team": "dplus-kia",
+                "towers": 7
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 1_4",
+          "round": "Round 1",
+          "score1": 0,
+          "score2": 1,
+          "team1": "fnatic",
+          "team2": "dplus-kia",
+          "winner": "dplus-kia"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-03T16:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 24,
+                "bans": [
+                  "Yone",
+                  "Poppy",
+                  "Renekton",
+                  "Maokai",
+                  "Alistar"
+                ],
+                "barons": 1,
+                "deaths": 20,
+                "dragons": 2,
+                "gold": 59311,
+                "kills": 9,
+                "picks": [
+                  "Jax",
+                  "Skarner",
+                  "Neeko",
+                  "Kai'Sa",
+                  "Leona"
+                ],
+                "team": "team-liquid",
+                "towers": 6
+              },
+              "durationSec": 2073,
+              "id": "2024 Season World Championship/Main Event_Round 1_5_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 61,
+                "bans": [
+                  "Ziggs",
+                  "Aurora",
+                  "Lucian",
+                  "Taliyah",
+                  "Nautilus"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 2,
+                "gold": 67197,
+                "kills": 20,
+                "picks": [
+                  "Rumble",
+                  "Sejuani",
+                  "Tristana",
+                  "Jhin",
+                  "Rell"
+                ],
+                "team": "lng-esports",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 1_5",
+          "round": "Round 1",
+          "score1": 0,
+          "score2": 1,
+          "team1": "team-liquid",
+          "team2": "lng-esports",
+          "winner": "lng-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-03T17:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 52,
+                "bans": [
+                  "Skarner",
+                  "Aurora",
+                  "LeBlanc",
+                  "Jhin",
+                  "Nautilus"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 2,
+                "gold": 59459,
+                "kills": 17,
+                "picks": [
+                  "Gnar",
+                  "Maokai",
+                  "Yone",
+                  "Xayah",
+                  "Rakan"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 9
+              },
+              "durationSec": 1735,
+              "id": "2024 Season World Championship/Main Event_Round 1_6_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 17,
+                "bans": [
+                  "Poppy",
+                  "Ziggs",
+                  "Vi",
+                  "Ashe",
+                  "Ezreal"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 1,
+                "gold": 46692,
+                "kills": 9,
+                "picks": [
+                  "Jax",
+                  "Sejuani",
+                  "Akali",
+                  "Kai'Sa",
+                  "Alistar"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 1_6",
+          "round": "Round 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "hanwha-life-esports",
+          "team2": "talon-hong-kong-team",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-03T18:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 2,
+                "bans": [
+                  "Skarner",
+                  "Ashe",
+                  "Renekton",
+                  "Jax",
+                  "K'Sante"
+                ],
+                "barons": 0,
+                "deaths": 8,
+                "dragons": 2,
+                "gold": 44194,
+                "kills": 1,
+                "picks": [
+                  "Gnar",
+                  "Vi",
+                  "Akali",
+                  "Jhin",
+                  "Poppy"
+                ],
+                "team": "gam-esports",
+                "towers": 3
+              },
+              "durationSec": 1661,
+              "id": "2024 Season World Championship/Main Event_Round 1_7_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 27,
+                "bans": [
+                  "Aurora",
+                  "Shyvana",
+                  "Ziggs",
+                  "Ahri",
+                  "Rumble"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 2,
+                "gold": 53203,
+                "kills": 8,
+                "picks": [
+                  "Sion",
+                  "Ivern",
+                  "Orianna",
+                  "Kalista",
+                  "Leona"
+                ],
+                "team": "flyquest",
+                "towers": 8
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 1_7",
+          "round": "Round 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "flyquest",
+          "team2": "gam-esports",
+          "winner": "flyquest"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-03T19:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 44,
+                "bans": [
+                  "Jax",
+                  "Lucian",
+                  "Akali",
+                  "Ashe",
+                  "Kalista"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 3,
+                "gold": 71345,
+                "kills": 19,
+                "picks": [
+                  "Yasuo",
+                  "Brand",
+                  "Yone",
+                  "Jhin",
+                  "Rell"
+                ],
+                "team": "g2-esports",
+                "towers": 11
+              },
+              "durationSec": 2008,
+              "id": "2024 Season World Championship/Main Event_Round 1_8_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 23,
+                "bans": [
+                  "Poppy",
+                  "Orianna",
+                  "Sejuani",
+                  "Renekton",
+                  "Draven"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 2,
+                "gold": 55467,
+                "kills": 9,
+                "picks": [
+                  "Aurora",
+                  "Maokai",
+                  "Smolder",
+                  "Xayah",
+                  "Rakan"
+                ],
+                "team": "pain-gaming",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 1_8",
+          "round": "Round 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "g2-esports",
+          "team2": "pain-gaming",
+          "winner": "g2-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-04T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 25,
+                "bans": [
+                  "Skarner",
+                  "Renekton",
+                  "Kindred",
+                  "Ziggs",
+                  "None"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 1,
+                "gold": 49281,
+                "kills": 11,
+                "picks": [
+                  "K'Sante",
+                  "Vi",
+                  "Orianna",
+                  "Jhin",
+                  "Rell"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 3
+              },
+              "durationSec": 1780,
+              "id": "2024 Season World Championship/Main Event_Round 2_1_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 54,
+                "bans": [
+                  "Aurora",
+                  "Gnar",
+                  "Jax",
+                  "Ezreal",
+                  "Kai'Sa"
+                ],
+                "barons": 1,
+                "deaths": 11,
+                "dragons": 3,
+                "gold": 59419,
+                "kills": 23,
+                "picks": [
+                  "Rumble",
+                  "Nocturne",
+                  "Yone",
+                  "Ashe",
+                  "Poppy"
+                ],
+                "team": "lng-esports",
+                "towers": 7
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 2_1",
+          "round": "Round 2",
+          "score1": 0,
+          "score2": 1,
+          "team1": "bilibili-gaming",
+          "team2": "lng-esports",
+          "winner": "lng-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-04T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 70,
+                "bans": [
+                  "Ivern",
+                  "Ashe",
+                  "Renekton",
+                  "Nocturne",
+                  "Skarner"
+                ],
+                "barons": 2,
+                "deaths": 17,
+                "dragons": 3,
+                "gold": 67859,
+                "kills": 25,
+                "picks": [
+                  "Gnar",
+                  "Maokai",
+                  "Yone",
+                  "Kai'Sa",
+                  "Leona"
+                ],
+                "team": "gen-g",
+                "towers": 9
+              },
+              "durationSec": 2021,
+              "id": "2024 Season World Championship/Main Event_Round 2_2_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 40,
+                "bans": [
+                  "Aurora",
+                  "Ziggs",
+                  "Smolder",
+                  "Kalista",
+                  "Ezreal"
+                ],
+                "barons": 0,
+                "deaths": 25,
+                "dragons": 2,
+                "gold": 56850,
+                "kills": 17,
+                "picks": [
+                  "Rumble",
+                  "Sejuani",
+                  "Lucian",
+                  "Jhin",
+                  "Rell"
+                ],
+                "team": "top-esports",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 2_2",
+          "round": "Round 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "gen-g",
+          "team2": "top-esports",
+          "winner": "gen-g"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-04T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Akali",
+                  "Vi",
+                  "Gnar",
+                  "Ziggs",
+                  "Renata Glasc"
+                ],
+                "barons": 3,
+                "deaths": 17,
+                "dragons": 3,
+                "gold": 82172,
+                "kills": 9,
+                "picks": [
+                  "Poppy",
+                  "Lillia",
+                  "Yone",
+                  "Varus",
+                  "Rell"
+                ],
+                "team": "g2-esports",
+                "towers": 7
+              },
+              "durationSec": 2741,
+              "id": "2024 Season World Championship/Main Event_Round 2_3_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 40,
+                "bans": [
+                  "Brand",
+                  "Zyra",
+                  "Aurora",
+                  "Jhin",
+                  "Kalista"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 4,
+                "gold": 88249,
+                "kills": 17,
+                "picks": [
+                  "Jax",
+                  "Sejuani",
+                  "Smolder",
+                  "Ashe",
+                  "Braum"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 2_3",
+          "round": "Round 2",
+          "score1": 0,
+          "score2": 1,
+          "team1": "g2-esports",
+          "team2": "hanwha-life-esports",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-04T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 35,
+                "bans": [
+                  "Ashe",
+                  "Yone",
+                  "Vi",
+                  "LeBlanc",
+                  "Jax"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 3,
+                "gold": 68734,
+                "kills": 15,
+                "picks": [
+                  "Renekton",
+                  "Sejuani",
+                  "Syndra",
+                  "Lucian",
+                  "Nami"
+                ],
+                "team": "team-liquid",
+                "towers": 5
+              },
+              "durationSec": 2534,
+              "id": "2024 Season World Championship/Main Event_Round 2_4_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 32,
+                "bans": [
+                  "Ziggs",
+                  "Aurora",
+                  "Rumble",
+                  "K'Sante",
+                  "Poppy"
+                ],
+                "barons": 2,
+                "deaths": 15,
+                "dragons": 3,
+                "gold": 75571,
+                "kills": 15,
+                "picks": [
+                  "Gnar",
+                  "Skarner",
+                  "Orianna",
+                  "Kalista",
+                  "Renata Glasc"
+                ],
+                "team": "weibo-gaming",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 2_4",
+          "round": "Round 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "weibo-gaming",
+          "team2": "team-liquid",
+          "winner": "weibo-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-04T16:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 46,
+                "bans": [
+                  "Lucian",
+                  "Jax",
+                  "Skarner",
+                  "Xayah",
+                  "Rell"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 2,
+                "gold": 56795,
+                "kills": 20,
+                "picks": [
+                  "Rumble",
+                  "Vi",
+                  "Yone",
+                  "Draven",
+                  "Renata Glasc"
+                ],
+                "team": "t1",
+                "towers": 11
+              },
+              "durationSec": 1503,
+              "id": "2024 Season World Championship/Main Event_Round 2_5_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 8,
+                "bans": [
+                  "Orianna",
+                  "Aurora",
+                  "Gnar",
+                  "Jhin",
+                  "Ashe"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 1,
+                "gold": 39058,
+                "kills": 6,
+                "picks": [
+                  "Olaf",
+                  "Sejuani",
+                  "Akali",
+                  "Kalista",
+                  "Neeko"
+                ],
+                "team": "pain-gaming",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 2_5",
+          "round": "Round 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "t1",
+          "team2": "pain-gaming",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-04T17:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 57,
+                "bans": [
+                  "Renekton",
+                  "Ivern",
+                  "Orianna",
+                  "Jax",
+                  "Skarner"
+                ],
+                "barons": 2,
+                "deaths": 17,
+                "dragons": 3,
+                "gold": 69667,
+                "kills": 25,
+                "picks": [
+                  "Yone",
+                  "Vi",
+                  "Sylas",
+                  "Smolder",
+                  "Rell"
+                ],
+                "team": "dplus-kia",
+                "towers": 11
+              },
+              "durationSec": 2008,
+              "id": "2024 Season World Championship/Main Event_Round 2_6_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 41,
+                "bans": [
+                  "Aurora",
+                  "Ziggs",
+                  "Rumble",
+                  "Rakan",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 25,
+                "dragons": 2,
+                "gold": 58652,
+                "kills": 17,
+                "picks": [
+                  "Darius",
+                  "Amumu",
+                  "Syndra",
+                  "Ashe",
+                  "Leona"
+                ],
+                "team": "flyquest",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 2_6",
+          "round": "Round 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "dplus-kia",
+          "team2": "flyquest",
+          "winner": "dplus-kia"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-04T18:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 51,
+                "bans": [
+                  "Shyvana",
+                  "Rumble",
+                  "Aurora",
+                  "Ezreal",
+                  "Jhin"
+                ],
+                "barons": 1,
+                "deaths": 15,
+                "dragons": 5,
+                "gold": 68258,
+                "kills": 22,
+                "picks": [
+                  "Gnar",
+                  "Jarvan IV",
+                  "Yone",
+                  "Ziggs",
+                  "Leona"
+                ],
+                "team": "fnatic",
+                "towers": 8
+              },
+              "durationSec": 1987,
+              "id": "2024 Season World Championship/Main Event_Round 2_7_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 30,
+                "bans": [
+                  "Skarner",
+                  "Lucian",
+                  "Ivern",
+                  "K'Sante",
+                  "Poppy"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 0,
+                "gold": 58762,
+                "kills": 15,
+                "picks": [
+                  "Jax",
+                  "Zyra",
+                  "Smolder",
+                  "Kai'Sa",
+                  "Rell"
+                ],
+                "team": "gam-esports",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 2_7",
+          "round": "Round 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "fnatic",
+          "team2": "gam-esports",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-04T19:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 56,
+                "bans": [
+                  "Nidalee",
+                  "K'Sante",
+                  "Jarvan IV",
+                  "Renekton",
+                  "Gnar"
+                ],
+                "barons": 2,
+                "deaths": 4,
+                "dragons": 3,
+                "gold": 66062,
+                "kills": 20,
+                "picks": [
+                  "Rumble",
+                  "Maokai",
+                  "Yone",
+                  "Kai'Sa",
+                  "Rell"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 10
+              },
+              "durationSec": 1917,
+              "id": "2024 Season World Championship/Main Event_Round 2_8_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 9,
+                "bans": [
+                  "Aurora",
+                  "Skarner",
+                  "Sejuani",
+                  "Jhin",
+                  "Ezreal"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 1,
+                "gold": 51240,
+                "kills": 4,
+                "picks": [
+                  "Galio",
+                  "Vi",
+                  "Smolder",
+                  "Ziggs",
+                  "Alistar"
+                ],
+                "team": "movistar-koi",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 2_8",
+          "round": "Round 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "talon-hong-kong-team",
+          "team2": "movistar-koi",
+          "winner": "talon-hong-kong-team"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-05T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 25,
+                "bans": [
+                  "Rumble",
+                  "Yone",
+                  "Nocturne",
+                  "Ahri",
+                  "Rakan"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 1,
+                "gold": 60925,
+                "kills": 8,
+                "picks": [
+                  "Olaf",
+                  "Maokai",
+                  "Smolder",
+                  "Ziggs",
+                  "Alistar"
+                ],
+                "team": "dplus-kia",
+                "towers": 3
+              },
+              "durationSec": 2212,
+              "id": "2024 Season World Championship/Main Event_Round 3_1_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 42,
+                "bans": [
+                  "Aurora",
+                  "Gnar",
+                  "Jax",
+                  "K'Sante",
+                  "Poppy"
+                ],
+                "barons": 2,
+                "deaths": 8,
+                "dragons": 5,
+                "gold": 77579,
+                "kills": 18,
+                "picks": [
+                  "Renekton",
+                  "Vi",
+                  "Sylas",
+                  "Kai'Sa",
+                  "Rell"
+                ],
+                "team": "lng-esports",
+                "towers": 11
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Rumble",
+                  "Renekton",
+                  "Yone",
+                  "Nautilus",
+                  "Leona"
+                ],
+                "barons": 1,
+                "deaths": 22,
+                "dragons": 0,
+                "gold": 67779,
+                "kills": 11,
+                "picks": [
+                  "K'Sante",
+                  "Vi",
+                  "Ahri",
+                  "Ziggs",
+                  "Poppy"
+                ],
+                "team": "dplus-kia",
+                "towers": 6
+              },
+              "durationSec": 2390,
+              "id": "2024 Season World Championship/Main Event_Round 3_1_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 61,
+                "bans": [
+                  "Aurora",
+                  "Gnar",
+                  "Jax",
+                  "Smolder",
+                  "Tristana"
+                ],
+                "barons": 1,
+                "deaths": 11,
+                "dragons": 5,
+                "gold": 75612,
+                "kills": 22,
+                "picks": [
+                  "Camille",
+                  "Sejuani",
+                  "Galio",
+                  "Kai'Sa",
+                  "Rell"
+                ],
+                "team": "lng-esports",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 3_1",
+          "round": "Round 3",
+          "score1": 0,
+          "score2": 2,
+          "team1": "dplus-kia",
+          "team2": "lng-esports",
+          "winner": "lng-esports"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-05T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 35,
+                "bans": [
+                  "Nidalee",
+                  "Ziggs",
+                  "Skarner",
+                  "Kalista",
+                  "Ashe"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 2,
+                "gold": 58282,
+                "kills": 12,
+                "picks": [
+                  "Gnar",
+                  "Sejuani",
+                  "Yone",
+                  "Kai'Sa",
+                  "Rell"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 8
+              },
+              "durationSec": 1825,
+              "id": "2024 Season World Championship/Main Event_Round 3_2_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 18,
+                "bans": [
+                  "Jax",
+                  "Maokai",
+                  "Smolder",
+                  "Ezreal",
+                  "Jhin"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 3,
+                "gold": 49998,
+                "kills": 5,
+                "picks": [
+                  "Aurora",
+                  "Nocturne",
+                  "Ahri",
+                  "Varus",
+                  "Renata Glasc"
+                ],
+                "team": "gen-g",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 54,
+                "bans": [
+                  "Jax",
+                  "Smolder",
+                  "Maokai",
+                  "Ezreal",
+                  "Kai'Sa"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 4,
+                "gold": 71665,
+                "kills": 20,
+                "picks": [
+                  "Aurora",
+                  "Nocturne",
+                  "Ahri",
+                  "Kalista",
+                  "Leona"
+                ],
+                "team": "gen-g",
+                "towers": 9
+              },
+              "durationSec": 2213,
+              "id": "2024 Season World Championship/Main Event_Round 3_2_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 24,
+                "bans": [
+                  "Nidalee",
+                  "Ziggs",
+                  "Yone",
+                  "Renata Glasc",
+                  "Xayah"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 1,
+                "gold": 59543,
+                "kills": 8,
+                "picks": [
+                  "Rumble",
+                  "Vi",
+                  "Akali",
+                  "Jhin",
+                  "Rell"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 1
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 28,
+                "bans": [
+                  "Skarner",
+                  "Nidalee",
+                  "Ziggs",
+                  "Kalista",
+                  "Ashe"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 1,
+                "gold": 55892,
+                "kills": 9,
+                "picks": [
+                  "Gnar",
+                  "Sejuani",
+                  "Smolder",
+                  "Varus",
+                  "Renata Glasc"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 3
+              },
+              "durationSec": 1991,
+              "id": "2024 Season World Championship/Main Event_Round 3_2_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 48,
+                "bans": [
+                  "Jax",
+                  "Yone",
+                  "Maokai",
+                  "Ezreal",
+                  "Kai'Sa"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 4,
+                "gold": 66755,
+                "kills": 22,
+                "picks": [
+                  "Aurora",
+                  "Nocturne",
+                  "Ahri",
+                  "Twitch",
+                  "Leona"
+                ],
+                "team": "gen-g",
+                "towers": 8
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 3_2",
+          "round": "Round 3",
+          "score1": 1,
+          "score2": 2,
+          "team1": "hanwha-life-esports",
+          "team2": "gen-g",
+          "winner": "gen-g"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-06T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 33,
+                "bans": [
+                  "Orianna",
+                  "LeBlanc",
+                  "Vi",
+                  "Kai'Sa",
+                  "Lucian"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 2,
+                "gold": 48907,
+                "kills": 12,
+                "picks": [
+                  "Rumble",
+                  "Sejuani",
+                  "Yone",
+                  "Miss Fortune",
+                  "Rell"
+                ],
+                "team": "top-esports",
+                "towers": 9
+              },
+              "durationSec": 1450,
+              "id": "2024 Season World Championship/Main Event_Round 3_3_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 12,
+                "bans": [
+                  "Aurora",
+                  "Ziggs",
+                  "Zyra",
+                  "Ashe",
+                  "Kalista"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 1,
+                "gold": 38791,
+                "kills": 6,
+                "picks": [
+                  "K'Sante",
+                  "Skarner",
+                  "Smolder",
+                  "Jhin",
+                  "Leona"
+                ],
+                "team": "fnatic",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 3_3",
+          "round": "Round 3",
+          "score1": 1,
+          "score2": 0,
+          "team1": "top-esports",
+          "team2": "fnatic",
+          "winner": "top-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-06T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Orianna",
+                  "Sejuani",
+                  "Nocturne",
+                  "Renata Glasc",
+                  "Ashe"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 1,
+                "gold": 57000,
+                "kills": 13,
+                "picks": [
+                  "Jax",
+                  "Skarner",
+                  "Ahri",
+                  "Jhin",
+                  "Poppy"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 3
+              },
+              "durationSec": 2049,
+              "id": "2024 Season World Championship/Main Event_Round 3_4_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 48,
+                "bans": [
+                  "Yone",
+                  "Aurora",
+                  "Smolder",
+                  "Kai'Sa",
+                  "Ziggs"
+                ],
+                "barons": 1,
+                "deaths": 13,
+                "dragons": 4,
+                "gold": 65646,
+                "kills": 18,
+                "picks": [
+                  "Gnar",
+                  "Vi",
+                  "Sylas",
+                  "Kalista",
+                  "Neeko"
+                ],
+                "team": "t1",
+                "towers": 8
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 3_4",
+          "round": "Round 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "bilibili-gaming",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-06T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 44,
+                "bans": [
+                  "Rumble",
+                  "Aurora",
+                  "Jax",
+                  "Ziggs",
+                  "Rakan"
+                ],
+                "barons": 3,
+                "deaths": 10,
+                "dragons": 4,
+                "gold": 84432,
+                "kills": 15,
+                "picks": [
+                  "Renekton",
+                  "Ivern",
+                  "Cassiopeia",
+                  "Kai'Sa",
+                  "Leona"
+                ],
+                "team": "flyquest",
+                "towers": 10
+              },
+              "durationSec": 2660,
+              "id": "2024 Season World Championship/Main Event_Round 3_5_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 23,
+                "bans": [
+                  "Orianna",
+                  "Yone",
+                  "Kalista",
+                  "Ashe",
+                  "Xayah"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 2,
+                "gold": 74549,
+                "kills": 10,
+                "picks": [
+                  "Gnar",
+                  "Vi",
+                  "Ahri",
+                  "Jhin",
+                  "Rell"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 3_5",
+          "round": "Round 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "talon-hong-kong-team",
+          "team2": "flyquest",
+          "winner": "flyquest"
+        },
+        {
+          "bestOf": 1,
+          "date": "2024-10-06T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Ashe",
+                  "Poppy",
+                  "Nidalee",
+                  "Skarner",
+                  "Lucian"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 3,
+                "gold": 68905,
+                "kills": 17,
+                "picks": [
+                  "Galio",
+                  "Nocturne",
+                  "Orianna",
+                  "Kalista",
+                  "Rell"
+                ],
+                "team": "g2-esports",
+                "towers": 11
+              },
+              "durationSec": 2138,
+              "id": "2024 Season World Championship/Main Event_Round 3_6_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 30,
+                "bans": [
+                  "Brand",
+                  "Yone",
+                  "Aurora",
+                  "Yasuo",
+                  "Vi"
+                ],
+                "barons": 1,
+                "deaths": 17,
+                "dragons": 2,
+                "gold": 60932,
+                "kills": 12,
+                "picks": [
+                  "Rumble",
+                  "Maokai",
+                  "Tristana",
+                  "Jhin",
+                  "Leona"
+                ],
+                "team": "weibo-gaming",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 3_6",
+          "round": "Round 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "weibo-gaming",
+          "team2": "g2-esports",
+          "winner": "g2-esports"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-07T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 29,
+                "bans": [
+                  "Shyvana",
+                  "Rumble",
+                  "Poppy",
+                  "Jax",
+                  "Rell"
+                ],
+                "barons": 0,
+                "deaths": 6,
+                "dragons": 0,
+                "gold": 43505,
+                "kills": 15,
+                "picks": [
+                  "Gnar",
+                  "Maokai",
+                  "Yone",
+                  "Ziggs",
+                  "Nautilus"
+                ],
+                "team": "movistar-koi",
+                "towers": 10
+              },
+              "durationSec": 1259,
+              "id": "2024 Season World Championship/Main Event_Round 3_7_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Skarner",
+                  "Nidalee",
+                  "Aurora",
+                  "Alistar",
+                  "Leona"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 2,
+                "gold": 34149,
+                "kills": 6,
+                "picks": [
+                  "Smolder",
+                  "Wukong",
+                  "Akali",
+                  "Kai'Sa",
+                  "Rakan"
+                ],
+                "team": "gam-esports",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 70,
+                "bans": [
+                  "Skarner",
+                  "Nidalee",
+                  "Ziggs",
+                  "Kalista",
+                  "Jhin"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 4,
+                "gold": 82046,
+                "kills": 28,
+                "picks": [
+                  "Kennen",
+                  "Wukong",
+                  "Yone",
+                  "Miss Fortune",
+                  "Rell"
+                ],
+                "team": "gam-esports",
+                "towers": 8
+              },
+              "durationSec": 2526,
+              "id": "2024 Season World Championship/Main Event_Round 3_7_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 22,
+                "bans": [
+                  "Shyvana",
+                  "Aurora",
+                  "Poppy",
+                  "Ezreal",
+                  "Ashe"
+                ],
+                "barons": 0,
+                "deaths": 28,
+                "dragons": 1,
+                "gold": 71997,
+                "kills": 12,
+                "picks": [
+                  "Rumble",
+                  "Vi",
+                  "Ahri",
+                  "Xayah",
+                  "Rakan"
+                ],
+                "team": "movistar-koi",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 17,
+                "bans": [
+                  "Shyvana",
+                  "Poppy",
+                  "Wukong",
+                  "Rell",
+                  "Miss Fortune"
+                ],
+                "barons": 0,
+                "deaths": 24,
+                "dragons": 0,
+                "gold": 44885,
+                "kills": 8,
+                "picks": [
+                  "Gnar",
+                  "Sejuani",
+                  "Yone",
+                  "Kai'Sa",
+                  "Nautilus"
+                ],
+                "team": "movistar-koi",
+                "towers": 3
+              },
+              "durationSec": 1603,
+              "id": "2024 Season World Championship/Main Event_Round 3_7_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 63,
+                "bans": [
+                  "Skarner",
+                  "Nidalee",
+                  "Ziggs",
+                  "Ashe",
+                  "Ezreal"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 3,
+                "gold": 56764,
+                "kills": 24,
+                "picks": [
+                  "Aurora",
+                  "Nocturne",
+                  "Ahri",
+                  "Kalista",
+                  "Braum"
+                ],
+                "team": "gam-esports",
+                "towers": 8
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 3_7",
+          "round": "Round 3",
+          "score1": 1,
+          "score2": 2,
+          "team1": "movistar-koi",
+          "team2": "gam-esports",
+          "winner": "gam-esports"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-07T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Yone",
+                  "Lucian",
+                  "Skarner",
+                  "Kalista",
+                  "Xayah"
+                ],
+                "barons": 2,
+                "deaths": 8,
+                "dragons": 1,
+                "gold": 71554,
+                "kills": 14,
+                "picks": [
+                  "Jax",
+                  "Vi",
+                  "Ahri",
+                  "Kai'Sa",
+                  "Rell"
+                ],
+                "team": "team-liquid",
+                "towers": 10
+              },
+              "durationSec": 2207,
+              "id": "2024 Season World Championship/Main Event_Round 3_8_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 15,
+                "bans": [
+                  "Ziggs",
+                  "Aurora",
+                  "Sejuani",
+                  "Neeko",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 4,
+                "gold": 61815,
+                "kills": 8,
+                "picks": [
+                  "Gnar",
+                  "Nocturne",
+                  "Orianna",
+                  "Ezreal",
+                  "Alistar"
+                ],
+                "team": "pain-gaming",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 41,
+                "bans": [
+                  "Ziggs",
+                  "Jax",
+                  "Kai'Sa",
+                  "Kalista",
+                  "Poppy"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 1,
+                "gold": 51419,
+                "kills": 16,
+                "picks": [
+                  "Renekton",
+                  "Nocturne",
+                  "Orianna",
+                  "Jhin",
+                  "Rell"
+                ],
+                "team": "pain-gaming",
+                "towers": 3
+              },
+              "durationSec": 1766,
+              "id": "2024 Season World Championship/Main Event_Round 3_8_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 31,
+                "bans": [
+                  "Yone",
+                  "Lucian",
+                  "Aurora",
+                  "Ashe",
+                  "Xayah"
+                ],
+                "barons": 1,
+                "deaths": 16,
+                "dragons": 3,
+                "gold": 57303,
+                "kills": 15,
+                "picks": [
+                  "Gnar",
+                  "Skarner",
+                  "Neeko",
+                  "Ezreal",
+                  "Leona"
+                ],
+                "team": "team-liquid",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 3_8",
+          "round": "Round 3",
+          "score1": 0,
+          "score2": 2,
+          "team1": "pain-gaming",
+          "team2": "team-liquid",
+          "winner": "team-liquid"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-10T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 37,
+                "bans": [
+                  "Gnar",
+                  "Vi",
+                  "LeBlanc",
+                  "Sylas",
+                  "Kai'Sa"
+                ],
+                "barons": 2,
+                "deaths": 4,
+                "dragons": 3,
+                "gold": 65734,
+                "kills": 15,
+                "picks": [
+                  "K'Sante",
+                  "Xin Zhao",
+                  "Aurora",
+                  "Ashe",
+                  "Braum"
+                ],
+                "team": "top-esports",
+                "towers": 10
+              },
+              "durationSec": 1968,
+              "id": "2024 Season World Championship/Main Event_Round 4_1_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 9,
+                "bans": [
+                  "Yone",
+                  "Renekton",
+                  "Rumble",
+                  "Poppy",
+                  "Renata Glasc"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 2,
+                "gold": 55450,
+                "kills": 4,
+                "picks": [
+                  "Jax",
+                  "Skarner",
+                  "Orianna",
+                  "Smolder",
+                  "Rell"
+                ],
+                "team": "dplus-kia",
+                "towers": 4
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 29,
+                "bans": [
+                  "Renekton",
+                  "Rumble",
+                  "Ashe",
+                  "Poppy",
+                  "Renata Glasc"
+                ],
+                "barons": 1,
+                "deaths": 26,
+                "dragons": 1,
+                "gold": 62772,
+                "kills": 15,
+                "picks": [
+                  "Jax",
+                  "Sejuani",
+                  "Yone",
+                  "Miss Fortune",
+                  "Leona"
+                ],
+                "team": "dplus-kia",
+                "towers": 4
+              },
+              "durationSec": 2185,
+              "id": "2024 Season World Championship/Main Event_Round 4_1_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 76,
+                "bans": [
+                  "Gnar",
+                  "Vi",
+                  "Maokai",
+                  "Ziggs",
+                  "Kai'Sa"
+                ],
+                "barons": 1,
+                "deaths": 15,
+                "dragons": 3,
+                "gold": 71031,
+                "kills": 26,
+                "picks": [
+                  "K'Sante",
+                  "Skarner",
+                  "Aurora",
+                  "Kalista",
+                  "Rell"
+                ],
+                "team": "top-esports",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 4_1",
+          "round": "Round 4",
+          "score1": 0,
+          "score2": 2,
+          "team1": "dplus-kia",
+          "team2": "top-esports",
+          "winner": "top-esports"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-10T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 24,
+                "bans": [
+                  "Orianna",
+                  "Ivern",
+                  "Renekton",
+                  "Leona",
+                  "Poppy"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 3,
+                "gold": 65994,
+                "kills": 16,
+                "picks": [
+                  "Jax",
+                  "Sejuani",
+                  "Yone",
+                  "Kai'Sa",
+                  "Rell"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 9
+              },
+              "durationSec": 2006,
+              "id": "2024 Season World Championship/Main Event_Round 4_2_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 29,
+                "bans": [
+                  "Aurora",
+                  "Ziggs",
+                  "Ashe",
+                  "Rakan",
+                  "Alistar"
+                ],
+                "barons": 1,
+                "deaths": 16,
+                "dragons": 2,
+                "gold": 61052,
+                "kills": 12,
+                "picks": [
+                  "Urgot",
+                  "Amumu",
+                  "Cassiopeia",
+                  "Kalista",
+                  "Renata Glasc"
+                ],
+                "team": "flyquest",
+                "towers": 4
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Ivern",
+                  "Cassiopeia",
+                  "Orianna",
+                  "Amumu",
+                  "Sejuani"
+                ],
+                "barons": 0,
+                "deaths": 24,
+                "dragons": 1,
+                "gold": 66892,
+                "kills": 14,
+                "picks": [
+                  "Renekton",
+                  "Zyra",
+                  "Yasuo",
+                  "Ezreal",
+                  "Poppy"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 5
+              },
+              "durationSec": 2264,
+              "id": "2024 Season World Championship/Main Event_Round 4_2_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 67,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Ashe",
+                  "Braum",
+                  "Smolder"
+                ],
+                "barons": 3,
+                "deaths": 14,
+                "dragons": 5,
+                "gold": 77421,
+                "kills": 24,
+                "picks": [
+                  "Olaf",
+                  "Nunu & Willump",
+                  "Hwei",
+                  "Kalista",
+                  "Leona"
+                ],
+                "team": "flyquest",
+                "towers": 10
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 48,
+                "bans": [
+                  "Ivern",
+                  "Renekton",
+                  "Kalista",
+                  "Olaf",
+                  "Leona"
+                ],
+                "barons": 2,
+                "deaths": 8,
+                "dragons": 4,
+                "gold": 64280,
+                "kills": 19,
+                "picks": [
+                  "Gnar",
+                  "Skarner",
+                  "Sylas",
+                  "Xayah",
+                  "Poppy"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 9
+              },
+              "durationSec": 1840,
+              "id": "2024 Season World Championship/Main Event_Round 4_2_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 19,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Jax",
+                  "Rakan",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 1,
+                "gold": 49826,
+                "kills": 8,
+                "picks": [
+                  "Sion",
+                  "Vi",
+                  "Cassiopeia",
+                  "Kai'Sa",
+                  "Rell"
+                ],
+                "team": "flyquest",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 4_2",
+          "round": "Round 4",
+          "score1": 2,
+          "score2": 1,
+          "team1": "hanwha-life-esports",
+          "team2": "flyquest",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-11T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 23,
+                "bans": [
+                  "Renata Glasc",
+                  "Kalista",
+                  "Braum",
+                  "Xayah",
+                  "Tahm Kench"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 0,
+                "gold": 47198,
+                "kills": 9,
+                "picks": [
+                  "Jax",
+                  "Nocturne",
+                  "Orianna",
+                  "Draven",
+                  "Nautilus"
+                ],
+                "team": "g2-esports",
+                "towers": 2
+              },
+              "durationSec": 1689,
+              "id": "2024 Season World Championship/Main Event_Round 4_3_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 55,
+                "bans": [
+                  "Yone",
+                  "Aurora",
+                  "Brand",
+                  "Rell",
+                  "Kai'Sa"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 4,
+                "gold": 56668,
+                "kills": 21,
+                "picks": [
+                  "Gragas",
+                  "Skarner",
+                  "Ahri",
+                  "Jhin",
+                  "Leona"
+                ],
+                "team": "t1",
+                "towers": 8
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Renata Glasc",
+                  "Kalista",
+                  "Skarner",
+                  "Braum",
+                  "Xayah"
+                ],
+                "barons": 1,
+                "deaths": 23,
+                "dragons": 1,
+                "gold": 74633,
+                "kills": 17,
+                "picks": [
+                  "Gnar",
+                  "Nocturne",
+                  "Orianna",
+                  "Kai'Sa",
+                  "Nautilus"
+                ],
+                "team": "g2-esports",
+                "towers": 9
+              },
+              "durationSec": 2504,
+              "id": "2024 Season World Championship/Main Event_Round 4_3_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 54,
+                "bans": [
+                  "Yone",
+                  "Aurora",
+                  "Brand",
+                  "Poppy",
+                  "Rell"
+                ],
+                "barons": 2,
+                "deaths": 17,
+                "dragons": 5,
+                "gold": 85427,
+                "kills": 23,
+                "picks": [
+                  "Jax",
+                  "Vi",
+                  "Ahri",
+                  "Jhin",
+                  "Leona"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 4_3",
+          "round": "Round 4",
+          "score1": 0,
+          "score2": 2,
+          "team1": "g2-esports",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-11T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 52,
+                "bans": [
+                  "Rumble",
+                  "Vi",
+                  "Skarner",
+                  "Kai'Sa",
+                  "Kalista"
+                ],
+                "barons": 1,
+                "deaths": 16,
+                "dragons": 1,
+                "gold": 70787,
+                "kills": 22,
+                "picks": [
+                  "Jax",
+                  "Wukong",
+                  "Aurora",
+                  "Miss Fortune",
+                  "Leona"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 8
+              },
+              "durationSec": 2118,
+              "id": "2024 Season World Championship/Main Event_Round 4_4_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Gnar",
+                  "Ahri",
+                  "Nocturne",
+                  "Ashe",
+                  "Rakan"
+                ],
+                "barons": 1,
+                "deaths": 22,
+                "dragons": 3,
+                "gold": 65440,
+                "kills": 16,
+                "picks": [
+                  "Kennen",
+                  "Sejuani",
+                  "Yone",
+                  "Ezreal",
+                  "Rell"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 7
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Gnar",
+                  "Ahri",
+                  "Neeko",
+                  "Syndra",
+                  "Tristana"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 1,
+                "gold": 45134,
+                "kills": 9,
+                "picks": [
+                  "Poppy",
+                  "Skarner",
+                  "Smolder",
+                  "Xayah",
+                  "Rakan"
+                ],
+                "team": "talon-hong-kong-team",
+                "towers": 3
+              },
+              "durationSec": 1689,
+              "id": "2024 Season World Championship/Main Event_Round 4_4_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 49,
+                "bans": [
+                  "Rumble",
+                  "Yone",
+                  "Aurora",
+                  "Ashe",
+                  "Renata Glasc"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 3,
+                "gold": 57096,
+                "kills": 19,
+                "picks": [
+                  "Jax",
+                  "Sejuani",
+                  "Jayce",
+                  "Kai'Sa",
+                  "Nautilus"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 4_4",
+          "round": "Round 4",
+          "score1": 2,
+          "score2": 0,
+          "team1": "bilibili-gaming",
+          "team2": "talon-hong-kong-team",
+          "winner": "bilibili-gaming"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-12T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 57,
+                "bans": [
+                  "Poppy",
+                  "Kalista",
+                  "Aurora",
+                  "Ashe",
+                  "Ezreal"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 3,
+                "gold": 68359,
+                "kills": 18,
+                "picks": [
+                  "Jax",
+                  "Skarner",
+                  "Syndra",
+                  "Varus",
+                  "Rell"
+                ],
+                "team": "fnatic",
+                "towers": 8
+              },
+              "durationSec": 2163,
+              "id": "2024 Season World Championship/Main Event_Round 4_5_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 18,
+                "bans": [
+                  "Ivern",
+                  "Orianna",
+                  "Yone",
+                  "Ziggs",
+                  "Kai'Sa"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 2,
+                "gold": 62120,
+                "kills": 9,
+                "picks": [
+                  "Renekton",
+                  "Nidalee",
+                  "Lucian",
+                  "Miss Fortune",
+                  "Leona"
+                ],
+                "team": "weibo-gaming",
+                "towers": 5
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 66,
+                "bans": [
+                  "Ivern",
+                  "Kalista",
+                  "Poppy",
+                  "K'Sante",
+                  "Kai'Sa"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 1,
+                "gold": 60620,
+                "kills": 22,
+                "picks": [
+                  "Jax",
+                  "Skarner",
+                  "Orianna",
+                  "Ezreal",
+                  "Rakan"
+                ],
+                "team": "weibo-gaming",
+                "towers": 11
+              },
+              "durationSec": 1769,
+              "id": "2024 Season World Championship/Main Event_Round 4_5_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 20,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Ashe",
+                  "Alistar",
+                  "Xayah"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 3,
+                "gold": 47015,
+                "kills": 7,
+                "picks": [
+                  "Rumble",
+                  "Vi",
+                  "Ahri",
+                  "Miss Fortune",
+                  "Rell"
+                ],
+                "team": "fnatic",
+                "towers": 1
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 35,
+                "bans": [
+                  "Ivern",
+                  "Kalista",
+                  "Poppy",
+                  "Kai'Sa",
+                  "Sylas"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 2,
+                "gold": 54217,
+                "kills": 12,
+                "picks": [
+                  "Gnar",
+                  "Skarner",
+                  "Ahri",
+                  "Ezreal",
+                  "Rakan"
+                ],
+                "team": "weibo-gaming",
+                "towers": 10
+              },
+              "durationSec": 1592,
+              "id": "2024 Season World Championship/Main Event_Round 4_5_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 15,
+                "bans": [
+                  "Yone",
+                  "Aurora",
+                  "Orianna",
+                  "Braum",
+                  "Rumble"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 2,
+                "gold": 41980,
+                "kills": 5,
+                "picks": [
+                  "Jax",
+                  "Vi",
+                  "Swain",
+                  "Ziggs",
+                  "Rell"
+                ],
+                "team": "fnatic",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 4_5",
+          "round": "Round 4",
+          "score1": 2,
+          "score2": 1,
+          "team1": "weibo-gaming",
+          "team2": "fnatic",
+          "winner": "weibo-gaming"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-12T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 21,
+                "bans": [
+                  "Yone",
+                  "Shyvana",
+                  "Nocturne",
+                  "Wukong",
+                  "Sylas"
+                ],
+                "barons": 1,
+                "deaths": 21,
+                "dragons": 2,
+                "gold": 61881,
+                "kills": 8,
+                "picks": [
+                  "Aurora",
+                  "Maokai",
+                  "Tristana",
+                  "Ezreal",
+                  "Rell"
+                ],
+                "team": "team-liquid",
+                "towers": 4
+              },
+              "durationSec": 2141,
+              "id": "2024 Season World Championship/Main Event_Round 4_6_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 37,
+                "bans": [
+                  "Skarner",
+                  "Ziggs",
+                  "Kai'Sa",
+                  "K'Sante",
+                  "Gnar"
+                ],
+                "barons": 0,
+                "deaths": 8,
+                "dragons": 3,
+                "gold": 68542,
+                "kills": 21,
+                "picks": [
+                  "Jax",
+                  "Vi",
+                  "Orianna",
+                  "Ashe",
+                  "Braum"
+                ],
+                "team": "gam-esports",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 48,
+                "bans": [
+                  "Yone",
+                  "Shyvana",
+                  "Aurora",
+                  "Kindred",
+                  "Wukong"
+                ],
+                "barons": 1,
+                "deaths": 2,
+                "dragons": 3,
+                "gold": 55186,
+                "kills": 21,
+                "picks": [
+                  "Renekton",
+                  "Nocturne",
+                  "Neeko",
+                  "Kai'Sa",
+                  "Rakan"
+                ],
+                "team": "team-liquid",
+                "towers": 11
+              },
+              "durationSec": 1463,
+              "id": "2024 Season World Championship/Main Event_Round 4_6_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 4,
+                "bans": [
+                  "Skarner",
+                  "Ziggs",
+                  "Jax",
+                  "Rell",
+                  "Leona"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 0,
+                "gold": 37016,
+                "kills": 2,
+                "picks": [
+                  "Gnar",
+                  "Vi",
+                  "Orianna",
+                  "Ashe",
+                  "Braum"
+                ],
+                "team": "gam-esports",
+                "towers": 1
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 10,
+                "bans": [
+                  "Skarner",
+                  "Ziggs",
+                  "Kai'Sa",
+                  "Kalista",
+                  "Lucian"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 0,
+                "gold": 45612,
+                "kills": 6,
+                "picks": [
+                  "Jax",
+                  "Wukong",
+                  "Akali",
+                  "Jhin",
+                  "Poppy"
+                ],
+                "team": "gam-esports",
+                "towers": 2
+              },
+              "durationSec": 1715,
+              "id": "2024 Season World Championship/Main Event_Round 4_6_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 47,
+                "bans": [
+                  "Shyvana",
+                  "Aurora",
+                  "Yone",
+                  "Xayah",
+                  "Miss Fortune"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 4,
+                "gold": 56993,
+                "kills": 18,
+                "picks": [
+                  "K'Sante",
+                  "Nocturne",
+                  "Neeko",
+                  "Ezreal",
+                  "Rakan"
+                ],
+                "team": "team-liquid",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 4_6",
+          "round": "Round 4",
+          "score1": 2,
+          "score2": 1,
+          "team1": "team-liquid",
+          "team2": "gam-esports",
+          "winner": "team-liquid"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-13T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 53,
+                "bans": [
+                  "Ashe",
+                  "Skarner",
+                  "Aurora",
+                  "Rell",
+                  "Rakan"
+                ],
+                "barons": 2,
+                "deaths": 16,
+                "dragons": 4,
+                "gold": 79403,
+                "kills": 20,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "LeBlanc",
+                  "Kalista",
+                  "Renata Glasc"
+                ],
+                "team": "dplus-kia",
+                "towers": 10
+              },
+              "durationSec": 2584,
+              "id": "2024 Season World Championship/Main Event_Round 5_1_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 41,
+                "bans": [
+                  "Vi",
+                  "Gnar",
+                  "Yone",
+                  "K'Sante",
+                  "Gragas"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 3,
+                "gold": 73165,
+                "kills": 16,
+                "picks": [
+                  "Jax",
+                  "Nocturne",
+                  "Orianna",
+                  "Caitlyn",
+                  "Lux"
+                ],
+                "team": "weibo-gaming",
+                "towers": 6
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 41,
+                "bans": [
+                  "Vi",
+                  "Kalista",
+                  "LeBlanc",
+                  "Jax",
+                  "Rell"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 4,
+                "gold": 58064,
+                "kills": 15,
+                "picks": [
+                  "Gnar",
+                  "Brand",
+                  "Yone",
+                  "Ezreal",
+                  "Alistar"
+                ],
+                "team": "weibo-gaming",
+                "towers": 10
+              },
+              "durationSec": 1794,
+              "id": "2024 Season World Championship/Main Event_Round 5_1_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 8,
+                "bans": [
+                  "Ashe",
+                  "Skarner",
+                  "Sejuani",
+                  "Leona",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 0,
+                "gold": 47200,
+                "kills": 4,
+                "picks": [
+                  "Camille",
+                  "Nocturne",
+                  "Aurora",
+                  "Kai'Sa",
+                  "Nautilus"
+                ],
+                "team": "dplus-kia",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 15,
+                "bans": [
+                  "Skarner",
+                  "Orianna",
+                  "Renekton",
+                  "Poppy",
+                  "Leona"
+                ],
+                "barons": 1,
+                "deaths": 20,
+                "dragons": 2,
+                "gold": 57402,
+                "kills": 8,
+                "picks": [
+                  "Gragas",
+                  "Vi",
+                  "Yone",
+                  "Miss Fortune",
+                  "Rell"
+                ],
+                "team": "dplus-kia",
+                "towers": 2
+              },
+              "durationSec": 2105,
+              "id": "2024 Season World Championship/Main Event_Round 5_1_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 56,
+                "bans": [
+                  "LeBlanc",
+                  "Kalista",
+                  "Ziggs",
+                  "Kai'Sa",
+                  "Rumble"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 3,
+                "gold": 67448,
+                "kills": 20,
+                "picks": [
+                  "Gnar",
+                  "Morgana",
+                  "Aurora",
+                  "Ezreal",
+                  "Braum"
+                ],
+                "team": "weibo-gaming",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 5_1",
+          "round": "Round 5",
+          "score1": 1,
+          "score2": 2,
+          "team1": "dplus-kia",
+          "team2": "weibo-gaming",
+          "winner": "weibo-gaming"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-13T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 18,
+                "bans": [
+                  "Ahri",
+                  "Ashe",
+                  "Neeko",
+                  "Xayah",
+                  "Ezreal"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 2,
+                "gold": 58314,
+                "kills": 7,
+                "picks": [
+                  "Gnar",
+                  "Nocturne",
+                  "Orianna",
+                  "Miss Fortune",
+                  "Rell"
+                ],
+                "team": "g2-esports",
+                "towers": 3
+              },
+              "durationSec": 2098,
+              "id": "2024 Season World Championship/Main Event_Round 5_2_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 48,
+                "bans": [
+                  "Yone",
+                  "Aurora",
+                  "Kalista",
+                  "Draven",
+                  "Poppy"
+                ],
+                "barons": 2,
+                "deaths": 7,
+                "dragons": 3,
+                "gold": 69847,
+                "kills": 21,
+                "picks": [
+                  "Jax",
+                  "Skarner",
+                  "LeBlanc",
+                  "Kai'Sa",
+                  "Alistar"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 40,
+                "bans": [
+                  "Ahri",
+                  "Jax",
+                  "Ashe",
+                  "Poppy",
+                  "Kai'Sa"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 3,
+                "gold": 59786,
+                "kills": 17,
+                "picks": [
+                  "Yasuo",
+                  "Skarner",
+                  "Sylas",
+                  "Ezreal",
+                  "Rakan"
+                ],
+                "team": "g2-esports",
+                "towers": 9
+              },
+              "durationSec": 1796,
+              "id": "2024 Season World Championship/Main Event_Round 5_2_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 9,
+                "bans": [
+                  "Yone",
+                  "Aurora",
+                  "Kalista",
+                  "Draven",
+                  "Varus"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 1,
+                "gold": 48554,
+                "kills": 5,
+                "picks": [
+                  "Gnar",
+                  "Xin Zhao",
+                  "Neeko",
+                  "Xayah",
+                  "Renata Glasc"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 65,
+                "bans": [
+                  "Poppy",
+                  "Gnar",
+                  "Yone",
+                  "Renata Glasc",
+                  "Neeko"
+                ],
+                "barons": 2,
+                "deaths": 19,
+                "dragons": 3,
+                "gold": 72417,
+                "kills": 23,
+                "picks": [
+                  "Rumble",
+                  "Skarner",
+                  "Sylas",
+                  "Ezreal",
+                  "Rell"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 10
+              },
+              "durationSec": 2079,
+              "id": "2024 Season World Championship/Main Event_Round 5_2_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 45,
+                "bans": [
+                  "Jax",
+                  "Ahri",
+                  "Aurora",
+                  "Ashe",
+                  "Miss Fortune"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 2,
+                "gold": 63424,
+                "kills": 19,
+                "picks": [
+                  "Renekton",
+                  "Xin Zhao",
+                  "Ryze",
+                  "Kalista",
+                  "Taric"
+                ],
+                "team": "g2-esports",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 5_2",
+          "round": "Round 5",
+          "score1": 1,
+          "score2": 2,
+          "team1": "g2-esports",
+          "team2": "bilibili-gaming",
+          "winner": "bilibili-gaming"
+        },
+        {
+          "bestOf": 3,
+          "date": "2024-10-13T18:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Ziggs",
+                  "Kai'Sa",
+                  "Neeko",
+                  "Lucian",
+                  "Rell"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 2,
+                "gold": 70666,
+                "kills": 18,
+                "picks": [
+                  "K'Sante",
+                  "Skarner",
+                  "Orianna",
+                  "Ashe",
+                  "Lulu"
+                ],
+                "team": "flyquest",
+                "towers": 10
+              },
+              "durationSec": 2288,
+              "id": "2024 Season World Championship/Main Event_Round 5_3_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 4,
+                "bans": [
+                  "Ivern",
+                  "Renekton",
+                  "Leona",
+                  "Renata Glasc",
+                  "Urgot"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 3,
+                "gold": 62529,
+                "kills": 4,
+                "picks": [
+                  "Jax",
+                  "Xin Zhao",
+                  "Syndra",
+                  "Jhin",
+                  "Tahm Kench"
+                ],
+                "team": "team-liquid",
+                "towers": 5
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 53,
+                "bans": [
+                  "Renekton",
+                  "Ivern",
+                  "Orianna",
+                  "Renata Glasc",
+                  "Leona"
+                ],
+                "barons": 2,
+                "deaths": 9,
+                "dragons": 4,
+                "gold": 68310,
+                "kills": 23,
+                "picks": [
+                  "Rumble",
+                  "Nocturne",
+                  "Tristana",
+                  "Xayah",
+                  "Rakan"
+                ],
+                "team": "team-liquid",
+                "towers": 11
+              },
+              "durationSec": 1955,
+              "id": "2024 Season World Championship/Main Event_Round 5_3_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 17,
+                "bans": [
+                  "Ziggs",
+                  "Neeko",
+                  "Skarner",
+                  "Ashe",
+                  "Kai'Sa"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 1,
+                "gold": 53567,
+                "kills": 9,
+                "picks": [
+                  "K'Sante",
+                  "Vi",
+                  "Ahri",
+                  "Kalista",
+                  "Senna"
+                ],
+                "team": "flyquest",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Neeko",
+                  "Ziggs",
+                  "Jax",
+                  "Rakan",
+                  "Kalista"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 3,
+                "gold": 59780,
+                "kills": 17,
+                "picks": [
+                  "Galio",
+                  "Skarner",
+                  "Yone",
+                  "Xayah",
+                  "Rell"
+                ],
+                "team": "flyquest",
+                "towers": 11
+              },
+              "durationSec": 1746,
+              "id": "2024 Season World Championship/Main Event_Round 5_3_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 8,
+                "bans": [
+                  "Renekton",
+                  "Ivern",
+                  "Orianna",
+                  "Renata Glasc",
+                  "Ashe"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 1,
+                "gold": 45150,
+                "kills": 3,
+                "picks": [
+                  "Rumble",
+                  "Sejuani",
+                  "Kled",
+                  "Kai'Sa",
+                  "Alistar"
+                ],
+                "team": "team-liquid",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Round 5_3",
+          "round": "Round 5",
+          "score1": 2,
+          "score2": 1,
+          "team1": "flyquest",
+          "team2": "team-liquid",
+          "winner": "flyquest"
+        }
+      ],
+      "name": "Swiss Stage",
+      "order": 1,
+      "type": "swiss"
+    },
+    {
+      "id": "knockout-stage",
+      "matches": [
+        {
+          "bestOf": 5,
+          "date": "2024-10-17T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 28,
+                "bans": [
+                  "Rumble",
+                  "Neeko",
+                  "Sylas",
+                  "Kai'Sa",
+                  "Ziggs"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 3,
+                "gold": 59019,
+                "kills": 13,
+                "picks": [
+                  "Gnar",
+                  "Skarner",
+                  "Orianna",
+                  "Ashe",
+                  "Rakan"
+                ],
+                "team": "weibo-gaming",
+                "towers": 8
+              },
+              "durationSec": 1892,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_1_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 32,
+                "bans": [
+                  "Yone",
+                  "Aurora",
+                  "Ezreal",
+                  "Braum",
+                  "Jax"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 1,
+                "gold": 54246,
+                "kills": 12,
+                "picks": [
+                  "Renekton",
+                  "Nocturne",
+                  "Ahri",
+                  "Jhin",
+                  "Rell"
+                ],
+                "team": "lng-esports",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 53,
+                "bans": [
+                  "Kalista",
+                  "Skarner",
+                  "Renekton",
+                  "Braum",
+                  "Poppy"
+                ],
+                "barons": 1,
+                "deaths": 13,
+                "dragons": 4,
+                "gold": 86068,
+                "kills": 21,
+                "picks": [
+                  "Jax",
+                  "Sejuani",
+                  "Yone",
+                  "Ezreal",
+                  "Leona"
+                ],
+                "team": "lng-esports",
+                "towers": 11
+              },
+              "durationSec": 2605,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_1_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 38,
+                "bans": [
+                  "Rumble",
+                  "Neeko",
+                  "Ziggs",
+                  "Kai'Sa",
+                  "Rakan"
+                ],
+                "barons": 1,
+                "deaths": 21,
+                "dragons": 2,
+                "gold": 78593,
+                "kills": 13,
+                "picks": [
+                  "K'Sante",
+                  "Amumu",
+                  "Aurora",
+                  "Ashe",
+                  "Renata Glasc"
+                ],
+                "team": "weibo-gaming",
+                "towers": 7
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 50,
+                "bans": [
+                  "Rumble",
+                  "Neeko",
+                  "Sylas",
+                  "Rakan",
+                  "Ezreal"
+                ],
+                "barons": 1,
+                "deaths": 10,
+                "dragons": 3,
+                "gold": 72802,
+                "kills": 20,
+                "picks": [
+                  "Gnar",
+                  "Maokai",
+                  "Orianna",
+                  "Ashe",
+                  "Braum"
+                ],
+                "team": "weibo-gaming",
+                "towers": 7
+              },
+              "durationSec": 2265,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_1_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 22,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Skarner",
+                  "LeBlanc",
+                  "Brand"
+                ],
+                "barons": 2,
+                "deaths": 20,
+                "dragons": 3,
+                "gold": 70575,
+                "kills": 10,
+                "picks": [
+                  "Jax",
+                  "Nocturne",
+                  "Ahri",
+                  "Kai'Sa",
+                  "Alistar"
+                ],
+                "team": "lng-esports",
+                "towers": 7
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 22,
+                "bans": [
+                  "Kalista",
+                  "Skarner",
+                  "Gnar",
+                  "Braum",
+                  "Leona"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 1,
+                "gold": 50089,
+                "kills": 8,
+                "picks": [
+                  "Renekton",
+                  "Sejuani",
+                  "Yone",
+                  "Jhin",
+                  "Nautilus"
+                ],
+                "team": "lng-esports",
+                "towers": 1
+              },
+              "durationSec": 1837,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_1_4",
+              "number": 4,
+              "patch": "14.18",
+              "red": {
+                "assists": 61,
+                "bans": [
+                  "Rumble",
+                  "Sylas",
+                  "Ziggs",
+                  "Kai'Sa",
+                  "Ashe"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 3,
+                "gold": 62043,
+                "kills": 22,
+                "picks": [
+                  "Jax",
+                  "Maokai",
+                  "Aurora",
+                  "Ezreal",
+                  "Rakan"
+                ],
+                "team": "weibo-gaming",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Quarterfinals_1",
+          "round": "Quarterfinals",
+          "score1": 1,
+          "score2": 3,
+          "team1": "lng-esports",
+          "team2": "weibo-gaming",
+          "winner": "weibo-gaming"
+        },
+        {
+          "bestOf": 5,
+          "date": "2024-10-18T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 70,
+                "bans": [
+                  "Kalista",
+                  "Renekton",
+                  "Skarner",
+                  "Kai'Sa",
+                  "Ashe"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 4,
+                "gold": 67197,
+                "kills": 21,
+                "picks": [
+                  "Gnar",
+                  "Poppy",
+                  "Sylas",
+                  "Ezreal",
+                  "Alistar"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 8
+              },
+              "durationSec": 2092,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_2_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 21,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Jax",
+                  "Xayah",
+                  "Sejuani"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 1,
+                "gold": 58683,
+                "kills": 9,
+                "picks": [
+                  "Rumble",
+                  "Vi",
+                  "Ahri",
+                  "Miss Fortune",
+                  "Rell"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 40,
+                "bans": [
+                  "Poppy",
+                  "Sylas",
+                  "Jax",
+                  "Kalista",
+                  "Ezreal"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 3,
+                "gold": 52102,
+                "kills": 17,
+                "picks": [
+                  "Rumble",
+                  "Sejuani",
+                  "Yone",
+                  "Xayah",
+                  "Rakan"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 9
+              },
+              "durationSec": 1615,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_2_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 19,
+                "bans": [
+                  "Aurora",
+                  "Renekton",
+                  "Vi",
+                  "Ashe",
+                  "Rell"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 1,
+                "gold": 42643,
+                "kills": 8,
+                "picks": [
+                  "Gnar",
+                  "Skarner",
+                  "Ahri",
+                  "Kai'Sa",
+                  "Alistar"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 1
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 24,
+                "bans": [
+                  "Kalista",
+                  "Skarner",
+                  "Vi",
+                  "Sejuani",
+                  "Renata Glasc"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 2,
+                "gold": 62392,
+                "kills": 9,
+                "picks": [
+                  "Jax",
+                  "Nocturne",
+                  "Ahri",
+                  "Zeri",
+                  "Rell"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 3
+              },
+              "durationSec": 2219,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_2_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 61,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Ezreal",
+                  "Kai'Sa",
+                  "Twitch"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 3,
+                "gold": 72524,
+                "kills": 21,
+                "picks": [
+                  "Gnar",
+                  "Wukong",
+                  "Sylas",
+                  "Ashe",
+                  "Rakan"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 53,
+                "bans": [
+                  "Kalista",
+                  "Skarner",
+                  "Ashe",
+                  "Wukong",
+                  "Vi"
+                ],
+                "barons": 1,
+                "deaths": 20,
+                "dragons": 1,
+                "gold": 70643,
+                "kills": 18,
+                "picks": [
+                  "Gnar",
+                  "Poppy",
+                  "Sylas",
+                  "Miss Fortune",
+                  "Rell"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 5
+              },
+              "durationSec": 2408,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_2_4",
+              "number": 4,
+              "patch": "14.18",
+              "red": {
+                "assists": 48,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Sejuani",
+                  "Ezreal",
+                  "Xayah"
+                ],
+                "barons": 1,
+                "deaths": 18,
+                "dragons": 4,
+                "gold": 74254,
+                "kills": 20,
+                "picks": [
+                  "Jax",
+                  "Kindred",
+                  "Galio",
+                  "Kai'Sa",
+                  "Rakan"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Quarterfinals_2",
+          "round": "Quarterfinals",
+          "score1": 1,
+          "score2": 3,
+          "team1": "hanwha-life-esports",
+          "team2": "bilibili-gaming",
+          "winner": "bilibili-gaming"
+        },
+        {
+          "bestOf": 5,
+          "date": "2024-10-19T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 11,
+                "bans": [
+                  "Gnar",
+                  "Kalista",
+                  "Vi",
+                  "Ashe",
+                  "Rakan"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 1,
+                "gold": 51889,
+                "kills": 5,
+                "picks": [
+                  "Rumble",
+                  "Ivern",
+                  "Tristana",
+                  "Miss Fortune",
+                  "Leona"
+                ],
+                "team": "top-esports",
+                "towers": 3
+              },
+              "durationSec": 1917,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_3_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 45,
+                "bans": [
+                  "Yone",
+                  "Aurora",
+                  "Skarner",
+                  "Ezreal",
+                  "Poppy"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 4,
+                "gold": 61274,
+                "kills": 13,
+                "picks": [
+                  "Camille",
+                  "Sejuani",
+                  "Sylas",
+                  "Caitlyn",
+                  "Bard"
+                ],
+                "team": "t1",
+                "towers": 11
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 0,
+                "bans": [
+                  "Gnar",
+                  "Kalista",
+                  "Sejuani",
+                  "Orianna",
+                  "Tristana"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 2,
+                "gold": 51357,
+                "kills": 0,
+                "picks": [
+                  "Galio",
+                  "Viego",
+                  "Sylas",
+                  "Ezreal",
+                  "Rell"
+                ],
+                "team": "top-esports",
+                "towers": 2
+              },
+              "durationSec": 2025,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_3_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 42,
+                "bans": [
+                  "Yone",
+                  "Aurora",
+                  "Skarner",
+                  "Renekton",
+                  "K'Sante"
+                ],
+                "barons": 1,
+                "deaths": 0,
+                "dragons": 3,
+                "gold": 63038,
+                "kills": 15,
+                "picks": [
+                  "Rumble",
+                  "Xin Zhao",
+                  "Ahri",
+                  "Xayah",
+                  "Rakan"
+                ],
+                "team": "t1",
+                "towers": 8
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 18,
+                "bans": [
+                  "Rakan",
+                  "Kalista",
+                  "Rumble",
+                  "Renata Glasc",
+                  "Vi"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 3,
+                "gold": 62090,
+                "kills": 7,
+                "picks": [
+                  "Kennen",
+                  "Xin Zhao",
+                  "Sylas",
+                  "Kai'Sa",
+                  "Leona"
+                ],
+                "team": "top-esports",
+                "towers": 4
+              },
+              "durationSec": 2248,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_3_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 30,
+                "bans": [
+                  "Yone",
+                  "Aurora",
+                  "Skarner",
+                  "Jax",
+                  "Rell"
+                ],
+                "barons": 2,
+                "deaths": 7,
+                "dragons": 2,
+                "gold": 73219,
+                "kills": 14,
+                "picks": [
+                  "Gnar",
+                  "Poppy",
+                  "Galio",
+                  "Xayah",
+                  "Pyke"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Quarterfinals_3",
+          "round": "Quarterfinals",
+          "score1": 0,
+          "score2": 3,
+          "team1": "top-esports",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 5,
+          "date": "2024-10-20T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 5,
+                "bans": [
+                  "Ivern",
+                  "Renekton",
+                  "Orianna",
+                  "Cassiopeia",
+                  "Amumu"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 1,
+                "gold": 52582,
+                "kills": 3,
+                "picks": [
+                  "Rumble",
+                  "Skarner",
+                  "Ahri",
+                  "Jinx",
+                  "Leona"
+                ],
+                "team": "gen-g",
+                "towers": 3
+              },
+              "durationSec": 1909,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_4_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 46,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Ezreal",
+                  "Rell",
+                  "Rakan"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 4,
+                "gold": 59410,
+                "kills": 14,
+                "picks": [
+                  "Galio",
+                  "Xin Zhao",
+                  "Seraphine",
+                  "Ashe",
+                  "Alistar"
+                ],
+                "team": "flyquest",
+                "towers": 8
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 39,
+                "bans": [
+                  "Seraphine",
+                  "Ivern",
+                  "Skarner",
+                  "Xin Zhao",
+                  "Vi"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 2,
+                "gold": 56642,
+                "kills": 19,
+                "picks": [
+                  "Jax",
+                  "Nidalee",
+                  "Kassadin",
+                  "Ashe",
+                  "Nautilus"
+                ],
+                "team": "gen-g",
+                "towers": 10
+              },
+              "durationSec": 1595,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_4_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 8,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Nocturne",
+                  "Tristana",
+                  "Rell"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 2,
+                "gold": 41904,
+                "kills": 6,
+                "picks": [
+                  "Renekton",
+                  "Nunu & Willump",
+                  "Orianna",
+                  "Ezreal",
+                  "Rakan"
+                ],
+                "team": "flyquest",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 54,
+                "bans": [
+                  "Aurora",
+                  "Jax",
+                  "Kalista",
+                  "K'Sante",
+                  "Rell"
+                ],
+                "barons": 3,
+                "deaths": 8,
+                "dragons": 3,
+                "gold": 84709,
+                "kills": 21,
+                "picks": [
+                  "Urgot",
+                  "Skarner",
+                  "Zeri",
+                  "Kai'Sa",
+                  "Rakan"
+                ],
+                "team": "flyquest",
+                "towers": 10
+              },
+              "durationSec": 2556,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_4_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 18,
+                "bans": [
+                  "Ashe",
+                  "Ivern",
+                  "Yone",
+                  "Olaf",
+                  "Orianna"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 3,
+                "gold": 70488,
+                "kills": 8,
+                "picks": [
+                  "Renekton",
+                  "Sejuani",
+                  "Sylas",
+                  "Ezreal",
+                  "Braum"
+                ],
+                "team": "gen-g",
+                "towers": 4
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 47,
+                "bans": [
+                  "Seraphine",
+                  "Ivern",
+                  "Skarner",
+                  "Xin Zhao",
+                  "Vi"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 2,
+                "gold": 58129,
+                "kills": 17,
+                "picks": [
+                  "K'Sante",
+                  "Nidalee",
+                  "Tristana",
+                  "Ashe",
+                  "Maokai"
+                ],
+                "team": "gen-g",
+                "towers": 10
+              },
+              "durationSec": 1753,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_4_4",
+              "number": 4,
+              "patch": "14.18",
+              "red": {
+                "assists": 4,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Jax",
+                  "Rell",
+                  "Nautilus"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 2,
+                "gold": 42988,
+                "kills": 3,
+                "picks": [
+                  "Renekton",
+                  "Sejuani",
+                  "Orianna",
+                  "Ezreal",
+                  "Rakan"
+                ],
+                "team": "flyquest",
+                "towers": 0
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 5,
+                "bans": [
+                  "Aurora",
+                  "Nidalee",
+                  "Jax",
+                  "Rakan",
+                  "Miss Fortune"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 1,
+                "gold": 49167,
+                "kills": 3,
+                "picks": [
+                  "Sett",
+                  "Fiddlesticks",
+                  "Yone",
+                  "Kalista",
+                  "Alistar"
+                ],
+                "team": "flyquest",
+                "towers": 3
+              },
+              "durationSec": 1812,
+              "id": "2024 Season World Championship/Main Event_Quarterfinals_4_5",
+              "number": 5,
+              "patch": "14.18",
+              "red": {
+                "assists": 34,
+                "bans": [
+                  "Ivern",
+                  "Ashe",
+                  "Amumu",
+                  "Galio",
+                  "Rell"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 3,
+                "gold": 58150,
+                "kills": 14,
+                "picks": [
+                  "Rumble",
+                  "Skarner",
+                  "Smolder",
+                  "Ziggs",
+                  "Maokai"
+                ],
+                "team": "gen-g",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Quarterfinals_4",
+          "round": "Quarterfinals",
+          "score1": 3,
+          "score2": 2,
+          "team1": "gen-g",
+          "team2": "flyquest",
+          "winner": "gen-g"
+        },
+        {
+          "bestOf": 5,
+          "date": "2024-10-26T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 23,
+                "bans": [
+                  "Sylas",
+                  "Rakan",
+                  "Ashe",
+                  "Ziggs",
+                  "Kai'Sa"
+                ],
+                "barons": 2,
+                "deaths": 10,
+                "dragons": 2,
+                "gold": 68691,
+                "kills": 9,
+                "picks": [
+                  "Poppy",
+                  "Brand",
+                  "Yone",
+                  "Kalista",
+                  "Renata Glasc"
+                ],
+                "team": "weibo-gaming",
+                "towers": 6
+              },
+              "durationSec": 2357,
+              "id": "2024 Season World Championship/Main Event_Semifinals_1_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 19,
+                "bans": [
+                  "Aurora",
+                  "Orianna",
+                  "Maokai",
+                  "K'Sante",
+                  "Gnar"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 3,
+                "gold": 71203,
+                "kills": 10,
+                "picks": [
+                  "Jax",
+                  "Skarner",
+                  "Smolder",
+                  "Varus",
+                  "Neeko"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 10
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Sylas",
+                  "Rakan",
+                  "Yone",
+                  "Smolder",
+                  "Cassiopeia"
+                ],
+                "barons": 1,
+                "deaths": 18,
+                "dragons": 3,
+                "gold": 54891,
+                "kills": 12,
+                "picks": [
+                  "Maokai",
+                  "Elise",
+                  "Lucian",
+                  "Kalista",
+                  "Renata Glasc"
+                ],
+                "team": "weibo-gaming",
+                "towers": 3
+              },
+              "durationSec": 1897,
+              "id": "2024 Season World Championship/Main Event_Semifinals_1_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 43,
+                "bans": [
+                  "Aurora",
+                  "Orianna",
+                  "Ashe",
+                  "Brand",
+                  "Gnar"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 1,
+                "gold": 58162,
+                "kills": 18,
+                "picks": [
+                  "Jax",
+                  "Skarner",
+                  "Syndra",
+                  "Ziggs",
+                  "Rell"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 8
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 21,
+                "bans": [
+                  "Sylas",
+                  "Kalista",
+                  "Rakan",
+                  "Ahri",
+                  "Smolder"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 2,
+                "gold": 46725,
+                "kills": 8,
+                "picks": [
+                  "Rumble",
+                  "Sejuani",
+                  "Yone",
+                  "Ezreal",
+                  "Maokai"
+                ],
+                "team": "weibo-gaming",
+                "towers": 3
+              },
+              "durationSec": 1665,
+              "id": "2024 Season World Championship/Main Event_Semifinals_1_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 45,
+                "bans": [
+                  "Aurora",
+                  "Orianna",
+                  "Ashe",
+                  "Gnar",
+                  "Brand"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 1,
+                "gold": 56106,
+                "kills": 21,
+                "picks": [
+                  "Jax",
+                  "Skarner",
+                  "Akali",
+                  "Kai'Sa",
+                  "Alistar"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 8
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Semifinals_1",
+          "round": "Semifinals",
+          "score1": 0,
+          "score2": 3,
+          "team1": "weibo-gaming",
+          "team2": "bilibili-gaming",
+          "winner": "bilibili-gaming"
+        },
+        {
+          "bestOf": 5,
+          "date": "2024-10-27T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 33,
+                "bans": [
+                  "Nidalee",
+                  "Smolder",
+                  "Jax",
+                  "Blitzcrank",
+                  "Ezreal"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 2,
+                "gold": 57299,
+                "kills": 11,
+                "picks": [
+                  "Gragas",
+                  "Vi",
+                  "Yone",
+                  "Ashe",
+                  "Renata Glasc"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "durationSec": 1802,
+              "id": "2024 Season World Championship/Main Event_Semifinals_2_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 20,
+                "bans": [
+                  "Aurora",
+                  "Kalista",
+                  "Xayah",
+                  "Sejuani",
+                  "Rumble"
+                ],
+                "barons": 0,
+                "deaths": 11,
+                "dragons": 3,
+                "gold": 49080,
+                "kills": 6,
+                "picks": [
+                  "Renekton",
+                  "Skarner",
+                  "Sylas",
+                  "Ziggs",
+                  "Leona"
+                ],
+                "team": "gen-g",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 35,
+                "bans": [
+                  "Kalista",
+                  "Xayah",
+                  "Ashe",
+                  "Galio",
+                  "Orianna"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 4,
+                "gold": 55302,
+                "kills": 12,
+                "picks": [
+                  "Jax",
+                  "Skarner",
+                  "Ahri",
+                  "Kai'Sa",
+                  "Rell"
+                ],
+                "team": "gen-g",
+                "towers": 9
+              },
+              "durationSec": 1663,
+              "id": "2024 Season World Championship/Main Event_Semifinals_2_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 2,
+                "bans": [
+                  "Yone",
+                  "Smolder",
+                  "Aurora",
+                  "Lulu",
+                  "Renata Glasc"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 0,
+                "gold": 42906,
+                "kills": 1,
+                "picks": [
+                  "Maokai",
+                  "Kindred",
+                  "Sylas",
+                  "Caitlyn",
+                  "Braum"
+                ],
+                "team": "t1",
+                "towers": 1
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 55,
+                "bans": [
+                  "Nidalee",
+                  "Smolder",
+                  "Yone",
+                  "Kai'Sa",
+                  "Twitch"
+                ],
+                "barons": 0,
+                "deaths": 3,
+                "dragons": 3,
+                "gold": 61004,
+                "kills": 20,
+                "picks": [
+                  "Gragas",
+                  "Vi",
+                  "Akali",
+                  "Ashe",
+                  "Renata Glasc"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "durationSec": 1905,
+              "id": "2024 Season World Championship/Main Event_Semifinals_2_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 10,
+                "bans": [
+                  "Xayah",
+                  "Kalista",
+                  "Aurora",
+                  "Kindred",
+                  "Sylas"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 2,
+                "gold": 50167,
+                "kills": 3,
+                "picks": [
+                  "Jax",
+                  "Nocturne",
+                  "Ahri",
+                  "Ezreal",
+                  "Rell"
+                ],
+                "team": "gen-g",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 29,
+                "bans": [
+                  "Kalista",
+                  "Xayah",
+                  "Sylas",
+                  "Bard",
+                  "Orianna"
+                ],
+                "barons": 1,
+                "deaths": 15,
+                "dragons": 1,
+                "gold": 60224,
+                "kills": 9,
+                "picks": [
+                  "Poppy",
+                  "Nidalee",
+                  "Tristana",
+                  "Ashe",
+                  "Maokai"
+                ],
+                "team": "gen-g",
+                "towers": 5
+              },
+              "durationSec": 2011,
+              "id": "2024 Season World Championship/Main Event_Semifinals_2_4",
+              "number": 4,
+              "patch": "14.18",
+              "red": {
+                "assists": 33,
+                "bans": [
+                  "Yone",
+                  "Smolder",
+                  "Aurora",
+                  "K'Sante",
+                  "Braum"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 3,
+                "gold": 64967,
+                "kills": 15,
+                "picks": [
+                  "Jax",
+                  "Skarner",
+                  "Ahri",
+                  "Varus",
+                  "Pyke"
+                ],
+                "team": "t1",
+                "towers": 8
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Semifinals_2",
+          "round": "Semifinals",
+          "score1": 3,
+          "score2": 1,
+          "team1": "t1",
+          "team2": "gen-g",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 5,
+          "date": "2024-11-02T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 3,
+                "bans": [
+                  "Jax",
+                  "Kai'Sa",
+                  "Kalista",
+                  "Renata Glasc",
+                  "Rakan"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 1,
+                "gold": 46778,
+                "kills": 3,
+                "picks": [
+                  "Gnar",
+                  "Sejuani",
+                  "Yone",
+                  "Caitlyn",
+                  "Braum"
+                ],
+                "team": "t1",
+                "towers": 5
+              },
+              "durationSec": 1629,
+              "id": "2024 Season World Championship/Main Event_Finals_1_1",
+              "number": 1,
+              "patch": "14.18",
+              "red": {
+                "assists": 46,
+                "bans": [
+                  "Aurora",
+                  "Vi",
+                  "Varus",
+                  "Ziggs",
+                  "Jhin"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 3,
+                "gold": 55894,
+                "kills": 18,
+                "picks": [
+                  "Rumble",
+                  "Skarner",
+                  "Sylas",
+                  "Ashe",
+                  "Rell"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 11
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 45,
+                "bans": [
+                  "Jax",
+                  "Yone",
+                  "Varus",
+                  "Kindred",
+                  "Wukong"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 2,
+                "gold": 55973,
+                "kills": 18,
+                "picks": [
+                  "Ornn",
+                  "Nocturne",
+                  "Sylas",
+                  "Kalista",
+                  "Renata Glasc"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "durationSec": 1645,
+              "id": "2024 Season World Championship/Main Event_Finals_1_2",
+              "number": 2,
+              "patch": "14.18",
+              "red": {
+                "assists": 6,
+                "bans": [
+                  "Aurora",
+                  "Skarner",
+                  "Vi",
+                  "Gnar",
+                  "Sejuani"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 1,
+                "gold": 40593,
+                "kills": 3,
+                "picks": [
+                  "Rumble",
+                  "Xin Zhao",
+                  "Galio",
+                  "Ashe",
+                  "Rakan"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 0
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 45,
+                "bans": [
+                  "Varus",
+                  "Ashe",
+                  "Skarner",
+                  "Sejuani",
+                  "Draven"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 3,
+                "gold": 58064,
+                "kills": 17,
+                "picks": [
+                  "Rumble",
+                  "Kindred",
+                  "Galio",
+                  "Kalista",
+                  "Blitzcrank"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 11
+              },
+              "durationSec": 1655,
+              "id": "2024 Season World Championship/Main Event_Finals_1_3",
+              "number": 3,
+              "patch": "14.18",
+              "red": {
+                "assists": 8,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Neeko",
+                  "Akali",
+                  "Wukong"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 1,
+                "gold": 43977,
+                "kills": 3,
+                "picks": [
+                  "Jax",
+                  "Vi",
+                  "Sylas",
+                  "Xayah",
+                  "Renata Glasc"
+                ],
+                "team": "t1",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 36,
+                "bans": [
+                  "Jax",
+                  "Yone",
+                  "Varus",
+                  "Blitzcrank",
+                  "Xin Zhao"
+                ],
+                "barons": 2,
+                "deaths": 10,
+                "dragons": 4,
+                "gold": 60422,
+                "kills": 14,
+                "picks": [
+                  "Rumble",
+                  "Poppy",
+                  "Sylas",
+                  "Ashe",
+                  "Renata Glasc"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "durationSec": 1902,
+              "id": "2024 Season World Championship/Main Event_Finals_1_4",
+              "number": 4,
+              "patch": "14.18",
+              "red": {
+                "assists": 20,
+                "bans": [
+                  "Aurora",
+                  "Skarner",
+                  "Kalista",
+                  "Vi",
+                  "Nocturne"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 0,
+                "gold": 52552,
+                "kills": 10,
+                "picks": [
+                  "Gnar",
+                  "Sejuani",
+                  "Smolder",
+                  "Ziggs",
+                  "Rakan"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 17,
+                "bans": [
+                  "Varus",
+                  "Ashe",
+                  "Skarner",
+                  "Rakan",
+                  "Renata Glasc"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 1,
+                "gold": 55308,
+                "kills": 6,
+                "picks": [
+                  "Jax",
+                  "Jarvan IV",
+                  "Ahri",
+                  "Kai'Sa",
+                  "Rell"
+                ],
+                "team": "bilibili-gaming",
+                "towers": 3
+              },
+              "durationSec": 1934,
+              "id": "2024 Season World Championship/Main Event_Finals_1_5",
+              "number": 5,
+              "patch": "14.18",
+              "red": {
+                "assists": 24,
+                "bans": [
+                  "Aurora",
+                  "Yone",
+                  "Kalista",
+                  "Wukong",
+                  "Kindred"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 3,
+                "gold": 62480,
+                "kills": 12,
+                "picks": [
+                  "Gragas",
+                  "Xin Zhao",
+                  "Galio",
+                  "Xayah",
+                  "Poppy"
+                ],
+                "team": "t1",
+                "towers": 7
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2024 Season World Championship/Main Event_Finals_1",
+          "round": "Finals",
+          "score1": 2,
+          "score2": 3,
+          "team1": "bilibili-gaming",
+          "team2": "t1",
+          "winner": "t1"
+        }
+      ],
+      "name": "Knockout Stage",
+      "order": 2,
+      "type": "single-elimination"
+    }
+  ],
+  "startDate": "2024-09-25",
+  "status": "completed",
+  "year": 2024
+}

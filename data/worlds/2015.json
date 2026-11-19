@@ -1,0 +1,4484 @@
+{
+  "champion": "t1",
+  "coverage": {
+    "games": true,
+    "matches": true
+  },
+  "endDate": "2015-10-31",
+  "name": "Worlds 2015",
+  "overviewPages": [
+    "2015 Season World Championship"
+  ],
+  "stages": [
+    {
+      "id": "group-stage",
+      "matches": [
+        {
+          "bestOf": 1,
+          "date": "2015-10-01T14:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 25,
+                "bans": [
+                  "Darius",
+                  "Braum",
+                  "Vayne"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 3,
+                "gold": 54700,
+                "kills": 8,
+                "picks": [
+                  "Hecarim",
+                  "Elise",
+                  "Azir",
+                  "Sivir",
+                  "Shen"
+                ],
+                "team": "fnatic",
+                "towers": 7
+              },
+              "durationSec": 1834,
+              "id": "2015 Season World Championship_Day 1_1_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 3,
+                "bans": [
+                  "Lulu",
+                  "Mordekaiser",
+                  "Gangplank"
+                ],
+                "barons": 0,
+                "deaths": 8,
+                "dragons": 0,
+                "gold": 40100,
+                "kills": 1,
+                "picks": [
+                  "Riven",
+                  "Skarner",
+                  "Viktor",
+                  "Ashe",
+                  "Thresh"
+                ],
+                "team": "invictus-gaming",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 1_1",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "fnatic",
+          "team2": "invictus-gaming",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-01T15:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 29,
+                "bans": [
+                  "Ryze",
+                  "Rek'Sai",
+                  "Elise"
+                ],
+                "barons": 1,
+                "deaths": 2,
+                "dragons": 2,
+                "gold": 42600,
+                "kills": 9,
+                "picks": [
+                  "Gangplank",
+                  "Lee Sin",
+                  "Veigar",
+                  "Tristana",
+                  "Morgana"
+                ],
+                "team": "cloud9",
+                "towers": 7
+              },
+              "durationSec": 1438,
+              "id": "2015 Season World Championship_Day 1_2_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 1,
+                "bans": [
+                  "Mordekaiser",
+                  "Azir",
+                  "Lulu"
+                ],
+                "barons": 0,
+                "deaths": 9,
+                "dragons": 0,
+                "gold": 33400,
+                "kills": 2,
+                "picks": [
+                  "Darius",
+                  "Rengar",
+                  "Fizz",
+                  "Kalista",
+                  "Braum"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 1_2",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "cloud9",
+          "team2": "ahq-esports-club",
+          "winner": "cloud9"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-01T16:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 24,
+                "bans": [
+                  "Thresh",
+                  "Mordekaiser",
+                  "Lee Sin"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 4,
+                "gold": 56400,
+                "kills": 11,
+                "picks": [
+                  "Fiora",
+                  "Elise",
+                  "Azir",
+                  "Tristana",
+                  "Alistar"
+                ],
+                "team": "t1",
+                "towers": 11
+              },
+              "durationSec": 1872,
+              "id": "2015 Season World Championship_Day 1_3_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 11,
+                "bans": [
+                  "Lulu",
+                  "Gangplank",
+                  "Darius"
+                ],
+                "barons": 0,
+                "deaths": 11,
+                "dragons": 0,
+                "gold": 44400,
+                "kills": 5,
+                "picks": [
+                  "Gnar",
+                  "Gragas",
+                  "LeBlanc",
+                  "Sivir",
+                  "Braum"
+                ],
+                "team": "h2k-gaming",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 1_3",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "t1",
+          "team2": "h2k-gaming",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-01T17:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 36,
+                "bans": [
+                  "Yasuo",
+                  "Elise",
+                  "Lulu"
+                ],
+                "barons": 0,
+                "deaths": 1,
+                "dragons": 2,
+                "gold": 40000,
+                "kills": 14,
+                "picks": [
+                  "Darius",
+                  "Skarner",
+                  "Gangplank",
+                  "Jinx",
+                  "Thresh"
+                ],
+                "team": "edward-gaming",
+                "towers": 8
+              },
+              "durationSec": 1221,
+              "id": "2015 Season World Championship_Day 1_4_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 3,
+                "bans": [
+                  "Twisted Fate",
+                  "Kalista",
+                  "Mordekaiser"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 0,
+                "gold": 25400,
+                "kills": 1,
+                "picks": [
+                  "Maokai",
+                  "Rek'Sai",
+                  "Zed",
+                  "Vayne",
+                  "Braum"
+                ],
+                "team": "mega",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 1_4",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "edward-gaming",
+          "team2": "mega",
+          "winner": "edward-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-01T18:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Malphite",
+                  "Thresh",
+                  "Kalista"
+                ],
+                "barons": 0,
+                "deaths": 10,
+                "dragons": 2,
+                "gold": 67200,
+                "kills": 10,
+                "picks": [
+                  "Darius",
+                  "Elise",
+                  "Lulu",
+                  "Jinx",
+                  "Alistar"
+                ],
+                "team": "counter-logic-gaming",
+                "towers": 9
+              },
+              "durationSec": 2515,
+              "id": "2015 Season World Championship_Day 1_5_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 26,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Veigar"
+                ],
+                "barons": 1,
+                "deaths": 10,
+                "dragons": 3,
+                "gold": 67700,
+                "kills": 10,
+                "picks": [
+                  "Gnar",
+                  "Rek'Sai",
+                  "Ekko",
+                  "Tristana",
+                  "Braum"
+                ],
+                "team": "flash-wolves",
+                "towers": 6
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 1_5",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "counter-logic-gaming",
+          "team2": "flash-wolves",
+          "winner": "counter-logic-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-01T19:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 19,
+                "bans": [
+                  "Kalista",
+                  "Yasuo",
+                  "Gangplank"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 1,
+                "gold": 41900,
+                "kills": 5,
+                "picks": [
+                  "Darius",
+                  "Elise",
+                  "Azir",
+                  "Sivir",
+                  "Alistar"
+                ],
+                "team": "pain-gaming",
+                "towers": 3
+              },
+              "durationSec": 1864,
+              "id": "2015 Season World Championship_Day 1_6_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 69,
+                "bans": [
+                  "Rek'Sai",
+                  "Mordekaiser",
+                  "Lulu"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 3,
+                "gold": 60900,
+                "kills": 23,
+                "picks": [
+                  "Gnar",
+                  "Lee Sin",
+                  "Ahri",
+                  "Ashe",
+                  "Thresh"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 1_6",
+          "round": "Day 1",
+          "score1": 0,
+          "score2": 1,
+          "team1": "pain-gaming",
+          "team2": "hanwha-life-esports",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-02T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 53,
+                "bans": [
+                  "Gnar",
+                  "Twisted Fate",
+                  "Mordekaiser"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 1,
+                "gold": 67400,
+                "kills": 16,
+                "picks": [
+                  "Darius",
+                  "Rek'Sai",
+                  "Azir",
+                  "Kog'Maw",
+                  "Alistar"
+                ],
+                "team": "kt-rolster",
+                "towers": 10
+              },
+              "durationSec": 2386,
+              "id": "2015 Season World Championship_Day 2_1_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 8,
+                "bans": [
+                  "Gangplank",
+                  "Lulu",
+                  "Thresh"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 3,
+                "gold": 53000,
+                "kills": 3,
+                "picks": [
+                  "Olaf",
+                  "Elise",
+                  "LeBlanc",
+                  "Vayne",
+                  "Braum"
+                ],
+                "team": "tsm",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 2_1",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "kt-rolster",
+          "team2": "tsm",
+          "winner": "kt-rolster"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-02T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 19,
+                "bans": [
+                  "Varus",
+                  "Gangplank",
+                  "Darius"
+                ],
+                "barons": 1,
+                "deaths": 16,
+                "dragons": 2,
+                "gold": 66400,
+                "kills": 10,
+                "picks": [
+                  "Malphite",
+                  "Vi",
+                  "Lulu",
+                  "Kog'Maw",
+                  "Braum"
+                ],
+                "team": "lgd-gaming",
+                "towers": 5
+              },
+              "durationSec": 2609,
+              "id": "2015 Season World Championship_Day 2_2_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 49,
+                "bans": [
+                  "Mordekaiser",
+                  "Lee Sin",
+                  "Rek'Sai"
+                ],
+                "barons": 1,
+                "deaths": 10,
+                "dragons": 3,
+                "gold": 74700,
+                "kills": 16,
+                "picks": [
+                  "Vladimir",
+                  "Elise",
+                  "Orianna",
+                  "Kalista",
+                  "Annie"
+                ],
+                "team": "astralis",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 2_2",
+          "round": "Day 2",
+          "score1": 0,
+          "score2": 1,
+          "team1": "lgd-gaming",
+          "team2": "astralis",
+          "winner": "astralis"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-02T16:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 15,
+                "bans": [
+                  "Fiora",
+                  "Gangplank",
+                  "Darius"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 0,
+                "gold": 36100,
+                "kills": 7,
+                "picks": [
+                  "Maokai",
+                  "Rek'Sai",
+                  "Irelia",
+                  "Kalista",
+                  "Braum"
+                ],
+                "team": "mega",
+                "towers": 0
+              },
+              "durationSec": 1683,
+              "id": "2015 Season World Championship_Day 2_3_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 43,
+                "bans": [
+                  "Lulu",
+                  "Mordekaiser",
+                  "Gragas"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 3,
+                "gold": 54600,
+                "kills": 22,
+                "picks": [
+                  "Rumble",
+                  "Elise",
+                  "Olaf",
+                  "Vayne",
+                  "Alistar"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 2_3",
+          "round": "Day 2",
+          "score1": 0,
+          "score2": 1,
+          "team1": "mega",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-02T17:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 7,
+                "bans": [
+                  "Twisted Fate",
+                  "Elise",
+                  "Mordekaiser"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 0,
+                "gold": 50800,
+                "kills": 5,
+                "picks": [
+                  "Fiora",
+                  "Gragas",
+                  "Lulu",
+                  "Tristana",
+                  "Braum"
+                ],
+                "team": "h2k-gaming",
+                "towers": 3
+              },
+              "durationSec": 2177,
+              "id": "2015 Season World Championship_Day 2_4_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 47,
+                "bans": [
+                  "Gangplank",
+                  "Lee Sin",
+                  "Thresh"
+                ],
+                "barons": 2,
+                "deaths": 5,
+                "dragons": 4,
+                "gold": 67400,
+                "kills": 22,
+                "picks": [
+                  "Darius",
+                  "Rek'Sai",
+                  "Kassadin",
+                  "Kalista",
+                  "Annie"
+                ],
+                "team": "edward-gaming",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 2_4",
+          "round": "Day 2",
+          "score1": 0,
+          "score2": 1,
+          "team1": "h2k-gaming",
+          "team2": "edward-gaming",
+          "winner": "edward-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-02T18:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Ashe",
+                  "Elise",
+                  "Kalista"
+                ],
+                "barons": 2,
+                "deaths": 7,
+                "dragons": 2,
+                "gold": 68500,
+                "kills": 15,
+                "picks": [
+                  "Darius",
+                  "Nidalee",
+                  "Gangplank",
+                  "Varus",
+                  "Morgana"
+                ],
+                "team": "flash-wolves",
+                "towers": 11
+              },
+              "durationSec": 2285,
+              "id": "2015 Season World Championship_Day 2_5_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 17,
+                "bans": [
+                  "Mordekaiser",
+                  "Rek'Sai",
+                  "Gragas"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 2,
+                "gold": 54300,
+                "kills": 7,
+                "picks": [
+                  "Gnar",
+                  "Lee Sin",
+                  "Lulu",
+                  "Jinx",
+                  "Alistar"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 5
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 2_5",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "flash-wolves",
+          "team2": "hanwha-life-esports",
+          "winner": "flash-wolves"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-02T19:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 68,
+                "bans": [
+                  "Malphite",
+                  "Darius",
+                  "Twisted Fate"
+                ],
+                "barons": 0,
+                "deaths": 7,
+                "dragons": 2,
+                "gold": 56400,
+                "kills": 23,
+                "picks": [
+                  "Olaf",
+                  "Lee Sin",
+                  "Lulu",
+                  "Tristana",
+                  "Braum"
+                ],
+                "team": "counter-logic-gaming",
+                "towers": 10
+              },
+              "durationSec": 1841,
+              "id": "2015 Season World Championship_Day 2_6_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 22,
+                "bans": [
+                  "Gangplank",
+                  "Elise",
+                  "Mordekaiser"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 1,
+                "gold": 44000,
+                "kills": 7,
+                "picks": [
+                  "Gnar",
+                  "Rek'Sai",
+                  "Orianna",
+                  "Kalista",
+                  "Annie"
+                ],
+                "team": "pain-gaming",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 2_6",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "counter-logic-gaming",
+          "team2": "pain-gaming",
+          "winner": "counter-logic-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-03T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 19,
+                "bans": [
+                  "Alistar",
+                  "Azir",
+                  "Elise"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 1,
+                "gold": 50500,
+                "kills": 6,
+                "picks": [
+                  "Darius",
+                  "Jarvan IV",
+                  "Ekko",
+                  "Kalista",
+                  "Annie"
+                ],
+                "team": "edward-gaming",
+                "towers": 3
+              },
+              "durationSec": 2109,
+              "id": "2015 Season World Championship_Day 3_1_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 55,
+                "bans": [
+                  "Gangplank",
+                  "Lulu",
+                  "Mordekaiser"
+                ],
+                "barons": 2,
+                "deaths": 6,
+                "dragons": 4,
+                "gold": 70300,
+                "kills": 19,
+                "picks": [
+                  "Renekton",
+                  "Rek'Sai",
+                  "Ryze",
+                  "Sivir",
+                  "Braum"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 3_1",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "edward-gaming",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-03T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 56,
+                "bans": [
+                  "Rek'Sai",
+                  "Yasuo",
+                  "Darius"
+                ],
+                "barons": 2,
+                "deaths": 14,
+                "dragons": 3,
+                "gold": 66500,
+                "kills": 25,
+                "picks": [
+                  "Riven",
+                  "Elise",
+                  "Ekko",
+                  "Mordekaiser",
+                  "Alistar"
+                ],
+                "team": "h2k-gaming",
+                "towers": 11
+              },
+              "durationSec": 2031,
+              "id": "2015 Season World Championship_Day 3_2_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 30,
+                "bans": [
+                  "Lulu",
+                  "Gangplank",
+                  "Fiora"
+                ],
+                "barons": 0,
+                "deaths": 25,
+                "dragons": 1,
+                "gold": 48000,
+                "kills": 14,
+                "picks": [
+                  "Gnar",
+                  "Gragas",
+                  "Twisted Fate",
+                  "Vayne",
+                  "Thresh"
+                ],
+                "team": "mega",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 3_2",
+          "round": "Day 3",
+          "score1": 1,
+          "score2": 0,
+          "team1": "h2k-gaming",
+          "team2": "mega",
+          "winner": "h2k-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-03T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 9,
+                "bans": [
+                  "Azir",
+                  "Alistar",
+                  "Gangplank"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 1,
+                "gold": 44900,
+                "kills": 4,
+                "picks": [
+                  "Hecarim",
+                  "Elise",
+                  "Varus",
+                  "Sivir",
+                  "Thresh"
+                ],
+                "team": "lgd-gaming",
+                "towers": 2
+              },
+              "durationSec": 1856,
+              "id": "2015 Season World Championship_Day 3_3_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 51,
+                "bans": [
+                  "Kalista",
+                  "Lee Sin",
+                  "Rek'Sai"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 1,
+                "gold": 60600,
+                "kills": 22,
+                "picks": [
+                  "Malphite",
+                  "Gragas",
+                  "Lulu",
+                  "Kog'Maw",
+                  "Braum"
+                ],
+                "team": "kt-rolster",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 3_3",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "lgd-gaming",
+          "team2": "kt-rolster",
+          "winner": "kt-rolster"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-03T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 27,
+                "bans": [
+                  "Twisted Fate",
+                  "Azir",
+                  "LeBlanc"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 4,
+                "gold": 60800,
+                "kills": 12,
+                "picks": [
+                  "Lulu",
+                  "Rek'Sai",
+                  "Anivia",
+                  "Kalista",
+                  "Braum"
+                ],
+                "team": "astralis",
+                "towers": 10
+              },
+              "durationSec": 2177,
+              "id": "2015 Season World Championship_Day 3_4_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 8,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Fiora"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 0,
+                "gold": 48900,
+                "kills": 3,
+                "picks": [
+                  "Darius",
+                  "Elise",
+                  "Viktor",
+                  "Tristana",
+                  "Alistar"
+                ],
+                "team": "tsm",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 3_4",
+          "round": "Day 3",
+          "score1": 1,
+          "score2": 0,
+          "team1": "astralis",
+          "team2": "tsm",
+          "winner": "astralis"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-03T16:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 39,
+                "bans": [
+                  "Veigar",
+                  "Morgana",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 1,
+                "gold": 57400,
+                "kills": 16,
+                "picks": [
+                  "Gnar",
+                  "Gragas",
+                  "Ekko",
+                  "Sivir",
+                  "Bard"
+                ],
+                "team": "invictus-gaming",
+                "towers": 3
+              },
+              "durationSec": 2240,
+              "id": "2015 Season World Championship_Day 3_5_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 58,
+                "bans": [
+                  "Gangplank",
+                  "Lulu",
+                  "Mordekaiser"
+                ],
+                "barons": 2,
+                "deaths": 16,
+                "dragons": 2,
+                "gold": 68400,
+                "kills": 23,
+                "picks": [
+                  "Darius",
+                  "Elise",
+                  "Azir",
+                  "Tristana",
+                  "Braum"
+                ],
+                "team": "cloud9",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 3_5",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "invictus-gaming",
+          "team2": "cloud9",
+          "winner": "cloud9"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-03T17:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 57,
+                "bans": [
+                  "Azir",
+                  "Lulu",
+                  "LeBlanc"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 4,
+                "gold": 69400,
+                "kills": 24,
+                "picks": [
+                  "Gnar",
+                  "Elise",
+                  "Fizz",
+                  "Jinx",
+                  "Tahm Kench"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 7
+              },
+              "durationSec": 2453,
+              "id": "2015 Season World Championship_Day 3_6_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 40,
+                "bans": [
+                  "Gangplank",
+                  "Rek'Sai",
+                  "Mordekaiser"
+                ],
+                "barons": 1,
+                "deaths": 24,
+                "dragons": 2,
+                "gold": 68100,
+                "kills": 17,
+                "picks": [
+                  "Darius",
+                  "Olaf",
+                  "Orianna",
+                  "Sivir",
+                  "Annie"
+                ],
+                "team": "fnatic",
+                "towers": 6
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 3_6",
+          "round": "Day 3",
+          "score1": 1,
+          "score2": 0,
+          "team1": "ahq-esports-club",
+          "team2": "fnatic",
+          "winner": "ahq-esports-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-04T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 71,
+                "bans": [
+                  "Lee Sin",
+                  "Rek'Sai",
+                  "Kog'Maw"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 2,
+                "gold": 64000,
+                "kills": 27,
+                "picks": [
+                  "Darius",
+                  "Gragas",
+                  "Twisted Fate",
+                  "Mordekaiser",
+                  "Thresh"
+                ],
+                "team": "tsm",
+                "towers": 10
+              },
+              "durationSec": 2101,
+              "id": "2015 Season World Championship_Day 4_1_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 41,
+                "bans": [
+                  "Azir",
+                  "Gangplank",
+                  "Elise"
+                ],
+                "barons": 1,
+                "deaths": 27,
+                "dragons": 2,
+                "gold": 56600,
+                "kills": 14,
+                "picks": [
+                  "Lulu",
+                  "Nunu & Willump",
+                  "Diana",
+                  "Kalista",
+                  "Brand"
+                ],
+                "team": "lgd-gaming",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 4_1",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "tsm",
+          "team2": "lgd-gaming",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-04T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 22,
+                "bans": [
+                  "Kalista",
+                  "Braum",
+                  "Mordekaiser"
+                ],
+                "barons": 0,
+                "deaths": 11,
+                "dragons": 1,
+                "gold": 59800,
+                "kills": 12,
+                "picks": [
+                  "Olaf",
+                  "Elise",
+                  "Ekko",
+                  "Kog'Maw",
+                  "Alistar"
+                ],
+                "team": "kt-rolster",
+                "towers": 4
+              },
+              "durationSec": 2351,
+              "id": "2015 Season World Championship_Day 4_2_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 25,
+                "bans": [
+                  "Azir",
+                  "Lulu",
+                  "Gangplank"
+                ],
+                "barons": 2,
+                "deaths": 12,
+                "dragons": 4,
+                "gold": 68300,
+                "kills": 11,
+                "picks": [
+                  "Fiora",
+                  "Gragas",
+                  "Twisted Fate",
+                  "Sivir",
+                  "Thresh"
+                ],
+                "team": "astralis",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 4_2",
+          "round": "Day 4",
+          "score1": 0,
+          "score2": 1,
+          "team1": "kt-rolster",
+          "team2": "astralis",
+          "winner": "astralis"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-04T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 38,
+                "bans": [
+                  "Fizz",
+                  "Tahm Kench",
+                  "Twisted Fate"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 3,
+                "gold": 69000,
+                "kills": 13,
+                "picks": [
+                  "Shen",
+                  "Elise",
+                  "Viktor",
+                  "Kalista",
+                  "Kennen"
+                ],
+                "team": "invictus-gaming",
+                "towers": 8
+              },
+              "durationSec": 2522,
+              "id": "2015 Season World Championship_Day 4_3_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 14,
+                "bans": [
+                  "Gangplank",
+                  "Azir",
+                  "Mordekaiser"
+                ],
+                "barons": 1,
+                "deaths": 13,
+                "dragons": 2,
+                "gold": 64099,
+                "kills": 5,
+                "picks": [
+                  "Maokai",
+                  "Rek'Sai",
+                  "Ahri",
+                  "Tristana",
+                  "Thresh"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 6
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 4_3",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "invictus-gaming",
+          "team2": "ahq-esports-club",
+          "winner": "invictus-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-04T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 37,
+                "bans": [
+                  "Elise",
+                  "Olaf",
+                  "Lulu"
+                ],
+                "barons": 2,
+                "deaths": 16,
+                "dragons": 3,
+                "gold": 69600,
+                "kills": 13,
+                "picks": [
+                  "Darius",
+                  "Lee Sin",
+                  "Azir",
+                  "Tristana",
+                  "Morgana"
+                ],
+                "team": "cloud9",
+                "towers": 9
+              },
+              "durationSec": 2440,
+              "id": "2015 Season World Championship_Day 4_4_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 48,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Veigar"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 2,
+                "gold": 68900,
+                "kills": 16,
+                "picks": [
+                  "Yasuo",
+                  "Gragas",
+                  "Orianna",
+                  "Sivir",
+                  "Alistar"
+                ],
+                "team": "fnatic",
+                "towers": 7
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 4_4",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "cloud9",
+          "team2": "fnatic",
+          "winner": "cloud9"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-04T16:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 45,
+                "bans": [
+                  "Veigar",
+                  "Darius",
+                  "Lulu"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 1,
+                "gold": 56300,
+                "kills": 23,
+                "picks": [
+                  "Kennen",
+                  "Rek'Sai",
+                  "Viktor",
+                  "Ashe",
+                  "Morgana"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 9
+              },
+              "durationSec": 1760,
+              "id": "2015 Season World Championship_Day 4_5_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 7,
+                "bans": [
+                  "Kalista",
+                  "Gangplank",
+                  "Mordekaiser"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 1,
+                "gold": 40000,
+                "kills": 4,
+                "picks": [
+                  "Olaf",
+                  "Elise",
+                  "Azir",
+                  "Tristana",
+                  "Blitzcrank"
+                ],
+                "team": "counter-logic-gaming",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 4_5",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "hanwha-life-esports",
+          "team2": "counter-logic-gaming",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-04T17:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Nidalee",
+                  "Gangplank",
+                  "Varus"
+                ],
+                "barons": 0,
+                "deaths": 10,
+                "dragons": 2,
+                "gold": 75500,
+                "kills": 13,
+                "picks": [
+                  "Gnar",
+                  "Gragas",
+                  "Twisted Fate",
+                  "Tristana",
+                  "Braum"
+                ],
+                "team": "pain-gaming",
+                "towers": 9
+              },
+              "durationSec": 2692,
+              "id": "2015 Season World Championship_Day 4_6_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 33,
+                "bans": [
+                  "Mordekaiser",
+                  "Lulu",
+                  "Elise"
+                ],
+                "barons": 1,
+                "deaths": 13,
+                "dragons": 3,
+                "gold": 68400,
+                "kills": 10,
+                "picks": [
+                  "Darius",
+                  "Rek'Sai",
+                  "Ahri",
+                  "Kalista",
+                  "Thresh"
+                ],
+                "team": "flash-wolves",
+                "towers": 7
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 4_6",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "pain-gaming",
+          "team2": "flash-wolves",
+          "winner": "pain-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-08T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 21,
+                "bans": [
+                  "Ashe",
+                  "Kennen",
+                  "Kalista"
+                ],
+                "barons": 0,
+                "deaths": 27,
+                "dragons": 0,
+                "gold": 34700,
+                "kills": 8,
+                "picks": [
+                  "Fiora",
+                  "Ekko",
+                  "Veigar",
+                  "Tristana",
+                  "Braum"
+                ],
+                "team": "counter-logic-gaming",
+                "towers": 2
+              },
+              "durationSec": 1429,
+              "id": "2015 Season World Championship_Day 5_1_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 61,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Lulu"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 2,
+                "gold": 49800,
+                "kills": 27,
+                "picks": [
+                  "Darius",
+                  "Elise",
+                  "Azir",
+                  "Jinx",
+                  "Tahm Kench"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 5_1",
+          "round": "Day 5",
+          "score1": 0,
+          "score2": 1,
+          "team1": "counter-logic-gaming",
+          "team2": "hanwha-life-esports",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-08T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 47,
+                "bans": [
+                  "Twisted Fate",
+                  "Azir",
+                  "Kalista"
+                ],
+                "barons": 1,
+                "deaths": 14,
+                "dragons": 5,
+                "gold": 80600,
+                "kills": 15,
+                "picks": [
+                  "Lulu",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Jinx",
+                  "Annie"
+                ],
+                "team": "flash-wolves",
+                "towers": 7
+              },
+              "durationSec": 3128,
+              "id": "2015 Season World Championship_Day 5_2_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Nidalee",
+                  "Gangplank",
+                  "Mordekaiser"
+                ],
+                "barons": 1,
+                "deaths": 15,
+                "dragons": 2,
+                "gold": 81800,
+                "kills": 14,
+                "picks": [
+                  "Gnar",
+                  "Rek'Sai",
+                  "Orianna",
+                  "Tristana",
+                  "Braum"
+                ],
+                "team": "pain-gaming",
+                "towers": 9
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 5_2",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "flash-wolves",
+          "team2": "pain-gaming",
+          "winner": "flash-wolves"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-08T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 30,
+                "bans": [
+                  "Twisted Fate",
+                  "Gnar",
+                  "Lulu"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 3,
+                "gold": 48100,
+                "kills": 16,
+                "picks": [
+                  "Darius",
+                  "Elise",
+                  "Azir",
+                  "Mordekaiser",
+                  "Leona"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 10
+              },
+              "durationSec": 1486,
+              "id": "2015 Season World Championship_Day 5_3_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 17,
+                "bans": [
+                  "Ashe",
+                  "Gangplank",
+                  "Yasuo"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 0,
+                "gold": 33400,
+                "kills": 5,
+                "picks": [
+                  "Lissandra",
+                  "Gragas",
+                  "Viktor",
+                  "Kalista",
+                  "Braum"
+                ],
+                "team": "pain-gaming",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 5_3",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "hanwha-life-esports",
+          "team2": "pain-gaming",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-08T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 67,
+                "bans": [
+                  "Azir",
+                  "Elise",
+                  "Lulu"
+                ],
+                "barons": 2,
+                "deaths": 9,
+                "dragons": 1,
+                "gold": 66700,
+                "kills": 22,
+                "picks": [
+                  "Malphite",
+                  "Rek'Sai",
+                  "LeBlanc",
+                  "Jinx",
+                  "Morgana"
+                ],
+                "team": "flash-wolves",
+                "towers": 9
+              },
+              "durationSec": 2225,
+              "id": "2015 Season World Championship_Day 5_4_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 24,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Darius"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 3,
+                "gold": 55100,
+                "kills": 9,
+                "picks": [
+                  "Ekko",
+                  "Lee Sin",
+                  "Viktor",
+                  "Tristana",
+                  "Alistar"
+                ],
+                "team": "counter-logic-gaming",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 5_4",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "flash-wolves",
+          "team2": "counter-logic-gaming",
+          "winner": "flash-wolves"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-08T16:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 24,
+                "bans": [
+                  "Nidalee",
+                  "Morgana",
+                  "Malphite"
+                ],
+                "barons": 0,
+                "deaths": 24,
+                "dragons": 2,
+                "gold": 55100,
+                "kills": 9,
+                "picks": [
+                  "Darius",
+                  "Rek'Sai",
+                  "Azir",
+                  "Kalista",
+                  "Kennen"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 3
+              },
+              "durationSec": 2234,
+              "id": "2015 Season World Championship_Day 5_5_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 63,
+                "bans": [
+                  "Ashe",
+                  "Mordekaiser",
+                  "Gangplank"
+                ],
+                "barons": 2,
+                "deaths": 9,
+                "dragons": 2,
+                "gold": 68100,
+                "kills": 24,
+                "picks": [
+                  "Lulu",
+                  "Lee Sin",
+                  "LeBlanc",
+                  "Jinx",
+                  "Thresh"
+                ],
+                "team": "flash-wolves",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 5_5",
+          "round": "Day 5",
+          "score1": 0,
+          "score2": 1,
+          "team1": "hanwha-life-esports",
+          "team2": "flash-wolves",
+          "winner": "flash-wolves"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-08T17:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 53,
+                "bans": [
+                  "Veigar",
+                  "Braum",
+                  "Lulu"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 3,
+                "gold": 63600,
+                "kills": 21,
+                "picks": [
+                  "Gangplank",
+                  "Elise",
+                  "Twisted Fate",
+                  "Draven",
+                  "Thresh"
+                ],
+                "team": "pain-gaming",
+                "towers": 8
+              },
+              "durationSec": 2016,
+              "id": "2015 Season World Championship_Day 5_6_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 24,
+                "bans": [
+                  "Mordekaiser",
+                  "Malphite",
+                  "Darius"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 1,
+                "gold": 52800,
+                "kills": 12,
+                "picks": [
+                  "Riven",
+                  "Lee Sin",
+                  "Morgana",
+                  "Vayne",
+                  "Bard"
+                ],
+                "team": "counter-logic-gaming",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 5_6",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "pain-gaming",
+          "team2": "counter-logic-gaming",
+          "winner": "pain-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-09T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 36,
+                "bans": [
+                  "Rek'Sai",
+                  "Annie",
+                  "Lulu"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 2,
+                "gold": 46000,
+                "kills": 16,
+                "picks": [
+                  "Darius",
+                  "Elise",
+                  "Ryze",
+                  "Tristana",
+                  "Morgana"
+                ],
+                "team": "t1",
+                "towers": 7
+              },
+              "durationSec": 1418,
+              "id": "2015 Season World Championship_Day 6_1_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 11,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Azir"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 0,
+                "gold": 32500,
+                "kills": 4,
+                "picks": [
+                  "Gnar",
+                  "Gragas",
+                  "Twisted Fate",
+                  "Kalista",
+                  "Thresh"
+                ],
+                "team": "edward-gaming",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 6_1",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "t1",
+          "team2": "edward-gaming",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-09T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 14,
+                "bans": [
+                  "Rek'Sai",
+                  "Thresh",
+                  "Tahm Kench"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 0,
+                "gold": 32700,
+                "kills": 4,
+                "picks": [
+                  "Lulu",
+                  "Gragas",
+                  "Yasuo",
+                  "Tristana",
+                  "Alistar"
+                ],
+                "team": "mega",
+                "towers": 1
+              },
+              "durationSec": 1525,
+              "id": "2015 Season World Championship_Day 6_2_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 56,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Elise"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 1,
+                "gold": 52100,
+                "kills": 21,
+                "picks": [
+                  "Darius",
+                  "Lee Sin",
+                  "Lissandra",
+                  "Kalista",
+                  "Annie"
+                ],
+                "team": "h2k-gaming",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 6_2",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "mega",
+          "team2": "h2k-gaming",
+          "winner": "h2k-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-09T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Kalista",
+                  "Twisted Fate",
+                  "Rek'Sai"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 1,
+                "gold": 58100,
+                "kills": 15,
+                "picks": [
+                  "Darius",
+                  "Rengar",
+                  "Lulu",
+                  "Jinx",
+                  "Thresh"
+                ],
+                "team": "mega",
+                "towers": 4
+              },
+              "durationSec": 2204,
+              "id": "2015 Season World Championship_Day 6_3_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 77,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Elise"
+                ],
+                "barons": 1,
+                "deaths": 15,
+                "dragons": 2,
+                "gold": 68600,
+                "kills": 22,
+                "picks": [
+                  "Ekko",
+                  "Gragas",
+                  "Yasuo",
+                  "Lucian",
+                  "Braum"
+                ],
+                "team": "edward-gaming",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 6_3",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "mega",
+          "team2": "edward-gaming",
+          "winner": "edward-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-09T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 19,
+                "bans": [
+                  "Azir",
+                  "Rek'Sai",
+                  "Elise"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 0,
+                "gold": 43200,
+                "kills": 8,
+                "picks": [
+                  "Renekton",
+                  "Gragas",
+                  "Twisted Fate",
+                  "Jinx",
+                  "Thresh"
+                ],
+                "team": "h2k-gaming",
+                "towers": 3
+              },
+              "durationSec": 1793,
+              "id": "2015 Season World Championship_Day 6_4_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 48,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Lulu"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 3,
+                "gold": 55700,
+                "kills": 19,
+                "picks": [
+                  "Darius",
+                  "Evelynn",
+                  "Karthus",
+                  "Kalista",
+                  "Alistar"
+                ],
+                "team": "t1",
+                "towers": 8
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 6_4",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "h2k-gaming",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-09T16:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 30,
+                "bans": [
+                  "Thresh",
+                  "Darius",
+                  "Twisted Fate"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 2,
+                "gold": 56000,
+                "kills": 11,
+                "picks": [
+                  "Malphite",
+                  "Gragas",
+                  "Lulu",
+                  "Jinx",
+                  "Tahm Kench"
+                ],
+                "team": "edward-gaming",
+                "towers": 9
+              },
+              "durationSec": 2017,
+              "id": "2015 Season World Championship_Day 6_5_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 2,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Rek'Sai"
+                ],
+                "barons": 0,
+                "deaths": 11,
+                "dragons": 2,
+                "gold": 47400,
+                "kills": 1,
+                "picks": [
+                  "Fiora",
+                  "Elise",
+                  "Orianna",
+                  "Kalista",
+                  "Annie"
+                ],
+                "team": "h2k-gaming",
+                "towers": 5
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 6_5",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "edward-gaming",
+          "team2": "h2k-gaming",
+          "winner": "edward-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-09T17:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Gragas",
+                  "Gangplank",
+                  "Yasuo"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 2,
+                "gold": 51400,
+                "kills": 16,
+                "picks": [
+                  "Fiora",
+                  "Elise",
+                  "Twisted Fate",
+                  "Sivir",
+                  "Thresh"
+                ],
+                "team": "t1",
+                "towers": 8
+              },
+              "durationSec": 1618,
+              "id": "2015 Season World Championship_Day 6_6_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 10,
+                "bans": [
+                  "Lulu",
+                  "Mordekaiser",
+                  "Kalista"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 0,
+                "gold": 37300,
+                "kills": 4,
+                "picks": [
+                  "Darius",
+                  "Rek'Sai",
+                  "Ryze",
+                  "Tristana",
+                  "Alistar"
+                ],
+                "team": "mega",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 6_6",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "t1",
+          "team2": "mega",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-10T10:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 13,
+                "bans": [
+                  "Kalista",
+                  "Tahm Kench",
+                  "Lulu"
+                ],
+                "barons": 0,
+                "deaths": 9,
+                "dragons": 3,
+                "gold": 78800,
+                "kills": 6,
+                "picks": [
+                  "Malphite",
+                  "Elise",
+                  "Syndra",
+                  "Jinx",
+                  "Morgana"
+                ],
+                "team": "tsm",
+                "towers": 5
+              },
+              "durationSec": 3327,
+              "id": "2015 Season World Championship_Day 7_1_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 24,
+                "bans": [
+                  "Twisted Fate",
+                  "Mordekaiser",
+                  "Gangplank"
+                ],
+                "barons": 2,
+                "deaths": 6,
+                "dragons": 5,
+                "gold": 90600,
+                "kills": 9,
+                "picks": [
+                  "Kennen",
+                  "Gragas",
+                  "Orianna",
+                  "Kog'Maw",
+                  "Thresh"
+                ],
+                "team": "astralis",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 7_1",
+          "round": "Day 7",
+          "score1": 0,
+          "score2": 1,
+          "team1": "tsm",
+          "team2": "astralis",
+          "winner": "astralis"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-10T11:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Kalista",
+                  "Lee Sin",
+                  "Rek'Sai"
+                ],
+                "barons": 1,
+                "deaths": 2,
+                "dragons": 4,
+                "gold": 70000,
+                "kills": 16,
+                "picks": [
+                  "Renekton",
+                  "Gragas",
+                  "Lulu",
+                  "Mordekaiser",
+                  "Thresh"
+                ],
+                "team": "kt-rolster",
+                "towers": 10
+              },
+              "durationSec": 2399,
+              "id": "2015 Season World Championship_Day 7_2_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 7,
+                "bans": [
+                  "Azir",
+                  "Gangplank",
+                  "Elise"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 1,
+                "gold": 52300,
+                "kills": 2,
+                "picks": [
+                  "Darius",
+                  "Evelynn",
+                  "Anivia",
+                  "Tristana",
+                  "Alistar"
+                ],
+                "team": "lgd-gaming",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 7_2",
+          "round": "Day 7",
+          "score1": 1,
+          "score2": 0,
+          "team1": "kt-rolster",
+          "team2": "lgd-gaming",
+          "winner": "kt-rolster"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-10T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 37,
+                "bans": [
+                  "Gragas",
+                  "LeBlanc",
+                  "Lulu"
+                ],
+                "barons": 1,
+                "deaths": 21,
+                "dragons": 3,
+                "gold": 71400,
+                "kills": 12,
+                "picks": [
+                  "Malphite",
+                  "Elise",
+                  "Veigar",
+                  "Kog'Maw",
+                  "Morgana"
+                ],
+                "team": "tsm",
+                "towers": 7
+              },
+              "durationSec": 2816,
+              "id": "2015 Season World Championship_Day 7_3_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 57,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Darius"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 2,
+                "gold": 82200,
+                "kills": 21,
+                "picks": [
+                  "Olaf",
+                  "Rek'Sai",
+                  "Azir",
+                  "Jinx",
+                  "Janna"
+                ],
+                "team": "kt-rolster",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 7_3",
+          "round": "Day 7",
+          "score1": 0,
+          "score2": 1,
+          "team1": "tsm",
+          "team2": "kt-rolster",
+          "winner": "kt-rolster"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-10T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 18,
+                "bans": [
+                  "Lee Sin",
+                  "Rek'Sai",
+                  "Lulu"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 0,
+                "gold": 56100,
+                "kills": 7,
+                "picks": [
+                  "Malphite",
+                  "Evelynn",
+                  "Orianna",
+                  "Kalista",
+                  "Kennen"
+                ],
+                "team": "astralis",
+                "towers": 3
+              },
+              "durationSec": 2381,
+              "id": "2015 Season World Championship_Day 7_4_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 50,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Elise"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 4,
+                "gold": 72700,
+                "kills": 22,
+                "picks": [
+                  "Olaf",
+                  "Gragas",
+                  "Diana",
+                  "Graves",
+                  "Janna"
+                ],
+                "team": "lgd-gaming",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 7_4",
+          "round": "Day 7",
+          "score1": 0,
+          "score2": 1,
+          "team1": "astralis",
+          "team2": "lgd-gaming",
+          "winner": "lgd-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-10T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Azir",
+                  "Lulu",
+                  "Olaf"
+                ],
+                "barons": 0,
+                "deaths": 24,
+                "dragons": 1,
+                "gold": 66500,
+                "kills": 17,
+                "picks": [
+                  "Kennen",
+                  "Elise",
+                  "Viktor",
+                  "Kog'Maw",
+                  "Thresh"
+                ],
+                "team": "astralis",
+                "towers": 3
+              },
+              "durationSec": 2420,
+              "id": "2015 Season World Championship_Day 7_5_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 46,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Kalista"
+                ],
+                "barons": 2,
+                "deaths": 17,
+                "dragons": 3,
+                "gold": 76300,
+                "kills": 24,
+                "picks": [
+                  "Darius",
+                  "Rek'Sai",
+                  "Diana",
+                  "Jinx",
+                  "Shen"
+                ],
+                "team": "kt-rolster",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 7_5",
+          "round": "Day 7",
+          "score1": 0,
+          "score2": 1,
+          "team1": "astralis",
+          "team2": "kt-rolster",
+          "winner": "kt-rolster"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-10T15:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 56,
+                "bans": [
+                  "Lulu",
+                  "Twisted Fate",
+                  "Azir"
+                ],
+                "barons": 2,
+                "deaths": 13,
+                "dragons": 2,
+                "gold": 70400,
+                "kills": 29,
+                "picks": [
+                  "Darius",
+                  "Elise",
+                  "LeBlanc",
+                  "Vayne",
+                  "Tahm Kench"
+                ],
+                "team": "lgd-gaming",
+                "towers": 11
+              },
+              "durationSec": 2210,
+              "id": "2015 Season World Championship_Day 7_6_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 37,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Lee Sin"
+                ],
+                "barons": 0,
+                "deaths": 29,
+                "dragons": 2,
+                "gold": 54800,
+                "kills": 13,
+                "picks": [
+                  "Gnar",
+                  "Gragas",
+                  "Lissandra",
+                  "Jinx",
+                  "Thresh"
+                ],
+                "team": "tsm",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 7_6",
+          "round": "Day 7",
+          "score1": 1,
+          "score2": 0,
+          "team1": "lgd-gaming",
+          "team2": "tsm",
+          "winner": "lgd-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-11T08:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 29,
+                "bans": [
+                  "Azir",
+                  "Viktor",
+                  "Yasuo"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 2,
+                "gold": 60700,
+                "kills": 14,
+                "picks": [
+                  "Darius",
+                  "Elise",
+                  "Fizz",
+                  "Kalista",
+                  "Thresh"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 11
+              },
+              "durationSec": 2082,
+              "id": "2015 Season World Championship_Day 8_1_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 17,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Tahm Kench"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 2,
+                "gold": 49000,
+                "kills": 6,
+                "picks": [
+                  "Olaf",
+                  "Hecarim",
+                  "Lulu",
+                  "Jinx",
+                  "Janna"
+                ],
+                "team": "invictus-gaming",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 8_1",
+          "round": "Day 8",
+          "score1": 1,
+          "score2": 0,
+          "team1": "ahq-esports-club",
+          "team2": "invictus-gaming",
+          "winner": "ahq-esports-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-11T09:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 42,
+                "bans": [
+                  "Veigar",
+                  "Tahm Kench",
+                  "Azir"
+                ],
+                "barons": 0,
+                "deaths": 8,
+                "dragons": 2,
+                "gold": 46900,
+                "kills": 26,
+                "picks": [
+                  "Gnar",
+                  "Elise",
+                  "Viktor",
+                  "Kennen",
+                  "Shen"
+                ],
+                "team": "fnatic",
+                "towers": 10
+              },
+              "durationSec": 1323,
+              "id": "2015 Season World Championship_Day 8_2_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 12,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Lulu"
+                ],
+                "barons": 0,
+                "deaths": 26,
+                "dragons": 0,
+                "gold": 33700,
+                "kills": 8,
+                "picks": [
+                  "Darius",
+                  "Lee Sin",
+                  "Orianna",
+                  "Jinx",
+                  "Morgana"
+                ],
+                "team": "cloud9",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 8_2",
+          "round": "Day 8",
+          "score1": 1,
+          "score2": 0,
+          "team1": "fnatic",
+          "team2": "cloud9",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-11T10:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 35,
+                "bans": [
+                  "Azir",
+                  "Veigar",
+                  "Tahm Kench"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 1,
+                "gold": 52800,
+                "kills": 17,
+                "picks": [
+                  "Gnar",
+                  "Elise",
+                  "Twisted Fate",
+                  "Jinx",
+                  "Thresh"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 9
+              },
+              "durationSec": 1696,
+              "id": "2015 Season World Championship_Day 8_3_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 7,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Fizz"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 1,
+                "gold": 38500,
+                "kills": 4,
+                "picks": [
+                  "Darius",
+                  "Lee Sin",
+                  "Lulu",
+                  "Tristana",
+                  "Braum"
+                ],
+                "team": "cloud9",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 8_3",
+          "round": "Day 8",
+          "score1": 1,
+          "score2": 0,
+          "team1": "ahq-esports-club",
+          "team2": "cloud9",
+          "winner": "ahq-esports-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-11T11:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 15,
+                "bans": [
+                  "Azir",
+                  "Tahm Kench",
+                  "Shen"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 0,
+                "gold": 35000,
+                "kills": 5,
+                "picks": [
+                  "Olaf",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Kalista",
+                  "Annie"
+                ],
+                "team": "invictus-gaming",
+                "towers": 0
+              },
+              "durationSec": 1525,
+              "id": "2015 Season World Championship_Day 8_4_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 27,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Elise"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 3,
+                "gold": 51900,
+                "kills": 15,
+                "picks": [
+                  "Riven",
+                  "Rek'Sai",
+                  "Viktor",
+                  "Kennen",
+                  "Braum"
+                ],
+                "team": "fnatic",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 8_4",
+          "round": "Day 8",
+          "score1": 0,
+          "score2": 1,
+          "team1": "invictus-gaming",
+          "team2": "fnatic",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-11T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 27,
+                "bans": [
+                  "Jinx",
+                  "Lee Sin",
+                  "Lulu"
+                ],
+                "barons": 0,
+                "deaths": 29,
+                "dragons": 1,
+                "gold": 71000,
+                "kills": 14,
+                "picks": [
+                  "Darius",
+                  "Elise",
+                  "Veigar",
+                  "Tristana",
+                  "Morgana"
+                ],
+                "team": "cloud9",
+                "towers": 8
+              },
+              "durationSec": 2806,
+              "id": "2015 Season World Championship_Day 8_5_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 72,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Azir"
+                ],
+                "barons": 2,
+                "deaths": 14,
+                "dragons": 5,
+                "gold": 87400,
+                "kills": 29,
+                "picks": [
+                  "Gnar",
+                  "Nidalee",
+                  "Lissandra",
+                  "Kalista",
+                  "Kennen"
+                ],
+                "team": "invictus-gaming",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 8_5",
+          "round": "Day 8",
+          "score1": 0,
+          "score2": 1,
+          "team1": "cloud9",
+          "team2": "invictus-gaming",
+          "winner": "invictus-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-11T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 52,
+                "bans": [
+                  "Fizz",
+                  "Rek'Sai",
+                  "Diana"
+                ],
+                "barons": 1,
+                "deaths": 23,
+                "dragons": 2,
+                "gold": 88500,
+                "kills": 24,
+                "picks": [
+                  "Ekko",
+                  "Elise",
+                  "LeBlanc",
+                  "Sivir",
+                  "Shen"
+                ],
+                "team": "fnatic",
+                "towers": 9
+              },
+              "durationSec": 2966,
+              "id": "2015 Season World Championship_Day 8_6_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 45,
+                "bans": [
+                  "Azir",
+                  "Gangplank",
+                  "Mordekaiser"
+                ],
+                "barons": 1,
+                "deaths": 24,
+                "dragons": 3,
+                "gold": 80700,
+                "kills": 23,
+                "picks": [
+                  "Kennen",
+                  "Gragas",
+                  "Zed",
+                  "Jinx",
+                  "Tahm Kench"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 9
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 8_6",
+          "round": "Day 8",
+          "score1": 1,
+          "score2": 0,
+          "team1": "fnatic",
+          "team2": "ahq-esports-club",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2015-10-11T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 18,
+                "bans": [
+                  "Tahm Kench",
+                  "Elise",
+                  "Fizz"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 1,
+                "gold": 50000,
+                "kills": 12,
+                "picks": [
+                  "Malphite",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Twitch",
+                  "Morgana"
+                ],
+                "team": "cloud9",
+                "towers": 3
+              },
+              "durationSec": 1989,
+              "id": "2015 Season World Championship_Day 8_7_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 43,
+                "bans": [
+                  "Azir",
+                  "Gangplank",
+                  "Mordekaiser"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 3,
+                "gold": 64300,
+                "kills": 19,
+                "picks": [
+                  "Darius",
+                  "Nidalee",
+                  "Twisted Fate",
+                  "Jinx",
+                  "Kennen"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Day 8_7",
+          "round": "Day 8",
+          "score1": 0,
+          "score2": 1,
+          "team1": "cloud9",
+          "team2": "ahq-esports-club",
+          "winner": "ahq-esports-club"
+        }
+      ],
+      "name": "Group Stage",
+      "order": 0,
+      "type": "groups"
+    },
+    {
+      "id": "knockout-stage",
+      "matches": [
+        {
+          "bestOf": 5,
+          "date": "2015-10-15T16:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Twisted Fate",
+                  "Kalista",
+                  "Elise"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 1,
+                "gold": 69500,
+                "kills": 13,
+                "picks": [
+                  "Gnar",
+                  "Rek'Sai",
+                  "LeBlanc",
+                  "Jinx",
+                  "Morgana"
+                ],
+                "team": "flash-wolves",
+                "towers": 6
+              },
+              "durationSec": 2682,
+              "id": "2015 Season World Championship_Quarterfinals_1_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 33,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Lulu"
+                ],
+                "barons": 2,
+                "deaths": 13,
+                "dragons": 4,
+                "gold": 74600,
+                "kills": 12,
+                "picks": [
+                  "Darius",
+                  "Gragas",
+                  "Anivia",
+                  "Sivir",
+                  "Alistar"
+                ],
+                "team": "astralis",
+                "towers": 10
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 32,
+                "bans": [
+                  "LeBlanc",
+                  "Darius",
+                  "Varus"
+                ],
+                "barons": 1,
+                "deaths": 13,
+                "dragons": 2,
+                "gold": 70000,
+                "kills": 16,
+                "picks": [
+                  "Lulu",
+                  "Rek'Sai",
+                  "Anivia",
+                  "Kalista",
+                  "Tahm Kench"
+                ],
+                "team": "astralis",
+                "towers": 9
+              },
+              "durationSec": 2405,
+              "id": "2015 Season World Championship_Quarterfinals_1_2",
+              "number": 2,
+              "patch": "5.18",
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Twisted Fate"
+                ],
+                "barons": 1,
+                "deaths": 16,
+                "dragons": 2,
+                "gold": 62600,
+                "kills": 13,
+                "picks": [
+                  "Malphite",
+                  "Elise",
+                  "Viktor",
+                  "Jinx",
+                  "Morgana"
+                ],
+                "team": "flash-wolves",
+                "towers": 5
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 23,
+                "bans": [
+                  "Twisted Fate",
+                  "Kalista",
+                  "Elise"
+                ],
+                "barons": 2,
+                "deaths": 4,
+                "dragons": 3,
+                "gold": 69500,
+                "kills": 12,
+                "picks": [
+                  "Gnar",
+                  "Rek'Sai",
+                  "Viktor",
+                  "Caitlyn",
+                  "Morgana"
+                ],
+                "team": "flash-wolves",
+                "towers": 11
+              },
+              "durationSec": 2449,
+              "id": "2015 Season World Championship_Quarterfinals_1_3",
+              "number": 3,
+              "patch": "5.18",
+              "red": {
+                "assists": 3,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Lulu"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 2,
+                "gold": 58500,
+                "kills": 4,
+                "picks": [
+                  "Darius",
+                  "Gragas",
+                  "Orianna",
+                  "Jinx",
+                  "Tahm Kench"
+                ],
+                "team": "astralis",
+                "towers": 4
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 44,
+                "bans": [
+                  "LeBlanc",
+                  "Darius",
+                  "Varus"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 3,
+                "gold": 71500,
+                "kills": 15,
+                "picks": [
+                  "Lulu",
+                  "Elise",
+                  "Anivia",
+                  "Jinx",
+                  "Morgana"
+                ],
+                "team": "astralis",
+                "towers": 11
+              },
+              "durationSec": 2432,
+              "id": "2015 Season World Championship_Quarterfinals_1_4",
+              "number": 4,
+              "patch": "5.18",
+              "red": {
+                "assists": 11,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Twisted Fate"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 1,
+                "gold": 56800,
+                "kills": 6,
+                "picks": [
+                  "Irelia",
+                  "Rek'Sai",
+                  "Viktor",
+                  "Caitlyn",
+                  "Thresh"
+                ],
+                "team": "flash-wolves",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Quarterfinals_1",
+          "round": "Quarterfinals",
+          "score1": 1,
+          "score2": 3,
+          "team1": "flash-wolves",
+          "team2": "astralis",
+          "winner": "astralis"
+        },
+        {
+          "bestOf": 5,
+          "date": "2015-10-16T16:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Jinx",
+                  "Fizz",
+                  "Mordekaiser"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 3,
+                "gold": 60300,
+                "kills": 11,
+                "picks": [
+                  "Fiora",
+                  "Elise",
+                  "Lulu",
+                  "Tristana",
+                  "Alistar"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "durationSec": 2054,
+              "id": "2015 Season World Championship_Quarterfinals_2_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Azir",
+                  "Gangplank",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 11,
+                "dragons": 1,
+                "gold": 48900,
+                "kills": 5,
+                "picks": [
+                  "Darius",
+                  "Rek'Sai",
+                  "Diana",
+                  "Kalista",
+                  "Thresh"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 9,
+                "bans": [
+                  "Azir",
+                  "Lulu",
+                  "Rek'Sai"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 1,
+                "gold": 36900,
+                "kills": 4,
+                "picks": [
+                  "Darius",
+                  "Elise",
+                  "Twisted Fate",
+                  "Tristana",
+                  "Thresh"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 2
+              },
+              "durationSec": 1647,
+              "id": "2015 Season World Championship_Quarterfinals_2_2",
+              "number": 2,
+              "patch": "5.18",
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Jinx"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 2,
+                "gold": 53000,
+                "kills": 20,
+                "picks": [
+                  "Renekton",
+                  "Gragas",
+                  "Ryze",
+                  "Kalista",
+                  "Tahm Kench"
+                ],
+                "team": "t1",
+                "towers": 10
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 40,
+                "bans": [
+                  "Jinx",
+                  "Diana",
+                  "Mordekaiser"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 1,
+                "gold": 72400,
+                "kills": 18,
+                "picks": [
+                  "Fiora",
+                  "Elise",
+                  "Kassadin",
+                  "Tristana",
+                  "Tahm Kench"
+                ],
+                "team": "t1",
+                "towers": 7
+              },
+              "durationSec": 2610,
+              "id": "2015 Season World Championship_Quarterfinals_2_3",
+              "number": 3,
+              "patch": "5.18",
+              "red": {
+                "assists": 16,
+                "bans": [
+                  "Azir",
+                  "Gangplank",
+                  "Lulu"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 4,
+                "gold": 66800,
+                "kills": 12,
+                "picks": [
+                  "Darius",
+                  "Rek'Sai",
+                  "Fizz",
+                  "Kalista",
+                  "Thresh"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Quarterfinals_2",
+          "round": "Quarterfinals",
+          "score1": 3,
+          "score2": 0,
+          "team1": "t1",
+          "team2": "ahq-esports-club",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 5,
+          "date": "2015-10-17T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 52,
+                "bans": [
+                  "Kalista",
+                  "Lulu",
+                  "Tahm Kench"
+                ],
+                "barons": 3,
+                "deaths": 16,
+                "dragons": 2,
+                "gold": 74600,
+                "kills": 21,
+                "picks": [
+                  "Jarvan IV",
+                  "Rek'Sai",
+                  "Viktor",
+                  "Kennen",
+                  "Alistar"
+                ],
+                "team": "fnatic",
+                "towers": 11
+              },
+              "durationSec": 2308,
+              "id": "2015 Season World Championship_Quarterfinals_3_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 36,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Elise"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 1,
+                "gold": 65700,
+                "kills": 16,
+                "picks": [
+                  "Fiora",
+                  "Gragas",
+                  "Twisted Fate",
+                  "Jayce",
+                  "Thresh"
+                ],
+                "team": "edward-gaming",
+                "towers": 6
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 9,
+                "bans": [
+                  "Kennen",
+                  "Elise",
+                  "Mordekaiser"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 0,
+                "gold": 43200,
+                "kills": 4,
+                "picks": [
+                  "Fiora",
+                  "Rek'Sai",
+                  "Veigar",
+                  "Caitlyn",
+                  "Morgana"
+                ],
+                "team": "edward-gaming",
+                "towers": 3
+              },
+              "durationSec": 1753,
+              "id": "2015 Season World Championship_Quarterfinals_3_2",
+              "number": 2,
+              "patch": "5.18",
+              "red": {
+                "assists": 25,
+                "bans": [
+                  "Lulu",
+                  "Kalista",
+                  "Gangplank"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 3,
+                "gold": 55800,
+                "kills": 13,
+                "picks": [
+                  "Riven",
+                  "Gragas",
+                  "LeBlanc",
+                  "Jinx",
+                  "Tahm Kench"
+                ],
+                "team": "fnatic",
+                "towers": 11
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 42,
+                "bans": [
+                  "Kalista",
+                  "Lulu",
+                  "Tahm Kench"
+                ],
+                "barons": 2,
+                "deaths": 10,
+                "dragons": 3,
+                "gold": 66000,
+                "kills": 15,
+                "picks": [
+                  "Riven",
+                  "Rek'Sai",
+                  "Azir",
+                  "Jinx",
+                  "Alistar"
+                ],
+                "team": "fnatic",
+                "towers": 9
+              },
+              "durationSec": 2106,
+              "id": "2015 Season World Championship_Quarterfinals_3_3",
+              "number": 3,
+              "patch": "5.18",
+              "red": {
+                "assists": 25,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Elise"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 1,
+                "gold": 52900,
+                "kills": 10,
+                "picks": [
+                  "Darius",
+                  "Gragas",
+                  "Kassadin",
+                  "Sivir",
+                  "Kennen"
+                ],
+                "team": "edward-gaming",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Quarterfinals_3",
+          "round": "Quarterfinals",
+          "score1": 3,
+          "score2": 0,
+          "team1": "fnatic",
+          "team2": "edward-gaming",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 5,
+          "date": "2015-10-18T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 27,
+                "bans": [
+                  "Kennen",
+                  "Elise",
+                  "Lee Sin"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 1,
+                "gold": 55500,
+                "kills": 11,
+                "picks": [
+                  "Darius",
+                  "Gragas",
+                  "LeBlanc",
+                  "Kalista",
+                  "Thresh"
+                ],
+                "team": "kt-rolster",
+                "towers": 7
+              },
+              "durationSec": 2069,
+              "id": "2015 Season World Championship_Quarterfinals_4_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 20,
+                "bans": [
+                  "Gangplank",
+                  "Lulu",
+                  "Mordekaiser"
+                ],
+                "barons": 0,
+                "deaths": 11,
+                "dragons": 2,
+                "gold": 48700,
+                "kills": 7,
+                "picks": [
+                  "Fiora",
+                  "Rek'Sai",
+                  "Veigar",
+                  "Ashe",
+                  "Tahm Kench"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 39,
+                "bans": [
+                  "Azir",
+                  "Lulu",
+                  "Mordekaiser"
+                ],
+                "barons": 2,
+                "deaths": 6,
+                "dragons": 1,
+                "gold": 73100,
+                "kills": 17,
+                "picks": [
+                  "Fiora",
+                  "Elise",
+                  "Veigar",
+                  "Caitlyn",
+                  "Shen"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 11
+              },
+              "durationSec": 2456,
+              "id": "2015 Season World Championship_Quarterfinals_4_2",
+              "number": 2,
+              "patch": "5.18",
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Tahm Kench",
+                  "Darius",
+                  "Gangplank"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 3,
+                "gold": 63300,
+                "kills": 6,
+                "picks": [
+                  "Renekton",
+                  "Gragas",
+                  "LeBlanc",
+                  "Jinx",
+                  "Braum"
+                ],
+                "team": "kt-rolster",
+                "towers": 4
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 20,
+                "bans": [
+                  "Veigar",
+                  "Kennen",
+                  "Tahm Kench"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 0,
+                "gold": 49600,
+                "kills": 6,
+                "picks": [
+                  "Malphite",
+                  "Rek'Sai",
+                  "Lulu",
+                  "Kalista",
+                  "Alistar"
+                ],
+                "team": "kt-rolster",
+                "towers": 3
+              },
+              "durationSec": 1996,
+              "id": "2015 Season World Championship_Quarterfinals_4_3",
+              "number": 3,
+              "patch": "5.18",
+              "red": {
+                "assists": 37,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Darius"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 3,
+                "gold": 60600,
+                "kills": 14,
+                "picks": [
+                  "Fiora",
+                  "Elise",
+                  "Viktor",
+                  "Ashe",
+                  "Shen"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Azir",
+                  "Lulu",
+                  "Mordekaiser"
+                ],
+                "barons": 2,
+                "deaths": 10,
+                "dragons": 3,
+                "gold": 68200,
+                "kills": 13,
+                "picks": [
+                  "Fiora",
+                  "Elise",
+                  "Viktor",
+                  "Caitlyn",
+                  "Alistar"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 11
+              },
+              "durationSec": 2377,
+              "id": "2015 Season World Championship_Quarterfinals_4_4",
+              "number": 4,
+              "patch": "5.18",
+              "red": {
+                "assists": 21,
+                "bans": [
+                  "Tahm Kench",
+                  "Veigar",
+                  "Gangplank"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 0,
+                "gold": 60400,
+                "kills": 10,
+                "picks": [
+                  "Darius",
+                  "Gragas",
+                  "Cassiopeia",
+                  "Jinx",
+                  "Shen"
+                ],
+                "team": "kt-rolster",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Quarterfinals_4",
+          "round": "Quarterfinals",
+          "score1": 1,
+          "score2": 3,
+          "team1": "kt-rolster",
+          "team2": "hanwha-life-esports",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 5,
+          "date": "2015-10-24T14:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 35,
+                "bans": [
+                  "Tahm Kench",
+                  "Gangplank",
+                  "Mordekaiser"
+                ],
+                "barons": 2,
+                "deaths": 12,
+                "dragons": 4,
+                "gold": 78400,
+                "kills": 18,
+                "picks": [
+                  "Fiora",
+                  "Jarvan IV",
+                  "Azir",
+                  "Kalista",
+                  "Shen"
+                ],
+                "team": "t1",
+                "towers": 11
+              },
+              "durationSec": 2609,
+              "id": "2015 Season World Championship_Semifinals_1_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 27,
+                "bans": [
+                  "Elise",
+                  "Rek'Sai",
+                  "Lulu"
+                ],
+                "barons": 1,
+                "deaths": 18,
+                "dragons": 1,
+                "gold": 69800,
+                "kills": 12,
+                "picks": [
+                  "Kennen",
+                  "Evelynn",
+                  "Viktor",
+                  "Tristana",
+                  "Alistar"
+                ],
+                "team": "astralis",
+                "towers": 7
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 6,
+                "bans": [
+                  "Azir",
+                  "Lulu",
+                  "Kalista"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 0,
+                "gold": 53000,
+                "kills": 3,
+                "picks": [
+                  "Fiora",
+                  "Rek'Sai",
+                  "Anivia",
+                  "Tristana",
+                  "Morgana"
+                ],
+                "team": "astralis",
+                "towers": 3
+              },
+              "durationSec": 2192,
+              "id": "2015 Season World Championship_Semifinals_1_2",
+              "number": 2,
+              "patch": "5.18",
+              "red": {
+                "assists": 31,
+                "bans": [
+                  "Mordekaiser",
+                  "Gangplank",
+                  "Elise"
+                ],
+                "barons": 2,
+                "deaths": 3,
+                "dragons": 5,
+                "gold": 68000,
+                "kills": 16,
+                "picks": [
+                  "Renekton",
+                  "Jarvan IV",
+                  "Orianna",
+                  "Sivir",
+                  "Tahm Kench"
+                ],
+                "team": "t1",
+                "towers": 10
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 33,
+                "bans": [
+                  "Kalista",
+                  "Kennen",
+                  "Mordekaiser"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 1,
+                "gold": 50400,
+                "kills": 20,
+                "picks": [
+                  "Rumble",
+                  "Rek'Sai",
+                  "Ryze",
+                  "Tristana",
+                  "Shen"
+                ],
+                "team": "t1",
+                "towers": 8
+              },
+              "durationSec": 1558,
+              "id": "2015 Season World Championship_Semifinals_1_3",
+              "number": 3,
+              "patch": "5.18",
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Elise",
+                  "Tahm Kench",
+                  "Gangplank"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 0,
+                "gold": 37600,
+                "kills": 8,
+                "picks": [
+                  "Gnar",
+                  "Lee Sin",
+                  "Lulu",
+                  "Sivir",
+                  "Alistar"
+                ],
+                "team": "astralis",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2015 Season World Championship_Semifinals_1",
+          "round": "Semifinals",
+          "score1": 0,
+          "score2": 3,
+          "team1": "astralis",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 5,
+          "date": "2015-10-25T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 46,
+                "bans": [
+                  "Tahm Kench",
+                  "Shen",
+                  "Lulu"
+                ],
+                "barons": 1,
+                "deaths": 25,
+                "dragons": 1,
+                "gold": 73800,
+                "kills": 18,
+                "picks": [
+                  "Hecarim",
+                  "Rek'Sai",
+                  "LeBlanc",
+                  "Kennen",
+                  "Nautilus"
+                ],
+                "team": "fnatic",
+                "towers": 4
+              },
+              "durationSec": 2604,
+              "id": "2015 Season World Championship_Semifinals_2_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 79,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Elise"
+                ],
+                "barons": 1,
+                "deaths": 18,
+                "dragons": 4,
+                "gold": 75600,
+                "kills": 25,
+                "picks": [
+                  "Riven",
+                  "Zac",
+                  "Kassadin",
+                  "Kalista",
+                  "Alistar"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 61,
+                "bans": [
+                  "LeBlanc",
+                  "Lulu",
+                  "Rek'Sai"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 2,
+                "gold": 78500,
+                "kills": 23,
+                "picks": [
+                  "Fiora",
+                  "Zac",
+                  "Veigar",
+                  "Kalista",
+                  "Tahm Kench"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 11
+              },
+              "durationSec": 2709,
+              "id": "2015 Season World Championship_Semifinals_2_2",
+              "number": 2,
+              "patch": "5.18",
+              "red": {
+                "assists": 21,
+                "bans": [
+                  "Elise",
+                  "Gangplank",
+                  "Mordekaiser"
+                ],
+                "barons": 1,
+                "deaths": 23,
+                "dragons": 2,
+                "gold": 75800,
+                "kills": 8,
+                "picks": [
+                  "Riven",
+                  "Skarner",
+                  "Azir",
+                  "Ashe",
+                  "Alistar"
+                ],
+                "team": "fnatic",
+                "towers": 4
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 21,
+                "bans": [
+                  "Tahm Kench",
+                  "Shen",
+                  "Veigar"
+                ],
+                "barons": 0,
+                "deaths": 24,
+                "dragons": 0,
+                "gold": 45600,
+                "kills": 7,
+                "picks": [
+                  "Riven",
+                  "Rek'Sai",
+                  "Orianna",
+                  "Sivir",
+                  "Thresh"
+                ],
+                "team": "fnatic",
+                "towers": 2
+              },
+              "durationSec": 1835,
+              "id": "2015 Season World Championship_Semifinals_2_3",
+              "number": 3,
+              "patch": "5.18",
+              "red": {
+                "assists": 60,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Elise"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 2,
+                "gold": 58800,
+                "kills": 24,
+                "picks": [
+                  "Hecarim",
+                  "Lee Sin",
+                  "Lulu",
+                  "Ashe",
+                  "Alistar"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Semifinals_2",
+          "round": "Semifinals",
+          "score1": 0,
+          "score2": 3,
+          "team1": "fnatic",
+          "team2": "hanwha-life-esports",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 5,
+          "date": "2015-10-31T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 65,
+                "bans": [
+                  "Tahm Kench",
+                  "Kalista",
+                  "Mordekaiser"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 4,
+                "gold": 77100,
+                "kills": 20,
+                "picks": [
+                  "Rumble",
+                  "Rek'Sai",
+                  "Kassadin",
+                  "Sivir",
+                  "Shen"
+                ],
+                "team": "t1",
+                "towers": 10
+              },
+              "durationSec": 2561,
+              "id": "2015 Season World Championship_Finals_1_1",
+              "number": 1,
+              "patch": "5.18",
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Renekton",
+                  "Elise",
+                  "Gangplank"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 1,
+                "gold": 60900,
+                "kills": 5,
+                "picks": [
+                  "Riven",
+                  "Lee Sin",
+                  "Lulu",
+                  "Jinx",
+                  "Alistar"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 23,
+                "bans": [
+                  "Renekton",
+                  "Kalista",
+                  "Tahm Kench"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 0,
+                "gold": 59600,
+                "kills": 13,
+                "picks": [
+                  "Fiora",
+                  "Rek'Sai",
+                  "Viktor",
+                  "Kennen",
+                  "Shen"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 5
+              },
+              "durationSec": 2295,
+              "id": "2015 Season World Championship_Finals_1_2",
+              "number": 2,
+              "patch": "5.18",
+              "red": {
+                "assists": 52,
+                "bans": [
+                  "Gangplank",
+                  "Mordekaiser",
+                  "Elise"
+                ],
+                "barons": 1,
+                "deaths": 13,
+                "dragons": 3,
+                "gold": 66400,
+                "kills": 22,
+                "picks": [
+                  "Rumble",
+                  "Jarvan IV",
+                  "Lulu",
+                  "Tristana",
+                  "Alistar"
+                ],
+                "team": "t1",
+                "towers": 8
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 30,
+                "bans": [
+                  "Tahm Kench",
+                  "Kalista",
+                  "Mordekaiser"
+                ],
+                "barons": 0,
+                "deaths": 29,
+                "dragons": 0,
+                "gold": 57900,
+                "kills": 13,
+                "picks": [
+                  "Rumble",
+                  "Rek'Sai",
+                  "Lulu",
+                  "Sivir",
+                  "Alistar"
+                ],
+                "team": "t1",
+                "towers": 5
+              },
+              "durationSec": 2270,
+              "id": "2015 Season World Championship_Finals_1_3",
+              "number": 3,
+              "patch": "5.18",
+              "red": {
+                "assists": 68,
+                "bans": [
+                  "Renekton",
+                  "Elise",
+                  "Gangplank"
+                ],
+                "barons": 1,
+                "deaths": 13,
+                "dragons": 4,
+                "gold": 70800,
+                "kills": 29,
+                "picks": [
+                  "Fiora",
+                  "Lee Sin",
+                  "Kassadin",
+                  "Ashe",
+                  "Thresh"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 2,
+                "bans": [
+                  "Renekton",
+                  "Rumble",
+                  "Kalista"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 0,
+                "gold": 46200,
+                "kills": 1,
+                "picks": [
+                  "Lulu",
+                  "Rek'Sai",
+                  "Kassadin",
+                  "Ashe",
+                  "Tahm Kench"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 1
+              },
+              "durationSec": 2074,
+              "id": "2015 Season World Championship_Finals_1_4",
+              "number": 4,
+              "patch": "5.18",
+              "red": {
+                "assists": 33,
+                "bans": [
+                  "Fiora",
+                  "Gangplank",
+                  "Mordekaiser"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 4,
+                "gold": 61500,
+                "kills": 13,
+                "picks": [
+                  "Gnar",
+                  "Elise",
+                  "Ryze",
+                  "Sivir",
+                  "Alistar"
+                ],
+                "team": "t1",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2015 Season World Championship_Finals_1",
+          "round": "Finals",
+          "score1": 3,
+          "score2": 1,
+          "team1": "t1",
+          "team2": "hanwha-life-esports",
+          "winner": "t1"
+        }
+      ],
+      "name": "Knockout Stage",
+      "order": 1,
+      "type": "single-elimination"
+    }
+  ],
+  "startDate": "2015-10-01",
+  "status": "completed",
+  "year": 2015
+}

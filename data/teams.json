@@ -1,0 +1,1139 @@
+{
+  "teams": [
+    {
+      "aliases": [
+        "100 Thieves"
+      ],
+      "id": "100-thieves",
+      "name": "100 Thieves",
+      "region": "Americas",
+      "short": "100T"
+    },
+    {
+      "aliases": [
+        "against All authority"
+      ],
+      "id": "against-all-authority",
+      "name": "against All authority",
+      "region": "Europe",
+      "short": "aAa"
+    },
+    {
+      "aliases": [
+        "Corsair",
+        "ahq eSports Club"
+      ],
+      "id": "ahq-esports-club",
+      "name": "ahq eSports Club",
+      "region": "Asia Pacific",
+      "short": "ahq"
+    },
+    {
+      "aliases": [
+        "Albus NoX Luna",
+        "Hard Random"
+      ],
+      "id": "albus-nox-luna",
+      "name": "Albus NoX Luna",
+      "region": "CIS",
+      "short": "ANX"
+    },
+    {
+      "aliases": [
+        "Anyone's Legend",
+        "Rogue Warriors"
+      ],
+      "id": "anyone-s-legend",
+      "name": "Anyone's Legend",
+      "region": "China",
+      "short": "AL"
+    },
+    {
+      "aliases": [
+        "Ascension Gaming"
+      ],
+      "id": "ascension-gaming",
+      "name": "Ascension Gaming",
+      "region": "SEA",
+      "short": "ASC"
+    },
+    {
+      "aliases": [
+        "Astralis",
+        "Origen"
+      ],
+      "id": "astralis",
+      "name": "Astralis",
+      "region": "EMEA",
+      "short": "AST"
+    },
+    {
+      "aliases": [
+        "Azubu Frost",
+        "MiG Frost"
+      ],
+      "id": "azubu-frost",
+      "name": "Azubu Frost",
+      "region": "Korea",
+      "short": "AZF"
+    },
+    {
+      "aliases": [
+        "BBL Dark Passage",
+        "Dark Passage"
+      ],
+      "id": "bbl-dark-passage",
+      "name": "BBL Dark Passage",
+      "region": "EMEA",
+      "short": "BLDP"
+    },
+    {
+      "aliases": [
+        "Beyond Gaming"
+      ],
+      "id": "beyond-gaming",
+      "name": "Beyond Gaming",
+      "region": "Asia Pacific",
+      "short": "BYG"
+    },
+    {
+      "aliases": [
+        "Bilibili Gaming"
+      ],
+      "id": "bilibili-gaming",
+      "name": "Bilibili Gaming",
+      "region": "China",
+      "short": "BLG"
+    },
+    {
+      "aliases": [
+        "Chiefs Esports Club",
+        "Exodus Gaming"
+      ],
+      "id": "chiefs-esports-club",
+      "name": "Chiefs Esports Club",
+      "region": "Asia Pacific",
+      "short": "CHF"
+    },
+    {
+      "aliases": [
+        "Cloud9",
+        "Team NomNom"
+      ],
+      "id": "cloud9",
+      "name": "Cloud9",
+      "region": "North America",
+      "short": "C9"
+    },
+    {
+      "aliases": [
+        "CLG Prime",
+        "Counter Logic Gaming"
+      ],
+      "id": "counter-logic-gaming",
+      "name": "Counter Logic Gaming",
+      "region": "North America",
+      "short": "CLG"
+    },
+    {
+      "aliases": [
+        "Counter Logic Gaming Europe"
+      ],
+      "id": "counter-logic-gaming-europe",
+      "name": "Counter Logic Gaming Europe",
+      "region": "Europe",
+      "short": "CLG.EU"
+    },
+    {
+      "aliases": [
+        "CTBC Flying Oyster"
+      ],
+      "id": "ctbc-flying-oyster",
+      "name": "CTBC Flying Oyster",
+      "region": "Asia Pacific",
+      "short": "CFO"
+    },
+    {
+      "aliases": [
+        "DetonatioN FocusMe"
+      ],
+      "id": "detonation-focusme",
+      "name": "DetonatioN FocusMe",
+      "region": "Asia Pacific",
+      "short": "DFM"
+    },
+    {
+      "aliases": [
+        "Clutch Gaming",
+        "Dignitas"
+      ],
+      "id": "dignitas",
+      "name": "Dignitas",
+      "region": "North America",
+      "short": "DIG"
+    },
+    {
+      "aliases": [
+        "Dire Wolves"
+      ],
+      "id": "dire-wolves",
+      "name": "Dire Wolves",
+      "region": "Asia Pacific",
+      "short": "DW"
+    },
+    {
+      "aliases": [
+        "Afreeca Freecs",
+        "Anarchy",
+        "DN Freecs",
+        "DN SOOPers",
+        "Kwangdong Freecs",
+        "Rebels Anarchy"
+      ],
+      "id": "dn-soopers",
+      "name": "DN SOOPers",
+      "region": "Korea",
+      "short": "DNS"
+    },
+    {
+      "aliases": [
+        "DAMWON Gaming",
+        "DWG KIA",
+        "Dplus Kia",
+        "MiraGe Gaming"
+      ],
+      "id": "dplus-kia",
+      "name": "Dplus Kia",
+      "region": "Korea",
+      "short": "DK"
+    },
+    {
+      "aliases": [
+        "EDward Gaming"
+      ],
+      "id": "edward-gaming",
+      "name": "EDward Gaming",
+      "region": "China",
+      "short": "EDG"
+    },
+    {
+      "aliases": [
+        "Alliance",
+        "Elements"
+      ],
+      "id": "elements",
+      "name": "Elements",
+      "region": "Europe",
+      "short": "EL"
+    },
+    {
+      "aliases": [
+        "Epik Gamer",
+        "HawkshotGG"
+      ],
+      "id": "epik-gamer",
+      "name": "Epik Gamer"
+    },
+    {
+      "aliases": [
+        "Fenerbahçe Esports"
+      ],
+      "id": "fenerbahce-esports",
+      "name": "Fenerbahçe Esports",
+      "region": "Turkey",
+      "short": "FB"
+    },
+    {
+      "aliases": [
+        "Flash Wolves",
+        "yoe Flash Wolves",
+        "yoe IRONMEN"
+      ],
+      "id": "flash-wolves",
+      "name": "Flash Wolves",
+      "region": "LMS",
+      "short": "FW"
+    },
+    {
+      "aliases": [
+        "FlyQuest"
+      ],
+      "id": "flyquest",
+      "name": "FlyQuest",
+      "region": "North America",
+      "short": "FLY"
+    },
+    {
+      "aliases": [
+        "Fnatic"
+      ],
+      "id": "fnatic",
+      "name": "Fnatic",
+      "region": "EMEA",
+      "short": "FNC"
+    },
+    {
+      "aliases": [
+        "Fukuoka SoftBank HAWKS gaming"
+      ],
+      "id": "fukuoka-softbank-hawks-gaming",
+      "name": "Fukuoka SoftBank HAWKS gaming",
+      "region": "Asia Pacific",
+      "short": "SHG"
+    },
+    {
+      "aliases": [
+        "FunPlus Phoenix"
+      ],
+      "id": "funplus-phoenix",
+      "name": "FunPlus Phoenix",
+      "region": "China",
+      "short": "FPX"
+    },
+    {
+      "aliases": [
+        "FURIA",
+        "FURIA Uppercut"
+      ],
+      "id": "furia",
+      "name": "FURIA",
+      "region": "Brazil",
+      "short": "FUR"
+    },
+    {
+      "aliases": [
+        "G-Rex"
+      ],
+      "id": "g-rex",
+      "name": "G-Rex",
+      "region": "Asia Pacific",
+      "short": "GRX"
+    },
+    {
+      "aliases": [
+        "G2 Esports",
+        "Gamers2"
+      ],
+      "id": "g2-esports",
+      "name": "G2 Esports",
+      "region": "EMEA",
+      "short": "G2"
+    },
+    {
+      "aliases": [
+        "Galatasaray Esports"
+      ],
+      "id": "galatasaray-esports",
+      "name": "Galatasaray Esports",
+      "region": "Turkey",
+      "short": "GS"
+    },
+    {
+      "aliases": [
+        "Boba Marines",
+        "GAM Esports",
+        "GIGABYTE Marines",
+        "Team Miracle"
+      ],
+      "id": "gam-esports",
+      "name": "GAM Esports",
+      "region": "Asia Pacific",
+      "short": "GAM"
+    },
+    {
+      "aliases": [
+        "Gambit Esports"
+      ],
+      "id": "gambit-esports",
+      "name": "Gambit Esports",
+      "region": "CIS",
+      "short": "GMB"
+    },
+    {
+      "aliases": [
+        "Gambit Gaming"
+      ],
+      "id": "gambit-gaming",
+      "name": "Gambit Gaming",
+      "region": "Europe",
+      "short": "GMB"
+    },
+    {
+      "aliases": [
+        "GamingGear.eu"
+      ],
+      "id": "gaminggear-eu",
+      "name": "GamingGear.eu"
+    },
+    {
+      "aliases": [
+        "Gamania Bears",
+        "GashBears"
+      ],
+      "id": "gashbears",
+      "name": "GashBears",
+      "region": "LMS",
+      "short": "GB"
+    },
+    {
+      "aliases": [
+        "Gen.G",
+        "KSV eSports"
+      ],
+      "id": "gen-g",
+      "name": "Gen.G",
+      "region": "Korea",
+      "short": "GEN"
+    },
+    {
+      "aliases": [
+        "Griffin (Korean Team)",
+        "NOT BAD"
+      ],
+      "id": "griffin-korean-team",
+      "name": "Griffin (Korean Team)"
+    },
+    {
+      "aliases": [
+        "H2k-Gaming"
+      ],
+      "id": "h2k-gaming",
+      "name": "H2k-Gaming",
+      "region": "Europe",
+      "short": "H2K"
+    },
+    {
+      "aliases": [
+        "GE Tigers",
+        "HUYA Tigers",
+        "Hanwha Life Esports",
+        "KOO Tigers",
+        "ROX Tigers",
+        "Tigers"
+      ],
+      "id": "hanwha-life-esports",
+      "name": "Hanwha Life Esports",
+      "region": "Korea",
+      "short": "HLE"
+    },
+    {
+      "aliases": [
+        "Hong Kong Attitude",
+        "Hong Kong Esports"
+      ],
+      "id": "hong-kong-attitude",
+      "name": "Hong Kong Attitude",
+      "region": "Asia Pacific",
+      "short": "HKA"
+    },
+    {
+      "aliases": [
+        "I May"
+      ],
+      "id": "i-may",
+      "name": "I May",
+      "region": "China",
+      "short": "IM"
+    },
+    {
+      "aliases": [
+        "Immortals",
+        "OpTic Gaming"
+      ],
+      "id": "immortals",
+      "name": "Immortals",
+      "region": "North America",
+      "short": "IMT"
+    },
+    {
+      "aliases": [
+        "INFINITY"
+      ],
+      "id": "infinity",
+      "name": "INFINITY",
+      "region": "Americas",
+      "short": "INF"
+    },
+    {
+      "aliases": [
+        "INTZ",
+        "Stellae Gaming"
+      ],
+      "id": "intz",
+      "name": "INTZ",
+      "region": "Brazil",
+      "short": "INTZ"
+    },
+    {
+      "aliases": [
+        "Invictus Gaming"
+      ],
+      "id": "invictus-gaming",
+      "name": "Invictus Gaming",
+      "region": "China",
+      "short": "iG"
+    },
+    {
+      "aliases": [
+        "HWA Gaming",
+        "Istanbul Wildcats"
+      ],
+      "id": "istanbul-wildcats",
+      "name": "Istanbul Wildcats",
+      "region": "Turkey",
+      "short": "HWA"
+    },
+    {
+      "aliases": [
+        "Isurus",
+        "Isurus Estral"
+      ],
+      "id": "isurus",
+      "name": "Isurus",
+      "region": "Brazil",
+      "short": "ISG"
+    },
+    {
+      "aliases": [
+        "J Team"
+      ],
+      "id": "j-team",
+      "name": "J Team",
+      "region": "Asia Pacific",
+      "short": "JT"
+    },
+    {
+      "aliases": [
+        "JD Gaming"
+      ],
+      "id": "jd-gaming",
+      "name": "JD Gaming",
+      "region": "China",
+      "short": "JDG"
+    },
+    {
+      "aliases": [
+        "KaBuM! Esports",
+        "KaBuM! Ilha das Lendas",
+        "KaBuM! Orange"
+      ],
+      "id": "kabum-ilha-das-lendas",
+      "name": "KaBuM! Ilha das Lendas",
+      "region": "Brazil",
+      "short": "KBM"
+    },
+    {
+      "aliases": [
+        "Kaos Latin Gamers"
+      ],
+      "id": "kaos-latin-gamers",
+      "name": "Kaos Latin Gamers",
+      "region": "Latin America",
+      "short": "KLG"
+    },
+    {
+      "aliases": [
+        "Kameto Corp",
+        "Karmine Corp"
+      ],
+      "id": "karmine-corp",
+      "name": "Karmine Corp",
+      "region": "EMEA",
+      "short": "KC"
+    },
+    {
+      "aliases": [
+        "DRX",
+        "DragonX",
+        "Incredible Miracle",
+        "Kingzone DragonX",
+        "Kiwoom DRX",
+        "Longzhu Gaming"
+      ],
+      "id": "kiwoom-drx",
+      "name": "Kiwoom DRX",
+      "region": "Korea",
+      "short": "KRX"
+    },
+    {
+      "aliases": [
+        "KOI (Spanish Team)",
+        "Rogue (European Team)"
+      ],
+      "id": "koi-spanish-team",
+      "name": "KOI (Spanish Team)"
+    },
+    {
+      "aliases": [
+        "KT Rolster"
+      ],
+      "id": "kt-rolster",
+      "name": "KT Rolster",
+      "region": "Korea",
+      "short": "KT"
+    },
+    {
+      "aliases": [
+        "Flamengo Esports",
+        "Flamengo Los Grandes",
+        "Los Grandes",
+        "LØS"
+      ],
+      "id": "l-s",
+      "name": "LØS",
+      "region": "Brazil",
+      "short": "LOS"
+    },
+    {
+      "aliases": [
+        "Legacy Esports"
+      ],
+      "id": "legacy-esports",
+      "name": "Legacy Esports",
+      "region": "Oceania",
+      "short": "LGC"
+    },
+    {
+      "aliases": [
+        "Lemondogs"
+      ],
+      "id": "lemondogs",
+      "name": "Lemondogs",
+      "region": "Europe",
+      "short": "LD"
+    },
+    {
+      "aliases": [
+        "LGD Gaming"
+      ],
+      "id": "lgd-gaming",
+      "name": "LGD Gaming",
+      "region": "China",
+      "short": "LGD"
+    },
+    {
+      "aliases": [
+        "LNG Esports",
+        "Snake Esports"
+      ],
+      "id": "lng-esports",
+      "name": "LNG Esports",
+      "region": "China",
+      "short": "LNG"
+    },
+    {
+      "aliases": [
+        "LOUD"
+      ],
+      "id": "loud",
+      "name": "LOUD",
+      "region": "Brazil",
+      "short": "LOUD"
+    },
+    {
+      "aliases": [
+        "Lowkey Esports.Vietnam"
+      ],
+      "id": "lowkey-esports-vietnam",
+      "name": "Lowkey Esports.Vietnam",
+      "region": "Vietnam",
+      "short": "LK"
+    },
+    {
+      "aliases": [
+        "LYON (2024 American Team)"
+      ],
+      "id": "lyon-2024-american-team",
+      "name": "LYON (2024 American Team)"
+    },
+    {
+      "aliases": [
+        "Lyon Gaming (2013 Latin American Team)"
+      ],
+      "id": "lyon-gaming-2013-latin-american-team",
+      "name": "Lyon Gaming (2013 Latin American Team)"
+    },
+    {
+      "aliases": [
+        "Machi Esports"
+      ],
+      "id": "machi-esports",
+      "name": "Machi Esports",
+      "region": "Asia Pacific",
+      "short": "MCX"
+    },
+    {
+      "aliases": [
+        "MAD Team"
+      ],
+      "id": "mad-team",
+      "name": "MAD Team",
+      "region": "LMS",
+      "short": "MAD"
+    },
+    {
+      "aliases": [
+        "MAMMOTH"
+      ],
+      "id": "mammoth",
+      "name": "MAMMOTH",
+      "region": "Asia Pacific",
+      "short": "MEC"
+    },
+    {
+      "aliases": [
+        "Bangkok Titans",
+        "MEGA"
+      ],
+      "id": "mega",
+      "name": "MEGA",
+      "region": "SEA",
+      "short": "MG"
+    },
+    {
+      "aliases": [
+        "Mineski"
+      ],
+      "id": "mineski",
+      "name": "Mineski",
+      "region": "SEA",
+      "short": "MSK"
+    },
+    {
+      "aliases": [
+        "Misfits Gaming",
+        "Renegades: Banditos"
+      ],
+      "id": "misfits-gaming",
+      "name": "Misfits Gaming",
+      "region": "Europe",
+      "short": "MSF"
+    },
+    {
+      "aliases": [
+        "Moscow Five"
+      ],
+      "id": "moscow-five",
+      "name": "Moscow Five"
+    },
+    {
+      "aliases": [
+        "Follow eSports",
+        "MAD Lions",
+        "MAD Lions KOI",
+        "Movistar KOI",
+        "Movistar Riders",
+        "Splyce"
+      ],
+      "id": "movistar-koi",
+      "name": "Movistar KOI",
+      "region": "EMEA",
+      "short": "MKOI"
+    },
+    {
+      "aliases": [
+        "Movistar R7",
+        "Rainbow7"
+      ],
+      "id": "movistar-r7",
+      "name": "Movistar R7",
+      "region": "Latin America",
+      "short": "R7"
+    },
+    {
+      "aliases": [
+        "CNJ Esports",
+        "Dashing Buffalo",
+        "MGN Vikings Esports",
+        "MVK Esports",
+        "Phong Vũ Buffalo",
+        "Saigon Buffalo",
+        "Vikings Esports (2023 Vietnamese Team)",
+        "Young Generation"
+      ],
+      "id": "mvk-esports",
+      "name": "MVK Esports",
+      "region": "Asia Pacific",
+      "short": "MVK"
+    },
+    {
+      "aliases": [
+        "NaJin Black Sword",
+        "NaJin Sword"
+      ],
+      "id": "najin-black-sword",
+      "name": "NaJin Black Sword",
+      "region": "Korea",
+      "short": "NJBS"
+    },
+    {
+      "aliases": [
+        "NaJin Shield",
+        "NaJin White Shield"
+      ],
+      "id": "najin-white-shield",
+      "name": "NaJin White Shield",
+      "region": "Korea",
+      "short": "NJWS"
+    },
+    {
+      "aliases": [
+        "NRG"
+      ],
+      "id": "nrg",
+      "name": "NRG",
+      "region": "North America",
+      "short": "NRG"
+    },
+    {
+      "aliases": [
+        "Oh My God"
+      ],
+      "id": "oh-my-god",
+      "name": "Oh My God",
+      "region": "China",
+      "short": "OMG"
+    },
+    {
+      "aliases": [
+        "paiN Gaming"
+      ],
+      "id": "pain-gaming",
+      "name": "paiN Gaming",
+      "region": "Brazil",
+      "short": "PAIN"
+    },
+    {
+      "aliases": [
+        "PEACE (Oceanic Team)"
+      ],
+      "id": "peace-oceanic-team",
+      "name": "PEACE (Oceanic Team)"
+    },
+    {
+      "aliases": [
+        "Ozone Rampage",
+        "PENTAGRAM",
+        "Rampage",
+        "myRevenge Rampage"
+      ],
+      "id": "pentagram",
+      "name": "PENTAGRAM",
+      "region": "Japan",
+      "short": "PGM"
+    },
+    {
+      "aliases": [
+        "INTZ Red",
+        "RED Canids"
+      ],
+      "id": "red-canids",
+      "name": "RED Canids",
+      "region": "Brazil",
+      "short": "RED"
+    },
+    {
+      "aliases": [
+        "Royal Club",
+        "Star Horn Royal Club"
+      ],
+      "id": "royal-club",
+      "name": "Royal Club",
+      "region": "China",
+      "short": "RYL"
+    },
+    {
+      "aliases": [
+        "Royal Never Give Up"
+      ],
+      "id": "royal-never-give-up",
+      "name": "Royal Never Give Up",
+      "region": "China",
+      "short": "RNG"
+    },
+    {
+      "aliases": [
+        "Royal Bandits",
+        "Royal Youth"
+      ],
+      "id": "royal-youth",
+      "name": "Royal Youth",
+      "region": "Turkey",
+      "short": "RYL"
+    },
+    {
+      "aliases": [
+        "Saigon Jokers"
+      ],
+      "id": "saigon-jokers",
+      "name": "Saigon Jokers",
+      "region": "SEA",
+      "short": "SAJ"
+    },
+    {
+      "aliases": [
+        "MVP Blue",
+        "Samsung Blue"
+      ],
+      "id": "samsung-blue",
+      "name": "Samsung Blue",
+      "region": "Korea",
+      "short": "SSB"
+    },
+    {
+      "aliases": [
+        "Samsung Galaxy"
+      ],
+      "id": "samsung-galaxy",
+      "name": "Samsung Galaxy",
+      "region": "Korea",
+      "short": "SSG"
+    },
+    {
+      "aliases": [
+        "MVP Ozone",
+        "MVP White",
+        "Samsung Ozone"
+      ],
+      "id": "samsung-ozone",
+      "name": "Samsung Ozone",
+      "region": "Korea",
+      "short": "MVP.O"
+    },
+    {
+      "aliases": [
+        "Samsung White"
+      ],
+      "id": "samsung-white",
+      "name": "Samsung White",
+      "region": "Korea",
+      "short": "SSW"
+    },
+    {
+      "aliases": [
+        "Shifters",
+        "Team BDS"
+      ],
+      "id": "shifters",
+      "name": "Shifters",
+      "region": "EMEA",
+      "short": "SHFT"
+    },
+    {
+      "aliases": [
+        "SK Gaming"
+      ],
+      "id": "sk-gaming",
+      "name": "SK Gaming",
+      "region": "EMEA",
+      "short": "SK"
+    },
+    {
+      "aliases": [
+        "Papara SuperMassive",
+        "SuperMassive Blaze",
+        "SuperMassive Esports"
+      ],
+      "id": "supermassive-blaze",
+      "name": "SuperMassive Blaze",
+      "region": "EMEA",
+      "short": "SMB"
+    },
+    {
+      "aliases": [
+        "SK Telecom T1",
+        "T1"
+      ],
+      "id": "t1",
+      "name": "T1",
+      "region": "Korea",
+      "short": "T1"
+    },
+    {
+      "aliases": [
+        "Taipei Assassins"
+      ],
+      "id": "taipei-assassins",
+      "name": "Taipei Assassins",
+      "region": "LMS",
+      "short": "TPA"
+    },
+    {
+      "aliases": [
+        "PSG Talon",
+        "TALON (Hong Kong Team)"
+      ],
+      "id": "talon-hong-kong-team",
+      "name": "TALON (Hong Kong Team)",
+      "region": "Asia Pacific",
+      "short": "PSG"
+    },
+    {
+      "aliases": [
+        "Team gamed!de"
+      ],
+      "id": "team-gamed-de",
+      "name": "Team gamed!de",
+      "region": "Europe",
+      "short": "GDE"
+    },
+    {
+      "aliases": [
+        "LMQ",
+        "Team Impulse"
+      ],
+      "id": "team-impulse",
+      "name": "Team Impulse",
+      "region": "North America",
+      "short": "TIP"
+    },
+    {
+      "aliases": [
+        "Team Liquid"
+      ],
+      "id": "team-liquid",
+      "name": "Team Liquid",
+      "region": "North America",
+      "short": "TL"
+    },
+    {
+      "aliases": [
+        "Team oNe eSports"
+      ],
+      "id": "team-one-esports",
+      "name": "Team oNe eSports",
+      "region": "Brazil",
+      "short": "ONE"
+    },
+    {
+      "aliases": [
+        "Team Pacific"
+      ],
+      "id": "team-pacific",
+      "name": "Team Pacific"
+    },
+    {
+      "aliases": [
+        "Team Secret Whales"
+      ],
+      "id": "team-secret-whales",
+      "name": "Team Secret Whales",
+      "region": "Asia Pacific",
+      "short": "TSW"
+    },
+    {
+      "aliases": [
+        "Team Vitality"
+      ],
+      "id": "team-vitality",
+      "name": "Team Vitality",
+      "region": "EMEA",
+      "short": "VIT"
+    },
+    {
+      "aliases": [
+        "Team WE"
+      ],
+      "id": "team-we",
+      "name": "Team WE",
+      "region": "China",
+      "short": "WE"
+    },
+    {
+      "aliases": [
+        "Team Whales"
+      ],
+      "id": "team-whales",
+      "name": "Team Whales",
+      "region": "Asia Pacific",
+      "short": "TW"
+    },
+    {
+      "aliases": [
+        "Top Esports",
+        "Topsports Gaming"
+      ],
+      "id": "top-esports",
+      "name": "Top Esports",
+      "region": "China",
+      "short": "TES"
+    },
+    {
+      "aliases": [
+        "TSM"
+      ],
+      "id": "tsm",
+      "name": "TSM",
+      "region": "North America",
+      "short": "TSM"
+    },
+    {
+      "aliases": [
+        "Unicorns of Love.CIS"
+      ],
+      "id": "unicorns-of-love-cis",
+      "name": "Unicorns of Love.CIS",
+      "region": "CIS",
+      "short": "UOL"
+    },
+    {
+      "aliases": [
+        "V3 Esports"
+      ],
+      "id": "v3-esports",
+      "name": "V3 Esports",
+      "region": "Asia Pacific",
+      "short": "V3"
+    },
+    {
+      "aliases": [
+        "Vivo Keyd Stars"
+      ],
+      "id": "vivo-keyd-stars",
+      "name": "Vivo Keyd Stars",
+      "region": "Brazil",
+      "short": "VKS"
+    },
+    {
+      "aliases": [
+        "SNS Esports",
+        "Suning",
+        "T.Bear Gaming",
+        "Weibo Gaming"
+      ],
+      "id": "weibo-gaming",
+      "name": "Weibo Gaming",
+      "region": "China",
+      "short": "WBG"
+    },
+    {
+      "aliases": [
+        "Evil Geniuses.NA",
+        "Winterfox"
+      ],
+      "id": "winterfox",
+      "name": "Winterfox",
+      "region": "North America",
+      "short": "WFX"
+    },
+    {
+      "aliases": [
+        "Xan"
+      ],
+      "id": "xan",
+      "name": "Xan",
+      "region": "SEA",
+      "short": "XAN"
+    },
+    {
+      "aliases": [
+        "Team Vulcun",
+        "XDG Gaming"
+      ],
+      "id": "xdg-gaming",
+      "name": "XDG Gaming",
+      "region": "North America",
+      "short": "XDG"
+    }
+  ]
+}

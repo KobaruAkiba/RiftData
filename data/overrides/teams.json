@@ -1,3 +1,16 @@
 {
-  "merge": []
+  "merge": [
+    { "from": "CLG Prime", "into": "Counter Logic Gaming" },
+    { "from": "Counter Logic Gaming", "into": "Counter Logic Gaming" },
+    { "from": "Royal Club", "into": "Royal Club" },
+    { "from": "Star Horn Royal Club", "into": "Royal Club" },
+    { "from": "Dark Passage", "into": "BBL Dark Passage" },
+    { "from": "BBL Dark Passage", "into": "BBL Dark Passage" },
+    { "from": "Rogue (European Team)", "into": "KOI (Spanish Team)" },
+    { "from": "KOI (Spanish Team)", "into": "KOI (Spanish Team)" },
+    { "from": "Papara SuperMassive", "into": "SuperMassive Blaze" },
+    { "from": "SuperMassive Blaze", "into": "SuperMassive Blaze" },
+    { "from": "PSG Talon", "into": "TALON (Hong Kong Team)" },
+    { "from": "TALON (Hong Kong Team)", "into": "TALON (Hong Kong Team)" }
+  ]
 }

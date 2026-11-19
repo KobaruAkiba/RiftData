@@ -1,0 +1,3051 @@
+{
+  "champion": "t1",
+  "coverage": {
+    "games": true,
+    "matches": true
+  },
+  "endDate": "2013-10-04",
+  "name": "Worlds 2013",
+  "overviewPages": [
+    "Season 3 World Championship"
+  ],
+  "stages": [
+    {
+      "id": "group-stage",
+      "matches": [
+        {
+          "bestOf": 1,
+          "date": "2013-09-15T19:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 9,
+                "bans": [
+                  "Karthus",
+                  "Elise",
+                  "Twisted Fate"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Jarvan IV",
+                  "Gragas",
+                  "Ezreal",
+                  "Thresh"
+                ],
+                "team": "gaminggear-eu"
+              },
+              "durationSec": 2221,
+              "id": "Season 3 World Championship_Day 1_1_1",
+              "number": 1,
+              "red": {
+                "assists": 57,
+                "bans": [
+                  "Orianna",
+                  "Sona",
+                  "Evelynn"
+                ],
+                "picks": [
+                  "Shen",
+                  "Vi",
+                  "Zed",
+                  "Corki",
+                  "Fiddlesticks"
+                ],
+                "team": "tsm"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 1_1",
+          "round": "Day 1",
+          "score1": 0,
+          "score2": 1,
+          "team1": "gaminggear-eu",
+          "team2": "tsm",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-15T20:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 46,
+                "bans": [
+                  "Fizz",
+                  "Kennen",
+                  "Shen"
+                ],
+                "picks": [
+                  "Elise",
+                  "Lee Sin",
+                  "Ahri",
+                  "Vayne",
+                  "Zyra"
+                ],
+                "team": "t1"
+              },
+              "durationSec": 2090,
+              "id": "Season 3 World Championship_Day 1_2_1",
+              "number": 1,
+              "red": {
+                "assists": 21,
+                "bans": [
+                  "Orianna",
+                  "Caitlyn",
+                  "Zed"
+                ],
+                "picks": [
+                  "Malphite",
+                  "Vi",
+                  "Swain",
+                  "Corki",
+                  "Thresh"
+                ],
+                "team": "lemondogs"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 1_2",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "t1",
+          "team2": "lemondogs",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-15T21:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 37,
+                "bans": [
+                  "Yorick",
+                  "Orianna",
+                  "Renekton"
+                ],
+                "picks": [
+                  "Rumble",
+                  "Elise",
+                  "Fizz",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "tsm"
+              },
+              "durationSec": 2340,
+              "id": "Season 3 World Championship_Day 1_3_1",
+              "number": 1,
+              "red": {
+                "assists": 66,
+                "bans": [
+                  "Zed",
+                  "Shen",
+                  "Thresh"
+                ],
+                "picks": [
+                  "Kennen",
+                  "Aatrox",
+                  "Ahri",
+                  "Caitlyn",
+                  "Zyra"
+                ],
+                "team": "oh-my-god"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 1_3",
+          "round": "Day 1",
+          "score1": 0,
+          "score2": 1,
+          "team1": "tsm",
+          "team2": "oh-my-god",
+          "winner": "oh-my-god"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-15T22:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Sona",
+                  "Orianna",
+                  "Shen"
+                ],
+                "picks": [
+                  "Zac",
+                  "Elise",
+                  "Ahri",
+                  "Vayne",
+                  "Zyra"
+                ],
+                "team": "lemondogs"
+              },
+              "durationSec": 1741,
+              "id": "Season 3 World Championship_Day 1_4_1",
+              "number": 1,
+              "red": {
+                "assists": 8,
+                "bans": [
+                  "Kennen",
+                  "Twisted Fate",
+                  "Zed"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Jarvan IV",
+                  "Fizz",
+                  "Corki",
+                  "Thresh"
+                ],
+                "team": "gaminggear-eu"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 1_4",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "lemondogs",
+          "team2": "gaminggear-eu",
+          "winner": "lemondogs"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-16T00:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 42,
+                "bans": [
+                  "Vi",
+                  "Thresh",
+                  "Shen"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Lee Sin",
+                  "Orianna",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "oh-my-god"
+              },
+              "durationSec": 2403,
+              "id": "Season 3 World Championship_Day 1_5_1",
+              "number": 1,
+              "red": {
+                "assists": 18,
+                "bans": [
+                  "Zed",
+                  "Ahri",
+                  "Fizz"
+                ],
+                "picks": [
+                  "Kennen",
+                  "Jarvan IV",
+                  "Gragas",
+                  "Caitlyn",
+                  "Nami"
+                ],
+                "team": "t1"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 1_5",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "oh-my-god",
+          "team2": "t1",
+          "winner": "oh-my-god"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-16T01:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 22,
+                "bans": [
+                  "Kassadin",
+                  "Ashe",
+                  "Ahri"
+                ],
+                "picks": [
+                  "Nasus",
+                  "Vi",
+                  "Orianna",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "xdg-gaming"
+              },
+              "durationSec": 1884,
+              "id": "Season 3 World Championship_Day 1_6_1",
+              "number": 1,
+              "red": {
+                "assists": 12,
+                "bans": [
+                  "Shen",
+                  "Zed",
+                  "Twisted Fate"
+                ],
+                "picks": [
+                  "Yorick",
+                  "Elise",
+                  "Lissandra",
+                  "Caitlyn",
+                  "Sona"
+                ],
+                "team": "fnatic"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 1_6",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "xdg-gaming",
+          "team2": "fnatic",
+          "winner": "xdg-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-16T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Jarvan IV",
+                  "Lee Sin",
+                  "Thresh"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Aatrox",
+                  "Ahri",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "gambit-gaming"
+              },
+              "durationSec": 1479,
+              "id": "Season 3 World Championship_Day 1_7_1",
+              "number": 1,
+              "red": {
+                "assists": 6,
+                "bans": [
+                  "Shen",
+                  "Zed",
+                  "Orianna"
+                ],
+                "picks": [
+                  "Zac",
+                  "Nocturne",
+                  "Diana",
+                  "Ezreal",
+                  "Fiddlesticks"
+                ],
+                "team": "mineski"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 1_7",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "gambit-gaming",
+          "team2": "mineski",
+          "winner": "gambit-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-16T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 56,
+                "bans": [
+                  "Kennen",
+                  "Corki",
+                  "Zyra"
+                ],
+                "picks": [
+                  "Singed",
+                  "Jarvan IV",
+                  "Ryze",
+                  "Caitlyn",
+                  "Thresh"
+                ],
+                "team": "samsung-ozone"
+              },
+              "durationSec": 1699,
+              "id": "Season 3 World Championship_Day 1_8_1",
+              "number": 1,
+              "red": {
+                "assists": 24,
+                "bans": [
+                  "Zed",
+                  "Lee Sin",
+                  "Vayne"
+                ],
+                "picks": [
+                  "Shen",
+                  "Vi",
+                  "Ahri",
+                  "Ezreal",
+                  "Sona"
+                ],
+                "team": "xdg-gaming"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 1_8",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "samsung-ozone",
+          "team2": "xdg-gaming",
+          "winner": "samsung-ozone"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-16T04:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 24,
+                "bans": [
+                  "Kassadin",
+                  "Ahri",
+                  "Fizz"
+                ],
+                "picks": [
+                  "Jarvan IV",
+                  "Lee Sin",
+                  "Orianna",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "mineski"
+              },
+              "durationSec": 1661,
+              "id": "Season 3 World Championship_Day 1_9_1",
+              "number": 1,
+              "red": {
+                "assists": 47,
+                "bans": [
+                  "Thresh",
+                  "Sona",
+                  "Zed"
+                ],
+                "picks": [
+                  "Shen",
+                  "Aatrox",
+                  "Diana",
+                  "Caitlyn",
+                  "Leona"
+                ],
+                "team": "fnatic"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 1_9",
+          "round": "Day 1",
+          "score1": 0,
+          "score2": 1,
+          "team1": "mineski",
+          "team2": "fnatic",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-16T05:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 56,
+                "bans": [
+                  "Caitlyn",
+                  "Lee Sin",
+                  "Thresh"
+                ],
+                "picks": [
+                  "Shen",
+                  "Evelynn",
+                  "Ahri",
+                  "Kog'Maw",
+                  "Sona"
+                ],
+                "team": "gambit-gaming"
+              },
+              "durationSec": 1942,
+              "id": "Season 3 World Championship_Day 1_10_1",
+              "number": 1,
+              "red": {
+                "assists": 20,
+                "bans": [
+                  "Aatrox",
+                  "Zed",
+                  "Corki"
+                ],
+                "picks": [
+                  "Singed",
+                  "Jarvan IV",
+                  "Ryze",
+                  "Vayne",
+                  "Zyra"
+                ],
+                "team": "samsung-ozone"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 1_10",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "gambit-gaming",
+          "team2": "samsung-ozone",
+          "winner": "gambit-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-17T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 37,
+                "bans": [
+                  "Singed",
+                  "Lee Sin",
+                  "Zed"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Nasus",
+                  "Ryze",
+                  "Vayne",
+                  "Thresh"
+                ],
+                "team": "mineski"
+              },
+              "durationSec": 1735,
+              "id": "Season 3 World Championship_Day 2_1_1",
+              "number": 1,
+              "red": {
+                "assists": 64,
+                "bans": [
+                  "Sona",
+                  "Zyra",
+                  "Ahri"
+                ],
+                "picks": [
+                  "Shen",
+                  "Elise",
+                  "Jayce",
+                  "Ezreal",
+                  "Fiddlesticks"
+                ],
+                "team": "samsung-ozone"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 2_1",
+          "round": "Day 2",
+          "score1": 0,
+          "score2": 1,
+          "team1": "mineski",
+          "team2": "samsung-ozone",
+          "winner": "samsung-ozone"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-17T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 4,
+                "bans": [
+                  "Kassadin",
+                  "Evelynn",
+                  "Corki"
+                ],
+                "picks": [
+                  "Elise",
+                  "Vi",
+                  "Orianna",
+                  "Caitlyn",
+                  "Zyra"
+                ],
+                "team": "xdg-gaming"
+              },
+              "durationSec": 1660,
+              "id": "Season 3 World Championship_Day 2_2_1",
+              "number": 1,
+              "red": {
+                "assists": 19,
+                "bans": [
+                  "Zed",
+                  "Ahri",
+                  "Shen"
+                ],
+                "picks": [
+                  "Aatrox",
+                  "Lee Sin",
+                  "Twisted Fate",
+                  "Kog'Maw",
+                  "Sona"
+                ],
+                "team": "gambit-gaming"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 2_2",
+          "round": "Day 2",
+          "score1": 0,
+          "score2": 1,
+          "team1": "xdg-gaming",
+          "team2": "gambit-gaming",
+          "winner": "gambit-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-17T04:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 12,
+                "bans": [
+                  "Kassadin",
+                  "Ahri",
+                  "Fizz"
+                ],
+                "picks": [
+                  "Shen",
+                  "Elise",
+                  "Gragas",
+                  "Kog'Maw",
+                  "Sona"
+                ],
+                "team": "samsung-ozone"
+              },
+              "durationSec": 1979,
+              "id": "Season 3 World Championship_Day 2_3_1",
+              "number": 1,
+              "red": {
+                "assists": 46,
+                "bans": [
+                  "Zed",
+                  "Thresh",
+                  "Lee Sin"
+                ],
+                "picks": [
+                  "Lissandra",
+                  "Aatrox",
+                  "Orianna",
+                  "Corki",
+                  "Leona"
+                ],
+                "team": "fnatic"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 2_3",
+          "round": "Day 2",
+          "score1": 0,
+          "score2": 1,
+          "team1": "samsung-ozone",
+          "team2": "fnatic",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-17T05:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 37,
+                "bans": [
+                  "Ahri",
+                  "Orianna",
+                  "Corki"
+                ],
+                "picks": [
+                  "Shen",
+                  "Nocturne",
+                  "Ryze",
+                  "Varus",
+                  "Thresh"
+                ],
+                "team": "mineski"
+              },
+              "durationSec": 2127,
+              "id": "Season 3 World Championship_Day 2_4_1",
+              "number": 1,
+              "red": {
+                "assists": 58,
+                "bans": [
+                  "Sona",
+                  "Zed",
+                  "Lee Sin"
+                ],
+                "picks": [
+                  "Nasus",
+                  "Elise",
+                  "Karthus",
+                  "Caitlyn",
+                  "Zyra"
+                ],
+                "team": "xdg-gaming"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 2_4",
+          "round": "Day 2",
+          "score1": 0,
+          "score2": 1,
+          "team1": "mineski",
+          "team2": "xdg-gaming",
+          "winner": "xdg-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-17T06:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 49,
+                "bans": [
+                  "Zed",
+                  "Evelynn",
+                  "Corki"
+                ],
+                "picks": [
+                  "Zac",
+                  "Aatrox",
+                  "Orianna",
+                  "Varus",
+                  "Leona"
+                ],
+                "team": "fnatic"
+              },
+              "durationSec": 1951,
+              "id": "Season 3 World Championship_Day 2_5_1",
+              "number": 1,
+              "red": {
+                "assists": 7,
+                "bans": [
+                  "Ahri",
+                  "Shen",
+                  "Elise"
+                ],
+                "picks": [
+                  "Shyvana",
+                  "Xin Zhao",
+                  "Twisted Fate",
+                  "Miss Fortune",
+                  "Sona"
+                ],
+                "team": "gambit-gaming"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 2_5",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "fnatic",
+          "team2": "gambit-gaming",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-18T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Aatrox",
+                  "Caitlyn",
+                  "Orianna"
+                ],
+                "picks": [
+                  "Zac",
+                  "Elise",
+                  "Fizz",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "lemondogs"
+              },
+              "durationSec": 2524,
+              "id": "Season 3 World Championship_Day 3_1_1",
+              "number": 1,
+              "red": {
+                "assists": 32,
+                "bans": [
+                  "Zed",
+                  "Shen",
+                  "Thresh"
+                ],
+                "picks": [
+                  "Kennen",
+                  "Lee Sin",
+                  "Ahri",
+                  "Tristana",
+                  "Zyra"
+                ],
+                "team": "oh-my-god"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 3_1",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "lemondogs",
+          "team2": "oh-my-god",
+          "winner": "oh-my-god"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-18T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 50,
+                "bans": [
+                  "Orianna",
+                  "Thresh",
+                  "Renekton"
+                ],
+                "picks": [
+                  "Shen",
+                  "Vi",
+                  "Fizz",
+                  "Ezreal",
+                  "Zyra"
+                ],
+                "team": "t1"
+              },
+              "durationSec": 1777,
+              "id": "Season 3 World Championship_Day 3_2_1",
+              "number": 1,
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Zed",
+                  "Ahri",
+                  "Caitlyn"
+                ],
+                "picks": [
+                  "Aatrox",
+                  "Jarvan IV",
+                  "Gragas",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "gaminggear-eu"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 3_2",
+          "round": "Day 3",
+          "score1": 1,
+          "score2": 0,
+          "team1": "t1",
+          "team2": "gaminggear-eu",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-18T04:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 36,
+                "bans": [
+                  "Kennen",
+                  "Zyra",
+                  "Fizz"
+                ],
+                "picks": [
+                  "Vladimir",
+                  "Vi",
+                  "Zed",
+                  "Caitlyn",
+                  "Thresh"
+                ],
+                "team": "tsm"
+              },
+              "durationSec": 1830,
+              "id": "Season 3 World Championship_Day 3_3_1",
+              "number": 1,
+              "red": {
+                "assists": 8,
+                "bans": [
+                  "Sona",
+                  "Rumble",
+                  "Corki"
+                ],
+                "picks": [
+                  "Shen",
+                  "Elise",
+                  "Ahri",
+                  "Vayne",
+                  "Lulu"
+                ],
+                "team": "lemondogs"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 3_3",
+          "round": "Day 3",
+          "score1": 1,
+          "score2": 0,
+          "team1": "tsm",
+          "team2": "lemondogs",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-18T05:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 10,
+                "bans": [
+                  "Zed",
+                  "Lee Sin",
+                  "Elise"
+                ],
+                "picks": [
+                  "Zac",
+                  "Aatrox",
+                  "Orianna",
+                  "Vayne",
+                  "Zyra"
+                ],
+                "team": "gaminggear-eu"
+              },
+              "durationSec": 1520,
+              "id": "Season 3 World Championship_Day 3_4_1",
+              "number": 1,
+              "red": {
+                "assists": 43,
+                "bans": [
+                  "Shen",
+                  "Thresh",
+                  "Corki"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Jarvan IV",
+                  "Gragas",
+                  "Kog'Maw",
+                  "Fiddlesticks"
+                ],
+                "team": "oh-my-god"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 3_4",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "gaminggear-eu",
+          "team2": "oh-my-god",
+          "winner": "oh-my-god"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-18T06:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 41,
+                "bans": [
+                  "Fiddlesticks",
+                  "Vi",
+                  "Fizz"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Lee Sin",
+                  "Ahri",
+                  "Caitlyn",
+                  "Zyra"
+                ],
+                "team": "t1"
+              },
+              "durationSec": 2056,
+              "id": "Season 3 World Championship_Day 3_5_1",
+              "number": 1,
+              "red": {
+                "assists": 26,
+                "bans": [
+                  "Shen",
+                  "Thresh",
+                  "Zed"
+                ],
+                "picks": [
+                  "Rumble",
+                  "Elise",
+                  "Gragas",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "tsm"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 3_5",
+          "round": "Day 3",
+          "score1": 1,
+          "score2": 0,
+          "team1": "t1",
+          "team2": "tsm",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-20T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 32,
+                "bans": [
+                  "Evelynn",
+                  "Ahri",
+                  "Shen"
+                ],
+                "picks": [
+                  "Zac",
+                  "Jarvan IV",
+                  "Ezreal",
+                  "Caitlyn",
+                  "Sona"
+                ],
+                "team": "samsung-ozone"
+              },
+              "durationSec": 2066,
+              "id": "Season 3 World Championship_Day 4_1_1",
+              "number": 1,
+              "red": {
+                "assists": 9,
+                "bans": [
+                  "Thresh",
+                  "Lee Sin",
+                  "Zed"
+                ],
+                "picks": [
+                  "Elise",
+                  "Aatrox",
+                  "Karthus",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "gambit-gaming"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 4_1",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "samsung-ozone",
+          "team2": "gambit-gaming",
+          "winner": "samsung-ozone"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-20T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 37,
+                "bans": [
+                  "Vi",
+                  "Zed",
+                  "Corki"
+                ],
+                "picks": [
+                  "Zac",
+                  "Lee Sin",
+                  "Ahri",
+                  "Ashe",
+                  "Zyra"
+                ],
+                "team": "fnatic"
+              },
+              "durationSec": 1292,
+              "id": "Season 3 World Championship_Day 4_2_1",
+              "number": 1,
+              "red": {
+                "assists": 6,
+                "bans": [
+                  "Aatrox",
+                  "Shen",
+                  "Orianna"
+                ],
+                "picks": [
+                  "Vladimir",
+                  "Elise",
+                  "Lissandra",
+                  "Caitlyn",
+                  "Sona"
+                ],
+                "team": "xdg-gaming"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 4_2",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "fnatic",
+          "team2": "xdg-gaming",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-20T04:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 7,
+                "bans": [
+                  "Renekton",
+                  "Corki",
+                  "Ahri"
+                ],
+                "picks": [
+                  "Nidalee",
+                  "Lee Sin",
+                  "Zed",
+                  "Ezreal",
+                  "Zyra"
+                ],
+                "team": "mineski"
+              },
+              "durationSec": 1478,
+              "id": "Season 3 World Championship_Day 4_3_1",
+              "number": 1,
+              "red": {
+                "assists": 29,
+                "bans": [
+                  "Thresh",
+                  "Shen",
+                  "Nocturne"
+                ],
+                "picks": [
+                  "Aatrox",
+                  "Elise",
+                  "Orianna",
+                  "Kog'Maw",
+                  "Sona"
+                ],
+                "team": "gambit-gaming"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 4_3",
+          "round": "Day 4",
+          "score1": 0,
+          "score2": 1,
+          "team1": "mineski",
+          "team2": "gambit-gaming",
+          "winner": "gambit-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-20T05:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 62,
+                "bans": [
+                  "None",
+                  "Lee Sin",
+                  "Thresh"
+                ],
+                "picks": [
+                  "Zed",
+                  "Aatrox",
+                  "Kassadin",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "fnatic"
+              },
+              "durationSec": 1526,
+              "id": "Season 3 World Championship_Day 4_4_1",
+              "number": 1,
+              "red": {
+                "assists": 19,
+                "bans": [
+                  "Ahri",
+                  "Shen",
+                  "Leona"
+                ],
+                "picks": [
+                  "Zac",
+                  "Elise",
+                  "Lissandra",
+                  "Ezreal",
+                  "Fiddlesticks"
+                ],
+                "team": "samsung-ozone"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 4_4",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "fnatic",
+          "team2": "samsung-ozone",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-20T06:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 52,
+                "bans": [
+                  "Nocturne",
+                  "Thresh",
+                  "Zed"
+                ],
+                "picks": [
+                  "Shen",
+                  "Vi",
+                  "Twisted Fate",
+                  "Ashe",
+                  "Zyra"
+                ],
+                "team": "xdg-gaming"
+              },
+              "durationSec": 1451,
+              "id": "Season 3 World Championship_Day 4_5_1",
+              "number": 1,
+              "red": {
+                "assists": 4,
+                "bans": [
+                  "Ahri",
+                  "Orianna",
+                  "Karthus"
+                ],
+                "picks": [
+                  "Lee Sin",
+                  "Elise",
+                  "Ryze",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "mineski"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 4_5",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "xdg-gaming",
+          "team2": "mineski",
+          "winner": "xdg-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-21T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 11,
+                "bans": [
+                  "Vayne",
+                  "Lee Sin",
+                  "Ahri"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Vi",
+                  "Zed",
+                  "Caitlyn",
+                  "Sona"
+                ],
+                "team": "lemondogs"
+              },
+              "durationSec": 1724,
+              "id": "Season 3 World Championship_Day 5_1_1",
+              "number": 1,
+              "red": {
+                "assists": 38,
+                "bans": [
+                  "Kennen",
+                  "Shen",
+                  "Elise"
+                ],
+                "picks": [
+                  "Singed",
+                  "Jarvan IV",
+                  "Riven",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "t1"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 5_1",
+          "round": "Day 5",
+          "score1": 0,
+          "score2": 1,
+          "team1": "lemondogs",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-21T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 56,
+                "bans": [
+                  "Ziggs",
+                  "Kennen",
+                  "Corki"
+                ],
+                "picks": [
+                  "Shen",
+                  "Jarvan IV",
+                  "Fizz",
+                  "Ezreal",
+                  "Annie"
+                ],
+                "team": "oh-my-god"
+              },
+              "durationSec": 1425,
+              "id": "Season 3 World Championship_Day 5_2_1",
+              "number": 1,
+              "red": {
+                "assists": 5,
+                "bans": [
+                  "Ahri",
+                  "Zed",
+                  "Caitlyn"
+                ],
+                "picks": [
+                  "Nasus",
+                  "Aatrox",
+                  "Orianna",
+                  "Tristana",
+                  "Zyra"
+                ],
+                "team": "gaminggear-eu"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 5_2",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "oh-my-god",
+          "team2": "gaminggear-eu",
+          "winner": "oh-my-god"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-21T04:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Caitlyn",
+                  "Orianna",
+                  "Zyra"
+                ],
+                "picks": [
+                  "Karthus",
+                  "Elise",
+                  "Zed",
+                  "Twitch",
+                  "Annie"
+                ],
+                "team": "tsm"
+              },
+              "durationSec": 2094,
+              "id": "Season 3 World Championship_Day 5_3_1",
+              "number": 1,
+              "red": {
+                "assists": 43,
+                "bans": [
+                  "Vi",
+                  "Shen",
+                  "Fiddlesticks"
+                ],
+                "picks": [
+                  "Jax",
+                  "Lee Sin",
+                  "Riven",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "t1"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 5_3",
+          "round": "Day 5",
+          "score1": 0,
+          "score2": 1,
+          "team1": "tsm",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-21T05:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 5,
+                "bans": [
+                  "Caitlyn",
+                  "Twisted Fate",
+                  "Fizz"
+                ],
+                "picks": [
+                  "Zed",
+                  "Jarvan IV",
+                  "Ahri",
+                  "Corki",
+                  "Lulu"
+                ],
+                "team": "gaminggear-eu"
+              },
+              "durationSec": 1928,
+              "id": "Season 3 World Championship_Day 5_4_1",
+              "number": 1,
+              "red": {
+                "assists": 37,
+                "bans": [
+                  "Aatrox",
+                  "Orianna",
+                  "Sona"
+                ],
+                "picks": [
+                  "Shen",
+                  "Vi",
+                  "Kassadin",
+                  "Vayne",
+                  "Zyra"
+                ],
+                "team": "lemondogs"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 5_4",
+          "round": "Day 5",
+          "score1": 0,
+          "score2": 1,
+          "team1": "gaminggear-eu",
+          "team2": "lemondogs",
+          "winner": "lemondogs"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-21T06:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 77,
+                "bans": [
+                  "Elise",
+                  "Corki",
+                  "Vi"
+                ],
+                "picks": [
+                  "Shen",
+                  "Volibear",
+                  "Syndra",
+                  "Caitlyn",
+                  "Fiddlesticks"
+                ],
+                "team": "oh-my-god"
+              },
+              "durationSec": 2155,
+              "id": "Season 3 World Championship_Day 5_5_1",
+              "number": 1,
+              "red": {
+                "assists": 24,
+                "bans": [
+                  "Zed",
+                  "Renekton",
+                  "Thresh"
+                ],
+                "picks": [
+                  "Vladimir",
+                  "Jarvan IV",
+                  "Ahri",
+                  "Ezreal",
+                  "Sona"
+                ],
+                "team": "tsm"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 5_5",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "oh-my-god",
+          "team2": "tsm",
+          "winner": "oh-my-god"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-21T19:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 8,
+                "bans": [
+                  "Elise",
+                  "Aatrox",
+                  "Ahri"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Vi",
+                  "Orianna",
+                  "Varus",
+                  "Sona"
+                ],
+                "team": "gambit-gaming"
+              },
+              "durationSec": 2242,
+              "id": "Season 3 World Championship_Day 6_1_1",
+              "number": 1,
+              "red": {
+                "assists": 64,
+                "bans": [
+                  "Zed",
+                  "Shen",
+                  "Corki"
+                ],
+                "picks": [
+                  "Zac",
+                  "Lee Sin",
+                  "Fizz",
+                  "Ashe",
+                  "Zyra"
+                ],
+                "team": "fnatic"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 6_1",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "gambit-gaming",
+          "team2": "fnatic",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-21T20:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 13,
+                "bans": [
+                  "Caitlyn",
+                  "Lee Sin",
+                  "Twisted Fate"
+                ],
+                "picks": [
+                  "Shen",
+                  "Jarvan IV",
+                  "Twisted Fate",
+                  "Ashe",
+                  "Zyra"
+                ],
+                "team": "xdg-gaming"
+              },
+              "durationSec": 2193,
+              "id": "Season 3 World Championship_Day 6_2_1",
+              "number": 1,
+              "red": {
+                "assists": 60,
+                "bans": [
+                  "Ahri",
+                  "Corki",
+                  "Zed"
+                ],
+                "picks": [
+                  "Singed",
+                  "Elise",
+                  "Ezreal",
+                  "Vayne",
+                  "Sona"
+                ],
+                "team": "samsung-ozone"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 6_2",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "xdg-gaming",
+          "team2": "samsung-ozone",
+          "winner": "samsung-ozone"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-21T21:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 73,
+                "bans": [
+                  "Thresh",
+                  "Ahri",
+                  "Corki"
+                ],
+                "picks": [
+                  "Shen",
+                  "Lee Sin",
+                  "Zed",
+                  "Sivir",
+                  "Blitzcrank"
+                ],
+                "team": "fnatic"
+              },
+              "durationSec": 1801,
+              "id": "Season 3 World Championship_Day 6_3_1",
+              "number": 1,
+              "red": {
+                "assists": 37,
+                "bans": [
+                  "Aatrox",
+                  "Fizz",
+                  "Zac"
+                ],
+                "picks": [
+                  "Zilean",
+                  "Nunu & Willump",
+                  "Soraka",
+                  "Varus",
+                  "Sona"
+                ],
+                "team": "mineski"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 6_3",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "fnatic",
+          "team2": "mineski",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-21T22:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 53,
+                "bans": [
+                  "Zac",
+                  "Corki",
+                  "Vi"
+                ],
+                "picks": [
+                  "Shen",
+                  "Elise",
+                  "Ahri",
+                  "Varus",
+                  "Zyra"
+                ],
+                "team": "gambit-gaming"
+              },
+              "durationSec": 2309,
+              "id": "Season 3 World Championship_Day 6_4_1",
+              "number": 1,
+              "red": {
+                "assists": 19,
+                "bans": [
+                  "Aatrox",
+                  "Kog'Maw",
+                  "Evelynn"
+                ],
+                "picks": [
+                  "Singed",
+                  "Lee Sin",
+                  "Zed",
+                  "Tristana",
+                  "Sona"
+                ],
+                "team": "xdg-gaming"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 6_4",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "gambit-gaming",
+          "team2": "xdg-gaming",
+          "winner": "gambit-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-21T23:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 62,
+                "bans": [
+                  "Ahri",
+                  "Corki",
+                  "Elise"
+                ],
+                "picks": [
+                  "Zac",
+                  "Evelynn",
+                  "Orianna",
+                  "Vayne",
+                  "Thresh"
+                ],
+                "team": "samsung-ozone"
+              },
+              "durationSec": 1436,
+              "id": "Season 3 World Championship_Day 6_5_1",
+              "number": 1,
+              "red": {
+                "assists": 11,
+                "bans": [
+                  "Zed",
+                  "Shen",
+                  "Lee Sin"
+                ],
+                "picks": [
+                  "Dr. Mundo",
+                  "Karma",
+                  "Ezreal",
+                  "Jarvan IV",
+                  "Leona"
+                ],
+                "team": "mineski"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 6_5",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "samsung-ozone",
+          "team2": "mineski",
+          "winner": "samsung-ozone"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-22T00:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Ahri",
+                  "Corki",
+                  "Shen"
+                ],
+                "picks": [
+                  "Elise",
+                  "Lee Sin",
+                  "Twisted Fate",
+                  "Varus",
+                  "Sona"
+                ],
+                "team": "samsung-ozone"
+              },
+              "durationSec": 2597,
+              "id": "Season 3 World Championship_Day 6_6_1",
+              "number": 1,
+              "red": {
+                "assists": 55,
+                "bans": [
+                  "Caitlyn",
+                  "Thresh",
+                  "Zed"
+                ],
+                "picks": [
+                  "Aatrox",
+                  "Evelynn",
+                  "Kassadin",
+                  "Kog'Maw",
+                  "Zyra"
+                ],
+                "team": "gambit-gaming"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 6_6",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "samsung-ozone",
+          "team2": "gambit-gaming",
+          "winner": "gambit-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-22T00:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 41,
+                "bans": [
+                  "Shen",
+                  "Corki",
+                  "Vi"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Elise",
+                  "Fizz",
+                  "Caitlyn",
+                  "Zyra"
+                ],
+                "team": "lemondogs"
+              },
+              "durationSec": 2439,
+              "id": "Season 3 World Championship_Day 6_7_1",
+              "number": 1,
+              "red": {
+                "assists": 21,
+                "bans": [
+                  "Zed",
+                  "Kennen",
+                  "Thresh"
+                ],
+                "picks": [
+                  "Rumble",
+                  "Jarvan IV",
+                  "Ahri",
+                  "Ezreal",
+                  "Sona"
+                ],
+                "team": "tsm"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 6_7",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "lemondogs",
+          "team2": "tsm",
+          "winner": "lemondogs"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-22T01:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 12,
+                "bans": [
+                  "Zed",
+                  "Caitlyn",
+                  "Vi"
+                ],
+                "picks": [
+                  "Kennen",
+                  "Jarvan IV",
+                  "Orianna",
+                  "Varus",
+                  "Zyra"
+                ],
+                "team": "gaminggear-eu"
+              },
+              "durationSec": 1566,
+              "id": "Season 3 World Championship_Day 6_8_1",
+              "number": 1,
+              "red": {
+                "assists": 25,
+                "bans": [
+                  "Shen",
+                  "Ahri",
+                  "Corki"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Aatrox",
+                  "Gragas",
+                  "Ezreal",
+                  "Leona"
+                ],
+                "team": "t1"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 6_8",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "gaminggear-eu",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-22T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 19,
+                "bans": [
+                  "Elise",
+                  "Fizz",
+                  "Shen"
+                ],
+                "picks": [
+                  "Aatrox",
+                  "Yorick",
+                  "Cassiopeia",
+                  "Nidalee",
+                  "Veigar"
+                ],
+                "team": "oh-my-god"
+              },
+              "durationSec": 2212,
+              "id": "Season 3 World Championship_Day 6_9_1",
+              "number": 1,
+              "red": {
+                "assists": 15,
+                "bans": [
+                  "None",
+                  "Zed",
+                  "Ahri"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Vi",
+                  "Ezreal",
+                  "Caitlyn",
+                  "Zyra"
+                ],
+                "team": "lemondogs"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 6_9",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "oh-my-god",
+          "team2": "lemondogs",
+          "winner": "oh-my-god"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-22T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 34,
+                "bans": [
+                  "Aatrox",
+                  "Elise",
+                  "Zyra"
+                ],
+                "picks": [
+                  "Vladimir",
+                  "Hecarim",
+                  "Orianna",
+                  "Teemo",
+                  "Thresh"
+                ],
+                "team": "tsm"
+              },
+              "durationSec": 2064,
+              "id": "Season 3 World Championship_Day 6_10_1",
+              "number": 1,
+              "red": {
+                "assists": 48,
+                "bans": [
+                  "Shen",
+                  "Vi",
+                  "Zed"
+                ],
+                "picks": [
+                  "Tryndamere",
+                  "Jarvan IV",
+                  "Gragas",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "gaminggear-eu"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 6_10",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "tsm",
+          "team2": "gaminggear-eu",
+          "winner": "gaminggear-eu"
+        },
+        {
+          "bestOf": 1,
+          "date": "2013-09-22T04:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 39,
+                "bans": [
+                  "Lee Sin",
+                  "Renekton",
+                  "Corki"
+                ],
+                "picks": [
+                  "Jarvan IV",
+                  "Elise",
+                  "Ahri",
+                  "Ezreal",
+                  "Sona"
+                ],
+                "team": "t1"
+              },
+              "durationSec": 1409,
+              "id": "Season 3 World Championship_Day 6_11_1",
+              "number": 1,
+              "red": {
+                "assists": 18,
+                "bans": [
+                  "Shen",
+                  "Zed",
+                  "Thresh"
+                ],
+                "picks": [
+                  "Zac",
+                  "Aatrox",
+                  "Syndra",
+                  "Vayne",
+                  "Zyra"
+                ],
+                "team": "oh-my-god"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Day 6_11",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "t1",
+          "team2": "oh-my-god",
+          "winner": "t1"
+        }
+      ],
+      "name": "Group Stage",
+      "order": 0,
+      "type": "groups"
+    },
+    {
+      "id": "knockout-stage",
+      "matches": [
+        {
+          "bestOf": 3,
+          "date": "2013-09-23T19:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 53,
+                "bans": [
+                  "Fizz",
+                  "Kennen",
+                  "Zed"
+                ],
+                "picks": [
+                  "Lissandra",
+                  "Jarvan IV",
+                  "Kassadin",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "fnatic"
+              },
+              "durationSec": 1993,
+              "id": "Season 3 World Championship_Quarterfinals_1_1",
+              "number": 1,
+              "red": {
+                "assists": 25,
+                "bans": [
+                  "Aatrox",
+                  "Orianna",
+                  "Ahri"
+                ],
+                "picks": [
+                  "Shen",
+                  "Elise",
+                  "Gragas",
+                  "Ashe",
+                  "Sona"
+                ],
+                "team": "cloud9"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 58,
+                "bans": [
+                  "Aatrox",
+                  "Ahri",
+                  "Orianna"
+                ],
+                "picks": [
+                  "Rumble",
+                  "Nocturne",
+                  "Fizz",
+                  "Varus",
+                  "Thresh"
+                ],
+                "team": "cloud9"
+              },
+              "durationSec": 2340,
+              "id": "Season 3 World Championship_Quarterfinals_1_2",
+              "number": 2,
+              "red": {
+                "assists": 32,
+                "bans": [
+                  "Zed",
+                  "Kennen",
+                  "Kassadin"
+                ],
+                "picks": [
+                  "Zac",
+                  "Elise",
+                  "Twisted Fate",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "fnatic"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 68,
+                "bans": [
+                  "Fizz",
+                  "Zed",
+                  "Rumble"
+                ],
+                "picks": [
+                  "Shen",
+                  "Lee Sin",
+                  "Kassadin",
+                  "Varus",
+                  "Leona"
+                ],
+                "team": "fnatic"
+              },
+              "durationSec": 1673,
+              "id": "Season 3 World Championship_Quarterfinals_1_3",
+              "number": 3,
+              "red": {
+                "assists": 6,
+                "bans": [
+                  "Aatrox",
+                  "Orianna",
+                  "Ahri"
+                ],
+                "picks": [
+                  "Vladimir",
+                  "Nocturne",
+                  "Kennen",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "cloud9"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Quarterfinals_1",
+          "round": "Quarterfinals",
+          "score1": 1,
+          "score2": 2,
+          "team1": "cloud9",
+          "team2": "fnatic",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 3,
+          "date": "2013-09-23T23:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 64,
+                "bans": [
+                  "Caitlyn",
+                  "Jax",
+                  "Corki"
+                ],
+                "picks": [
+                  "Shen",
+                  "Elise",
+                  "Fizz",
+                  "Varus",
+                  "Sona"
+                ],
+                "team": "gambit-gaming"
+              },
+              "durationSec": 2572,
+              "id": "Season 3 World Championship_Quarterfinals_2_1",
+              "number": 1,
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Kassadin",
+                  "Zed",
+                  "Evelynn"
+                ],
+                "picks": [
+                  "Diana",
+                  "Nunu & Willump",
+                  "Ahri",
+                  "Twitch",
+                  "Thresh"
+                ],
+                "team": "najin-black-sword"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 44,
+                "bans": [
+                  "Kassadin",
+                  "Evelynn",
+                  "Fizz"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Elise",
+                  "Ahri",
+                  "Twitch",
+                  "Thresh"
+                ],
+                "team": "najin-black-sword"
+              },
+              "durationSec": 1489,
+              "id": "Season 3 World Championship_Quarterfinals_2_2",
+              "number": 2,
+              "red": {
+                "assists": 10,
+                "bans": [
+                  "Jax",
+                  "Zed",
+                  "Shen"
+                ],
+                "picks": [
+                  "Malphite",
+                  "Aatrox",
+                  "Orianna",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "gambit-gaming"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 21,
+                "bans": [
+                  "Jax",
+                  "Elise",
+                  "Ahri"
+                ],
+                "picks": [
+                  "Shen",
+                  "Evelynn",
+                  "Gragas",
+                  "Kog'Maw",
+                  "Sona"
+                ],
+                "team": "gambit-gaming"
+              },
+              "durationSec": 2402,
+              "id": "Season 3 World Championship_Quarterfinals_2_3",
+              "number": 3,
+              "red": {
+                "assists": 37,
+                "bans": [
+                  "Fizz",
+                  "Kassadin",
+                  "Zed"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Nunu & Willump",
+                  "Nidalee",
+                  "Corki",
+                  "Thresh"
+                ],
+                "team": "najin-black-sword"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Quarterfinals_2",
+          "round": "Quarterfinals",
+          "score1": 2,
+          "score2": 1,
+          "team1": "najin-black-sword",
+          "team2": "gambit-gaming",
+          "winner": "najin-black-sword"
+        },
+        {
+          "bestOf": 3,
+          "date": "2013-09-25T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 15,
+                "bans": [
+                  "Corki",
+                  "Aatrox",
+                  "Zed"
+                ],
+                "picks": [
+                  "Shyvana",
+                  "Elise",
+                  "Kassadin",
+                  "Varus",
+                  "Zyra"
+                ],
+                "team": "gashbears"
+              },
+              "durationSec": 1990,
+              "id": "Season 3 World Championship_Quarterfinals_3_1",
+              "number": 1,
+              "red": {
+                "assists": 49,
+                "bans": [
+                  "Fizz",
+                  "Shen",
+                  "Thresh"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Vi",
+                  "Ahri",
+                  "Caitlyn",
+                  "Nami"
+                ],
+                "team": "t1"
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 56,
+                "bans": [
+                  "Fizz",
+                  "Zyra",
+                  "Renekton"
+                ],
+                "picks": [
+                  "Shen",
+                  "Lee Sin",
+                  "Lissandra",
+                  "Ezreal",
+                  "Thresh"
+                ],
+                "team": "t1"
+              },
+              "durationSec": 1624,
+              "id": "Season 3 World Championship_Quarterfinals_3_2",
+              "number": 2,
+              "red": {
+                "assists": 10,
+                "bans": [
+                  "Corki",
+                  "Aatrox",
+                  "Zed"
+                ],
+                "picks": [
+                  "Rumble",
+                  "Elise",
+                  "Ahri",
+                  "Varus",
+                  "Annie"
+                ],
+                "team": "gashbears"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Quarterfinals_3",
+          "round": "Quarterfinals",
+          "score1": 0,
+          "score2": 2,
+          "team1": "gashbears",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 3,
+          "date": "2013-09-25T05:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 40,
+                "bans": [
+                  "Orianna",
+                  "Zed",
+                  "Aatrox"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Jarvan IV",
+                  "Vladimir",
+                  "Caitlyn",
+                  "Annie"
+                ],
+                "team": "royal-club"
+              },
+              "durationSec": 1957,
+              "id": "Season 3 World Championship_Quarterfinals_4_1",
+              "number": 1,
+              "red": {
+                "assists": 30,
+                "bans": [
+                  "Shen",
+                  "Fizz",
+                  "Elise"
+                ],
+                "picks": [
+                  "Jax",
+                  "Lee Sin",
+                  "Ahri",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "oh-my-god"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 16,
+                "bans": [
+                  "Annie",
+                  "Fizz",
+                  "Corki"
+                ],
+                "picks": [
+                  "Shen",
+                  "Lee Sin",
+                  "Ahri",
+                  "Varus",
+                  "Lulu"
+                ],
+                "team": "oh-my-god"
+              },
+              "durationSec": 1513,
+              "id": "Season 3 World Championship_Quarterfinals_4_2",
+              "number": 2,
+              "red": {
+                "assists": 52,
+                "bans": [
+                  "Orianna",
+                  "Renekton",
+                  "Aatrox"
+                ],
+                "picks": [
+                  "Rumble",
+                  "Elise",
+                  "Zed",
+                  "Vayne",
+                  "Sona"
+                ],
+                "team": "royal-club"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 3 World Championship_Quarterfinals_4",
+          "round": "Quarterfinals",
+          "score1": 2,
+          "score2": 0,
+          "team1": "royal-club",
+          "team2": "oh-my-god",
+          "winner": "royal-club"
+        },
+        {
+          "bestOf": 5,
+          "date": "2013-09-28T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Twitch",
+                  "Thresh",
+                  "Sona"
+                ],
+                "picks": [
+                  "Shen",
+                  "Lee Sin",
+                  "Ahri",
+                  "Ezreal",
+                  "Zyra"
+                ],
+                "team": "t1"
+              },
+              "durationSec": 2871,
+              "id": "Season 3 World Championship_Semifinals_1_1",
+              "number": 1,
+              "red": {
+                "assists": 33,
+                "bans": [
+                  "Vi",
+                  "Zed",
+                  "Fizz"
+                ],
+                "picks": [
+                  "Jax",
+                  "Elise",
+                  "Gragas",
+                  "Corki",
+                  "Leona"
+                ],
+                "team": "najin-black-sword"
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 8,
+                "bans": [
+                  "Vi",
+                  "Caitlyn",
+                  "Fizz"
+                ],
+                "picks": [
+                  "Jax",
+                  "Elise",
+                  "Gragas",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "najin-black-sword"
+              },
+              "durationSec": 1797,
+              "id": "Season 3 World Championship_Semifinals_1_2",
+              "number": 2,
+              "red": {
+                "assists": 40,
+                "bans": [
+                  "Twitch",
+                  "Zed",
+                  "Shen"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Lee Sin",
+                  "Orianna",
+                  "Vayne",
+                  "Thresh"
+                ],
+                "team": "t1"
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 21,
+                "bans": [
+                  "Twitch",
+                  "Thresh",
+                  "Jax"
+                ],
+                "picks": [
+                  "Shen",
+                  "Aatrox",
+                  "Ahri",
+                  "Vayne",
+                  "Zyra"
+                ],
+                "team": "t1"
+              },
+              "durationSec": 2321,
+              "id": "Season 3 World Championship_Semifinals_1_3",
+              "number": 3,
+              "red": {
+                "assists": 49,
+                "bans": [
+                  "Zed",
+                  "Vi",
+                  "Fizz"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Lee Sin",
+                  "Gragas",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "najin-black-sword"
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 14,
+                "bans": [
+                  "Vi",
+                  "Fizz",
+                  "Vayne"
+                ],
+                "picks": [
+                  "Jax",
+                  "Elise",
+                  "Ahri",
+                  "Ezreal",
+                  "Thresh"
+                ],
+                "team": "najin-black-sword"
+              },
+              "durationSec": 1370,
+              "id": "Season 3 World Championship_Semifinals_1_4",
+              "number": 4,
+              "red": {
+                "assists": 32,
+                "bans": [
+                  "Twitch",
+                  "Zed",
+                  "Gragas"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Lee Sin",
+                  "Orianna",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "t1"
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 16,
+                "bans": [
+                  "Twitch",
+                  "Gragas",
+                  "Corki"
+                ],
+                "picks": [
+                  "Jax",
+                  "Lee Sin",
+                  "Orianna",
+                  "Ezreal",
+                  "Zyra"
+                ],
+                "team": "t1"
+              },
+              "durationSec": 1625,
+              "id": "Season 3 World Championship_Semifinals_1_5",
+              "number": 5,
+              "red": {
+                "assists": 11,
+                "bans": [
+                  "Zed",
+                  "Vi",
+                  "Fizz"
+                ],
+                "picks": [
+                  "Shen",
+                  "Nocturne",
+                  "Ahri",
+                  "Caitlyn",
+                  "Thresh"
+                ],
+                "team": "najin-black-sword"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Semifinals_1",
+          "round": "Semifinals",
+          "score1": 3,
+          "score2": 2,
+          "team1": "t1",
+          "team2": "najin-black-sword",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 5,
+          "date": "2013-09-28T19:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 9,
+                "bans": [
+                  "Annie",
+                  "Renekton",
+                  "Zed"
+                ],
+                "picks": [
+                  "Zac",
+                  "Lee Sin",
+                  "Fizz",
+                  "Corki",
+                  "Leona"
+                ],
+                "team": "fnatic"
+              },
+              "durationSec": 1749,
+              "id": "Season 3 World Championship_Semifinals_2_1",
+              "number": 1,
+              "red": {
+                "assists": 41,
+                "bans": [
+                  "Lissandra",
+                  "Kassadin",
+                  "Shen"
+                ],
+                "picks": [
+                  "Jax",
+                  "Elise",
+                  "Orianna",
+                  "Vayne",
+                  "Lulu"
+                ],
+                "team": "royal-club"
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 47,
+                "bans": [
+                  "Lissandra",
+                  "Kassadin",
+                  "Shen"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Elise",
+                  "Orianna",
+                  "Ezreal",
+                  "Sona"
+                ],
+                "team": "royal-club"
+              },
+              "durationSec": 1785,
+              "id": "Season 3 World Championship_Semifinals_2_2",
+              "number": 2,
+              "red": {
+                "assists": 37,
+                "bans": [
+                  "Zed",
+                  "Vayne",
+                  "Annie"
+                ],
+                "picks": [
+                  "Zac",
+                  "Aatrox",
+                  "Ahri",
+                  "Ashe",
+                  "Zyra"
+                ],
+                "team": "fnatic"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 51,
+                "bans": [
+                  "Vayne",
+                  "Annie",
+                  "Zed"
+                ],
+                "picks": [
+                  "Zac",
+                  "Aatrox",
+                  "Orianna",
+                  "Varus",
+                  "Leona"
+                ],
+                "team": "fnatic"
+              },
+              "durationSec": 1952,
+              "id": "Season 3 World Championship_Semifinals_2_3",
+              "number": 3,
+              "red": {
+                "assists": 1,
+                "bans": [
+                  "Lissandra",
+                  "Kassadin",
+                  "Shen"
+                ],
+                "picks": [
+                  "Renekton",
+                  "Elise",
+                  "Gragas",
+                  "Corki",
+                  "Lulu"
+                ],
+                "team": "royal-club"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 72,
+                "bans": [
+                  "Lissandra",
+                  "Kassadin",
+                  "Aatrox"
+                ],
+                "picks": [
+                  "Shen",
+                  "Elise",
+                  "Kayle",
+                  "Caitlyn",
+                  "Annie"
+                ],
+                "team": "royal-club"
+              },
+              "durationSec": 2994,
+              "id": "Season 3 World Championship_Semifinals_2_4",
+              "number": 4,
+              "red": {
+                "assists": 98,
+                "bans": [
+                  "Zed",
+                  "Vayne",
+                  "Orianna"
+                ],
+                "picks": [
+                  "Rumble",
+                  "Jarvan IV",
+                  "Fizz",
+                  "Varus",
+                  "Leona"
+                ],
+                "team": "fnatic"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Semifinals_2",
+          "round": "Semifinals",
+          "score1": 3,
+          "score2": 1,
+          "team1": "royal-club",
+          "team2": "fnatic",
+          "winner": "royal-club"
+        },
+        {
+          "bestOf": 5,
+          "date": "2013-10-05T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 25,
+                "bans": [
+                  "Vi",
+                  "Shen",
+                  "Lee Sin"
+                ],
+                "picks": [
+                  "Malphite",
+                  "Elise",
+                  "Orianna",
+                  "Vayne",
+                  "Sona"
+                ],
+                "team": "royal-club"
+              },
+              "durationSec": 1811,
+              "id": "Season 3 World Championship_Finals_1_1",
+              "number": 1,
+              "red": {
+                "assists": 40,
+                "bans": [
+                  "Zed",
+                  "Annie",
+                  "Renekton"
+                ],
+                "picks": [
+                  "Jax",
+                  "Jarvan IV",
+                  "Gragas",
+                  "Corki",
+                  "Thresh"
+                ],
+                "team": "t1"
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 64,
+                "bans": [
+                  "Annie",
+                  "Renekton",
+                  "Corki"
+                ],
+                "picks": [
+                  "Jax",
+                  "Lee Sin",
+                  "Zed",
+                  "Ezreal",
+                  "Zyra"
+                ],
+                "team": "t1"
+              },
+              "durationSec": 2307,
+              "id": "Season 3 World Championship_Finals_1_2",
+              "number": 2,
+              "red": {
+                "assists": 47,
+                "bans": [
+                  "Shen",
+                  "Orianna",
+                  "Vi"
+                ],
+                "picks": [
+                  "Rumble",
+                  "Jarvan IV",
+                  "Kassadin",
+                  "Vayne",
+                  "Sona"
+                ],
+                "team": "royal-club"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 21,
+                "bans": [
+                  "Annie",
+                  "Renekton",
+                  "Zed"
+                ],
+                "picks": [
+                  "Jax",
+                  "Jarvan IV",
+                  "Gragas",
+                  "Corki",
+                  "Zyra"
+                ],
+                "team": "t1"
+              },
+              "durationSec": 1248,
+              "id": "Season 3 World Championship_Finals_1_3",
+              "number": 3,
+              "red": {
+                "assists": 3,
+                "bans": [
+                  "Orianna",
+                  "Shen",
+                  "Vi"
+                ],
+                "picks": [
+                  "Kennen",
+                  "Lee Sin",
+                  "Fizz",
+                  "Caitlyn",
+                  "Sona"
+                ],
+                "team": "royal-club"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 3 World Championship_Finals_1",
+          "round": "Finals",
+          "score1": 3,
+          "score2": 0,
+          "team1": "t1",
+          "team2": "royal-club",
+          "winner": "t1"
+        }
+      ],
+      "name": "Knockout Stage",
+      "order": 1,
+      "type": "single-elimination"
+    }
+  ],
+  "startDate": "2013-09-15",
+  "status": "completed",
+  "year": 2013
+}

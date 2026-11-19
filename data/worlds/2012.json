@@ -1,0 +1,1458 @@
+{
+  "champion": "taipei-assassins",
+  "coverage": {
+    "games": true,
+    "matches": true
+  },
+  "endDate": "2012-10-13",
+  "name": "Worlds 2012",
+  "overviewPages": [
+    "Season 2 World Championship"
+  ],
+  "stages": [
+    {
+      "id": "group-stage",
+      "matches": [
+        {
+          "bestOf": 1,
+          "date": "2012-10-04T16:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 62,
+                "bans": [
+                  "Yorick",
+                  "Evelynn",
+                  "Jayce"
+                ],
+                "picks": [
+                  "Jax",
+                  "Shen",
+                  "Vladimir",
+                  "Ezreal",
+                  "Alistar"
+                ],
+                "team": "azubu-frost"
+              },
+              "durationSec": 2489,
+              "id": "Season 2 World Championship_Group Stage_1_1",
+              "number": 1,
+              "red": {
+                "assists": 63,
+                "bans": [
+                  "Anivia",
+                  "Lux",
+                  "Skarner"
+                ],
+                "picks": [
+                  "Jarvan IV",
+                  "Nocturne",
+                  "Swain",
+                  "Corki",
+                  "Leona"
+                ],
+                "team": "invictus-gaming"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 2 World Championship_Group Stage_1",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "azubu-frost",
+          "team2": "invictus-gaming",
+          "winner": "azubu-frost"
+        },
+        {
+          "bestOf": 1,
+          "date": "2012-10-04T17:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Sivir",
+                  "Olaf",
+                  "Draven"
+                ],
+                "picks": [
+                  "Yorick",
+                  "Skarner",
+                  "Vladimir",
+                  "Corki",
+                  "Alistar"
+                ],
+                "team": "invictus-gaming"
+              },
+              "durationSec": 1757,
+              "id": "Season 2 World Championship_Group Stage_2_1",
+              "number": 1,
+              "red": {
+                "assists": 12,
+                "bans": [
+                  "Ezreal",
+                  "Jayce",
+                  "Shen"
+                ],
+                "picks": [
+                  "Diana",
+                  "Dr. Mundo",
+                  "Cassiopeia",
+                  "Graves",
+                  "Lulu"
+                ],
+                "team": "counter-logic-gaming"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 2 World Championship_Group Stage_2",
+          "round": "Group Stage",
+          "score1": 0,
+          "score2": 1,
+          "team1": "counter-logic-gaming",
+          "team2": "invictus-gaming",
+          "winner": "invictus-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2012-10-04T18:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 9,
+                "bans": [
+                  "Vladimir",
+                  "Skarner",
+                  "Jax"
+                ],
+                "picks": [
+                  "Irelia",
+                  "Alistar",
+                  "Karthus",
+                  "Caitlyn",
+                  "Sona"
+                ],
+                "team": "sk-gaming"
+              },
+              "durationSec": 1780,
+              "id": "Season 2 World Championship_Group Stage_3_1",
+              "number": 1,
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Twisted Fate",
+                  "Ezreal",
+                  "Orianna"
+                ],
+                "picks": [
+                  "Singed",
+                  "Shen",
+                  "Anivia",
+                  "Corki",
+                  "Lux"
+                ],
+                "team": "azubu-frost"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 2 World Championship_Group Stage_3",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "azubu-frost",
+          "team2": "sk-gaming",
+          "winner": "azubu-frost"
+        },
+        {
+          "bestOf": 1,
+          "date": "2012-10-04T19:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 11,
+                "bans": [
+                  "Sivir",
+                  "Olaf",
+                  "Sona"
+                ],
+                "picks": [
+                  "Jayce",
+                  "Shen",
+                  "Lux",
+                  "Ezreal",
+                  "Nunu & Willump"
+                ],
+                "team": "sk-gaming"
+              },
+              "durationSec": 2141,
+              "id": "Season 2 World Championship_Group Stage_4_1",
+              "number": 1,
+              "red": {
+                "assists": 19,
+                "bans": [
+                  "Alistar",
+                  "Gangplank",
+                  "Irelia"
+                ],
+                "picks": [
+                  "Diana",
+                  "Cho'Gath",
+                  "Orianna",
+                  "Graves",
+                  "Lulu"
+                ],
+                "team": "counter-logic-gaming"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 2 World Championship_Group Stage_4",
+          "round": "Group Stage",
+          "score1": 0,
+          "score2": 1,
+          "team1": "sk-gaming",
+          "team2": "counter-logic-gaming",
+          "winner": "counter-logic-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2012-10-04T20:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 42,
+                "bans": [
+                  "Orianna",
+                  "Evelynn",
+                  "Alistar"
+                ],
+                "picks": [
+                  "Jax",
+                  "Maokai",
+                  "Karthus",
+                  "Miss Fortune",
+                  "Sona"
+                ],
+                "team": "azubu-frost"
+              },
+              "durationSec": 1600,
+              "id": "Season 2 World Championship_Group Stage_5_1",
+              "number": 1,
+              "red": {
+                "assists": 9,
+                "bans": [
+                  "Shen",
+                  "Skarner",
+                  "Ezreal"
+                ],
+                "picks": [
+                  "Olaf",
+                  "Dr. Mundo",
+                  "Cassiopeia",
+                  "Graves",
+                  "Lulu"
+                ],
+                "team": "counter-logic-gaming"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 2 World Championship_Group Stage_5",
+          "round": "Group Stage",
+          "score1": 0,
+          "score2": 1,
+          "team1": "counter-logic-gaming",
+          "team2": "azubu-frost",
+          "winner": "azubu-frost"
+        },
+        {
+          "bestOf": 1,
+          "date": "2012-10-04T21:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Orianna",
+                  "Twisted Fate",
+                  "Alistar"
+                ],
+                "picks": [
+                  "Malphite",
+                  "Shen",
+                  "Cassiopeia",
+                  "Ezreal",
+                  "Leona"
+                ],
+                "team": "invictus-gaming"
+              },
+              "durationSec": 1799,
+              "id": "Season 2 World Championship_Group Stage_6_1",
+              "number": 1,
+              "red": {
+                "assists": 7,
+                "bans": [
+                  "Yorick",
+                  "Vladimir",
+                  "Sona"
+                ],
+                "picks": [
+                  "Jayce",
+                  "Udyr",
+                  "Karthus",
+                  "Corki",
+                  "Nunu & Willump"
+                ],
+                "team": "sk-gaming"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 2 World Championship_Group Stage_6",
+          "round": "Group Stage",
+          "score1": 0,
+          "score2": 1,
+          "team1": "sk-gaming",
+          "team2": "invictus-gaming",
+          "winner": "invictus-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2012-10-04T22:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 13,
+                "bans": [
+                  "Anivia",
+                  "Malphite",
+                  "Alistar"
+                ],
+                "picks": [
+                  "Darius",
+                  "Shyvana",
+                  "Gragas",
+                  "Ezreal",
+                  "Taric"
+                ],
+                "team": "dignitas"
+              },
+              "durationSec": 2088,
+              "id": "Season 2 World Championship_Group Stage_7_1",
+              "number": 1,
+              "red": {
+                "assists": 38,
+                "bans": [
+                  "Katarina",
+                  "Skarner",
+                  "Draven"
+                ],
+                "picks": [
+                  "Irelia",
+                  "Maokai",
+                  "Orianna",
+                  "Kog'Maw",
+                  "Sona"
+                ],
+                "team": "counter-logic-gaming-europe"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 2 World Championship_Group Stage_7",
+          "round": "Group Stage",
+          "score1": 0,
+          "score2": 1,
+          "team1": "dignitas",
+          "team2": "counter-logic-gaming-europe",
+          "winner": "counter-logic-gaming-europe"
+        },
+        {
+          "bestOf": 1,
+          "date": "2012-10-04T23:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 42,
+                "bans": [
+                  "Twisted Fate",
+                  "Lee Sin",
+                  "Alistar"
+                ],
+                "picks": [
+                  "Jayce",
+                  "Skarner",
+                  "Ryze",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "najin-black-sword"
+              },
+              "durationSec": 1421,
+              "id": "Season 2 World Championship_Group Stage_8_1",
+              "number": 1,
+              "red": {
+                "assists": 12,
+                "bans": [
+                  "Sivir",
+                  "Evelynn",
+                  "Diana"
+                ],
+                "picks": [
+                  "Irelia",
+                  "Shen",
+                  "Karthus",
+                  "Ezreal",
+                  "Lux"
+                ],
+                "team": "saigon-jokers"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 2 World Championship_Group Stage_8",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "najin-black-sword",
+          "team2": "saigon-jokers",
+          "winner": "najin-black-sword"
+        },
+        {
+          "bestOf": 1,
+          "date": "2012-10-05T00:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 8,
+                "bans": [
+                  "Skarner",
+                  "Evelynn",
+                  "Jayce"
+                ],
+                "picks": [
+                  "Malphite",
+                  "Shyvana",
+                  "Karthus",
+                  "Tristana",
+                  "Lulu"
+                ],
+                "team": "counter-logic-gaming-europe"
+              },
+              "durationSec": 1712,
+              "id": "Season 2 World Championship_Group Stage_9_1",
+              "number": 1,
+              "red": {
+                "assists": 58,
+                "bans": [
+                  "Anivia",
+                  "Alistar",
+                  "Irelia"
+                ],
+                "picks": [
+                  "Nidalee",
+                  "Maokai",
+                  "Orianna",
+                  "Ezreal",
+                  "Sona"
+                ],
+                "team": "najin-black-sword"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 2 World Championship_Group Stage_9",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "najin-black-sword",
+          "team2": "counter-logic-gaming-europe",
+          "winner": "najin-black-sword"
+        },
+        {
+          "bestOf": 1,
+          "date": "2012-10-05T01:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 12,
+                "bans": [
+                  "Irelia",
+                  "Evelynn",
+                  "Alistar"
+                ],
+                "picks": [
+                  "Shen",
+                  "Udyr",
+                  "Katarina",
+                  "Corki",
+                  "Nunu & Willump"
+                ],
+                "team": "dignitas"
+              },
+              "durationSec": 1643,
+              "id": "Season 2 World Championship_Group Stage_10_1",
+              "number": 1,
+              "red": {
+                "assists": 55,
+                "bans": [
+                  "Gragas",
+                  "Shyvana",
+                  "Diana"
+                ],
+                "picks": [
+                  "Jayce",
+                  "Malphite",
+                  "Karthus",
+                  "Ezreal",
+                  "Leona"
+                ],
+                "team": "saigon-jokers"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 2 World Championship_Group Stage_10",
+          "round": "Group Stage",
+          "score1": 0,
+          "score2": 1,
+          "team1": "dignitas",
+          "team2": "saigon-jokers",
+          "winner": "saigon-jokers"
+        },
+        {
+          "bestOf": 1,
+          "date": "2012-10-05T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 8,
+                "bans": [
+                  "Anivia",
+                  "Diana",
+                  "Alistar"
+                ],
+                "picks": [
+                  "Jayce",
+                  "Shen",
+                  "Morgana",
+                  "Caitlyn",
+                  "Nunu & Willump"
+                ],
+                "team": "saigon-jokers"
+              },
+              "durationSec": 1775,
+              "id": "Season 2 World Championship_Group Stage_11_1",
+              "number": 1,
+              "red": {
+                "assists": 32,
+                "bans": [
+                  "Skarner",
+                  "Evelynn",
+                  "Ezreal"
+                ],
+                "picks": [
+                  "Irelia",
+                  "Maokai",
+                  "Karthus",
+                  "Kog'Maw",
+                  "Sona"
+                ],
+                "team": "counter-logic-gaming-europe"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 2 World Championship_Group Stage_11",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "counter-logic-gaming-europe",
+          "team2": "saigon-jokers",
+          "winner": "counter-logic-gaming-europe"
+        },
+        {
+          "bestOf": 1,
+          "date": "2012-10-05T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 32,
+                "bans": [
+                  "Evelynn",
+                  "Nidalee",
+                  "Malphite"
+                ],
+                "picks": [
+                  "Irelia",
+                  "Udyr",
+                  "Diana",
+                  "Ezreal",
+                  "Blitzcrank"
+                ],
+                "team": "dignitas"
+              },
+              "durationSec": 2484,
+              "id": "Season 2 World Championship_Group Stage_12_1",
+              "number": 1,
+              "red": {
+                "assists": 83,
+                "bans": [
+                  "Alistar",
+                  "Katarina",
+                  "Skarner"
+                ],
+                "picks": [
+                  "Shen",
+                  "Lee Sin",
+                  "Anivia",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "najin-black-sword"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 2 World Championship_Group Stage_12",
+          "round": "Group Stage",
+          "score1": 1,
+          "score2": 0,
+          "team1": "najin-black-sword",
+          "team2": "dignitas",
+          "winner": "najin-black-sword"
+        }
+      ],
+      "name": "Group Stage",
+      "order": 0,
+      "type": "groups"
+    },
+    {
+      "id": "knockout-stage",
+      "matches": [
+        {
+          "bestOf": 3,
+          "date": "2012-10-05T19:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 58,
+                "bans": [
+                  "Maokai",
+                  "Alistar",
+                  "Jayce"
+                ],
+                "picks": [
+                  "Xin Zhao",
+                  "Lee Sin",
+                  "Evelynn",
+                  "Kog'Maw",
+                  "Zyra"
+                ],
+                "team": "moscow-five"
+              },
+              "durationSec": 1970,
+              "id": "Season 2 World Championship_Quarterfinals_1_1",
+              "number": 1,
+              "red": {
+                "assists": 48,
+                "bans": [
+                  "Gragas",
+                  "Nunu & Willump",
+                  "Sona"
+                ],
+                "picks": [
+                  "Yorick",
+                  "Shen",
+                  "Cassiopeia",
+                  "Ezreal",
+                  "Leona"
+                ],
+                "team": "invictus-gaming"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 19,
+                "bans": [
+                  "Evelynn",
+                  "Gragas",
+                  "Nunu & Willump"
+                ],
+                "picks": [
+                  "Vladimir",
+                  "Shen",
+                  "Ryze",
+                  "Ezreal",
+                  "Alistar"
+                ],
+                "team": "invictus-gaming"
+              },
+              "durationSec": 1802,
+              "id": "Season 2 World Championship_Quarterfinals_1_2",
+              "number": 2,
+              "red": {
+                "assists": 60,
+                "bans": [
+                  "Yorick",
+                  "Maokai",
+                  "Jayce"
+                ],
+                "picks": [
+                  "Olaf",
+                  "Lee Sin",
+                  "Zilean",
+                  "Kog'Maw",
+                  "Sona"
+                ],
+                "team": "moscow-five"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 2 World Championship_Quarterfinals_1",
+          "round": "Quarterfinals",
+          "score1": 2,
+          "score2": 0,
+          "team1": "moscow-five",
+          "team2": "invictus-gaming",
+          "winner": "moscow-five"
+        },
+        {
+          "bestOf": 3,
+          "date": "2012-10-05T21:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 30,
+                "bans": [
+                  "Evelynn",
+                  "Maokai",
+                  "Sona"
+                ],
+                "picks": [
+                  "Jayce",
+                  "Dr. Mundo",
+                  "Orianna",
+                  "Kog'Maw",
+                  "Nunu & Willump"
+                ],
+                "team": "taipei-assassins"
+              },
+              "durationSec": 1602,
+              "id": "Season 2 World Championship_Quarterfinals_2_1",
+              "number": 1,
+              "red": {
+                "assists": 6,
+                "bans": [
+                  "Vladimir",
+                  "Morgana",
+                  "Karthus"
+                ],
+                "picks": [
+                  "Irelia",
+                  "Skarner",
+                  "Ryze",
+                  "Ezreal",
+                  "Taric"
+                ],
+                "team": "najin-black-sword"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 28,
+                "bans": [
+                  "Vladimir",
+                  "Kog'Maw",
+                  "Karthus"
+                ],
+                "picks": [
+                  "Jax",
+                  "Maokai",
+                  "Morgana",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "najin-black-sword"
+              },
+              "durationSec": 2011,
+              "id": "Season 2 World Championship_Quarterfinals_2_2",
+              "number": 2,
+              "red": {
+                "assists": 45,
+                "bans": [
+                  "Jayce",
+                  "Evelynn",
+                  "Orianna"
+                ],
+                "picks": [
+                  "Shen",
+                  "Skarner",
+                  "Anivia",
+                  "Ezreal",
+                  "Blitzcrank"
+                ],
+                "team": "taipei-assassins"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 2 World Championship_Quarterfinals_2",
+          "round": "Quarterfinals",
+          "score1": 2,
+          "score2": 0,
+          "team1": "taipei-assassins",
+          "team2": "najin-black-sword",
+          "winner": "taipei-assassins"
+        },
+        {
+          "bestOf": 3,
+          "date": "2012-10-05T23:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 39,
+                "bans": [
+                  "Alistar",
+                  "Anivia",
+                  "Shen"
+                ],
+                "picks": [
+                  "Darius",
+                  "Shyvana",
+                  "Karthus",
+                  "Ezreal",
+                  "Sona"
+                ],
+                "team": "tsm"
+              },
+              "durationSec": 2376,
+              "id": "Season 2 World Championship_Quarterfinals_3_1",
+              "number": 1,
+              "red": {
+                "assists": 31,
+                "bans": [
+                  "Orianna",
+                  "Yorick",
+                  "Vladimir"
+                ],
+                "picks": [
+                  "Jayce",
+                  "Maokai",
+                  "Lux",
+                  "Miss Fortune",
+                  "Blitzcrank"
+                ],
+                "team": "azubu-frost"
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 50,
+                "bans": [
+                  "Orianna",
+                  "Yorick",
+                  "Katarina"
+                ],
+                "picks": [
+                  "Irelia",
+                  "Skarner",
+                  "Vladimir",
+                  "Ezreal",
+                  "Taric"
+                ],
+                "team": "azubu-frost"
+              },
+              "durationSec": 1955,
+              "id": "Season 2 World Championship_Quarterfinals_3_2",
+              "number": 2,
+              "red": {
+                "assists": 26,
+                "bans": [
+                  "Alistar",
+                  "Anivia",
+                  "Shen"
+                ],
+                "picks": [
+                  "Jayce",
+                  "Maokai",
+                  "Karthus",
+                  "Graves",
+                  "Blitzcrank"
+                ],
+                "team": "tsm"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 2 World Championship_Quarterfinals_3",
+          "round": "Quarterfinals",
+          "score1": 0,
+          "score2": 2,
+          "team1": "tsm",
+          "team2": "azubu-frost",
+          "winner": "azubu-frost"
+        },
+        {
+          "bestOf": 3,
+          "date": "2012-10-11T00:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Twisted Fate",
+                  "Shen",
+                  "Skarner"
+                ],
+                "picks": [
+                  "Malphite",
+                  "Cho'Gath",
+                  "Karthus",
+                  "Ezreal",
+                  "Leona"
+                ],
+                "team": "counter-logic-gaming-europe"
+              },
+              "durationSec": 2510,
+              "id": "Season 2 World Championship_Quarterfinals_4_1",
+              "number": 1,
+              "red": {
+                "assists": 60,
+                "bans": [
+                  "Anivia",
+                  "Alistar",
+                  "Irelia"
+                ],
+                "picks": [
+                  "Olaf",
+                  "Maokai",
+                  "Orianna",
+                  "Graves",
+                  "Blitzcrank"
+                ],
+                "team": "team-we"
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 29,
+                "bans": [
+                  "Anivia",
+                  "Alistar",
+                  "Irelia"
+                ],
+                "picks": [
+                  "Shen",
+                  "Nocturne",
+                  "Vladimir",
+                  "Ezreal",
+                  "Taric"
+                ],
+                "team": "team-we"
+              },
+              "durationSec": 3299,
+              "id": "Season 2 World Championship_Quarterfinals_4_2",
+              "number": 2,
+              "red": {
+                "assists": 41,
+                "bans": [
+                  "Twisted Fate",
+                  "Orianna",
+                  "Blitzcrank"
+                ],
+                "picks": [
+                  "Jayce",
+                  "Skarner",
+                  "Karthus",
+                  "Corki",
+                  "Sona"
+                ],
+                "team": "counter-logic-gaming-europe"
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 58,
+                "bans": [
+                  "Twisted Fate",
+                  "Blitzcrank",
+                  "Orianna"
+                ],
+                "picks": [
+                  "Jayce",
+                  "Skarner",
+                  "Karthus",
+                  "Kog'Maw",
+                  "Nunu & Willump"
+                ],
+                "team": "counter-logic-gaming-europe"
+              },
+              "durationSec": 2607,
+              "id": "Season 2 World Championship_Quarterfinals_4_3",
+              "number": 3,
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Anivia",
+                  "Irelia",
+                  "Cho'Gath"
+                ],
+                "picks": [
+                  "Olaf",
+                  "Maokai",
+                  "Vladimir",
+                  "Corki",
+                  "Leona"
+                ],
+                "team": "team-we"
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "Season 2 World Championship_Quarterfinals_4",
+          "round": "Quarterfinals",
+          "score1": 1,
+          "score2": 2,
+          "team1": "team-we",
+          "team2": "counter-logic-gaming-europe",
+          "winner": "counter-logic-gaming-europe"
+        },
+        {
+          "bestOf": 3,
+          "date": "2012-10-11T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 54,
+                "bans": [
+                  "Maokai",
+                  "Blitzcrank",
+                  "Jayce"
+                ],
+                "picks": [
+                  "Yorick",
+                  "Xin Zhao",
+                  "Evelynn",
+                  "Vayne",
+                  "Nunu & Willump"
+                ],
+                "team": "moscow-five"
+              },
+              "durationSec": 1880,
+              "id": "Season 2 World Championship_Semifinals_1_1",
+              "number": 1,
+              "red": {
+                "assists": 15,
+                "bans": [
+                  "Lee Sin",
+                  "Orianna",
+                  "Sona"
+                ],
+                "picks": [
+                  "Shen",
+                  "Udyr",
+                  "Karthus",
+                  "Kog'Maw",
+                  "Taric"
+                ],
+                "team": "taipei-assassins"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 38,
+                "bans": [
+                  "Lee Sin",
+                  "Evelynn",
+                  "Sona"
+                ],
+                "picks": [
+                  "Nidalee",
+                  "Maokai",
+                  "Orianna",
+                  "Vayne",
+                  "Taric"
+                ],
+                "team": "taipei-assassins"
+              },
+              "durationSec": 1681,
+              "id": "Season 2 World Championship_Semifinals_1_2",
+              "number": 2,
+              "red": {
+                "assists": 11,
+                "bans": [
+                  "Blitzcrank",
+                  "Jayce",
+                  "Nunu & Willump"
+                ],
+                "picks": [
+                  "Yorick",
+                  "Udyr",
+                  "Zilean",
+                  "Kog'Maw",
+                  "Zyra"
+                ],
+                "team": "moscow-five"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 16,
+                "bans": [
+                  "Maokai",
+                  "Blitzcrank",
+                  "Jayce"
+                ],
+                "picks": [
+                  "Yorick",
+                  "Shyvana",
+                  "Gragas",
+                  "Kog'Maw",
+                  "Nunu & Willump"
+                ],
+                "team": "moscow-five"
+              },
+              "durationSec": 2648,
+              "id": "Season 2 World Championship_Semifinals_1_3",
+              "number": 3,
+              "red": {
+                "assists": 37,
+                "bans": [
+                  "Lee Sin",
+                  "Evelynn",
+                  "Orianna"
+                ],
+                "picks": [
+                  "Nidalee",
+                  "Dr. Mundo",
+                  "Anivia",
+                  "Ezreal",
+                  "Sona"
+                ],
+                "team": "taipei-assassins"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 2 World Championship_Semifinals_1",
+          "round": "Semifinals",
+          "score1": 1,
+          "score2": 2,
+          "team1": "moscow-five",
+          "team2": "taipei-assassins",
+          "winner": "taipei-assassins"
+        },
+        {
+          "bestOf": 3,
+          "date": "2012-10-11T04:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Jax",
+                  "Blitzcrank",
+                  "Orianna"
+                ],
+                "picks": [
+                  "Jayce",
+                  "Maokai",
+                  "Morgana",
+                  "Ezreal",
+                  "Soraka"
+                ],
+                "team": "counter-logic-gaming-europe"
+              },
+              "durationSec": 2143,
+              "id": "Season 2 World Championship_Semifinals_2_1",
+              "number": 1,
+              "red": {
+                "assists": 12,
+                "bans": [
+                  "Kog'Maw",
+                  "Irelia",
+                  "Anivia"
+                ],
+                "picks": [
+                  "Yorick",
+                  "Shen",
+                  "Karthus",
+                  "Miss Fortune",
+                  "Alistar"
+                ],
+                "team": "azubu-frost"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 33,
+                "bans": [
+                  "Irelia",
+                  "Jayce",
+                  "Karthus"
+                ],
+                "picks": [
+                  "Vladimir",
+                  "Maokai",
+                  "Ahri",
+                  "Ezreal",
+                  "Sona"
+                ],
+                "team": "azubu-frost"
+              },
+              "durationSec": 1802,
+              "id": "Season 2 World Championship_Semifinals_2_2",
+              "number": 2,
+              "red": {
+                "assists": 0,
+                "bans": [
+                  "Blitzcrank",
+                  "Jax",
+                  "Anivia"
+                ],
+                "picks": [
+                  "Shen",
+                  "Skarner",
+                  "Orianna",
+                  "Kog'Maw",
+                  "Nunu & Willump"
+                ],
+                "team": "counter-logic-gaming-europe"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 17,
+                "bans": [
+                  "Jax",
+                  "Blitzcrank",
+                  "Ahri"
+                ],
+                "picks": [
+                  "Riven",
+                  "Maokai",
+                  "Morgana",
+                  "Ezreal",
+                  "Sona"
+                ],
+                "team": "counter-logic-gaming-europe"
+              },
+              "durationSec": 2434,
+              "id": "Season 2 World Championship_Semifinals_2_3",
+              "number": 3,
+              "red": {
+                "assists": 55,
+                "bans": [
+                  "Irelia",
+                  "Jayce",
+                  "Anivia"
+                ],
+                "picks": [
+                  "Singed",
+                  "Skarner",
+                  "Vladimir",
+                  "Graves",
+                  "Zyra"
+                ],
+                "team": "azubu-frost"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 2 World Championship_Semifinals_2",
+          "round": "Semifinals",
+          "score1": 2,
+          "score2": 1,
+          "team1": "azubu-frost",
+          "team2": "counter-logic-gaming-europe",
+          "winner": "azubu-frost"
+        },
+        {
+          "bestOf": 5,
+          "date": "2012-10-14T00:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 65,
+                "bans": [
+                  "Blitzcrank",
+                  "Skarner",
+                  "Jax"
+                ],
+                "picks": [
+                  "Olaf",
+                  "Maokai",
+                  "Anivia",
+                  "Vayne",
+                  "Lulu"
+                ],
+                "team": "taipei-assassins"
+              },
+              "durationSec": 2504,
+              "id": "Season 2 World Championship_Finals_1_1",
+              "number": 1,
+              "red": {
+                "assists": 83,
+                "bans": [
+                  "Jayce",
+                  "Orianna",
+                  "Kog'Maw"
+                ],
+                "picks": [
+                  "Irelia",
+                  "Amumu",
+                  "Karthus",
+                  "Ezreal",
+                  "Sona"
+                ],
+                "team": "azubu-frost"
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 12,
+                "bans": [
+                  "Nidalee",
+                  "Kog'Maw",
+                  "Orianna"
+                ],
+                "picks": [
+                  "Jax",
+                  "Maokai",
+                  "Anivia",
+                  "Ezreal",
+                  "Zyra"
+                ],
+                "team": "azubu-frost"
+              },
+              "durationSec": 2416,
+              "id": "Season 2 World Championship_Finals_1_2",
+              "number": 2,
+              "red": {
+                "assists": 31,
+                "bans": [
+                  "Blitzcrank",
+                  "Skarner",
+                  "Jayce"
+                ],
+                "picks": [
+                  "Shen",
+                  "Dr. Mundo",
+                  "Karthus",
+                  "Caitlyn",
+                  "Sona"
+                ],
+                "team": "taipei-assassins"
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 24,
+                "bans": [
+                  "Skarner",
+                  "Blitzcrank",
+                  "Sona"
+                ],
+                "picks": [
+                  "Jax",
+                  "Dr. Mundo",
+                  "Orianna",
+                  "Vayne",
+                  "Nunu & Willump"
+                ],
+                "team": "taipei-assassins"
+              },
+              "durationSec": 1324,
+              "id": "Season 2 World Championship_Finals_1_3",
+              "number": 3,
+              "red": {
+                "assists": 3,
+                "bans": [
+                  "Jayce",
+                  "Nidalee",
+                  "Karthus"
+                ],
+                "picks": [
+                  "Vladimir",
+                  "Shen",
+                  "Anivia",
+                  "Ezreal",
+                  "Leona"
+                ],
+                "team": "azubu-frost"
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 16,
+                "bans": [
+                  "Nidalee",
+                  "Karthus",
+                  "Maokai"
+                ],
+                "picks": [
+                  "Jayce",
+                  "Shyvana",
+                  "Lux",
+                  "Graves",
+                  "Lulu"
+                ],
+                "team": "azubu-frost"
+              },
+              "durationSec": 2339,
+              "id": "Season 2 World Championship_Finals_1_4",
+              "number": 4,
+              "red": {
+                "assists": 50,
+                "bans": [
+                  "Blitzcrank",
+                  "Skarner",
+                  "Sona"
+                ],
+                "picks": [
+                  "Shen",
+                  "Dr. Mundo",
+                  "Orianna",
+                  "Ezreal",
+                  "Nunu & Willump"
+                ],
+                "team": "taipei-assassins"
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "Season 2 World Championship_Finals_1",
+          "round": "Finals",
+          "score1": 3,
+          "score2": 1,
+          "team1": "taipei-assassins",
+          "team2": "azubu-frost",
+          "winner": "taipei-assassins"
+        }
+      ],
+      "name": "Knockout Stage",
+      "order": 1,
+      "type": "single-elimination"
+    }
+  ],
+  "startDate": "2012-10-04",
+  "status": "completed",
+  "year": 2012
+}

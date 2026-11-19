@@ -1,0 +1,4701 @@
+{
+  "champion": "t1",
+  "coverage": {
+    "games": true,
+    "matches": true
+  },
+  "endDate": "2016-10-29",
+  "name": "Worlds 2016",
+  "overviewPages": [
+    "2016 Season World Championship"
+  ],
+  "stages": [
+    {
+      "id": "group-stage",
+      "matches": [
+        {
+          "bestOf": 1,
+          "date": "2016-09-29T23:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 6,
+                "bans": [
+                  "Aurelion Sol",
+                  "Rek'Sai",
+                  "Karma"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 0,
+                "gold": 53500,
+                "kills": 4,
+                "picks": [
+                  "Jayce",
+                  "Elise",
+                  "Syndra",
+                  "Jhin",
+                  "Braum"
+                ],
+                "team": "g2-esports",
+                "towers": 3
+              },
+              "durationSec": 2053,
+              "id": "2016 Season World Championship_Day 1_1_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 40,
+                "bans": [
+                  "Nidalee",
+                  "Sivir",
+                  "Soraka"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 3,
+                "gold": 64800,
+                "kills": 14,
+                "picks": [
+                  "Poppy",
+                  "Olaf",
+                  "Vladimir",
+                  "Caitlyn",
+                  "Nami"
+                ],
+                "team": "counter-logic-gaming",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 1_1",
+          "round": "Day 1",
+          "score1": 0,
+          "score2": 1,
+          "team1": "g2-esports",
+          "team2": "counter-logic-gaming",
+          "winner": "counter-logic-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-09-30T00:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 66,
+                "bans": [
+                  "Brand",
+                  "Karma",
+                  "Rek'Sai"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 2,
+                "gold": 61000,
+                "kills": 28,
+                "picks": [
+                  "Rumble",
+                  "Elise",
+                  "Jayce",
+                  "Lucian",
+                  "Nami"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 10
+              },
+              "durationSec": 1656,
+              "id": "2016 Season World Championship_Day 1_2_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 24,
+                "bans": [
+                  "Sivir",
+                  "Nidalee",
+                  "Ezreal"
+                ],
+                "barons": 0,
+                "deaths": 28,
+                "dragons": 0,
+                "gold": 40500,
+                "kills": 12,
+                "picks": [
+                  "Shen",
+                  "Graves",
+                  "Vladimir",
+                  "Jhin",
+                  "Bard"
+                ],
+                "team": "albus-nox-luna",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 1_2",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "hanwha-life-esports",
+          "team2": "albus-nox-luna",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-09-30T01:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 18,
+                "bans": [
+                  "Twisted Fate",
+                  "Tahm Kench",
+                  "Rek'Sai"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 1,
+                "gold": 78800,
+                "kills": 11,
+                "picks": [
+                  "Gnar",
+                  "Elise",
+                  "Cassiopeia",
+                  "Caitlyn",
+                  "Braum"
+                ],
+                "team": "h2k-gaming",
+                "towers": 4
+              },
+              "durationSec": 2831,
+              "id": "2016 Season World Championship_Day 1_3_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 36,
+                "bans": [
+                  "Nidalee",
+                  "Syndra",
+                  "Karma"
+                ],
+                "barons": 2,
+                "deaths": 11,
+                "dragons": 4,
+                "gold": 88000,
+                "kills": 14,
+                "picks": [
+                  "Rumble",
+                  "Olaf",
+                  "Malzahar",
+                  "Jinx",
+                  "Bard"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 1_3",
+          "round": "Day 1",
+          "score1": 0,
+          "score2": 1,
+          "team1": "h2k-gaming",
+          "team2": "ahq-esports-club",
+          "winner": "ahq-esports-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-09-30T02:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 36,
+                "bans": [
+                  "Jayce",
+                  "Rek'Sai",
+                  "Rumble"
+                ],
+                "barons": 2,
+                "deaths": 12,
+                "dragons": 4,
+                "gold": 82600,
+                "kills": 19,
+                "picks": [
+                  "Gnar",
+                  "Lee Sin",
+                  "Syndra",
+                  "Ashe",
+                  "Braum"
+                ],
+                "team": "intz",
+                "towers": 10
+              },
+              "durationSec": 2531,
+              "id": "2016 Season World Championship_Day 1_4_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 29,
+                "bans": [
+                  "Nidalee",
+                  "Elise",
+                  "Bard"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 1,
+                "gold": 67900,
+                "kills": 12,
+                "picks": [
+                  "Irelia",
+                  "Graves",
+                  "Vladimir",
+                  "Ezreal",
+                  "Nami"
+                ],
+                "team": "edward-gaming",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 1_4",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "intz",
+          "team2": "edward-gaming",
+          "winner": "intz"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-09-30T03:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 53,
+                "bans": [
+                  "Kassadin",
+                  "Aurelion Sol",
+                  "Karma"
+                ],
+                "barons": 1,
+                "deaths": 14,
+                "dragons": 2,
+                "gold": 71200,
+                "kills": 24,
+                "picks": [
+                  "Rumble",
+                  "Rek'Sai",
+                  "Viktor",
+                  "Ezreal",
+                  "Nami"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 11
+              },
+              "durationSec": 2039,
+              "id": "2016 Season World Championship_Day 1_5_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 21,
+                "bans": [
+                  "Nidalee",
+                  "Elise",
+                  "Syndra"
+                ],
+                "barons": 0,
+                "deaths": 24,
+                "dragons": 0,
+                "gold": 54800,
+                "kills": 14,
+                "picks": [
+                  "Kled",
+                  "Graves",
+                  "Cassiopeia",
+                  "Jinx",
+                  "Tahm Kench"
+                ],
+                "team": "movistar-koi",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 1_5",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "samsung-galaxy",
+          "team2": "movistar-koi",
+          "winner": "samsung-galaxy"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-09-30T04:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 11,
+                "bans": [
+                  "Caitlyn",
+                  "Jayce",
+                  "Syndra"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 2,
+                "gold": 62000,
+                "kills": 7,
+                "picks": [
+                  "Kennen",
+                  "Lee Sin",
+                  "Orianna",
+                  "Jhin",
+                  "Nami"
+                ],
+                "team": "tsm",
+                "towers": 4
+              },
+              "durationSec": 2222,
+              "id": "2016 Season World Championship_Day 1_6_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 49,
+                "bans": [
+                  "Nidalee",
+                  "Elise",
+                  "Rek'Sai"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 2,
+                "gold": 70400,
+                "kills": 17,
+                "picks": [
+                  "Rumble",
+                  "Hecarim",
+                  "Cassiopeia",
+                  "Sivir",
+                  "Alistar"
+                ],
+                "team": "royal-never-give-up",
+                "towers": 8
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 1_6",
+          "round": "Day 1",
+          "score1": 0,
+          "score2": 1,
+          "team1": "tsm",
+          "team2": "royal-never-give-up",
+          "winner": "royal-never-give-up"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-09-30T23:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Rek'Sai",
+                  "Gnar",
+                  "Zac"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 3,
+                "gold": 70600,
+                "kills": 17,
+                "picks": [
+                  "Jayce",
+                  "Elise",
+                  "Syndra",
+                  "Ezreal",
+                  "Alistar"
+                ],
+                "team": "t1",
+                "towers": 11
+              },
+              "durationSec": 2050,
+              "id": "2016 Season World Championship_Day 2_1_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 19,
+                "bans": [
+                  "Nidalee",
+                  "Karma",
+                  "Vladimir"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 1,
+                "gold": 54000,
+                "kills": 8,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Cassiopeia",
+                  "Sivir",
+                  "Braum"
+                ],
+                "team": "cloud9",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 2_1",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "t1",
+          "team2": "cloud9",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-01T00:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 16,
+                "bans": [
+                  "Olaf",
+                  "Bard",
+                  "Elise"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 3,
+                "gold": 78200,
+                "kills": 7,
+                "picks": [
+                  "Gnar",
+                  "Rek'Sai",
+                  "Vladimir",
+                  "Lucian",
+                  "Karma"
+                ],
+                "team": "flash-wolves",
+                "towers": 4
+              },
+              "durationSec": 2839,
+              "id": "2016 Season World Championship_Day 2_2_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 38,
+                "bans": [
+                  "Nidalee",
+                  "Rumble",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 2,
+                "gold": 85300,
+                "kills": 13,
+                "picks": [
+                  "Ekko",
+                  "Zac",
+                  "Varus",
+                  "Jhin",
+                  "Alistar"
+                ],
+                "team": "i-may",
+                "towers": 8
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 2_2",
+          "round": "Day 2",
+          "score1": 0,
+          "score2": 1,
+          "team1": "flash-wolves",
+          "team2": "i-may",
+          "winner": "i-may"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-01T01:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 37,
+                "bans": [
+                  "Tahm Kench",
+                  "Jayce",
+                  "Vladimir"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 4,
+                "gold": 69000,
+                "kills": 18,
+                "picks": [
+                  "Kennen",
+                  "Lee Sin",
+                  "Syndra",
+                  "Jhin",
+                  "Braum"
+                ],
+                "team": "tsm",
+                "towers": 11
+              },
+              "durationSec": 2037,
+              "id": "2016 Season World Championship_Day 2_3_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 3,
+                "bans": [
+                  "Nidalee",
+                  "Sivir",
+                  "Cassiopeia"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 0,
+                "gold": 49400,
+                "kills": 1,
+                "picks": [
+                  "Rumble",
+                  "Elise",
+                  "Varus",
+                  "Ezreal",
+                  "Alistar"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 2_3",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "tsm",
+          "team2": "samsung-galaxy",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-01T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 39,
+                "bans": [
+                  "Kassadin",
+                  "Elise",
+                  "Jhin"
+                ],
+                "barons": 0,
+                "deaths": 3,
+                "dragons": 2,
+                "gold": 53400,
+                "kills": 19,
+                "picks": [
+                  "Kennen",
+                  "Lee Sin",
+                  "Viktor",
+                  "Ezreal",
+                  "Nami"
+                ],
+                "team": "royal-never-give-up",
+                "towers": 10
+              },
+              "durationSec": 1532,
+              "id": "2016 Season World Championship_Day 2_4_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 4,
+                "bans": [
+                  "Nidalee",
+                  "Rek'Sai",
+                  "Syndra"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 0,
+                "gold": 35300,
+                "kills": 3,
+                "picks": [
+                  "Gnar",
+                  "Olaf",
+                  "Cassiopeia",
+                  "Sivir",
+                  "Karma"
+                ],
+                "team": "movistar-koi",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 2_4",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "royal-never-give-up",
+          "team2": "movistar-koi",
+          "winner": "royal-never-give-up"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-01T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 24,
+                "bans": [
+                  "Vladimir",
+                  "Gnar",
+                  "Jayce"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 1,
+                "gold": 58900,
+                "kills": 12,
+                "picks": [
+                  "Kennen",
+                  "Skarner",
+                  "Cassiopeia",
+                  "Caitlyn",
+                  "Karma"
+                ],
+                "team": "h2k-gaming",
+                "towers": 10
+              },
+              "durationSec": 1841,
+              "id": "2016 Season World Championship_Day 2_5_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 1,
+                "bans": [
+                  "Syndra",
+                  "Nidalee",
+                  "Lucian"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 1,
+                "gold": 44000,
+                "kills": 1,
+                "picks": [
+                  "Rumble",
+                  "Rek'Sai",
+                  "Orianna",
+                  "Ezreal",
+                  "Nami"
+                ],
+                "team": "intz",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 2_5",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "h2k-gaming",
+          "team2": "intz",
+          "winner": "h2k-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-01T04:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 28,
+                "bans": [
+                  "Tahm Kench",
+                  "Bard",
+                  "Syndra"
+                ],
+                "barons": 2,
+                "deaths": 6,
+                "dragons": 3,
+                "gold": 75700,
+                "kills": 11,
+                "picks": [
+                  "Poppy",
+                  "Hecarim",
+                  "Karma",
+                  "Lucian",
+                  "Nami"
+                ],
+                "team": "edward-gaming",
+                "towers": 8
+              },
+              "durationSec": 2461,
+              "id": "2016 Season World Championship_Day 2_6_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 16,
+                "bans": [
+                  "Rek'Sai",
+                  "Twisted Fate",
+                  "Nidalee"
+                ],
+                "barons": 0,
+                "deaths": 11,
+                "dragons": 1,
+                "gold": 65000,
+                "kills": 6,
+                "picks": [
+                  "Rumble",
+                  "Olaf",
+                  "Zilean",
+                  "Ashe",
+                  "Soraka"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 2_6",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "edward-gaming",
+          "team2": "ahq-esports-club",
+          "winner": "edward-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-01T23:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 29,
+                "bans": [
+                  "Brand",
+                  "Shen",
+                  "Vladimir"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 2,
+                "gold": 68500,
+                "kills": 16,
+                "picks": [
+                  "Poppy",
+                  "Elise",
+                  "Syndra",
+                  "Ezreal",
+                  "Bard"
+                ],
+                "team": "counter-logic-gaming",
+                "towers": 7
+              },
+              "durationSec": 2395,
+              "id": "2016 Season World Championship_Day 3_1_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Sivir",
+                  "Caitlyn",
+                  "Olaf"
+                ],
+                "barons": 2,
+                "deaths": 16,
+                "dragons": 2,
+                "gold": 75700,
+                "kills": 18,
+                "picks": [
+                  "Trundle",
+                  "Nidalee",
+                  "Jayce",
+                  "Lucian",
+                  "Tahm Kench"
+                ],
+                "team": "albus-nox-luna",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 3_1",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "counter-logic-gaming",
+          "team2": "albus-nox-luna",
+          "winner": "albus-nox-luna"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-02T00:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 54,
+                "bans": [
+                  "Vladimir",
+                  "Rek'Sai",
+                  "Sivir"
+                ],
+                "barons": 3,
+                "deaths": 14,
+                "dragons": 2,
+                "gold": 84500,
+                "kills": 19,
+                "picks": [
+                  "Kennen",
+                  "Nocturne",
+                  "Malzahar",
+                  "Ezreal",
+                  "Soraka"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 11
+              },
+              "durationSec": 2619,
+              "id": "2016 Season World Championship_Day 3_2_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 39,
+                "bans": [
+                  "Nidalee",
+                  "Elise",
+                  "Syndra"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 2,
+                "gold": 74400,
+                "kills": 14,
+                "picks": [
+                  "Gnar",
+                  "Olaf",
+                  "Karma",
+                  "Jhin",
+                  "Nami"
+                ],
+                "team": "g2-esports",
+                "towers": 5
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 3_2",
+          "round": "Day 3",
+          "score1": 1,
+          "score2": 0,
+          "team1": "hanwha-life-esports",
+          "team2": "g2-esports",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-02T01:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Zac",
+                  "Gnar",
+                  "Cassiopeia"
+                ],
+                "barons": 2,
+                "deaths": 12,
+                "dragons": 3,
+                "gold": 119600,
+                "kills": 13,
+                "picks": [
+                  "Rumble",
+                  "Elise",
+                  "Varus",
+                  "Ezreal",
+                  "Nami"
+                ],
+                "team": "flash-wolves",
+                "towers": 9
+              },
+              "durationSec": 4220,
+              "id": "2016 Season World Championship_Day 3_3_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 26,
+                "bans": [
+                  "Nidalee",
+                  "Syndra",
+                  "Rek'Sai"
+                ],
+                "barons": 2,
+                "deaths": 13,
+                "dragons": 5,
+                "gold": 126800,
+                "kills": 12,
+                "picks": [
+                  "Kennen",
+                  "Lee Sin",
+                  "Orianna",
+                  "Caitlyn",
+                  "Karma"
+                ],
+                "team": "cloud9",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 3_3",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "flash-wolves",
+          "team2": "cloud9",
+          "winner": "cloud9"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-02T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 3,
+                "bans": [
+                  "Rumble",
+                  "Ezreal",
+                  "Syndra"
+                ],
+                "barons": 0,
+                "deaths": 10,
+                "dragons": 0,
+                "gold": 47100,
+                "kills": 3,
+                "picks": [
+                  "Poppy",
+                  "Elise",
+                  "Ryze",
+                  "Jinx",
+                  "Braum"
+                ],
+                "team": "i-may",
+                "towers": 0
+              },
+              "durationSec": 1913,
+              "id": "2016 Season World Championship_Day 3_4_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 25,
+                "bans": [
+                  "Bard",
+                  "Zac",
+                  "Olaf"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 4,
+                "gold": 65300,
+                "kills": 10,
+                "picks": [
+                  "Trundle",
+                  "Nidalee",
+                  "Cassiopeia",
+                  "Sivir",
+                  "Karma"
+                ],
+                "team": "t1",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 3_4",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "i-may",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-02T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 36,
+                "bans": [
+                  "Lee Sin",
+                  "Elise",
+                  "Vladimir"
+                ],
+                "barons": 1,
+                "deaths": 20,
+                "dragons": 1,
+                "gold": 82100,
+                "kills": 19,
+                "picks": [
+                  "Kennen",
+                  "Rek'Sai",
+                  "Malzahar",
+                  "Ezreal",
+                  "Nami"
+                ],
+                "team": "movistar-koi",
+                "towers": 6
+              },
+              "durationSec": 2702,
+              "id": "2016 Season World Championship_Day 3_5_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 47,
+                "bans": [
+                  "Nidalee",
+                  "Kassadin",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 19,
+                "dragons": 3,
+                "gold": 88400,
+                "kills": 20,
+                "picks": [
+                  "Rumble",
+                  "Skarner",
+                  "Cassiopeia",
+                  "Jhin",
+                  "Karma"
+                ],
+                "team": "tsm",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 3_5",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "movistar-koi",
+          "team2": "tsm",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-02T04:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 16,
+                "bans": [
+                  "Viktor",
+                  "Elise",
+                  "Rek'Sai"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 1,
+                "gold": 52700,
+                "kills": 8,
+                "picks": [
+                  "Jayce",
+                  "Nidalee",
+                  "Cassiopeia",
+                  "Caitlyn",
+                  "Nami"
+                ],
+                "team": "royal-never-give-up",
+                "towers": 3
+              },
+              "durationSec": 1938,
+              "id": "2016 Season World Championship_Day 3_6_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 38,
+                "bans": [
+                  "Lee Sin",
+                  "Syndra",
+                  "Ezreal"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 3,
+                "gold": 63300,
+                "kills": 16,
+                "picks": [
+                  "Kennen",
+                  "Skarner",
+                  "Ryze",
+                  "Jhin",
+                  "Karma"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 8
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 3_6",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "royal-never-give-up",
+          "team2": "samsung-galaxy",
+          "winner": "samsung-galaxy"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-02T23:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 30,
+                "bans": [
+                  "Gnar",
+                  "Karma",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 4,
+                "gold": 69700,
+                "kills": 17,
+                "picks": [
+                  "Jayce",
+                  "Nidalee",
+                  "Malzahar",
+                  "Sivir",
+                  "Alistar"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 11
+              },
+              "durationSec": 2114,
+              "id": "2016 Season World Championship_Day 4_1_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 14,
+                "bans": [
+                  "Twisted Fate",
+                  "Tahm Kench",
+                  "Olaf"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 0,
+                "gold": 55400,
+                "kills": 9,
+                "picks": [
+                  "Kennen",
+                  "Lee Sin",
+                  "Cassiopeia",
+                  "Ashe",
+                  "Bard"
+                ],
+                "team": "intz",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 4_1",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "ahq-esports-club",
+          "team2": "intz",
+          "winner": "ahq-esports-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-03T00:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 21,
+                "bans": [
+                  "Cassiopeia",
+                  "Kennen",
+                  "Gnar"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 3,
+                "gold": 73900,
+                "kills": 12,
+                "picks": [
+                  "Irelia",
+                  "Nidalee",
+                  "Syndra",
+                  "Jhin",
+                  "Alistar"
+                ],
+                "team": "edward-gaming",
+                "towers": 11
+              },
+              "durationSec": 2277,
+              "id": "2016 Season World Championship_Day 4_2_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Rek'Sai",
+                  "Poppy",
+                  "Nami"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 1,
+                "gold": 58400,
+                "kills": 6,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Vladimir",
+                  "Ezreal",
+                  "Karma"
+                ],
+                "team": "h2k-gaming",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 4_2",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "edward-gaming",
+          "team2": "h2k-gaming",
+          "winner": "edward-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-03T01:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 27,
+                "bans": [
+                  "Sivir",
+                  "Olaf",
+                  "Kennen"
+                ],
+                "barons": 2,
+                "deaths": 5,
+                "dragons": 4,
+                "gold": 75800,
+                "kills": 10,
+                "picks": [
+                  "Poppy",
+                  "Elise",
+                  "Anivia",
+                  "Lucian",
+                  "Brand"
+                ],
+                "team": "albus-nox-luna",
+                "towers": 9
+              },
+              "durationSec": 2424,
+              "id": "2016 Season World Championship_Day 4_3_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 11,
+                "bans": [
+                  "Nidalee",
+                  "Syndra",
+                  "Jayce"
+                ],
+                "barons": 0,
+                "deaths": 10,
+                "dragons": 1,
+                "gold": 63500,
+                "kills": 5,
+                "picks": [
+                  "Trundle",
+                  "Lee Sin",
+                  "Orianna",
+                  "Ezreal",
+                  "Karma"
+                ],
+                "team": "g2-esports",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 4_3",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "albus-nox-luna",
+          "team2": "g2-esports",
+          "winner": "albus-nox-luna"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-03T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 52,
+                "bans": [
+                  "Rumble",
+                  "Elise",
+                  "Kennen"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 3,
+                "gold": 73200,
+                "kills": 21,
+                "picks": [
+                  "Gnar",
+                  "Nidalee",
+                  "Aurelion Sol",
+                  "Caitlyn",
+                  "Alistar"
+                ],
+                "team": "counter-logic-gaming",
+                "towers": 10
+              },
+              "durationSec": 2194,
+              "id": "2016 Season World Championship_Day 4_4_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 21,
+                "bans": [
+                  "Olaf",
+                  "Syndra",
+                  "Nami"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 1,
+                "gold": 56100,
+                "kills": 8,
+                "picks": [
+                  "Poppy",
+                  "Rek'Sai",
+                  "Malzahar",
+                  "Ezreal",
+                  "Karma"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 4_4",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "counter-logic-gaming",
+          "team2": "hanwha-life-esports",
+          "winner": "counter-logic-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-03T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 9,
+                "bans": [
+                  "Vladimir",
+                  "Gnar",
+                  "Nidalee"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 2,
+                "gold": 68500,
+                "kills": 3,
+                "picks": [
+                  "Rumble",
+                  "Olaf",
+                  "Cassiopeia",
+                  "Sivir",
+                  "Karma"
+                ],
+                "team": "t1",
+                "towers": 3
+              },
+              "durationSec": 2496,
+              "id": "2016 Season World Championship_Day 4_5_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 27,
+                "bans": [
+                  "Ezreal",
+                  "Syndra",
+                  "Trundle"
+                ],
+                "barons": 2,
+                "deaths": 3,
+                "dragons": 2,
+                "gold": 78100,
+                "kills": 15,
+                "picks": [
+                  "Poppy",
+                  "Lee Sin",
+                  "Aurelion Sol",
+                  "Caitlyn",
+                  "Alistar"
+                ],
+                "team": "flash-wolves",
+                "towers": 8
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 4_5",
+          "round": "Day 4",
+          "score1": 0,
+          "score2": 1,
+          "team1": "t1",
+          "team2": "flash-wolves",
+          "winner": "flash-wolves"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-03T04:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 32,
+                "bans": [
+                  "Varus",
+                  "Elise",
+                  "Nidalee"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 4,
+                "gold": 69500,
+                "kills": 13,
+                "picks": [
+                  "Rumble",
+                  "Olaf",
+                  "Syndra",
+                  "Ezreal",
+                  "Alistar"
+                ],
+                "team": "cloud9",
+                "towers": 9
+              },
+              "durationSec": 2317,
+              "id": "2016 Season World Championship_Day 4_6_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 11,
+                "bans": [
+                  "Gnar",
+                  "Kennen",
+                  "Zac"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 1,
+                "gold": 58700,
+                "kills": 6,
+                "picks": [
+                  "Ekko",
+                  "Rek'Sai",
+                  "Vladimir",
+                  "Jhin",
+                  "Tahm Kench"
+                ],
+                "team": "i-may",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 4_6",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "cloud9",
+          "team2": "i-may",
+          "winner": "cloud9"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-06T23:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 12,
+                "bans": [
+                  "Aurelion Sol",
+                  "Ezreal",
+                  "Kennen"
+                ],
+                "barons": 0,
+                "deaths": 10,
+                "dragons": 2,
+                "gold": 56800,
+                "kills": 5,
+                "picks": [
+                  "Poppy",
+                  "Nidalee",
+                  "Cassiopeia",
+                  "Sivir",
+                  "Braum"
+                ],
+                "team": "g2-esports",
+                "towers": 3
+              },
+              "durationSec": 2124,
+              "id": "2016 Season World Championship_Day 5_1_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 25,
+                "bans": [
+                  "Karma",
+                  "Olaf",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 2,
+                "gold": 65900,
+                "kills": 10,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Viktor",
+                  "Caitlyn",
+                  "Alistar"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 5_1",
+          "round": "Day 5",
+          "score1": 0,
+          "score2": 1,
+          "team1": "g2-esports",
+          "team2": "hanwha-life-esports",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-07T00:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 25,
+                "bans": [
+                  "Caitlyn",
+                  "Olaf",
+                  "Aurelion Sol"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 3,
+                "gold": 61100,
+                "kills": 12,
+                "picks": [
+                  "Poppy",
+                  "Graves",
+                  "Viktor",
+                  "Sivir",
+                  "Bard"
+                ],
+                "team": "albus-nox-luna",
+                "towers": 11
+              },
+              "durationSec": 1802,
+              "id": "2016 Season World Championship_Day 5_2_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 5,
+                "bans": [
+                  "Brand",
+                  "Anivia",
+                  "Nidalee"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 0,
+                "gold": 46400,
+                "kills": 3,
+                "picks": [
+                  "Jayce",
+                  "Elise",
+                  "Karma",
+                  "Lucian",
+                  "Nami"
+                ],
+                "team": "counter-logic-gaming",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 5_2",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "albus-nox-luna",
+          "team2": "counter-logic-gaming",
+          "winner": "albus-nox-luna"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-07T01:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 44,
+                "bans": [
+                  "Sivir",
+                  "Gnar",
+                  "Jayce"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 3,
+                "gold": 71400,
+                "kills": 20,
+                "picks": [
+                  "Poppy",
+                  "Graves",
+                  "Vladimir",
+                  "Jhin",
+                  "Braum"
+                ],
+                "team": "counter-logic-gaming",
+                "towers": 10
+              },
+              "durationSec": 2177,
+              "id": "2016 Season World Championship_Day 5_3_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 8,
+                "bans": [
+                  "Aurelion Sol",
+                  "Caitlyn",
+                  "Nidalee"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 1,
+                "gold": 54100,
+                "kills": 4,
+                "picks": [
+                  "Rumble",
+                  "Olaf",
+                  "Syndra",
+                  "Ezreal",
+                  "Trundle"
+                ],
+                "team": "g2-esports",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 5_3",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "counter-logic-gaming",
+          "team2": "g2-esports",
+          "winner": "counter-logic-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-07T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 33,
+                "bans": [
+                  "Sivir",
+                  "Rumble",
+                  "Kennen"
+                ],
+                "barons": 2,
+                "deaths": 20,
+                "dragons": 4,
+                "gold": 119400,
+                "kills": 16,
+                "picks": [
+                  "Poppy",
+                  "Nidalee",
+                  "Vladimir",
+                  "Lucian",
+                  "Taric"
+                ],
+                "team": "albus-nox-luna",
+                "towers": 11
+              },
+              "durationSec": 3980,
+              "id": "2016 Season World Championship_Day 5_4_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 54,
+                "bans": [
+                  "Brand",
+                  "Bard",
+                  "Tahm Kench"
+                ],
+                "barons": 3,
+                "deaths": 16,
+                "dragons": 2,
+                "gold": 119600,
+                "kills": 20,
+                "picks": [
+                  "Trundle",
+                  "Lee Sin",
+                  "Syndra",
+                  "Caitlyn",
+                  "Alistar"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 5_4",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "albus-nox-luna",
+          "team2": "hanwha-life-esports",
+          "winner": "albus-nox-luna"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-07T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 32,
+                "bans": [
+                  "Poppy",
+                  "Tahm Kench",
+                  "Vladimir"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 2,
+                "gold": 72300,
+                "kills": 13,
+                "picks": [
+                  "Irelia",
+                  "Graves",
+                  "Ryze",
+                  "Sivir",
+                  "Alistar"
+                ],
+                "team": "g2-esports",
+                "towers": 10
+              },
+              "durationSec": 2202,
+              "id": "2016 Season World Championship_Day 5_5_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 11,
+                "bans": [
+                  "Nidalee",
+                  "Olaf",
+                  "Syndra"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 1,
+                "gold": 55400,
+                "kills": 6,
+                "picks": [
+                  "Kennen",
+                  "Elise",
+                  "Jayce",
+                  "Lucian",
+                  "Braum"
+                ],
+                "team": "albus-nox-luna",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 5_5",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "g2-esports",
+          "team2": "albus-nox-luna",
+          "winner": "g2-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-07T04:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 49,
+                "bans": [
+                  "Aurelion Sol",
+                  "Vladimir",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 14,
+                "dragons": 2,
+                "gold": 74800,
+                "kills": 23,
+                "picks": [
+                  "Gnar",
+                  "Elise",
+                  "Viktor",
+                  "Jhin",
+                  "Alistar"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 10
+              },
+              "durationSec": 2266,
+              "id": "2016 Season World Championship_Day 5_6_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 29,
+                "bans": [
+                  "Rumble",
+                  "Kennen",
+                  "Nidalee"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 2,
+                "gold": 61100,
+                "kills": 14,
+                "picks": [
+                  "Poppy",
+                  "Olaf",
+                  "Malzahar",
+                  "Caitlyn",
+                  "Bard"
+                ],
+                "team": "counter-logic-gaming",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 5_6",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "hanwha-life-esports",
+          "team2": "counter-logic-gaming",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-07T05:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Brand",
+                  "Vladimir",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 2,
+                "gold": 58500,
+                "kills": 20,
+                "picks": [
+                  "Rumble",
+                  "Elise",
+                  "Ryze",
+                  "Ezreal",
+                  "Karma"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 9
+              },
+              "durationSec": 1762,
+              "id": "2016 Season World Championship_Day 5_7_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 8,
+                "bans": [
+                  "Nidalee",
+                  "Sivir",
+                  "Olaf"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 1,
+                "gold": 40400,
+                "kills": 5,
+                "picks": [
+                  "Gnar",
+                  "Graves",
+                  "Viktor",
+                  "Lucian",
+                  "Bard"
+                ],
+                "team": "albus-nox-luna",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 5_7",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "hanwha-life-esports",
+          "team2": "albus-nox-luna",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-07T23:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 61,
+                "bans": [
+                  "Gnar",
+                  "Lee Sin",
+                  "Aurelion Sol"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 4,
+                "gold": 67100,
+                "kills": 23,
+                "picks": [
+                  "Rumble",
+                  "Rek'Sai",
+                  "Syndra",
+                  "Jhin",
+                  "Tahm Kench"
+                ],
+                "team": "edward-gaming",
+                "towers": 8
+              },
+              "durationSec": 2081,
+              "id": "2016 Season World Championship_Day 6_1_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 6,
+                "bans": [
+                  "Nidalee",
+                  "Poppy",
+                  "Irelia"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 0,
+                "gold": 53100,
+                "kills": 3,
+                "picks": [
+                  "Jayce",
+                  "Skarner",
+                  "Vladimir",
+                  "Caitlyn",
+                  "Alistar"
+                ],
+                "team": "intz",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 6_1",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "edward-gaming",
+          "team2": "intz",
+          "winner": "edward-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-08T00:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 10,
+                "bans": [
+                  "Syndra",
+                  "Olaf",
+                  "Nidalee"
+                ],
+                "barons": 1,
+                "deaths": 14,
+                "dragons": 0,
+                "gold": 68600,
+                "kills": 6,
+                "picks": [
+                  "Rumble",
+                  "Rek'Sai",
+                  "Lissandra",
+                  "Sivir",
+                  "Karma"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 3
+              },
+              "durationSec": 2502,
+              "id": "2016 Season World Championship_Day 6_2_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 33,
+                "bans": [
+                  "Twisted Fate",
+                  "Tahm Kench",
+                  "Malzahar"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 4,
+                "gold": 79000,
+                "kills": 14,
+                "picks": [
+                  "Jayce",
+                  "Elise",
+                  "Ryze",
+                  "Caitlyn",
+                  "Alistar"
+                ],
+                "team": "h2k-gaming",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 6_2",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "ahq-esports-club",
+          "team2": "h2k-gaming",
+          "winner": "h2k-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-08T01:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 29,
+                "bans": [
+                  "Tahm Kench",
+                  "Jhin",
+                  "Alistar"
+                ],
+                "barons": 2,
+                "deaths": 7,
+                "dragons": 4,
+                "gold": 85600,
+                "kills": 12,
+                "picks": [
+                  "Kennen",
+                  "Rek'Sai",
+                  "Ryze",
+                  "Caitlyn",
+                  "Karma"
+                ],
+                "team": "h2k-gaming",
+                "towers": 9
+              },
+              "durationSec": 2697,
+              "id": "2016 Season World Championship_Day 6_3_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 15,
+                "bans": [
+                  "Syndra",
+                  "Nidalee",
+                  "Olaf"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 1,
+                "gold": 69200,
+                "kills": 7,
+                "picks": [
+                  "Poppy",
+                  "Elise",
+                  "Malzahar",
+                  "Ezreal",
+                  "Nami"
+                ],
+                "team": "edward-gaming",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 6_3",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "h2k-gaming",
+          "team2": "edward-gaming",
+          "winner": "h2k-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-08T02:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 6,
+                "bans": [
+                  "Twisted Fate",
+                  "Tahm Kench",
+                  "Malzahar"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 1,
+                "gold": 44200,
+                "kills": 3,
+                "picks": [
+                  "Poppy",
+                  "Lee Sin",
+                  "Cassiopeia",
+                  "Caitlyn",
+                  "Alistar"
+                ],
+                "team": "intz",
+                "towers": 3
+              },
+              "durationSec": 1709,
+              "id": "2016 Season World Championship_Day 6_4_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 32,
+                "bans": [
+                  "Gnar",
+                  "Syndra",
+                  "Nidalee"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 2,
+                "gold": 57800,
+                "kills": 14,
+                "picks": [
+                  "Jayce",
+                  "Elise",
+                  "Lissandra",
+                  "Jinx",
+                  "Bard"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 6_4",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "intz",
+          "team2": "ahq-esports-club",
+          "winner": "ahq-esports-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-08T03:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 5,
+                "bans": [
+                  "Caitlyn",
+                  "Ryze",
+                  "Karma"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 0,
+                "gold": 45100,
+                "kills": 4,
+                "picks": [
+                  "Jayce",
+                  "Elise",
+                  "Aurelion Sol",
+                  "Ezreal",
+                  "Bard"
+                ],
+                "team": "intz",
+                "towers": 3
+              },
+              "durationSec": 1756,
+              "id": "2016 Season World Championship_Day 6_5_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Gnar",
+                  "Nidalee",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 3,
+                "gold": 56700,
+                "kills": 16,
+                "picks": [
+                  "Rumble",
+                  "Olaf",
+                  "Cassiopeia",
+                  "Sivir",
+                  "Alistar"
+                ],
+                "team": "h2k-gaming",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 6_5",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "intz",
+          "team2": "h2k-gaming",
+          "winner": "h2k-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-08T04:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 13,
+                "bans": [
+                  "Syndra",
+                  "Ryze",
+                  "Karma"
+                ],
+                "barons": 1,
+                "deaths": 20,
+                "dragons": 2,
+                "gold": 82400,
+                "kills": 7,
+                "picks": [
+                  "Gnar",
+                  "Elise",
+                  "Twisted Fate",
+                  "Jinx",
+                  "Tahm Kench"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 6
+              },
+              "durationSec": 2815,
+              "id": "2016 Season World Championship_Day 6_6_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 57,
+                "bans": [
+                  "Kennen",
+                  "Jayce",
+                  "Nidalee"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 3,
+                "gold": 87500,
+                "kills": 20,
+                "picks": [
+                  "Poppy",
+                  "Olaf",
+                  "Vladimir",
+                  "Sivir",
+                  "Nami"
+                ],
+                "team": "edward-gaming",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 6_6",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "ahq-esports-club",
+          "team2": "edward-gaming",
+          "winner": "edward-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-08T05:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 25,
+                "bans": [
+                  "Tahm Kench",
+                  "Alistar",
+                  "Ryze"
+                ],
+                "barons": 1,
+                "deaths": 11,
+                "dragons": 5,
+                "gold": 85600,
+                "kills": 16,
+                "picks": [
+                  "Rumble",
+                  "Olaf",
+                  "Syndra",
+                  "Caitlyn",
+                  "Karma"
+                ],
+                "team": "h2k-gaming",
+                "towers": 10
+              },
+              "durationSec": 2692,
+              "id": "2016 Season World Championship_Day 6_7_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 34,
+                "bans": [
+                  "Gnar",
+                  "Nidalee",
+                  "Kennen"
+                ],
+                "barons": 1,
+                "deaths": 16,
+                "dragons": 0,
+                "gold": 73300,
+                "kills": 11,
+                "picks": [
+                  "Ekko",
+                  "Lee Sin",
+                  "Aurelion Sol",
+                  "Jhin",
+                  "Nami"
+                ],
+                "team": "edward-gaming",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 6_7",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "h2k-gaming",
+          "team2": "edward-gaming",
+          "winner": "h2k-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-08T20:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 37,
+                "bans": [
+                  "Lee Sin",
+                  "Syndra",
+                  "Aurelion Sol"
+                ],
+                "barons": 2,
+                "deaths": 15,
+                "dragons": 3,
+                "gold": 86200,
+                "kills": 18,
+                "picks": [
+                  "Rumble",
+                  "Rek'Sai",
+                  "Viktor",
+                  "Jhin",
+                  "Tahm Kench"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 10
+              },
+              "durationSec": 2711,
+              "id": "2016 Season World Championship_Day 7_1_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 26,
+                "bans": [
+                  "Nidalee",
+                  "Zyra",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 1,
+                "gold": 77600,
+                "kills": 15,
+                "picks": [
+                  "Kennen",
+                  "Olaf",
+                  "Zilean",
+                  "Lucian",
+                  "Karma"
+                ],
+                "team": "tsm",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 7_1",
+          "round": "Day 7",
+          "score1": 1,
+          "score2": 0,
+          "team1": "samsung-galaxy",
+          "team2": "tsm",
+          "winner": "samsung-galaxy"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-08T21:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 42,
+                "bans": [
+                  "Rumble",
+                  "Ezreal",
+                  "Vladimir"
+                ],
+                "barons": 2,
+                "deaths": 4,
+                "dragons": 2,
+                "gold": 69000,
+                "kills": 16,
+                "picks": [
+                  "Jayce",
+                  "Elise",
+                  "Malzahar",
+                  "Jhin",
+                  "Braum"
+                ],
+                "team": "movistar-koi",
+                "towers": 9
+              },
+              "durationSec": 2175,
+              "id": "2016 Season World Championship_Day 7_2_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 7,
+                "bans": [
+                  "Aurelion Sol",
+                  "Nidalee",
+                  "Syndra"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 0,
+                "gold": 54200,
+                "kills": 4,
+                "picks": [
+                  "Poppy",
+                  "Olaf",
+                  "Ryze",
+                  "Caitlyn",
+                  "Karma"
+                ],
+                "team": "royal-never-give-up",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 7_2",
+          "round": "Day 7",
+          "score1": 1,
+          "score2": 0,
+          "team1": "movistar-koi",
+          "team2": "royal-never-give-up",
+          "winner": "movistar-koi"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-08T22:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 53,
+                "bans": [
+                  "Kassadin",
+                  "Jayce",
+                  "Malzahar"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 2,
+                "gold": 61500,
+                "kills": 24,
+                "picks": [
+                  "Gnar",
+                  "Rek'Sai",
+                  "Syndra",
+                  "Jhin",
+                  "Braum"
+                ],
+                "team": "tsm",
+                "towers": 11
+              },
+              "durationSec": 1715,
+              "id": "2016 Season World Championship_Day 7_3_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 10,
+                "bans": [
+                  "Nidalee",
+                  "Lee Sin",
+                  "Rumble"
+                ],
+                "barons": 0,
+                "deaths": 24,
+                "dragons": 0,
+                "gold": 45500,
+                "kills": 6,
+                "picks": [
+                  "Irelia",
+                  "Elise",
+                  "Vladimir",
+                  "Ezreal",
+                  "Karma"
+                ],
+                "team": "movistar-koi",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 7_3",
+          "round": "Day 7",
+          "score1": 1,
+          "score2": 0,
+          "team1": "tsm",
+          "team2": "movistar-koi",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-08T23:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 23,
+                "bans": [
+                  "Lee Sin",
+                  "Syndra",
+                  "Aurelion Sol"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 2,
+                "gold": 51100,
+                "kills": 13,
+                "picks": [
+                  "Ekko",
+                  "Olaf",
+                  "Viktor",
+                  "Caitlyn",
+                  "Zyra"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 9
+              },
+              "durationSec": 1433,
+              "id": "2016 Season World Championship_Day 7_4_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 8,
+                "bans": [
+                  "Karma",
+                  "Jhin",
+                  "Nidalee"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 0,
+                "gold": 34500,
+                "kills": 4,
+                "picks": [
+                  "Rumble",
+                  "Rek'Sai",
+                  "Malzahar",
+                  "Ezreal",
+                  "Braum"
+                ],
+                "team": "royal-never-give-up",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 7_4",
+          "round": "Day 7",
+          "score1": 1,
+          "score2": 0,
+          "team1": "samsung-galaxy",
+          "team2": "royal-never-give-up",
+          "winner": "samsung-galaxy"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-09T00:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 11,
+                "bans": [
+                  "Rumble",
+                  "Olaf",
+                  "Viktor"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 0,
+                "gold": 33900,
+                "kills": 5,
+                "picks": [
+                  "Ekko",
+                  "Elise",
+                  "Aurelion Sol",
+                  "Sivir",
+                  "Alistar"
+                ],
+                "team": "movistar-koi",
+                "towers": 0
+              },
+              "durationSec": 1422,
+              "id": "2016 Season World Championship_Day 7_5_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 40,
+                "bans": [
+                  "Nidalee",
+                  "Syndra",
+                  "Jayce"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 2,
+                "gold": 51500,
+                "kills": 21,
+                "picks": [
+                  "Kennen",
+                  "Rek'Sai",
+                  "Ryze",
+                  "Jhin",
+                  "Tahm Kench"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 7_5",
+          "round": "Day 7",
+          "score1": 0,
+          "score2": 1,
+          "team1": "movistar-koi",
+          "team2": "samsung-galaxy",
+          "winner": "samsung-galaxy"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-09T01:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 63,
+                "bans": [
+                  "Lee Sin",
+                  "Jhin",
+                  "Karma"
+                ],
+                "barons": 2,
+                "deaths": 11,
+                "dragons": 4,
+                "gold": 73400,
+                "kills": 22,
+                "picks": [
+                  "Poppy",
+                  "Elise",
+                  "Aurelion Sol",
+                  "Ezreal",
+                  "Nami"
+                ],
+                "team": "royal-never-give-up",
+                "towers": 11
+              },
+              "durationSec": 2212,
+              "id": "2016 Season World Championship_Day 7_6_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 33,
+                "bans": [
+                  "Nidalee",
+                  "Syndra",
+                  "Caitlyn"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 0,
+                "gold": 63300,
+                "kills": 11,
+                "picks": [
+                  "Jayce",
+                  "Rek'Sai",
+                  "Ryze",
+                  "Lucian",
+                  "Braum"
+                ],
+                "team": "tsm",
+                "towers": 5
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 7_6",
+          "round": "Day 7",
+          "score1": 1,
+          "score2": 0,
+          "team1": "royal-never-give-up",
+          "team2": "tsm",
+          "winner": "royal-never-give-up"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-09T20:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 38,
+                "bans": [
+                  "Skarner",
+                  "Nidalee",
+                  "Syndra"
+                ],
+                "barons": 2,
+                "deaths": 5,
+                "dragons": 1,
+                "gold": 77000,
+                "kills": 16,
+                "picks": [
+                  "Ekko",
+                  "Alistar",
+                  "Aurelion Sol",
+                  "Sivir",
+                  "Lee Sin"
+                ],
+                "team": "i-may",
+                "towers": 9
+              },
+              "durationSec": 2471,
+              "id": "2016 Season World Championship_Day 8_1_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 11,
+                "bans": [
+                  "Varus",
+                  "Karma",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 3,
+                "gold": 65099,
+                "kills": 5,
+                "picks": [
+                  "Poppy",
+                  "Elise",
+                  "Malzahar",
+                  "Jhin",
+                  "Tahm Kench"
+                ],
+                "team": "flash-wolves",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 8_1",
+          "round": "Day 8",
+          "score1": 1,
+          "score2": 0,
+          "team1": "i-may",
+          "team2": "flash-wolves",
+          "winner": "i-may"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-09T21:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 20,
+                "bans": [
+                  "Karma",
+                  "Elise",
+                  "Nidalee"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 3,
+                "gold": 83400,
+                "kills": 11,
+                "picks": [
+                  "Kennen",
+                  "Olaf",
+                  "Ryze",
+                  "Ezreal",
+                  "Alistar"
+                ],
+                "team": "cloud9",
+                "towers": 4
+              },
+              "durationSec": 3010,
+              "id": "2016 Season World Championship_Day 8_2_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 52,
+                "bans": [
+                  "Aurelion Sol",
+                  "Syndra",
+                  "Caitlyn"
+                ],
+                "barons": 2,
+                "deaths": 11,
+                "dragons": 2,
+                "gold": 95400,
+                "kills": 19,
+                "picks": [
+                  "Jayce",
+                  "Lee Sin",
+                  "Viktor",
+                  "Jhin",
+                  "Zyra"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 8_2",
+          "round": "Day 8",
+          "score1": 0,
+          "score2": 1,
+          "team1": "cloud9",
+          "team2": "t1",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-09T22:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 5,
+                "bans": [
+                  "Alistar",
+                  "Elise",
+                  "Aurelion Sol"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 1,
+                "gold": 62600,
+                "kills": 2,
+                "picks": [
+                  "Gnar",
+                  "Nidalee",
+                  "Viktor",
+                  "Ezreal",
+                  "Braum"
+                ],
+                "team": "cloud9",
+                "towers": 2
+              },
+              "durationSec": 2388,
+              "id": "2016 Season World Championship_Day 8_3_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 26,
+                "bans": [
+                  "Kennen",
+                  "Syndra",
+                  "Jhin"
+                ],
+                "barons": 2,
+                "deaths": 2,
+                "dragons": 4,
+                "gold": 77300,
+                "kills": 14,
+                "picks": [
+                  "Poppy",
+                  "Lee Sin",
+                  "Ryze",
+                  "Caitlyn",
+                  "Tahm Kench"
+                ],
+                "team": "flash-wolves",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 8_3",
+          "round": "Day 8",
+          "score1": 0,
+          "score2": 1,
+          "team1": "cloud9",
+          "team2": "flash-wolves",
+          "winner": "flash-wolves"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-09T23:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 38,
+                "bans": [
+                  "Alistar",
+                  "Aurelion Sol",
+                  "Vladimir"
+                ],
+                "barons": 1,
+                "deaths": 10,
+                "dragons": 5,
+                "gold": 86500,
+                "kills": 16,
+                "picks": [
+                  "Jayce",
+                  "Olaf",
+                  "Varus",
+                  "Caitlyn",
+                  "Karma"
+                ],
+                "team": "t1",
+                "towers": 10
+              },
+              "durationSec": 2727,
+              "id": "2016 Season World Championship_Day 8_4_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 20,
+                "bans": [
+                  "Ryze",
+                  "Nidalee",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 16,
+                "dragons": 0,
+                "gold": 72300,
+                "kills": 10,
+                "picks": [
+                  "Nautilus",
+                  "Kha'Zix",
+                  "Cassiopeia",
+                  "Jhin",
+                  "Bard"
+                ],
+                "team": "i-may",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 8_4",
+          "round": "Day 8",
+          "score1": 1,
+          "score2": 0,
+          "team1": "t1",
+          "team2": "i-may",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-10T00:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 57,
+                "bans": [
+                  "Olaf",
+                  "Caitlyn",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 25,
+                "dragons": 1,
+                "gold": 87000,
+                "kills": 18,
+                "picks": [
+                  "Maokai",
+                  "Skarner",
+                  "Viktor",
+                  "Sivir",
+                  "Kennen"
+                ],
+                "team": "i-may",
+                "towers": 2
+              },
+              "durationSec": 3067,
+              "id": "2016 Season World Championship_Day 8_5_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 69,
+                "bans": [
+                  "Nidalee",
+                  "Varus",
+                  "Elise"
+                ],
+                "barons": 3,
+                "deaths": 18,
+                "dragons": 4,
+                "gold": 103500,
+                "kills": 25,
+                "picks": [
+                  "Rumble",
+                  "Rek'Sai",
+                  "Ryze",
+                  "Jhin",
+                  "Alistar"
+                ],
+                "team": "cloud9",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 8_5",
+          "round": "Day 8",
+          "score1": 0,
+          "score2": 1,
+          "team1": "i-may",
+          "team2": "cloud9",
+          "winner": "cloud9"
+        },
+        {
+          "bestOf": 1,
+          "date": "2016-10-10T01:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 12,
+                "bans": [
+                  "Karma",
+                  "Zyra",
+                  "Ryze"
+                ],
+                "barons": 1,
+                "deaths": 20,
+                "dragons": 0,
+                "gold": 62700,
+                "kills": 7,
+                "picks": [
+                  "Poppy",
+                  "Lee Sin",
+                  "Viktor",
+                  "Caitlyn",
+                  "Braum"
+                ],
+                "team": "flash-wolves",
+                "towers": 1
+              },
+              "durationSec": 2391,
+              "id": "2016 Season World Championship_Day 8_6_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 58,
+                "bans": [
+                  "Alistar",
+                  "Nidalee",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 3,
+                "gold": 80700,
+                "kills": 20,
+                "picks": [
+                  "Trundle",
+                  "Olaf",
+                  "Lissandra",
+                  "Ezreal",
+                  "Nami"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Day 8_6",
+          "round": "Day 8",
+          "score1": 0,
+          "score2": 1,
+          "team1": "flash-wolves",
+          "team2": "t1",
+          "winner": "t1"
+        }
+      ],
+      "name": "Group Stage",
+      "order": 0,
+      "type": "groups"
+    },
+    {
+      "id": "knockout-stage",
+      "matches": [
+        {
+          "bestOf": 5,
+          "date": "2016-10-13T22:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 32,
+                "bans": [
+                  "Ryze",
+                  "Syndra",
+                  "Kennen"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 3,
+                "gold": 58600,
+                "kills": 20,
+                "picks": [
+                  "Ekko",
+                  "Olaf",
+                  "Cassiopeia",
+                  "Jhin",
+                  "Karma"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 11
+              },
+              "durationSec": 1651,
+              "id": "2016 Season World Championship_Quarterfinals_1_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 6,
+                "bans": [
+                  "Tahm Kench",
+                  "Viktor",
+                  "Nidalee"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 0,
+                "gold": 43000,
+                "kills": 6,
+                "picks": [
+                  "Rumble",
+                  "Rek'Sai",
+                  "Orianna",
+                  "Caitlyn",
+                  "Alistar"
+                ],
+                "team": "cloud9",
+                "towers": 0
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 11,
+                "bans": [
+                  "Tahm Kench",
+                  "Viktor",
+                  "Olaf"
+                ],
+                "barons": 0,
+                "deaths": 11,
+                "dragons": 2,
+                "gold": 60900,
+                "kills": 4,
+                "picks": [
+                  "Jayce",
+                  "Rek'Sai",
+                  "Cassiopeia",
+                  "Jhin",
+                  "Nami"
+                ],
+                "team": "cloud9",
+                "towers": 2
+              },
+              "durationSec": 2281,
+              "id": "2016 Season World Championship_Quarterfinals_1_2",
+              "number": 2,
+              "patch": "6.18",
+              "red": {
+                "assists": 33,
+                "bans": [
+                  "Nidalee",
+                  "Syndra",
+                  "Ryze"
+                ],
+                "barons": 2,
+                "deaths": 4,
+                "dragons": 2,
+                "gold": 72000,
+                "kills": 11,
+                "picks": [
+                  "Kennen",
+                  "Skarner",
+                  "Orianna",
+                  "Caitlyn",
+                  "Karma"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 8
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 41,
+                "bans": [
+                  "Ryze",
+                  "Syndra",
+                  "Kennen"
+                ],
+                "barons": 2,
+                "deaths": 11,
+                "dragons": 3,
+                "gold": 79600,
+                "kills": 22,
+                "picks": [
+                  "Poppy",
+                  "Olaf",
+                  "Cassiopeia",
+                  "Sivir",
+                  "Tahm Kench"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 11
+              },
+              "durationSec": 2388,
+              "id": "2016 Season World Championship_Quarterfinals_1_3",
+              "number": 3,
+              "patch": "6.18",
+              "red": {
+                "assists": 19,
+                "bans": [
+                  "Viktor",
+                  "Jhin",
+                  "Nidalee"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 0,
+                "gold": 68000,
+                "kills": 11,
+                "picks": [
+                  "Jayce",
+                  "Zac",
+                  "Orianna",
+                  "Caitlyn",
+                  "Karma"
+                ],
+                "team": "cloud9",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Quarterfinals_1",
+          "round": "Quarterfinals",
+          "score1": 3,
+          "score2": 0,
+          "team1": "samsung-galaxy",
+          "team2": "cloud9",
+          "winner": "samsung-galaxy"
+        },
+        {
+          "bestOf": 5,
+          "date": "2016-10-14T22:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 14,
+                "bans": [
+                  "Nidalee",
+                  "Caitlyn",
+                  "Syndra"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 0,
+                "gold": 79800,
+                "kills": 6,
+                "picks": [
+                  "Poppy",
+                  "Lee Sin",
+                  "Viktor",
+                  "Ezreal",
+                  "Karma"
+                ],
+                "team": "t1",
+                "towers": 3
+              },
+              "durationSec": 2820,
+              "id": "2016 Season World Championship_Quarterfinals_2_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 25,
+                "bans": [
+                  "Olaf",
+                  "Elise",
+                  "Ryze"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 4,
+                "gold": 89100,
+                "kills": 12,
+                "picks": [
+                  "Jayce",
+                  "Rek'Sai",
+                  "Vladimir",
+                  "Jhin",
+                  "Zyra"
+                ],
+                "team": "royal-never-give-up",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 7,
+                "bans": [
+                  "Ryze",
+                  "Jayce",
+                  "Elise"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 0,
+                "gold": 66600,
+                "kills": 3,
+                "picks": [
+                  "Poppy",
+                  "Olaf",
+                  "Viktor",
+                  "Ezreal",
+                  "Karma"
+                ],
+                "team": "royal-never-give-up",
+                "towers": 3
+              },
+              "durationSec": 2586,
+              "id": "2016 Season World Championship_Quarterfinals_2_2",
+              "number": 2,
+              "patch": "6.18",
+              "red": {
+                "assists": 27,
+                "bans": [
+                  "Nidalee",
+                  "Caitlyn",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 5,
+                "gold": 86000,
+                "kills": 13,
+                "picks": [
+                  "Kennen",
+                  "Zac",
+                  "Varus",
+                  "Jhin",
+                  "Zyra"
+                ],
+                "team": "t1",
+                "towers": 11
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 36,
+                "bans": [
+                  "Caitlyn",
+                  "Jayce",
+                  "Kennen"
+                ],
+                "barons": 2,
+                "deaths": 8,
+                "dragons": 2,
+                "gold": 66600,
+                "kills": 21,
+                "picks": [
+                  "Gnar",
+                  "Olaf",
+                  "Syndra",
+                  "Ezreal",
+                  "Karma"
+                ],
+                "team": "t1",
+                "towers": 11
+              },
+              "durationSec": 1812,
+              "id": "2016 Season World Championship_Quarterfinals_2_3",
+              "number": 3,
+              "patch": "6.18",
+              "red": {
+                "assists": 23,
+                "bans": [
+                  "Elise",
+                  "Ryze",
+                  "Nidalee"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 1,
+                "gold": 46000,
+                "kills": 8,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Vladimir",
+                  "Jhin",
+                  "Zyra"
+                ],
+                "team": "royal-never-give-up",
+                "towers": 0
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 15,
+                "bans": [
+                  "Ryze",
+                  "Olaf",
+                  "Syndra"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 0,
+                "gold": 48500,
+                "kills": 9,
+                "picks": [
+                  "Kennen",
+                  "Lee Sin",
+                  "Aurelion Sol",
+                  "Ezreal",
+                  "Karma"
+                ],
+                "team": "royal-never-give-up",
+                "towers": 1
+              },
+              "durationSec": 1843,
+              "id": "2016 Season World Championship_Quarterfinals_2_4",
+              "number": 4,
+              "patch": "6.18",
+              "red": {
+                "assists": 50,
+                "bans": [
+                  "Caitlyn",
+                  "Nidalee",
+                  "Jayce"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 3,
+                "gold": 63200,
+                "kills": 22,
+                "picks": [
+                  "Irelia",
+                  "Elise",
+                  "Malzahar",
+                  "Jhin",
+                  "Zyra"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Quarterfinals_2",
+          "round": "Quarterfinals",
+          "score1": 3,
+          "score2": 1,
+          "team1": "t1",
+          "team2": "royal-never-give-up",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 5,
+          "date": "2016-10-15T22:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 38,
+                "bans": [
+                  "Rek'Sai",
+                  "Poppy",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 3,
+                "gold": 70500,
+                "kills": 18,
+                "picks": [
+                  "Jayce",
+                  "Lee Sin",
+                  "Aurelion Sol",
+                  "Caitlyn",
+                  "Zyra"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 10
+              },
+              "durationSec": 2144,
+              "id": "2016 Season World Championship_Quarterfinals_3_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 9,
+                "bans": [
+                  "Elise",
+                  "Nidalee",
+                  "Jhin"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 1,
+                "gold": 54300,
+                "kills": 4,
+                "picks": [
+                  "Rumble",
+                  "Olaf",
+                  "Ryze",
+                  "Ezreal",
+                  "Karma"
+                ],
+                "team": "edward-gaming",
+                "towers": 1
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 9,
+                "bans": [
+                  "Elise",
+                  "Jayce",
+                  "Olaf"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 0,
+                "gold": 37300,
+                "kills": 5,
+                "picks": [
+                  "Kennen",
+                  "Hecarim",
+                  "Ryze",
+                  "Jhin",
+                  "Karma"
+                ],
+                "team": "edward-gaming",
+                "towers": 0
+              },
+              "durationSec": 1568,
+              "id": "2016 Season World Championship_Quarterfinals_3_2",
+              "number": 2,
+              "patch": "6.18",
+              "red": {
+                "assists": 44,
+                "bans": [
+                  "Syndra",
+                  "Nidalee",
+                  "Rek'Sai"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 2,
+                "gold": 54500,
+                "kills": 18,
+                "picks": [
+                  "Maokai",
+                  "Lee Sin",
+                  "Aurelion Sol",
+                  "Caitlyn",
+                  "Zyra"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Syndra",
+                  "Poppy",
+                  "Rek'Sai"
+                ],
+                "barons": 0,
+                "deaths": 25,
+                "dragons": 1,
+                "gold": 59100,
+                "kills": 15,
+                "picks": [
+                  "Fiora",
+                  "Lee Sin",
+                  "Ryze",
+                  "Jhin",
+                  "Zyra"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 2
+              },
+              "durationSec": 2088,
+              "id": "2016 Season World Championship_Quarterfinals_3_3",
+              "number": 3,
+              "patch": "6.18",
+              "red": {
+                "assists": 60,
+                "bans": [
+                  "Elise",
+                  "Nidalee",
+                  "Jayce"
+                ],
+                "barons": 1,
+                "deaths": 15,
+                "dragons": 2,
+                "gold": 69500,
+                "kills": 25,
+                "picks": [
+                  "Rumble",
+                  "Olaf",
+                  "Aurelion Sol",
+                  "Caitlyn",
+                  "Karma"
+                ],
+                "team": "edward-gaming",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 9,
+                "bans": [
+                  "Elise",
+                  "Aurelion Sol",
+                  "Zyra"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 1,
+                "gold": 48100,
+                "kills": 3,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Jayce",
+                  "Caitlyn",
+                  "Nami"
+                ],
+                "team": "edward-gaming",
+                "towers": 2
+              },
+              "durationSec": 1954,
+              "id": "2016 Season World Championship_Quarterfinals_3_4",
+              "number": 4,
+              "patch": "6.18",
+              "red": {
+                "assists": 44,
+                "bans": [
+                  "Syndra",
+                  "Nidalee",
+                  "Rek'Sai"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 2,
+                "gold": 64300,
+                "kills": 16,
+                "picks": [
+                  "Kennen",
+                  "Olaf",
+                  "Ryze",
+                  "Jhin",
+                  "Karma"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Quarterfinals_3",
+          "round": "Quarterfinals",
+          "score1": 3,
+          "score2": 1,
+          "team1": "hanwha-life-esports",
+          "team2": "edward-gaming",
+          "winner": "hanwha-life-esports"
+        },
+        {
+          "bestOf": 5,
+          "date": "2016-10-16T22:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 57,
+                "bans": [
+                  "Brand",
+                  "Poppy",
+                  "Jhin"
+                ],
+                "barons": 0,
+                "deaths": 8,
+                "dragons": 2,
+                "gold": 72100,
+                "kills": 28,
+                "picks": [
+                  "Jayce",
+                  "Lee Sin",
+                  "Vladimir",
+                  "Sivir",
+                  "Zyra"
+                ],
+                "team": "h2k-gaming",
+                "towers": 10
+              },
+              "durationSec": 2084,
+              "id": "2016 Season World Championship_Quarterfinals_4_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 19,
+                "bans": [
+                  "Nidalee",
+                  "Ryze",
+                  "Kennen"
+                ],
+                "barons": 1,
+                "deaths": 28,
+                "dragons": 1,
+                "gold": 54100,
+                "kills": 8,
+                "picks": [
+                  "Gnar",
+                  "Olaf",
+                  "Syndra",
+                  "Caitlyn",
+                  "Bard"
+                ],
+                "team": "albus-nox-luna",
+                "towers": 0
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 6,
+                "bans": [
+                  "Sivir",
+                  "Olaf",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 0,
+                "gold": 31900,
+                "kills": 2,
+                "picks": [
+                  "Gnar",
+                  "Elise",
+                  "Syndra",
+                  "Caitlyn",
+                  "Alistar"
+                ],
+                "team": "albus-nox-luna",
+                "towers": 0
+              },
+              "durationSec": 1418,
+              "id": "2016 Season World Championship_Quarterfinals_4_2",
+              "number": 2,
+              "patch": "6.18",
+              "red": {
+                "assists": 29,
+                "bans": [
+                  "Brand",
+                  "Poppy",
+                  "Nidalee"
+                ],
+                "barons": 1,
+                "deaths": 2,
+                "dragons": 2,
+                "gold": 49200,
+                "kills": 15,
+                "picks": [
+                  "Jayce",
+                  "Lee Sin",
+                  "Vladimir",
+                  "Lucian",
+                  "Zyra"
+                ],
+                "team": "h2k-gaming",
+                "towers": 8
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 30,
+                "bans": [
+                  "Brand",
+                  "Poppy",
+                  "Jhin"
+                ],
+                "barons": 1,
+                "deaths": 11,
+                "dragons": 1,
+                "gold": 67700,
+                "kills": 18,
+                "picks": [
+                  "Jayce",
+                  "Lee Sin",
+                  "Syndra",
+                  "Lucian",
+                  "Zyra"
+                ],
+                "team": "h2k-gaming",
+                "towers": 9
+              },
+              "durationSec": 2092,
+              "id": "2016 Season World Championship_Quarterfinals_4_3",
+              "number": 3,
+              "patch": "6.18",
+              "red": {
+                "assists": 19,
+                "bans": [
+                  "Nidalee",
+                  "Sivir",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 3,
+                "gold": 53400,
+                "kills": 11,
+                "picks": [
+                  "Gnar",
+                  "Olaf",
+                  "Zilean",
+                  "Caitlyn",
+                  "Bard"
+                ],
+                "team": "albus-nox-luna",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Quarterfinals_4",
+          "round": "Quarterfinals",
+          "score1": 3,
+          "score2": 0,
+          "team1": "h2k-gaming",
+          "team2": "albus-nox-luna",
+          "winner": "h2k-gaming"
+        },
+        {
+          "bestOf": 5,
+          "date": "2016-10-21T22:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 11,
+                "bans": [
+                  "Ryze",
+                  "Ezreal",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 3,
+                "gold": 72700,
+                "kills": 6,
+                "picks": [
+                  "Poppy",
+                  "Elise",
+                  "Viktor",
+                  "Caitlyn",
+                  "Karma"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 5
+              },
+              "durationSec": 2616,
+              "id": "2016 Season World Championship_Semifinals_1_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 30,
+                "bans": [
+                  "Nidalee",
+                  "Aurelion Sol",
+                  "Jayce"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 2,
+                "gold": 85100,
+                "kills": 12,
+                "picks": [
+                  "Trundle",
+                  "Olaf",
+                  "Orianna",
+                  "Ashe",
+                  "Zyra"
+                ],
+                "team": "t1",
+                "towers": 11
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Aurelion Sol",
+                  "Jayce",
+                  "Jhin"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 0,
+                "gold": 59000,
+                "kills": 11,
+                "picks": [
+                  "Ekko",
+                  "Olaf",
+                  "Viktor",
+                  "Ezreal",
+                  "Zyra"
+                ],
+                "team": "t1",
+                "towers": 3
+              },
+              "durationSec": 2002,
+              "id": "2016 Season World Championship_Semifinals_1_2",
+              "number": 2,
+              "patch": "6.18",
+              "red": {
+                "assists": 45,
+                "bans": [
+                  "Syndra",
+                  "Ryze",
+                  "Nidalee"
+                ],
+                "barons": 1,
+                "deaths": 11,
+                "dragons": 3,
+                "gold": 67400,
+                "kills": 21,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Karma",
+                  "Ashe",
+                  "Miss Fortune"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 10
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 39,
+                "bans": [
+                  "Syndra",
+                  "Ryze",
+                  "Karma"
+                ],
+                "barons": 2,
+                "deaths": 11,
+                "dragons": 3,
+                "gold": 79300,
+                "kills": 19,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Viktor",
+                  "Ashe",
+                  "Miss Fortune"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 10
+              },
+              "durationSec": 2360,
+              "id": "2016 Season World Championship_Semifinals_1_3",
+              "number": 3,
+              "patch": "6.18",
+              "red": {
+                "assists": 19,
+                "bans": [
+                  "Aurelion Sol",
+                  "Nidalee",
+                  "Jayce"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 1,
+                "gold": 66900,
+                "kills": 11,
+                "picks": [
+                  "Ekko",
+                  "Olaf",
+                  "Orianna",
+                  "Caitlyn",
+                  "Zyra"
+                ],
+                "team": "t1",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 37,
+                "bans": [
+                  "Miss Fortune",
+                  "Jayce",
+                  "Aurelion Sol"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 3,
+                "gold": 84000,
+                "kills": 20,
+                "picks": [
+                  "Gnar",
+                  "Nidalee",
+                  "Zilean",
+                  "Jhin",
+                  "Karma"
+                ],
+                "team": "t1",
+                "towers": 10
+              },
+              "durationSec": 2577,
+              "id": "2016 Season World Championship_Semifinals_1_4",
+              "number": 4,
+              "patch": "6.18",
+              "red": {
+                "assists": 10,
+                "bans": [
+                  "Syndra",
+                  "Ryze",
+                  "Cassiopeia"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 1,
+                "gold": 67500,
+                "kills": 5,
+                "picks": [
+                  "Rumble",
+                  "Olaf",
+                  "Viktor",
+                  "Ashe",
+                  "Zyra"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 11,
+                "bans": [
+                  "Ryze",
+                  "Syndra",
+                  "Olaf"
+                ],
+                "barons": 1,
+                "deaths": 16,
+                "dragons": 0,
+                "gold": 67000,
+                "kills": 7,
+                "picks": [
+                  "Jayce",
+                  "Elise",
+                  "Karma",
+                  "Jhin",
+                  "Zyra"
+                ],
+                "team": "hanwha-life-esports",
+                "towers": 2
+              },
+              "durationSec": 2548,
+              "id": "2016 Season World Championship_Semifinals_1_5",
+              "number": 5,
+              "patch": "6.18",
+              "red": {
+                "assists": 38,
+                "bans": [
+                  "Miss Fortune",
+                  "Nidalee",
+                  "Aurelion Sol"
+                ],
+                "barons": 2,
+                "deaths": 7,
+                "dragons": 5,
+                "gold": 83800,
+                "kills": 16,
+                "picks": [
+                  "Poppy",
+                  "Lee Sin",
+                  "Orianna",
+                  "Ashe",
+                  "Nami"
+                ],
+                "team": "t1",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Semifinals_1",
+          "round": "Semifinals",
+          "score1": 3,
+          "score2": 2,
+          "team1": "t1",
+          "team2": "hanwha-life-esports",
+          "winner": "t1"
+        },
+        {
+          "bestOf": 5,
+          "date": "2016-10-22T22:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 18,
+                "bans": [
+                  "Caitlyn",
+                  "Jayce",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 15,
+                "dragons": 3,
+                "gold": 81400,
+                "kills": 13,
+                "picks": [
+                  "Ekko",
+                  "Nidalee",
+                  "Viktor",
+                  "Ashe",
+                  "Miss Fortune"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 11
+              },
+              "durationSec": 2361,
+              "id": "2016 Season World Championship_Semifinals_2_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Poppy",
+                  "Jhin",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 1,
+                "gold": 65600,
+                "kills": 15,
+                "picks": [
+                  "Kennen",
+                  "Olaf",
+                  "Cassiopeia",
+                  "Sivir",
+                  "Zyra"
+                ],
+                "team": "h2k-gaming",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 28,
+                "bans": [
+                  "Ekko",
+                  "Miss Fortune",
+                  "Viktor"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 2,
+                "gold": 58600,
+                "kills": 15,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Ryze",
+                  "Sivir",
+                  "Karma"
+                ],
+                "team": "h2k-gaming",
+                "towers": 2
+              },
+              "durationSec": 2068,
+              "id": "2016 Season World Championship_Semifinals_2_2",
+              "number": 2,
+              "patch": "6.18",
+              "red": {
+                "assists": 40,
+                "bans": [
+                  "Caitlyn",
+                  "Nidalee",
+                  "Syndra"
+                ],
+                "barons": 2,
+                "deaths": 15,
+                "dragons": 2,
+                "gold": 72500,
+                "kills": 22,
+                "picks": [
+                  "Jayce",
+                  "Olaf",
+                  "Cassiopeia",
+                  "Jhin",
+                  "Zyra"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 10
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 10,
+                "bans": [
+                  "Caitlyn",
+                  "Syndra",
+                  "Lee Sin"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 3,
+                "gold": 55200,
+                "kills": 9,
+                "picks": [
+                  "Poppy",
+                  "Olaf",
+                  "Viktor",
+                  "Ezreal",
+                  "Zyra"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 11
+              },
+              "durationSec": 1605,
+              "id": "2016 Season World Championship_Semifinals_2_3",
+              "number": 3,
+              "patch": "6.18",
+              "red": {
+                "assists": 9,
+                "bans": [
+                  "Jhin",
+                  "Nidalee",
+                  "Ashe"
+                ],
+                "barons": 0,
+                "deaths": 9,
+                "dragons": 0,
+                "gold": 40800,
+                "kills": 5,
+                "picks": [
+                  "Trundle",
+                  "Elise",
+                  "Ryze",
+                  "Sivir",
+                  "Karma"
+                ],
+                "team": "h2k-gaming",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2016 Season World Championship_Semifinals_2",
+          "round": "Semifinals",
+          "score1": 3,
+          "score2": 0,
+          "team1": "samsung-galaxy",
+          "team2": "h2k-gaming",
+          "winner": "samsung-galaxy"
+        },
+        {
+          "bestOf": 5,
+          "date": "2016-10-29T23:30:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 25,
+                "bans": [
+                  "Ashe",
+                  "Syndra",
+                  "Cassiopeia"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 2,
+                "gold": 97400,
+                "kills": 12,
+                "picks": [
+                  "Poppy",
+                  "Lee Sin",
+                  "Viktor",
+                  "Caitlyn",
+                  "Zyra"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 5
+              },
+              "durationSec": 3281,
+              "id": "2016 Season World Championship_Finals_1_1",
+              "number": 1,
+              "patch": "6.18",
+              "red": {
+                "assists": 12,
+                "bans": [
+                  "Nidalee",
+                  "Miss Fortune",
+                  "Ryze"
+                ],
+                "barons": 2,
+                "deaths": 12,
+                "dragons": 4,
+                "gold": 104700,
+                "kills": 9,
+                "picks": [
+                  "Trundle",
+                  "Olaf",
+                  "Orianna",
+                  "Jhin",
+                  "Karma"
+                ],
+                "team": "t1",
+                "towers": 10
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 33,
+                "bans": [
+                  "Jayce",
+                  "Olaf",
+                  "Elise"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 2,
+                "gold": 64500,
+                "kills": 20,
+                "picks": [
+                  "Gnar",
+                  "Lee Sin",
+                  "Ryze",
+                  "Jhin",
+                  "Nami"
+                ],
+                "team": "t1",
+                "towers": 9
+              },
+              "durationSec": 1886,
+              "id": "2016 Season World Championship_Finals_1_2",
+              "number": 2,
+              "patch": "6.18",
+              "red": {
+                "assists": 7,
+                "bans": [
+                  "Syndra",
+                  "Ashe",
+                  "Nidalee"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 2,
+                "gold": 47300,
+                "kills": 3,
+                "picks": [
+                  "Kennen",
+                  "Kindred",
+                  "Cassiopeia",
+                  "Caitlyn",
+                  "Karma"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Syndra",
+                  "Ashe",
+                  "Cassiopeia"
+                ],
+                "barons": 3,
+                "deaths": 19,
+                "dragons": 5,
+                "gold": 125300,
+                "kills": 17,
+                "picks": [
+                  "Poppy",
+                  "Lee Sin",
+                  "Aurelion Sol",
+                  "Ezreal",
+                  "Zyra"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 11
+              },
+              "durationSec": 4280,
+              "id": "2016 Season World Championship_Finals_1_3",
+              "number": 3,
+              "patch": "6.18",
+              "red": {
+                "assists": 47,
+                "bans": [
+                  "Nidalee",
+                  "Olaf",
+                  "Ryze"
+                ],
+                "barons": 1,
+                "deaths": 17,
+                "dragons": 2,
+                "gold": 125900,
+                "kills": 19,
+                "picks": [
+                  "Trundle",
+                  "Elise",
+                  "Orianna",
+                  "Jhin",
+                  "Nami"
+                ],
+                "team": "t1",
+                "towers": 6
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 32,
+                "bans": [
+                  "Jayce",
+                  "Zyra",
+                  "Olaf"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 1,
+                "gold": 79400,
+                "kills": 12,
+                "picks": [
+                  "Gnar",
+                  "Zac",
+                  "Orianna",
+                  "Ashe",
+                  "Nami"
+                ],
+                "team": "t1",
+                "towers": 3
+              },
+              "durationSec": 2761,
+              "id": "2016 Season World Championship_Finals_1_4",
+              "number": 4,
+              "patch": "6.18",
+              "red": {
+                "assists": 42,
+                "bans": [
+                  "Syndra",
+                  "Ryze",
+                  "Nidalee"
+                ],
+                "barons": 2,
+                "deaths": 12,
+                "dragons": 3,
+                "gold": 88000,
+                "kills": 17,
+                "picks": [
+                  "Kennen",
+                  "Lee Sin",
+                  "Viktor",
+                  "Jhin",
+                  "Karma"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 11
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 19,
+                "bans": [
+                  "Syndra",
+                  "Ryze",
+                  "Karma"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 1,
+                "gold": 81000,
+                "kills": 8,
+                "picks": [
+                  "Poppy",
+                  "Olaf",
+                  "Cassiopeia",
+                  "Jhin",
+                  "Tahm Kench"
+                ],
+                "team": "samsung-galaxy",
+                "towers": 3
+              },
+              "durationSec": 2951,
+              "id": "2016 Season World Championship_Finals_1_5",
+              "number": 5,
+              "patch": "6.18",
+              "red": {
+                "assists": 33,
+                "bans": [
+                  "Nidalee",
+                  "Zyra",
+                  "Aurelion Sol"
+                ],
+                "barons": 2,
+                "deaths": 8,
+                "dragons": 5,
+                "gold": 98200,
+                "kills": 13,
+                "picks": [
+                  "Trundle",
+                  "Lee Sin",
+                  "Viktor",
+                  "Ashe",
+                  "Braum"
+                ],
+                "team": "t1",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2016 Season World Championship_Finals_1",
+          "round": "Finals",
+          "score1": 3,
+          "score2": 2,
+          "team1": "t1",
+          "team2": "samsung-galaxy",
+          "winner": "t1"
+        }
+      ],
+      "name": "Knockout Stage",
+      "order": 1,
+      "type": "single-elimination"
+    }
+  ],
+  "startDate": "2016-09-29",
+  "status": "completed",
+  "year": 2016
+}

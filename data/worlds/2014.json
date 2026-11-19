@@ -1,0 +1,4752 @@
+{
+  "champion": "samsung-white",
+  "coverage": {
+    "games": true,
+    "matches": true
+  },
+  "endDate": "2014-10-19",
+  "name": "Worlds 2014",
+  "overviewPages": [
+    "2014 Season World Championship"
+  ],
+  "stages": [
+    {
+      "id": "group-stage",
+      "matches": [
+        {
+          "bestOf": 1,
+          "date": "2014-09-18T09:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 30,
+                "bans": [
+                  "Yasuo",
+                  "Kassadin",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 2,
+                "gold": 64400,
+                "kills": 11,
+                "picks": [
+                  "Maokai",
+                  "Jarvan IV",
+                  "Orianna",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "edward-gaming",
+                "towers": 4
+              },
+              "durationSec": 2637,
+              "id": "2014 Season World Championship_Day 1_1_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 50,
+                "bans": [
+                  "Twitch",
+                  "Ryze",
+                  "Janna"
+                ],
+                "barons": 2,
+                "deaths": 11,
+                "dragons": 3,
+                "gold": 81300,
+                "kills": 20,
+                "picks": [
+                  "Rumble",
+                  "Kha'Zix",
+                  "Zilean",
+                  "Tristana",
+                  "Nami"
+                ],
+                "team": "samsung-white",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 1_1",
+          "round": "Day 1",
+          "score1": 0,
+          "score2": 1,
+          "team1": "edward-gaming",
+          "team2": "samsung-white",
+          "winner": "samsung-white"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-18T10:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 35,
+                "bans": [
+                  "Nidalee",
+                  "Kayle",
+                  "Aatrox"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 2,
+                "gold": 46900,
+                "kills": 15,
+                "picks": [
+                  "Alistar",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Tristana",
+                  "Nami"
+                ],
+                "team": "tsm",
+                "towers": 6
+              },
+              "durationSec": 1425,
+              "id": "2014 Season World Championship_Day 1_2_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 2,
+                "bans": [
+                  "Lulu",
+                  "Zed",
+                  "Syndra"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 0,
+                "gold": 30900,
+                "kills": 1,
+                "picks": [
+                  "Dr. Mundo",
+                  "Kha'Zix",
+                  "Orianna",
+                  "Lucian",
+                  "Sona"
+                ],
+                "team": "sk-gaming",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 1_2",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "tsm",
+          "team2": "sk-gaming",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-18T11:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 17,
+                "bans": [
+                  "Twitch",
+                  "Twisted Fate",
+                  "Zed"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 0,
+                "gold": 56100,
+                "kills": 8,
+                "picks": [
+                  "Maokai",
+                  "Lee Sin",
+                  "Syndra",
+                  "Tristana",
+                  "Nami"
+                ],
+                "team": "bbl-dark-passage",
+                "towers": 2
+              },
+              "durationSec": 2408,
+              "id": "2014 Season World Championship_Day 1_3_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 38,
+                "bans": [
+                  "Alistar",
+                  "Ryze",
+                  "Zilean"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 5,
+                "gold": 75900,
+                "kills": 19,
+                "picks": [
+                  "Nidalee",
+                  "Kha'Zix",
+                  "Fizz",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 1_3",
+          "round": "Day 1",
+          "score1": 0,
+          "score2": 1,
+          "team1": "bbl-dark-passage",
+          "team2": "ahq-esports-club",
+          "winner": "ahq-esports-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-18T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 20,
+                "bans": [
+                  "Fizz",
+                  "Rengar",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 4,
+                "gold": 85700,
+                "kills": 10,
+                "picks": [
+                  "Dr. Mundo",
+                  "Lee Sin",
+                  "Syndra",
+                  "Lucian",
+                  "Janna"
+                ],
+                "team": "taipei-assassins",
+                "towers": 7
+              },
+              "durationSec": 3394,
+              "id": "2014 Season World Championship_Day 1_4_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Alistar",
+                  "Nidalee",
+                  "Zilean"
+                ],
+                "barons": 3,
+                "deaths": 10,
+                "dragons": 3,
+                "gold": 97400,
+                "kills": 15,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Orianna",
+                  "Caitlyn",
+                  "Nami"
+                ],
+                "team": "royal-club",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 1_4",
+          "round": "Day 1",
+          "score1": 0,
+          "score2": 1,
+          "team1": "taipei-assassins",
+          "team2": "royal-club",
+          "winner": "royal-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-18T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 64,
+                "bans": [
+                  "Fizz",
+                  "Lucian",
+                  "Zed"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 1,
+                "gold": 52700,
+                "kills": 34,
+                "picks": [
+                  "Maokai",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Twitch",
+                  "Thresh"
+                ],
+                "team": "samsung-white",
+                "towers": 10
+              },
+              "durationSec": 1351,
+              "id": "2014 Season World Championship_Day 1_5_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 24,
+                "bans": [
+                  "Alistar",
+                  "Ryze",
+                  "Zilean"
+                ],
+                "barons": 0,
+                "deaths": 34,
+                "dragons": 0,
+                "gold": 30000,
+                "kills": 12,
+                "picks": [
+                  "Nidalee",
+                  "Kha'Zix",
+                  "Twisted Fate",
+                  "Jinx",
+                  "Blitzcrank"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 1_5",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "samsung-white",
+          "team2": "ahq-esports-club",
+          "winner": "samsung-white"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-18T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 63,
+                "bans": [
+                  "Maokai",
+                  "Nidalee",
+                  "Alistar"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 2,
+                "gold": 58800,
+                "kills": 25,
+                "picks": [
+                  "Irelia",
+                  "Rengar",
+                  "Zilean",
+                  "Tristana",
+                  "Janna"
+                ],
+                "team": "royal-club",
+                "towers": 8
+              },
+              "durationSec": 1833,
+              "id": "2014 Season World Championship_Day 1_6_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 9,
+                "bans": [
+                  "Fizz",
+                  "Lee Sin",
+                  "Lucian"
+                ],
+                "barons": 0,
+                "deaths": 25,
+                "dragons": 1,
+                "gold": 43200,
+                "kills": 5,
+                "picks": [
+                  "Ryze",
+                  "Elise",
+                  "Zed",
+                  "Corki",
+                  "Nami"
+                ],
+                "team": "tsm",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 1_6",
+          "round": "Day 1",
+          "score1": 1,
+          "score2": 0,
+          "team1": "royal-club",
+          "team2": "tsm",
+          "winner": "royal-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-19T09:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 44,
+                "bans": [
+                  "Nidalee",
+                  "Aatrox",
+                  "Maokai"
+                ],
+                "barons": 1,
+                "deaths": 15,
+                "dragons": 1,
+                "gold": 70200,
+                "kills": 17,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Syndra",
+                  "Lucian",
+                  "Janna"
+                ],
+                "team": "taipei-assassins",
+                "towers": 9
+              },
+              "durationSec": 2637,
+              "id": "2014 Season World Championship_Day 2_1_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 34,
+                "bans": [
+                  "Zilean",
+                  "Alistar",
+                  "Lee Sin"
+                ],
+                "barons": 2,
+                "deaths": 17,
+                "dragons": 4,
+                "gold": 70200,
+                "kills": 15,
+                "picks": [
+                  "Dr. Mundo",
+                  "Jarvan IV",
+                  "Ahri",
+                  "Tristana",
+                  "Sona"
+                ],
+                "team": "sk-gaming",
+                "towers": 5
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 2_1",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "taipei-assassins",
+          "team2": "sk-gaming",
+          "winner": "taipei-assassins"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-19T10:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 40,
+                "bans": [
+                  "Nidalee",
+                  "Alistar",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 2,
+                "dragons": 4,
+                "gold": 64000,
+                "kills": 17,
+                "picks": [
+                  "Maokai",
+                  "Rengar",
+                  "Orianna",
+                  "Kog'Maw",
+                  "Janna"
+                ],
+                "team": "edward-gaming",
+                "towers": 10
+              },
+              "durationSec": 1995,
+              "id": "2014 Season World Championship_Day 2_2_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 5,
+                "bans": [
+                  "Twitch",
+                  "Zilean",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 17,
+                "dragons": 0,
+                "gold": 44400,
+                "kills": 2,
+                "picks": [
+                  "Kha'Zix",
+                  "Nunu & Willump",
+                  "Xerath",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "bbl-dark-passage",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 2_2",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "edward-gaming",
+          "team2": "bbl-dark-passage",
+          "winner": "edward-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-19T11:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 50,
+                "bans": [
+                  "Nidalee",
+                  "Aatrox",
+                  "Maokai"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 2,
+                "gold": 63900,
+                "kills": 26,
+                "picks": [
+                  "Ryze",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Tristana",
+                  "Janna"
+                ],
+                "team": "royal-club",
+                "towers": 8
+              },
+              "durationSec": 1986,
+              "id": "2014 Season World Championship_Day 2_3_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 23,
+                "bans": [
+                  "Rengar",
+                  "Alistar",
+                  "Zed"
+                ],
+                "barons": 0,
+                "deaths": 26,
+                "dragons": 2,
+                "gold": 48900,
+                "kills": 12,
+                "picks": [
+                  "Dr. Mundo",
+                  "Kha'Zix",
+                  "Syndra",
+                  "Twitch",
+                  "Zilean"
+                ],
+                "team": "sk-gaming",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 2_3",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "royal-club",
+          "team2": "sk-gaming",
+          "winner": "royal-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-19T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 0,
+                "bans": [
+                  "Yasuo",
+                  "Zilean",
+                  "Tristana"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 0,
+                "gold": 26300,
+                "kills": 0,
+                "picks": [
+                  "Alistar",
+                  "Kha'Zix",
+                  "Orianna",
+                  "Jinx",
+                  "Thresh"
+                ],
+                "team": "bbl-dark-passage",
+                "towers": 0
+              },
+              "durationSec": 1408,
+              "id": "2014 Season World Championship_Day 2_4_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 29,
+                "bans": [
+                  "Nidalee",
+                  "Maokai",
+                  "Lucian"
+                ],
+                "barons": 0,
+                "deaths": 0,
+                "dragons": 3,
+                "gold": 44700,
+                "kills": 15,
+                "picks": [
+                  "Ryze",
+                  "Lee Sin",
+                  "Talon",
+                  "Vayne",
+                  "Janna"
+                ],
+                "team": "samsung-white",
+                "towers": 6
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 2_4",
+          "round": "Day 2",
+          "score1": 0,
+          "score2": 1,
+          "team1": "bbl-dark-passage",
+          "team2": "samsung-white",
+          "winner": "samsung-white"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-19T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 34,
+                "bans": [
+                  "Nidalee",
+                  "Zilean",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 4,
+                "gold": 70800,
+                "kills": 14,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Xerath",
+                  "Kog'Maw",
+                  "Janna"
+                ],
+                "team": "tsm",
+                "towers": 10
+              },
+              "durationSec": 2456,
+              "id": "2014 Season World Championship_Day 2_5_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 12,
+                "bans": [
+                  "Zed",
+                  "Maokai",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 0,
+                "gold": 52800,
+                "kills": 4,
+                "picks": [
+                  "Lulu",
+                  "Rengar",
+                  "Orianna",
+                  "Tristana",
+                  "Leona"
+                ],
+                "team": "taipei-assassins",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 2_5",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "tsm",
+          "team2": "taipei-assassins",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-19T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 60,
+                "bans": [
+                  "Fizz",
+                  "Lee Sin",
+                  "Twisted Fate"
+                ],
+                "barons": 1,
+                "deaths": 10,
+                "dragons": 4,
+                "gold": 69700,
+                "kills": 28,
+                "picks": [
+                  "Maokai",
+                  "Rengar",
+                  "Zed",
+                  "Twitch",
+                  "Thresh"
+                ],
+                "team": "edward-gaming",
+                "towers": 8
+              },
+              "durationSec": 2168,
+              "id": "2014 Season World Championship_Day 2_6_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 23,
+                "bans": [
+                  "Ryze",
+                  "Zilean",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 28,
+                "dragons": 0,
+                "gold": 47900,
+                "kills": 10,
+                "picks": [
+                  "Nidalee",
+                  "Kha'Zix",
+                  "Talon",
+                  "Lucian",
+                  "Blitzcrank"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 2_6",
+          "round": "Day 2",
+          "score1": 1,
+          "score2": 0,
+          "team1": "edward-gaming",
+          "team2": "ahq-esports-club",
+          "winner": "edward-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-20T09:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 43,
+                "bans": [
+                  "Nidalee",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "barons": 0,
+                "deaths": 2,
+                "dragons": 1,
+                "gold": 39400,
+                "kills": 20,
+                "picks": [
+                  "Alistar",
+                  "Kha'Zix",
+                  "Zed",
+                  "Corki",
+                  "Janna"
+                ],
+                "team": "samsung-white",
+                "towers": 5
+              },
+              "durationSec": 1268,
+              "id": "2014 Season World Championship_Day 3_1_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 3,
+                "bans": [
+                  "Tristana",
+                  "Yasuo",
+                  "Zilean"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 1,
+                "gold": 24000,
+                "kills": 2,
+                "picks": [
+                  "Ryze",
+                  "Lee Sin",
+                  "Fizz",
+                  "Ezreal",
+                  "Braum"
+                ],
+                "team": "bbl-dark-passage",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 3_1",
+          "round": "Day 3",
+          "score1": 1,
+          "score2": 0,
+          "team1": "samsung-white",
+          "team2": "bbl-dark-passage",
+          "winner": "samsung-white"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-20T10:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 13,
+                "bans": [
+                  "Zilean",
+                  "Lucian",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 0,
+                "gold": 44400,
+                "kills": 6,
+                "picks": [
+                  "Maokai",
+                  "Lee Sin",
+                  "Ahri",
+                  "Kog'Maw",
+                  "Kayle"
+                ],
+                "team": "sk-gaming",
+                "towers": 3
+              },
+              "durationSec": 2025,
+              "id": "2014 Season World Championship_Day 3_2_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 46,
+                "bans": [
+                  "Aatrox",
+                  "Nidalee",
+                  "Alistar"
+                ],
+                "barons": 2,
+                "deaths": 6,
+                "dragons": 3,
+                "gold": 65700,
+                "kills": 19,
+                "picks": [
+                  "Irelia",
+                  "Rengar",
+                  "Orianna",
+                  "Vayne",
+                  "Janna"
+                ],
+                "team": "royal-club",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 3_2",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "sk-gaming",
+          "team2": "royal-club",
+          "winner": "royal-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-20T11:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 24,
+                "bans": [
+                  "Zilean",
+                  "Alistar",
+                  "Yasuo"
+                ],
+                "barons": 0,
+                "deaths": 39,
+                "dragons": 1,
+                "gold": 42900,
+                "kills": 13,
+                "picks": [
+                  "Ryze",
+                  "Lee Sin",
+                  "Twisted Fate",
+                  "Jinx",
+                  "Blitzcrank"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 0
+              },
+              "durationSec": 1759,
+              "id": "2014 Season World Championship_Day 3_3_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 92,
+                "bans": [
+                  "Zed",
+                  "Nidalee",
+                  "Maokai"
+                ],
+                "barons": 2,
+                "deaths": 13,
+                "dragons": 2,
+                "gold": 67100,
+                "kills": 39,
+                "picks": [
+                  "Kayle",
+                  "Kha'Zix",
+                  "Katarina",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "samsung-white",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 3_3",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "ahq-esports-club",
+          "team2": "samsung-white",
+          "winner": "samsung-white"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-20T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 10,
+                "bans": [
+                  "Nami",
+                  "Janna",
+                  "Rumble"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 0,
+                "gold": 35900,
+                "kills": 4,
+                "picks": [
+                  "Maokai",
+                  "Kha'Zix",
+                  "Yasuo",
+                  "Twitch",
+                  "Thresh"
+                ],
+                "team": "taipei-assassins",
+                "towers": 1
+              },
+              "durationSec": 1621,
+              "id": "2014 Season World Championship_Day 3_4_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 53,
+                "bans": [
+                  "Alistar",
+                  "Zilean",
+                  "Lucian"
+                ],
+                "barons": 0,
+                "deaths": 4,
+                "dragons": 3,
+                "gold": 54000,
+                "kills": 19,
+                "picks": [
+                  "Lulu",
+                  "Lee Sin",
+                  "Orianna",
+                  "Tristana",
+                  "Braum"
+                ],
+                "team": "tsm",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 3_4",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "taipei-assassins",
+          "team2": "tsm",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-20T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 7,
+                "bans": [
+                  "Rengar",
+                  "Orianna",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 26,
+                "dragons": 1,
+                "gold": 34500,
+                "kills": 6,
+                "picks": [
+                  "Ryze",
+                  "Pantheon",
+                  "Jayce",
+                  "Lucian",
+                  "Braum"
+                ],
+                "team": "bbl-dark-passage",
+                "towers": 0
+              },
+              "durationSec": 1627,
+              "id": "2014 Season World Championship_Day 3_5_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 65,
+                "bans": [
+                  "Nidalee",
+                  "Alistar",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 2,
+                "gold": 55600,
+                "kills": 26,
+                "picks": [
+                  "Irelia",
+                  "Kha'Zix",
+                  "Zilean",
+                  "Tristana",
+                  "Thresh"
+                ],
+                "team": "edward-gaming",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 3_5",
+          "round": "Day 3",
+          "score1": 0,
+          "score2": 1,
+          "team1": "bbl-dark-passage",
+          "team2": "edward-gaming",
+          "winner": "edward-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-20T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 32,
+                "bans": [
+                  "Zilean",
+                  "Nami",
+                  "Syndra"
+                ],
+                "barons": 2,
+                "deaths": 19,
+                "dragons": 4,
+                "gold": 85600,
+                "kills": 16,
+                "picks": [
+                  "Alistar",
+                  "Kha'Zix",
+                  "Orianna",
+                  "Lucian",
+                  "Morgana"
+                ],
+                "team": "sk-gaming",
+                "towers": 10
+              },
+              "durationSec": 3001,
+              "id": "2014 Season World Championship_Day 3_6_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 31,
+                "bans": [
+                  "Nidalee",
+                  "Aatrox",
+                  "Ahri"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 0,
+                "gold": 74300,
+                "kills": 19,
+                "picks": [
+                  "Ryze",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Ezreal",
+                  "Janna"
+                ],
+                "team": "taipei-assassins",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 3_6",
+          "round": "Day 3",
+          "score1": 1,
+          "score2": 0,
+          "team1": "sk-gaming",
+          "team2": "taipei-assassins",
+          "winner": "sk-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-21T09:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 52,
+                "bans": [
+                  "Rengar",
+                  "Zilean",
+                  "Lucian"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 4,
+                "gold": 78800,
+                "kills": 21,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Orianna",
+                  "Tristana",
+                  "Nami"
+                ],
+                "team": "tsm",
+                "towers": 9
+              },
+              "durationSec": 2807,
+              "id": "2014 Season World Championship_Day 4_1_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 41,
+                "bans": [
+                  "Maokai",
+                  "Elise",
+                  "Alistar"
+                ],
+                "barons": 2,
+                "deaths": 21,
+                "dragons": 1,
+                "gold": 73200,
+                "kills": 15,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Fizz",
+                  "Caitlyn",
+                  "Janna"
+                ],
+                "team": "royal-club",
+                "towers": 5
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 4_1",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "tsm",
+          "team2": "royal-club",
+          "winner": "tsm"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-21T10:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 45,
+                "bans": [
+                  "Alistar",
+                  "Zilean",
+                  "Ryze"
+                ],
+                "barons": 1,
+                "deaths": 2,
+                "dragons": 2,
+                "gold": 63700,
+                "kills": 27,
+                "picks": [
+                  "Irelia",
+                  "Lee Sin",
+                  "Twisted Fate",
+                  "Graves",
+                  "Leona"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 8
+              },
+              "durationSec": 2081,
+              "id": "2014 Season World Championship_Day 4_2_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 6,
+                "bans": [
+                  "Thresh",
+                  "Fizz",
+                  "Zed"
+                ],
+                "barons": 0,
+                "deaths": 27,
+                "dragons": 1,
+                "gold": 44300,
+                "kills": 2,
+                "picks": [
+                  "Nidalee",
+                  "Vi",
+                  "Ahri",
+                  "Lucian",
+                  "Janna"
+                ],
+                "team": "bbl-dark-passage",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 4_2",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "ahq-esports-club",
+          "team2": "bbl-dark-passage",
+          "winner": "ahq-esports-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-21T11:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 28,
+                "bans": [
+                  "Maokai",
+                  "Nidalee",
+                  "Alistar"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 3,
+                "gold": 57100,
+                "kills": 14,
+                "picks": [
+                  "Ryze",
+                  "Lee Sin",
+                  "Orianna",
+                  "Lucian",
+                  "Nami"
+                ],
+                "team": "royal-club",
+                "towers": 11
+              },
+              "durationSec": 1732,
+              "id": "2014 Season World Championship_Day 4_3_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 10,
+                "bans": [
+                  "Rengar",
+                  "Zilean",
+                  "Yasuo"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 0,
+                "gold": 36400,
+                "kills": 5,
+                "picks": [
+                  "Dr. Mundo",
+                  "Kha'Zix",
+                  "Fizz",
+                  "Tristana",
+                  "Janna"
+                ],
+                "team": "taipei-assassins",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 4_3",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "royal-club",
+          "team2": "taipei-assassins",
+          "winner": "royal-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-21T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 24,
+                "bans": [
+                  "Alistar",
+                  "Zilean",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 6,
+                "dragons": 0,
+                "gold": 69300,
+                "kills": 11,
+                "picks": [
+                  "Kayle",
+                  "Lee Sin",
+                  "Zed",
+                  "Jinx",
+                  "Thresh"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 8
+              },
+              "durationSec": 2769,
+              "id": "2014 Season World Championship_Day 4_4_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 7,
+                "bans": [
+                  "Fizz",
+                  "Twisted Fate",
+                  "Maokai"
+                ],
+                "barons": 2,
+                "deaths": 11,
+                "dragons": 4,
+                "gold": 74300,
+                "kills": 6,
+                "picks": [
+                  "Lulu",
+                  "Kha'Zix",
+                  "Jayce",
+                  "Lucian",
+                  "Janna"
+                ],
+                "team": "edward-gaming",
+                "towers": 7
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 4_4",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "ahq-esports-club",
+          "team2": "edward-gaming",
+          "winner": "ahq-esports-club"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-21T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 40,
+                "bans": [
+                  "Zed",
+                  "Tristana",
+                  "Ryze"
+                ],
+                "barons": 1,
+                "deaths": 17,
+                "dragons": 1,
+                "gold": 84400,
+                "kills": 21,
+                "picks": [
+                  "Swain",
+                  "Kha'Zix",
+                  "Ziggs",
+                  "Vayne",
+                  "Morgana"
+                ],
+                "team": "sk-gaming",
+                "towers": 9
+              },
+              "durationSec": 3036,
+              "id": "2014 Season World Championship_Day 4_5_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 43,
+                "bans": [
+                  "Alistar",
+                  "Nidalee",
+                  "Aatrox"
+                ],
+                "barons": 1,
+                "deaths": 21,
+                "dragons": 5,
+                "gold": 82100,
+                "kills": 17,
+                "picks": [
+                  "Maokai",
+                  "Lee Sin",
+                  "Syndra",
+                  "Kog'Maw",
+                  "Janna"
+                ],
+                "team": "tsm",
+                "towers": 7
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 4_5",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "sk-gaming",
+          "team2": "tsm",
+          "winner": "sk-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-21T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 61,
+                "bans": [
+                  "Zilean",
+                  "Rengar",
+                  "Thresh"
+                ],
+                "barons": 2,
+                "deaths": 7,
+                "dragons": 3,
+                "gold": 67200,
+                "kills": 26,
+                "picks": [
+                  "Maokai",
+                  "Jarvan IV",
+                  "Fizz",
+                  "Twitch",
+                  "Janna"
+                ],
+                "team": "samsung-white",
+                "towers": 9
+              },
+              "durationSec": 2013,
+              "id": "2014 Season World Championship_Day 4_6_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 15,
+                "bans": [
+                  "Yasuo",
+                  "Kassadin",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 26,
+                "dragons": 1,
+                "gold": 45400,
+                "kills": 7,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Ziggs",
+                  "Kog'Maw",
+                  "Nami"
+                ],
+                "team": "edward-gaming",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 4_6",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "samsung-white",
+          "team2": "edward-gaming",
+          "winner": "samsung-white"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-21T16:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 62,
+                "bans": [
+                  "Fizz",
+                  "Twisted Fate",
+                  "Thresh"
+                ],
+                "barons": 2,
+                "deaths": 15,
+                "dragons": 5,
+                "gold": 76200,
+                "kills": 23,
+                "picks": [
+                  "Maokai",
+                  "Rengar",
+                  "Kassadin",
+                  "Lucian",
+                  "Braum"
+                ],
+                "team": "edward-gaming",
+                "towers": 10
+              },
+              "durationSec": 2403,
+              "id": "2014 Season World Championship_Day 4_7_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 32,
+                "bans": [
+                  "Zilean",
+                  "Alistar",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 0,
+                "gold": 53000,
+                "kills": 15,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Zed",
+                  "Jinx",
+                  "Leona"
+                ],
+                "team": "ahq-esports-club",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 4_7",
+          "round": "Day 4",
+          "score1": 1,
+          "score2": 0,
+          "team1": "edward-gaming",
+          "team2": "ahq-esports-club",
+          "winner": "edward-gaming"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-25T09:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 66,
+                "bans": [
+                  "Lee Sin",
+                  "Irelia",
+                  "Ryze"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 3,
+                "gold": 61800,
+                "kills": 23,
+                "picks": [
+                  "Rumble",
+                  "Jarvan IV",
+                  "Syndra",
+                  "Twitch",
+                  "Thresh"
+                ],
+                "team": "team-impulse",
+                "towers": 9
+              },
+              "durationSec": 2016,
+              "id": "2014 Season World Championship_Day 5_1_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 18,
+                "bans": [
+                  "Zilean",
+                  "Alistar",
+                  "Kha'Zix"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 1,
+                "gold": 47400,
+                "kills": 8,
+                "picks": [
+                  "Maokai",
+                  "Elise",
+                  "Yasuo",
+                  "Tristana",
+                  "Nami"
+                ],
+                "team": "oh-my-god",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 5_1",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "team-impulse",
+          "team2": "oh-my-god",
+          "winner": "team-impulse"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-25T10:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 23,
+                "bans": [
+                  "Jinx",
+                  "Maokai",
+                  "Zilean"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 3,
+                "gold": 52800,
+                "kills": 13,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Zed",
+                  "Corki",
+                  "Thresh"
+                ],
+                "team": "najin-white-shield",
+                "towers": 10
+              },
+              "durationSec": 1605,
+              "id": "2014 Season World Championship_Day 5_2_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 1,
+                "bans": [
+                  "Alistar",
+                  "Lee Sin",
+                  "Twitch"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 0,
+                "gold": 30600,
+                "kills": 1,
+                "picks": [
+                  "Kayle",
+                  "Elise",
+                  "Ahri",
+                  "Lucian",
+                  "Janna"
+                ],
+                "team": "kabum-ilha-das-lendas",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 5_2",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "najin-white-shield",
+          "team2": "kabum-ilha-das-lendas",
+          "winner": "najin-white-shield"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-25T11:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 54,
+                "bans": [
+                  "Zilean",
+                  "Alistar",
+                  "Ryze"
+                ],
+                "barons": 1,
+                "deaths": 10,
+                "dragons": 4,
+                "gold": 66700,
+                "kills": 24,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Kog'Maw",
+                  "Nami"
+                ],
+                "team": "samsung-blue",
+                "towers": 9
+              },
+              "durationSec": 2055,
+              "id": "2014 Season World Championship_Day 5_3_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 26,
+                "bans": [
+                  "Zed",
+                  "Maokai",
+                  "Twisted Fate"
+                ],
+                "barons": 0,
+                "deaths": 24,
+                "dragons": 1,
+                "gold": 47800,
+                "kills": 10,
+                "picks": [
+                  "Kayle",
+                  "Kha'Zix",
+                  "Ahri",
+                  "Tristana",
+                  "Thresh"
+                ],
+                "team": "oh-my-god",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 5_3",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "samsung-blue",
+          "team2": "oh-my-god",
+          "winner": "samsung-blue"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-25T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 21,
+                "bans": [
+                  "Ryze",
+                  "Lee Sin",
+                  "Maokai"
+                ],
+                "barons": 1,
+                "deaths": 2,
+                "dragons": 4,
+                "gold": 63500,
+                "kills": 8,
+                "picks": [
+                  "Rumble",
+                  "Kha'Zix",
+                  "Syndra",
+                  "Lucian",
+                  "Janna"
+                ],
+                "team": "cloud9",
+                "towers": 10
+              },
+              "durationSec": 2249,
+              "id": "2014 Season World Championship_Day 5_4_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 4,
+                "bans": [
+                  "Tristana",
+                  "Alistar",
+                  "Zilean"
+                ],
+                "barons": 0,
+                "deaths": 8,
+                "dragons": 1,
+                "gold": 48300,
+                "kills": 2,
+                "picks": [
+                  "Kayle",
+                  "Elise",
+                  "Xerath",
+                  "Kog'Maw",
+                  "Nami"
+                ],
+                "team": "elements",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 5_4",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "cloud9",
+          "team2": "elements",
+          "winner": "cloud9"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-25T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 15,
+                "bans": [
+                  "Twitch",
+                  "Rengar",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 2,
+                "gold": 53200,
+                "kills": 5,
+                "picks": [
+                  "Lulu",
+                  "Jarvan IV",
+                  "Xerath",
+                  "Tristana",
+                  "Nami"
+                ],
+                "team": "fnatic",
+                "towers": 4
+              },
+              "durationSec": 2249,
+              "id": "2014 Season World Championship_Day 5_5_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 42,
+                "bans": [
+                  "Kha'Zix",
+                  "Alistar",
+                  "Zilean"
+                ],
+                "barons": 2,
+                "deaths": 5,
+                "dragons": 2,
+                "gold": 65500,
+                "kills": 13,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Kog'Maw",
+                  "Thresh"
+                ],
+                "team": "team-impulse",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 5_5",
+          "round": "Day 5",
+          "score1": 0,
+          "score2": 1,
+          "team1": "fnatic",
+          "team2": "team-impulse",
+          "winner": "team-impulse"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-25T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 29,
+                "bans": [
+                  "Kayle",
+                  "Maokai",
+                  "Kha'Zix"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 4,
+                "gold": 59900,
+                "kills": 14,
+                "picks": [
+                  "Ryze",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Tristana",
+                  "Janna"
+                ],
+                "team": "cloud9",
+                "towers": 9
+              },
+              "durationSec": 1963,
+              "id": "2014 Season World Championship_Day 5_6_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 5,
+                "bans": [
+                  "Alistar",
+                  "Zilean",
+                  "Zed"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 0,
+                "gold": 42800,
+                "kills": 3,
+                "picks": [
+                  "Lulu",
+                  "Jarvan IV",
+                  "Syndra",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "kabum-ilha-das-lendas",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 5_6",
+          "round": "Day 5",
+          "score1": 1,
+          "score2": 0,
+          "team1": "cloud9",
+          "team2": "kabum-ilha-das-lendas",
+          "winner": "cloud9"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-26T09:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 31,
+                "bans": [
+                  "Fizz",
+                  "Maokai",
+                  "Ryze"
+                ],
+                "barons": 2,
+                "deaths": 10,
+                "dragons": 3,
+                "gold": 76700,
+                "kills": 11,
+                "picks": [
+                  "Riven",
+                  "Lee Sin",
+                  "Lulu",
+                  "Tristana",
+                  "Thresh"
+                ],
+                "team": "najin-white-shield",
+                "towers": 11
+              },
+              "durationSec": 2715,
+              "id": "2014 Season World Championship_Day 6_1_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 21,
+                "bans": [
+                  "Nidalee",
+                  "Zed",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 11,
+                "dragons": 1,
+                "gold": 70500,
+                "kills": 10,
+                "picks": [
+                  "Irelia",
+                  "Kha'Zix",
+                  "Twisted Fate",
+                  "Lucian",
+                  "Zilean"
+                ],
+                "team": "elements",
+                "towers": 6
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 6_1",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "najin-white-shield",
+          "team2": "elements",
+          "winner": "najin-white-shield"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-26T10:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 12,
+                "bans": [
+                  "Zilean",
+                  "Alistar",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 18,
+                "dragons": 2,
+                "gold": 56500,
+                "kills": 6,
+                "picks": [
+                  "Lulu",
+                  "Jarvan IV",
+                  "Zed",
+                  "Kog'Maw",
+                  "Nami"
+                ],
+                "team": "samsung-blue",
+                "towers": 3
+              },
+              "durationSec": 2549,
+              "id": "2014 Season World Championship_Day 6_2_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 38,
+                "bans": [
+                  "Twitch",
+                  "Lee Sin",
+                  "Kha'Zix"
+                ],
+                "barons": 2,
+                "deaths": 6,
+                "dragons": 4,
+                "gold": 75800,
+                "kills": 18,
+                "picks": [
+                  "Irelia",
+                  "Elise",
+                  "Ahri",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "fnatic",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 6_2",
+          "round": "Day 6",
+          "score1": 0,
+          "score2": 1,
+          "team1": "samsung-blue",
+          "team2": "fnatic",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-26T11:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 41,
+                "bans": [
+                  "None",
+                  "Maokai",
+                  "Syndra"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 3,
+                "gold": 60400,
+                "kills": 21,
+                "picks": [
+                  "Ryze",
+                  "Elise",
+                  "Zed",
+                  "Corki",
+                  "Thresh"
+                ],
+                "team": "najin-white-shield",
+                "towers": 11
+              },
+              "durationSec": 1787,
+              "id": "2014 Season World Championship_Day 6_3_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 15,
+                "bans": [
+                  "Alistar",
+                  "Zilean",
+                  "Lee Sin"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 0,
+                "gold": 43300,
+                "kills": 9,
+                "picks": [
+                  "Lulu",
+                  "Kha'Zix",
+                  "Talon",
+                  "Tristana",
+                  "Nami"
+                ],
+                "team": "cloud9",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 6_3",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "najin-white-shield",
+          "team2": "cloud9",
+          "winner": "najin-white-shield"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-26T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Rumble",
+                  "Alistar",
+                  "Gragas"
+                ],
+                "barons": 0,
+                "deaths": 2,
+                "dragons": 4,
+                "gold": 63800,
+                "kills": 14,
+                "picks": [
+                  "Irelia",
+                  "Evelynn",
+                  "Zilean",
+                  "Kog'Maw",
+                  "Nami"
+                ],
+                "team": "oh-my-god",
+                "towers": 10
+              },
+              "durationSec": 2267,
+              "id": "2014 Season World Championship_Day 6_4_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 2,
+                "bans": [
+                  "Ryze",
+                  "Lee Sin",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 0,
+                "gold": 45500,
+                "kills": 2,
+                "picks": [
+                  "Lulu",
+                  "Kha'Zix",
+                  "Kassadin",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "fnatic",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 6_4",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "oh-my-god",
+          "team2": "fnatic",
+          "winner": "oh-my-god"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-26T13:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 25,
+                "bans": [
+                  "Syndra",
+                  "Jinx",
+                  "Maokai"
+                ],
+                "barons": 1,
+                "deaths": 4,
+                "dragons": 2,
+                "gold": 64500,
+                "kills": 14,
+                "picks": [
+                  "Irelia",
+                  "Lee Sin",
+                  "Fizz",
+                  "Tristana",
+                  "Janna"
+                ],
+                "team": "elements",
+                "towers": 11
+              },
+              "durationSec": 2198,
+              "id": "2014 Season World Championship_Day 6_5_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 9,
+                "bans": [
+                  "Alistar",
+                  "Ryze",
+                  "Zilean"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 0,
+                "gold": 48100,
+                "kills": 4,
+                "picks": [
+                  "Rumble",
+                  "Kha'Zix",
+                  "Orianna",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "kabum-ilha-das-lendas",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 6_5",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "elements",
+          "team2": "kabum-ilha-das-lendas",
+          "winner": "elements"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-26T14:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 59,
+                "bans": [
+                  "Alistar",
+                  "Zilean",
+                  "Nami"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 3,
+                "gold": 59100,
+                "kills": 26,
+                "picks": [
+                  "Maokai",
+                  "Jarvan IV",
+                  "Yasuo",
+                  "Corki",
+                  "Thresh"
+                ],
+                "team": "samsung-blue",
+                "towers": 10
+              },
+              "durationSec": 1778,
+              "id": "2014 Season World Championship_Day 6_6_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 2,
+                "bans": [
+                  "Lee Sin",
+                  "Ryze",
+                  "Kog'Maw"
+                ],
+                "barons": 0,
+                "deaths": 26,
+                "dragons": 1,
+                "gold": 36200,
+                "kills": 3,
+                "picks": [
+                  "Rumble",
+                  "Kha'Zix",
+                  "Fizz",
+                  "Tristana",
+                  "Braum"
+                ],
+                "team": "team-impulse",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 6_6",
+          "round": "Day 6",
+          "score1": 1,
+          "score2": 0,
+          "team1": "samsung-blue",
+          "team2": "team-impulse",
+          "winner": "samsung-blue"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-27T06:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 29,
+                "bans": [
+                  "Yasuo",
+                  "Irelia",
+                  "Zilean"
+                ],
+                "barons": 2,
+                "deaths": 26,
+                "dragons": 2,
+                "gold": 103200,
+                "kills": 15,
+                "picks": [
+                  "Rumble",
+                  "Elise",
+                  "Syndra",
+                  "Kog'Maw",
+                  "Nami"
+                ],
+                "team": "fnatic",
+                "towers": 11
+              },
+              "durationSec": 4294,
+              "id": "2014 Season World Championship_Day 7_1_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 52,
+                "bans": [
+                  "None",
+                  "Lee Sin",
+                  "Alistar"
+                ],
+                "barons": 3,
+                "deaths": 15,
+                "dragons": 5,
+                "gold": 122700,
+                "kills": 26,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Zed",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "oh-my-god",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 7_1",
+          "round": "Day 7",
+          "score1": 0,
+          "score2": 1,
+          "team1": "fnatic",
+          "team2": "oh-my-god",
+          "winner": "oh-my-god"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-27T07:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 55,
+                "bans": [
+                  "Rumble",
+                  "Syndra",
+                  "Maokai"
+                ],
+                "barons": 1,
+                "deaths": 12,
+                "dragons": 0,
+                "gold": 62400,
+                "kills": 19,
+                "picks": [
+                  "Irelia",
+                  "Rammus",
+                  "Ahri",
+                  "Kog'Maw",
+                  "Alistar"
+                ],
+                "team": "elements",
+                "towers": 11
+              },
+              "durationSec": 2153,
+              "id": "2014 Season World Championship_Day 7_2_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 33,
+                "bans": [
+                  "Lee Sin",
+                  "Tristana",
+                  "Kha'Zix"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 3,
+                "gold": 54900,
+                "kills": 12,
+                "picks": [
+                  "Ryze",
+                  "Jarvan IV",
+                  "Zilean",
+                  "Lucian",
+                  "Morgana"
+                ],
+                "team": "cloud9",
+                "towers": 4
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 7_2",
+          "round": "Day 7",
+          "score1": 1,
+          "score2": 0,
+          "team1": "elements",
+          "team2": "cloud9",
+          "winner": "elements"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-27T08:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 21,
+                "bans": [
+                  "Irelia",
+                  "Syndra",
+                  "Kha'Zix"
+                ],
+                "barons": 0,
+                "deaths": 26,
+                "dragons": 0,
+                "gold": 49100,
+                "kills": 8,
+                "picks": [
+                  "Maokai",
+                  "Jarvan IV",
+                  "Fizz",
+                  "Tristana",
+                  "Thresh"
+                ],
+                "team": "team-impulse",
+                "towers": 2
+              },
+              "durationSec": 2255,
+              "id": "2014 Season World Championship_Day 7_3_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 70,
+                "bans": [
+                  "Yasuo",
+                  "Zilean",
+                  "Alistar"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 4,
+                "gold": 74200,
+                "kills": 26,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Lissandra",
+                  "Lucian",
+                  "Janna"
+                ],
+                "team": "fnatic",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 7_3",
+          "round": "Day 7",
+          "score1": 0,
+          "score2": 1,
+          "team1": "team-impulse",
+          "team2": "fnatic",
+          "winner": "fnatic"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-27T09:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 2,
+                "bans": [
+                  "Thresh",
+                  "Zed",
+                  "Janna"
+                ],
+                "barons": 0,
+                "deaths": 11,
+                "dragons": 1,
+                "gold": 47300,
+                "kills": 2,
+                "picks": [
+                  "Irelia",
+                  "Lee Sin",
+                  "Zilean",
+                  "Tristana",
+                  "Morgana"
+                ],
+                "team": "kabum-ilha-das-lendas",
+                "towers": 2
+              },
+              "durationSec": 2106,
+              "id": "2014 Season World Championship_Day 7_4_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 23,
+                "bans": [
+                  "Maokai",
+                  "Alistar",
+                  "Jinx"
+                ],
+                "barons": 1,
+                "deaths": 2,
+                "dragons": 2,
+                "gold": 64300,
+                "kills": 11,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Lulu",
+                  "Corki",
+                  "Nami"
+                ],
+                "team": "najin-white-shield",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 7_4",
+          "round": "Day 7",
+          "score1": 0,
+          "score2": 1,
+          "team1": "kabum-ilha-das-lendas",
+          "team2": "najin-white-shield",
+          "winner": "najin-white-shield"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-27T10:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 1,
+                "bans": [
+                  "Alistar",
+                  "Thresh",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 11,
+                "dragons": 2,
+                "gold": 36600,
+                "kills": 1,
+                "picks": [
+                  "Irelia",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Tristana",
+                  "Nami"
+                ],
+                "team": "oh-my-god",
+                "towers": 2
+              },
+              "durationSec": 1671,
+              "id": "2014 Season World Championship_Day 7_5_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 26,
+                "bans": [
+                  "Zilean",
+                  "Maokai",
+                  "Zed"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 1,
+                "gold": 48100,
+                "kills": 11,
+                "picks": [
+                  "Kayle",
+                  "Kha'Zix",
+                  "Orianna",
+                  "Twitch",
+                  "Janna"
+                ],
+                "team": "samsung-blue",
+                "towers": 7
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 7_5",
+          "round": "Day 7",
+          "score1": 0,
+          "score2": 1,
+          "team1": "oh-my-god",
+          "team2": "samsung-blue",
+          "winner": "samsung-blue"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-27T11:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 27,
+                "bans": [
+                  "Nidalee",
+                  "Thresh",
+                  "Zed"
+                ],
+                "barons": 2,
+                "deaths": 0,
+                "dragons": 4,
+                "gold": 73200,
+                "kills": 14,
+                "picks": [
+                  "Irelia",
+                  "Lee Sin",
+                  "Ahri",
+                  "Kog'Maw",
+                  "Zilean"
+                ],
+                "team": "elements",
+                "towers": 10
+              },
+              "durationSec": 2373,
+              "id": "2014 Season World Championship_Day 7_6_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 0,
+                "bans": [
+                  "Rammus",
+                  "Alistar",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 0,
+                "gold": 49800,
+                "kills": 0,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Orianna",
+                  "Tristana",
+                  "Janna"
+                ],
+                "team": "najin-white-shield",
+                "towers": 0
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 7_6",
+          "round": "Day 7",
+          "score1": 1,
+          "score2": 0,
+          "team1": "elements",
+          "team2": "najin-white-shield",
+          "winner": "elements"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-28T06:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 17,
+                "bans": [
+                  "Zed",
+                  "Maokai",
+                  "Rumble"
+                ],
+                "barons": 0,
+                "deaths": 9,
+                "dragons": 0,
+                "gold": 48500,
+                "kills": 7,
+                "picks": [
+                  "Ryze",
+                  "Elise",
+                  "Syndra",
+                  "Jinx",
+                  "Thresh"
+                ],
+                "team": "kabum-ilha-das-lendas",
+                "towers": 3
+              },
+              "durationSec": 2183,
+              "id": "2014 Season World Championship_Day 8_1_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 21,
+                "bans": [
+                  "Alistar",
+                  "Zilean",
+                  "Lee Sin"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 4,
+                "gold": 63300,
+                "kills": 9,
+                "picks": [
+                  "Kayle",
+                  "Kha'Zix",
+                  "Xerath",
+                  "Lucian",
+                  "Morgana"
+                ],
+                "team": "cloud9",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 8_1",
+          "round": "Day 8",
+          "score1": 0,
+          "score2": 1,
+          "team1": "kabum-ilha-das-lendas",
+          "team2": "cloud9",
+          "winner": "cloud9"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-28T07:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 52,
+                "bans": [
+                  "Zed",
+                  "Yasuo",
+                  "Lee Sin"
+                ],
+                "barons": 1,
+                "deaths": 33,
+                "dragons": 2,
+                "gold": 68100,
+                "kills": 16,
+                "picks": [
+                  "Rumble",
+                  "Jarvan IV",
+                  "Orianna",
+                  "Kog'Maw",
+                  "Nami"
+                ],
+                "team": "team-impulse",
+                "towers": 5
+              },
+              "durationSec": 2832,
+              "id": "2014 Season World Championship_Day 8_2_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 81,
+                "bans": [
+                  "Zilean",
+                  "Thresh",
+                  "Alistar"
+                ],
+                "barons": 1,
+                "deaths": 16,
+                "dragons": 5,
+                "gold": 87200,
+                "kills": 33,
+                "picks": [
+                  "Maokai",
+                  "Rengar",
+                  "Kassadin",
+                  "Twitch",
+                  "Janna"
+                ],
+                "team": "samsung-blue",
+                "towers": 9
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 8_2",
+          "round": "Day 8",
+          "score1": 0,
+          "score2": 1,
+          "team1": "team-impulse",
+          "team2": "samsung-blue",
+          "winner": "samsung-blue"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-28T08:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 45,
+                "bans": [
+                  "Lee Sin",
+                  "Maokai",
+                  "Irelia"
+                ],
+                "barons": 1,
+                "deaths": 18,
+                "dragons": 4,
+                "gold": 69900,
+                "kills": 19,
+                "picks": [
+                  "Ryze",
+                  "Elise",
+                  "Ahri",
+                  "Jinx",
+                  "Morgana"
+                ],
+                "team": "kabum-ilha-das-lendas",
+                "towers": 11
+              },
+              "durationSec": 2332,
+              "id": "2014 Season World Championship_Day 8_3_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 35,
+                "bans": [
+                  "Syndra",
+                  "Zilean",
+                  "Alistar"
+                ],
+                "barons": 1,
+                "deaths": 19,
+                "dragons": 0,
+                "gold": 55100,
+                "kills": 18,
+                "picks": [
+                  "Kayle",
+                  "Kha'Zix",
+                  "Fizz",
+                  "Twitch",
+                  "Thresh"
+                ],
+                "team": "elements",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 8_3",
+          "round": "Day 8",
+          "score1": 1,
+          "score2": 0,
+          "team1": "kabum-ilha-das-lendas",
+          "team2": "elements",
+          "winner": "kabum-ilha-das-lendas"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-28T09:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 17,
+                "bans": [
+                  "Twitch",
+                  "Yasuo",
+                  "Kha'Zix"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 2,
+                "gold": 60700,
+                "kills": 11,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Zed",
+                  "Tristana",
+                  "Janna"
+                ],
+                "team": "fnatic",
+                "towers": 5
+              },
+              "durationSec": 2485,
+              "id": "2014 Season World Championship_Day 8_4_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 30,
+                "bans": [
+                  "Zilean",
+                  "Alistar",
+                  "Lucian"
+                ],
+                "barons": 2,
+                "deaths": 11,
+                "dragons": 3,
+                "gold": 73400,
+                "kills": 16,
+                "picks": [
+                  "Maokai",
+                  "Elise",
+                  "Talon",
+                  "Corki",
+                  "Thresh"
+                ],
+                "team": "samsung-blue",
+                "towers": 11
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 8_4",
+          "round": "Day 8",
+          "score1": 0,
+          "score2": 1,
+          "team1": "fnatic",
+          "team2": "samsung-blue",
+          "winner": "samsung-blue"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-28T10:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 49,
+                "bans": [
+                  "Thresh",
+                  "Lee Sin",
+                  "Ryze"
+                ],
+                "barons": 1,
+                "deaths": 15,
+                "dragons": 1,
+                "gold": 81900,
+                "kills": 19,
+                "picks": [
+                  "Rumble",
+                  "Kha'Zix",
+                  "Zed",
+                  "Corki",
+                  "Janna"
+                ],
+                "team": "cloud9",
+                "towers": 10
+              },
+              "durationSec": 3117,
+              "id": "2014 Season World Championship_Day 8_5_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 42,
+                "bans": [
+                  "Maokai",
+                  "Zilean",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 5,
+                "gold": 81500,
+                "kills": 15,
+                "picks": [
+                  "Kayle",
+                  "Elise",
+                  "Ahri",
+                  "Twitch",
+                  "Nami"
+                ],
+                "team": "najin-white-shield",
+                "towers": 7
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 8_5",
+          "round": "Day 8",
+          "score1": 1,
+          "score2": 0,
+          "team1": "cloud9",
+          "team2": "najin-white-shield",
+          "winner": "cloud9"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-28T11:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 45,
+                "bans": [
+                  "Twitch",
+                  "Jarvan IV",
+                  "Rumble"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 4,
+                "gold": 68000,
+                "kills": 15,
+                "picks": [
+                  "Maokai",
+                  "Kha'Zix",
+                  "Orianna",
+                  "Lucian",
+                  "Janna"
+                ],
+                "team": "oh-my-god",
+                "towers": 9
+              },
+              "durationSec": 2242,
+              "id": "2014 Season World Championship_Day 8_6_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 12,
+                "bans": [
+                  "Zilean",
+                  "Ryze",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 15,
+                "dragons": 1,
+                "gold": 47500,
+                "kills": 5,
+                "picks": [
+                  "Lulu",
+                  "Lee Sin",
+                  "Xerath",
+                  "Kog'Maw",
+                  "Thresh"
+                ],
+                "team": "team-impulse",
+                "towers": 2
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 8_6",
+          "round": "Day 8",
+          "score1": 1,
+          "score2": 0,
+          "team1": "oh-my-god",
+          "team2": "team-impulse",
+          "winner": "oh-my-god"
+        },
+        {
+          "bestOf": 1,
+          "date": "2014-09-28T12:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 52,
+                "bans": [
+                  "Rumble",
+                  "Syndra",
+                  "Alistar"
+                ],
+                "barons": 2,
+                "deaths": 8,
+                "dragons": 3,
+                "gold": 77200,
+                "kills": 25,
+                "picks": [
+                  "Kassadin",
+                  "Lee Sin",
+                  "Zed",
+                  "Lucian",
+                  "Zilean"
+                ],
+                "team": "najin-white-shield",
+                "towers": 10
+              },
+              "durationSec": 2480,
+              "id": "2014 Season World Championship_Day 8_7_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 7,
+                "bans": [
+                  "Thresh",
+                  "Ryze",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 25,
+                "dragons": 2,
+                "gold": 61900,
+                "kills": 8,
+                "picks": [
+                  "Nidalee",
+                  "Elise",
+                  "Talon",
+                  "Corki",
+                  "Janna"
+                ],
+                "team": "cloud9",
+                "towers": 7
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Day 8_7",
+          "round": "Day 8",
+          "score1": 1,
+          "score2": 0,
+          "team1": "najin-white-shield",
+          "team2": "cloud9",
+          "winner": "najin-white-shield"
+        }
+      ],
+      "name": "Group Stage",
+      "order": 0,
+      "type": "groups"
+    },
+    {
+      "id": "knockout-stage",
+      "matches": [
+        {
+          "bestOf": 5,
+          "date": "2014-10-03T08:15:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 38,
+                "bans": [
+                  "Orianna",
+                  "Lee Sin",
+                  "Rumble"
+                ],
+                "barons": 0,
+                "deaths": 3,
+                "dragons": 2,
+                "gold": 46900,
+                "kills": 12,
+                "picks": [
+                  "Ryze",
+                  "Elise",
+                  "Jayce",
+                  "Twitch",
+                  "Thresh"
+                ],
+                "team": "samsung-white",
+                "towers": 8
+              },
+              "durationSec": 1625,
+              "id": "2014 Season World Championship_Quarterfinals_1_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 5,
+                "bans": [
+                  "Alistar",
+                  "Zilean",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 12,
+                "dragons": 0,
+                "gold": 38600,
+                "kills": 3,
+                "picks": [
+                  "Lulu",
+                  "Kha'Zix",
+                  "Zed",
+                  "Lucian",
+                  "Janna"
+                ],
+                "team": "tsm",
+                "towers": 5
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 33,
+                "bans": [
+                  "Zilean",
+                  "Rumble",
+                  "Thresh"
+                ],
+                "barons": 0,
+                "deaths": 33,
+                "dragons": 0,
+                "gold": 40700,
+                "kills": 11,
+                "picks": [
+                  "Maokai",
+                  "Jarvan IV",
+                  "Zed",
+                  "Corki",
+                  "Nami"
+                ],
+                "team": "tsm",
+                "towers": 1
+              },
+              "durationSec": 1731,
+              "id": "2014 Season World Championship_Quarterfinals_1_2",
+              "number": 2,
+              "patch": "4.14",
+              "red": {
+                "assists": 80,
+                "bans": [
+                  "Orianna",
+                  "Alistar",
+                  "Lee Sin"
+                ],
+                "barons": 1,
+                "deaths": 11,
+                "dragons": 2,
+                "gold": 62400,
+                "kills": 33,
+                "picks": [
+                  "Singed",
+                  "Kha'Zix",
+                  "Fizz",
+                  "Twitch",
+                  "Janna"
+                ],
+                "team": "samsung-white",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 10,
+                "bans": [
+                  "Orianna",
+                  "Lee Sin",
+                  "Rumble"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 2,
+                "gold": 39800,
+                "kills": 5,
+                "picks": [
+                  "Dr. Mundo",
+                  "Kha'Zix",
+                  "Kassadin",
+                  "Tristana",
+                  "Morgana"
+                ],
+                "team": "samsung-white",
+                "towers": 1
+              },
+              "durationSec": 1648,
+              "id": "2014 Season World Championship_Quarterfinals_1_3",
+              "number": 3,
+              "patch": "4.14",
+              "red": {
+                "assists": 43,
+                "bans": [
+                  "Alistar",
+                  "Zilean",
+                  "Maokai"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 2,
+                "gold": 53100,
+                "kills": 14,
+                "picks": [
+                  "Ryze",
+                  "Jarvan IV",
+                  "Yasuo",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "tsm",
+                "towers": 11
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 26,
+                "bans": [
+                  "Zilean",
+                  "Rumble",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 26,
+                "dragons": 1,
+                "gold": 57000,
+                "kills": 10,
+                "picks": [
+                  "Dr. Mundo",
+                  "Kha'Zix",
+                  "Ahri",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "tsm",
+                "towers": 8
+              },
+              "durationSec": 2403,
+              "id": "2014 Season World Championship_Quarterfinals_1_4",
+              "number": 4,
+              "patch": "4.14",
+              "red": {
+                "assists": 64,
+                "bans": [
+                  "Orianna",
+                  "Alistar",
+                  "Maokai"
+                ],
+                "barons": 2,
+                "deaths": 10,
+                "dragons": 4,
+                "gold": 75600,
+                "kills": 26,
+                "picks": [
+                  "Kayle",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Twitch",
+                  "Braum"
+                ],
+                "team": "samsung-white",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Quarterfinals_1",
+          "round": "Quarterfinals",
+          "score1": 3,
+          "score2": 1,
+          "team1": "samsung-white",
+          "team2": "tsm",
+          "winner": "samsung-white"
+        },
+        {
+          "bestOf": 5,
+          "date": "2014-10-04T05:15:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 12,
+                "bans": [
+                  "Zed",
+                  "Alistar",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 29,
+                "dragons": 0,
+                "gold": 44700,
+                "kills": 7,
+                "picks": [
+                  "Nidalee",
+                  "Elise",
+                  "Jayce",
+                  "Tristana",
+                  "Thresh"
+                ],
+                "team": "samsung-blue",
+                "towers": 3
+              },
+              "durationSec": 1992,
+              "id": "2014 Season World Championship_Quarterfinals_2_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 61,
+                "bans": [
+                  "Yasuo",
+                  "Lee Sin",
+                  "Zilean"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 4,
+                "gold": 66900,
+                "kills": 29,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Syndra",
+                  "Lucian",
+                  "Morgana"
+                ],
+                "team": "cloud9",
+                "towers": 10
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 8,
+                "bans": [
+                  "Yasuo",
+                  "Lee Sin",
+                  "Ryze"
+                ],
+                "barons": 1,
+                "deaths": 29,
+                "dragons": 2,
+                "gold": 57800,
+                "kills": 5,
+                "picks": [
+                  "Maokai",
+                  "Elise",
+                  "Zed",
+                  "Corki",
+                  "Morgana"
+                ],
+                "team": "cloud9",
+                "towers": 5
+              },
+              "durationSec": 2356,
+              "id": "2014 Season World Championship_Quarterfinals_2_2",
+              "number": 2,
+              "patch": "4.14",
+              "red": {
+                "assists": 70,
+                "bans": [
+                  "Zilean",
+                  "Alistar",
+                  "Lucian"
+                ],
+                "barons": 1,
+                "deaths": 5,
+                "dragons": 3,
+                "gold": 78500,
+                "kills": 29,
+                "picks": [
+                  "Rumble",
+                  "Kha'Zix",
+                  "Twisted Fate",
+                  "Twitch",
+                  "Thresh"
+                ],
+                "team": "samsung-blue",
+                "towers": 10
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 46,
+                "bans": [
+                  "Lucian",
+                  "Alistar",
+                  "Thresh"
+                ],
+                "barons": 1,
+                "deaths": 10,
+                "dragons": 3,
+                "gold": 60300,
+                "kills": 21,
+                "picks": [
+                  "Maokai",
+                  "Lee Sin",
+                  "Jayce",
+                  "Corki",
+                  "Braum"
+                ],
+                "team": "samsung-blue",
+                "towers": 10
+              },
+              "durationSec": 1897,
+              "id": "2014 Season World Championship_Quarterfinals_2_3",
+              "number": 3,
+              "patch": "4.14",
+              "red": {
+                "assists": 20,
+                "bans": [
+                  "Yasuo",
+                  "Zed",
+                  "Zilean"
+                ],
+                "barons": 0,
+                "deaths": 21,
+                "dragons": 0,
+                "gold": 44000,
+                "kills": 10,
+                "picks": [
+                  "Rumble",
+                  "Kha'Zix",
+                  "Syndra",
+                  "Graves",
+                  "Janna"
+                ],
+                "team": "cloud9",
+                "towers": 3
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 50,
+                "bans": [
+                  "Thresh",
+                  "Zed",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 26,
+                "dragons": 1,
+                "gold": 55000,
+                "kills": 19,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Talon",
+                  "Corki",
+                  "Braum"
+                ],
+                "team": "cloud9",
+                "towers": 7
+              },
+              "durationSec": 2047,
+              "id": "2014 Season World Championship_Quarterfinals_2_4",
+              "number": 4,
+              "patch": "4.14",
+              "red": {
+                "assists": 69,
+                "bans": [
+                  "Zilean",
+                  "Alistar",
+                  "Lucian"
+                ],
+                "barons": 1,
+                "deaths": 19,
+                "dragons": 3,
+                "gold": 65000,
+                "kills": 26,
+                "picks": [
+                  "Maokai",
+                  "Rengar",
+                  "Yasuo",
+                  "Twitch",
+                  "Nami"
+                ],
+                "team": "samsung-blue",
+                "towers": 8
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Quarterfinals_2",
+          "round": "Quarterfinals",
+          "score1": 3,
+          "score2": 1,
+          "team1": "samsung-blue",
+          "team2": "cloud9",
+          "winner": "samsung-blue"
+        },
+        {
+          "bestOf": 5,
+          "date": "2014-10-05T05:15:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 32,
+                "bans": [
+                  "Maokai",
+                  "Alistar",
+                  "Rumble"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 4,
+                "gold": 63700,
+                "kills": 14,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Lulu",
+                  "Lucian",
+                  "Nami"
+                ],
+                "team": "royal-club",
+                "towers": 9
+              },
+              "durationSec": 2040,
+              "id": "2014 Season World Championship_Quarterfinals_3_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 15,
+                "bans": [
+                  "Rengar",
+                  "Zilean",
+                  "Fizz"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 0,
+                "gold": 48100,
+                "kills": 6,
+                "picks": [
+                  "Kayle",
+                  "Lee Sin",
+                  "Orianna",
+                  "Tristana",
+                  "Janna"
+                ],
+                "team": "edward-gaming",
+                "towers": 4
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 23,
+                "bans": [
+                  "Rengar",
+                  "Yasuo",
+                  "Fizz"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 2,
+                "gold": 48300,
+                "kills": 12,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Zed",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "edward-gaming",
+                "towers": 4
+              },
+              "durationSec": 1983,
+              "id": "2014 Season World Championship_Quarterfinals_3_2",
+              "number": 2,
+              "patch": "4.14",
+              "red": {
+                "assists": 54,
+                "bans": [
+                  "Maokai",
+                  "Zilean",
+                  "Alistar"
+                ],
+                "barons": 2,
+                "deaths": 12,
+                "dragons": 2,
+                "gold": 60700,
+                "kills": 22,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Orianna",
+                  "Twitch",
+                  "Janna"
+                ],
+                "team": "royal-club",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 54,
+                "bans": [
+                  "Maokai",
+                  "Alistar",
+                  "Kha'Zix"
+                ],
+                "barons": 0,
+                "deaths": 33,
+                "dragons": 1,
+                "gold": 59000,
+                "kills": 21,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Orianna",
+                  "Twitch",
+                  "Nami"
+                ],
+                "team": "royal-club",
+                "towers": 4
+              },
+              "durationSec": 2315,
+              "id": "2014 Season World Championship_Quarterfinals_3_3",
+              "number": 3,
+              "patch": "4.14",
+              "red": {
+                "assists": 64,
+                "bans": [
+                  "Rengar",
+                  "Zilean",
+                  "Janna"
+                ],
+                "barons": 1,
+                "deaths": 21,
+                "dragons": 4,
+                "gold": 71800,
+                "kills": 33,
+                "picks": [
+                  "Ryze",
+                  "Evelynn",
+                  "Syndra",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "edward-gaming",
+                "towers": 8
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 39,
+                "bans": [
+                  "Rengar",
+                  "Yasuo",
+                  "Janna"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 1,
+                "gold": 52700,
+                "kills": 16,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Orianna",
+                  "Lucian",
+                  "Braum"
+                ],
+                "team": "edward-gaming",
+                "towers": 10
+              },
+              "durationSec": 1641,
+              "id": "2014 Season World Championship_Quarterfinals_3_4",
+              "number": 4,
+              "patch": "4.14",
+              "red": {
+                "assists": 12,
+                "bans": [
+                  "Maokai",
+                  "Zilean",
+                  "Alistar"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 1,
+                "gold": 36700,
+                "kills": 8,
+                "picks": [
+                  "Irelia",
+                  "Lee Sin",
+                  "Fizz",
+                  "Vayne",
+                  "Thresh"
+                ],
+                "team": "royal-club",
+                "towers": 1
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 44,
+                "bans": [
+                  "Maokai",
+                  "Alistar",
+                  "Lucian"
+                ],
+                "barons": 1,
+                "deaths": 10,
+                "dragons": 3,
+                "gold": 69900,
+                "kills": 14,
+                "picks": [
+                  "Ryze",
+                  "Jarvan IV",
+                  "Orianna",
+                  "Tristana",
+                  "Janna"
+                ],
+                "team": "royal-club",
+                "towers": 9
+              },
+              "durationSec": 2475,
+              "id": "2014 Season World Championship_Quarterfinals_3_5",
+              "number": 5,
+              "patch": "4.14",
+              "red": {
+                "assists": 15,
+                "bans": [
+                  "Rengar",
+                  "Zilean",
+                  "Fizz"
+                ],
+                "barons": 0,
+                "deaths": 14,
+                "dragons": 2,
+                "gold": 56800,
+                "kills": 10,
+                "picks": [
+                  "Rumble",
+                  "Kha'Zix",
+                  "Syndra",
+                  "Twitch",
+                  "Thresh"
+                ],
+                "team": "edward-gaming",
+                "towers": 3
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Quarterfinals_3",
+          "round": "Quarterfinals",
+          "score1": 3,
+          "score2": 2,
+          "team1": "royal-club",
+          "team2": "edward-gaming",
+          "winner": "royal-club"
+        },
+        {
+          "bestOf": 5,
+          "date": "2014-10-06T08:15:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 13,
+                "bans": [
+                  "Maokai",
+                  "Jayce",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 13,
+                "dragons": 3,
+                "gold": 64800,
+                "kills": 5,
+                "picks": [
+                  "Kassadin",
+                  "Kha'Zix",
+                  "Zed",
+                  "Corki",
+                  "Morgana"
+                ],
+                "team": "najin-white-shield",
+                "towers": 5
+              },
+              "durationSec": 2658,
+              "id": "2014 Season World Championship_Quarterfinals_4_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 31,
+                "bans": [
+                  "Zilean",
+                  "Thresh",
+                  "Alistar"
+                ],
+                "barons": 2,
+                "deaths": 5,
+                "dragons": 2,
+                "gold": 73400,
+                "kills": 13,
+                "picks": [
+                  "Irelia",
+                  "Lee Sin",
+                  "Ahri",
+                  "Lucian",
+                  "Janna"
+                ],
+                "team": "oh-my-god",
+                "towers": 8
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 71,
+                "bans": [
+                  "Alistar",
+                  "Lulu",
+                  "Thresh"
+                ],
+                "barons": 0,
+                "deaths": 6,
+                "dragons": 6,
+                "gold": 84800,
+                "kills": 26,
+                "picks": [
+                  "Ryze",
+                  "Rengar",
+                  "Jayce",
+                  "Lucian",
+                  "Janna"
+                ],
+                "team": "oh-my-god",
+                "towers": 10
+              },
+              "durationSec": 2830,
+              "id": "2014 Season World Championship_Quarterfinals_4_2",
+              "number": 2,
+              "patch": "4.14",
+              "red": {
+                "assists": 13,
+                "bans": [
+                  "Zilean",
+                  "Irelia",
+                  "Lee Sin"
+                ],
+                "barons": 2,
+                "deaths": 26,
+                "dragons": 0,
+                "gold": 63700,
+                "kills": 6,
+                "picks": [
+                  "Nidalee",
+                  "Kha'Zix",
+                  "Zed",
+                  "Corki",
+                  "Braum"
+                ],
+                "team": "najin-white-shield",
+                "towers": 4
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 21,
+                "bans": [
+                  "Irelia",
+                  "Lucian",
+                  "Jayce"
+                ],
+                "barons": 0,
+                "deaths": 24,
+                "dragons": 3,
+                "gold": 57000,
+                "kills": 10,
+                "picks": [
+                  "Maokai",
+                  "Lee Sin",
+                  "Orianna",
+                  "Kog'Maw",
+                  "Nami"
+                ],
+                "team": "najin-white-shield",
+                "towers": 3
+              },
+              "durationSec": 2456,
+              "id": "2014 Season World Championship_Quarterfinals_4_3",
+              "number": 3,
+              "patch": "4.14",
+              "red": {
+                "assists": 49,
+                "bans": [
+                  "Zilean",
+                  "Alistar",
+                  "Thresh"
+                ],
+                "barons": 1,
+                "deaths": 10,
+                "dragons": 2,
+                "gold": 75400,
+                "kills": 24,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Zed",
+                  "Corki",
+                  "Janna"
+                ],
+                "team": "oh-my-god",
+                "towers": 10
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Quarterfinals_4",
+          "round": "Quarterfinals",
+          "score1": 0,
+          "score2": 3,
+          "team1": "najin-white-shield",
+          "team2": "oh-my-god",
+          "winner": "oh-my-god"
+        },
+        {
+          "bestOf": 5,
+          "date": "2014-10-11T08:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 5,
+                "bans": [
+                  "Tristana",
+                  "Alistar",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 24,
+                "dragons": 0,
+                "gold": 33800,
+                "kills": 3,
+                "picks": [
+                  "Kayle",
+                  "Lee Sin",
+                  "Yasuo",
+                  "Varus",
+                  "Zilean"
+                ],
+                "team": "samsung-blue",
+                "towers": 2
+              },
+              "durationSec": 1729,
+              "id": "2014 Season World Championship_Semifinals_1_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 61,
+                "bans": [
+                  "Rumble",
+                  "Maokai",
+                  "Thresh"
+                ],
+                "barons": 1,
+                "deaths": 3,
+                "dragons": 4,
+                "gold": 59200,
+                "kills": 24,
+                "picks": [
+                  "Akali",
+                  "Rengar",
+                  "Jayce",
+                  "Twitch",
+                  "Janna"
+                ],
+                "team": "samsung-white",
+                "towers": 10
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 58,
+                "bans": [
+                  "Thresh",
+                  "Rumble",
+                  "Twitch"
+                ],
+                "barons": 2,
+                "deaths": 11,
+                "dragons": 4,
+                "gold": 67900,
+                "kills": 27,
+                "picks": [
+                  "Maokai",
+                  "Rengar",
+                  "Jayce",
+                  "Corki",
+                  "Morgana"
+                ],
+                "team": "samsung-white",
+                "towers": 10
+              },
+              "durationSec": 1953,
+              "id": "2014 Season World Championship_Semifinals_1_2",
+              "number": 2,
+              "patch": "4.14",
+              "red": {
+                "assists": 24,
+                "bans": [
+                  "Zilean",
+                  "Alistar",
+                  "Tristana"
+                ],
+                "barons": 0,
+                "deaths": 27,
+                "dragons": 1,
+                "gold": 46600,
+                "kills": 11,
+                "picks": [
+                  "Galio",
+                  "Kha'Zix",
+                  "Ryze",
+                  "Lucian",
+                  "Janna"
+                ],
+                "team": "samsung-blue",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 10,
+                "bans": [
+                  "Zilean",
+                  "Alistar",
+                  "Jayce"
+                ],
+                "barons": 0,
+                "deaths": 28,
+                "dragons": 0,
+                "gold": 29700,
+                "kills": 3,
+                "picks": [
+                  "Ryze",
+                  "Rengar",
+                  "Twisted Fate",
+                  "Lucian",
+                  "Sona"
+                ],
+                "team": "samsung-blue",
+                "towers": 3
+              },
+              "durationSec": 1352,
+              "id": "2014 Season World Championship_Semifinals_1_3",
+              "number": 3,
+              "patch": "4.14",
+              "red": {
+                "assists": 52,
+                "bans": [
+                  "Rumble",
+                  "Maokai",
+                  "Thresh"
+                ],
+                "barons": 0,
+                "deaths": 3,
+                "dragons": 2,
+                "gold": 43800,
+                "kills": 28,
+                "picks": [
+                  "Kassadin",
+                  "Lee Sin",
+                  "Fizz",
+                  "Twitch",
+                  "Janna"
+                ],
+                "team": "samsung-white",
+                "towers": 7
+              },
+              "winner": "red"
+            }
+          ],
+          "id": "2014 Season World Championship_Semifinals_1",
+          "round": "Semifinals",
+          "score1": 3,
+          "score2": 0,
+          "team1": "samsung-white",
+          "team2": "samsung-blue",
+          "winner": "samsung-white"
+        },
+        {
+          "bestOf": 5,
+          "date": "2014-10-12T08:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 15,
+                "bans": [
+                  "Alistar",
+                  "Maokai",
+                  "Janna"
+                ],
+                "barons": 0,
+                "deaths": 23,
+                "dragons": 0,
+                "gold": 37900,
+                "kills": 7,
+                "picks": [
+                  "Irelia",
+                  "Jarvan IV",
+                  "Orianna",
+                  "Tristana",
+                  "Zilean"
+                ],
+                "team": "royal-club",
+                "towers": 2
+              },
+              "durationSec": 1762,
+              "id": "2014 Season World Championship_Semifinals_2_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 55,
+                "bans": [
+                  "Rengar",
+                  "Lee Sin",
+                  "Ryze"
+                ],
+                "barons": 1,
+                "deaths": 7,
+                "dragons": 3,
+                "gold": 59800,
+                "kills": 23,
+                "picks": [
+                  "Rumble",
+                  "Kha'Zix",
+                  "Jayce",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "oh-my-god",
+                "towers": 11
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 35,
+                "bans": [
+                  "Rengar",
+                  "Janna",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 3,
+                "gold": 68600,
+                "kills": 15,
+                "picks": [
+                  "Rumble",
+                  "Lee Sin",
+                  "Jayce",
+                  "Corki",
+                  "Morgana"
+                ],
+                "team": "oh-my-god",
+                "towers": 3
+              },
+              "durationSec": 2784,
+              "id": "2014 Season World Championship_Semifinals_2_2",
+              "number": 2,
+              "patch": "4.14",
+              "red": {
+                "assists": 55,
+                "bans": [
+                  "Alistar",
+                  "Ryze",
+                  "Zilean"
+                ],
+                "barons": 2,
+                "deaths": 15,
+                "dragons": 2,
+                "gold": 78900,
+                "kills": 20,
+                "picks": [
+                  "Dr. Mundo",
+                  "Kha'Zix",
+                  "Lulu",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "royal-club",
+                "towers": 9
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 56,
+                "bans": [
+                  "Alistar",
+                  "Jayce",
+                  "Zilean"
+                ],
+                "barons": 1,
+                "deaths": 19,
+                "dragons": 2,
+                "gold": 68700,
+                "kills": 20,
+                "picks": [
+                  "Maokai",
+                  "Fiddlesticks",
+                  "Orianna",
+                  "Twitch",
+                  "Janna"
+                ],
+                "team": "royal-club",
+                "towers": 6
+              },
+              "durationSec": 2580,
+              "id": "2014 Season World Championship_Semifinals_2_3",
+              "number": 3,
+              "patch": "4.14",
+              "red": {
+                "assists": 29,
+                "bans": [
+                  "Rengar",
+                  "Lee Sin",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 20,
+                "dragons": 4,
+                "gold": 77700,
+                "kills": 19,
+                "picks": [
+                  "Nidalee",
+                  "Kha'Zix",
+                  "Twisted Fate",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "oh-my-god",
+                "towers": 9
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 54,
+                "bans": [
+                  "Rengar",
+                  "Janna",
+                  "Twitch"
+                ],
+                "barons": 1,
+                "deaths": 6,
+                "dragons": 3,
+                "gold": 68300,
+                "kills": 22,
+                "picks": [
+                  "Maokai",
+                  "Lee Sin",
+                  "Twisted Fate",
+                  "Corki",
+                  "Thresh"
+                ],
+                "team": "oh-my-god",
+                "towers": 10
+              },
+              "durationSec": 2148,
+              "id": "2014 Season World Championship_Semifinals_2_4",
+              "number": 4,
+              "patch": "4.14",
+              "red": {
+                "assists": 12,
+                "bans": [
+                  "Alistar",
+                  "Ryze",
+                  "Jayce"
+                ],
+                "barons": 0,
+                "deaths": 22,
+                "dragons": 1,
+                "gold": 47100,
+                "kills": 6,
+                "picks": [
+                  "Dr. Mundo",
+                  "Kha'Zix",
+                  "Zilean",
+                  "Lucian",
+                  "Nami"
+                ],
+                "team": "royal-club",
+                "towers": 1
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 78,
+                "bans": [
+                  "Alistar",
+                  "Jayce",
+                  "Twisted Fate"
+                ],
+                "barons": 1,
+                "deaths": 9,
+                "dragons": 3,
+                "gold": 65500,
+                "kills": 32,
+                "picks": [
+                  "Maokai",
+                  "Pantheon",
+                  "Ryze",
+                  "Lucian",
+                  "Thresh"
+                ],
+                "team": "royal-club",
+                "towers": 9
+              },
+              "durationSec": 2013,
+              "id": "2014 Season World Championship_Semifinals_2_5",
+              "number": 5,
+              "patch": "4.14",
+              "red": {
+                "assists": 21,
+                "bans": [
+                  "Rengar",
+                  "Lee Sin",
+                  "Twitch"
+                ],
+                "barons": 0,
+                "deaths": 32,
+                "dragons": 0,
+                "gold": 42200,
+                "kills": 9,
+                "picks": [
+                  "Rumble",
+                  "Kha'Zix",
+                  "Orianna",
+                  "Corki",
+                  "Janna"
+                ],
+                "team": "oh-my-god",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Semifinals_2",
+          "round": "Semifinals",
+          "score1": 3,
+          "score2": 2,
+          "team1": "royal-club",
+          "team2": "oh-my-god",
+          "winner": "royal-club"
+        },
+        {
+          "bestOf": 5,
+          "date": "2014-10-19T07:00:00Z",
+          "games": [
+            {
+              "blue": {
+                "assists": 3,
+                "bans": [
+                  "Alistar",
+                  "Zilean",
+                  "Rumble"
+                ],
+                "barons": 0,
+                "deaths": 16,
+                "dragons": 0,
+                "gold": 30600,
+                "kills": 1,
+                "picks": [
+                  "Ryze",
+                  "Kha'Zix",
+                  "Orianna",
+                  "Tristana",
+                  "Janna"
+                ],
+                "team": "royal-club",
+                "towers": 1
+              },
+              "durationSec": 1472,
+              "id": "2014 Season World Championship_Finals_1_1",
+              "number": 1,
+              "patch": "4.14",
+              "red": {
+                "assists": 42,
+                "bans": [
+                  "Rengar",
+                  "Lee Sin",
+                  "Lucian"
+                ],
+                "barons": 1,
+                "deaths": 1,
+                "dragons": 2,
+                "gold": 49300,
+                "kills": 16,
+                "picks": [
+                  "Maokai",
+                  "Jarvan IV",
+                  "Jayce",
+                  "Twitch",
+                  "Thresh"
+                ],
+                "team": "samsung-white",
+                "towers": 10
+              },
+              "winner": "red"
+            },
+            {
+              "blue": {
+                "assists": 55,
+                "bans": [
+                  "Lucian",
+                  "Lee Sin",
+                  "Maokai"
+                ],
+                "barons": 1,
+                "deaths": 8,
+                "dragons": 2,
+                "gold": 59300,
+                "kills": 26,
+                "picks": [
+                  "Rumble",
+                  "Rengar",
+                  "Talon",
+                  "Twitch",
+                  "Janna"
+                ],
+                "team": "samsung-white",
+                "towers": 9
+              },
+              "durationSec": 1756,
+              "id": "2014 Season World Championship_Finals_1_2",
+              "number": 2,
+              "patch": "4.14",
+              "red": {
+                "assists": 16,
+                "bans": [
+                  "Alistar",
+                  "Zilean",
+                  "Ryze"
+                ],
+                "barons": 0,
+                "deaths": 26,
+                "dragons": 1,
+                "gold": 39600,
+                "kills": 8,
+                "picks": [
+                  "Dr. Mundo",
+                  "Kha'Zix",
+                  "Jayce",
+                  "Corki",
+                  "Thresh"
+                ],
+                "team": "royal-club",
+                "towers": 0
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 54,
+                "bans": [
+                  "Alistar",
+                  "Jayce",
+                  "Zilean"
+                ],
+                "barons": 1,
+                "deaths": 14,
+                "dragons": 2,
+                "gold": 68800,
+                "kills": 19,
+                "picks": [
+                  "Maokai",
+                  "Rammus",
+                  "Ryze",
+                  "Tristana",
+                  "Braum"
+                ],
+                "team": "royal-club",
+                "towers": 10
+              },
+              "durationSec": 2313,
+              "id": "2014 Season World Championship_Finals_1_3",
+              "number": 3,
+              "patch": "4.14",
+              "red": {
+                "assists": 38,
+                "bans": [
+                  "Rengar",
+                  "Lee Sin",
+                  "Lucian"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 2,
+                "gold": 58500,
+                "kills": 14,
+                "picks": [
+                  "Singed",
+                  "Jarvan IV",
+                  "Fizz",
+                  "Twitch",
+                  "Thresh"
+                ],
+                "team": "samsung-white",
+                "towers": 2
+              },
+              "winner": "blue"
+            },
+            {
+              "blue": {
+                "assists": 53,
+                "bans": [
+                  "Lucian",
+                  "Lee Sin",
+                  "Maokai"
+                ],
+                "barons": 0,
+                "deaths": 5,
+                "dragons": 2,
+                "gold": 46400,
+                "kills": 19,
+                "picks": [
+                  "Kassadin",
+                  "Rengar",
+                  "Orianna",
+                  "Corki",
+                  "Janna"
+                ],
+                "team": "samsung-white",
+                "towers": 8
+              },
+              "durationSec": 1379,
+              "id": "2014 Season World Championship_Finals_1_4",
+              "number": 4,
+              "patch": "4.14",
+              "red": {
+                "assists": 5,
+                "bans": [
+                  "Alistar",
+                  "Jayce",
+                  "Zilean"
+                ],
+                "barons": 0,
+                "deaths": 19,
+                "dragons": 0,
+                "gold": 30900,
+                "kills": 5,
+                "picks": [
+                  "Ryze",
+                  "Pantheon",
+                  "Lulu",
+                  "Tristana",
+                  "Braum"
+                ],
+                "team": "royal-club",
+                "towers": 1
+              },
+              "winner": "blue"
+            }
+          ],
+          "id": "2014 Season World Championship_Finals_1",
+          "round": "Finals",
+          "score1": 3,
+          "score2": 1,
+          "team1": "samsung-white",
+          "team2": "royal-club",
+          "winner": "samsung-white"
+        }
+      ],
+      "name": "Knockout Stage",
+      "order": 1,
+      "type": "single-elimination"
+    }
+  ],
+  "startDate": "2014-09-18",
+  "status": "completed",
+  "year": 2014
+}
