@@ -11,7 +11,7 @@ export type TeamLookup = (id: TeamId | null) => TeamLabel;
 
 /** Rimuove solo la disambiguazione Leaguepedia finale, es. "LYON (2024 American Team)" -> "LYON". */
 export function stripDisambiguation(name: string): string {
-  return name.replace(/\s*\([^()]*\)$/, "");
+  return name.replace(/\s*\([^()]*\)$/, "") || name;
 }
 
 export function createTeamLookup(teams: Team[]): TeamLookup {
