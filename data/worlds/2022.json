@@ -3510,7 +3510,7 @@
                   "Lucian",
                   "Nami"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 9
               },
               "durationSec": 2170,
@@ -3548,9 +3548,9 @@
           "round": "Day 2",
           "score1": 1,
           "score2": 0,
-          "team1": "koi-spanish-team",
+          "team1": "rogue-european-team",
           "team2": "kiwoom-drx",
-          "winner": "koi-spanish-team"
+          "winner": "rogue-european-team"
         },
         {
           "bestOf": 1,
@@ -3946,7 +3946,7 @@
                   "Kalista",
                   "Soraka"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 7
               },
               "winner": "red"
@@ -3957,8 +3957,8 @@
           "score1": 0,
           "score2": 1,
           "team1": "gam-esports",
-          "team2": "koi-spanish-team",
-          "winner": "koi-spanish-team"
+          "team2": "rogue-european-team",
+          "winner": "rogue-european-team"
         },
         {
           "bestOf": 1,
@@ -4394,7 +4394,7 @@
                   "Kalista",
                   "Rakan"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 9
               },
               "durationSec": 2018,
@@ -4432,9 +4432,9 @@
           "round": "Day 4",
           "score1": 1,
           "score2": 0,
-          "team1": "koi-spanish-team",
+          "team1": "rogue-european-team",
           "team2": "top-esports",
-          "winner": "koi-spanish-team"
+          "winner": "rogue-european-team"
         },
         {
           "bestOf": 1,
@@ -5618,7 +5618,7 @@
                   "Lucian",
                   "Nami"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 10
               },
               "durationSec": 1842,
@@ -5656,9 +5656,9 @@
           "round": "Day 7",
           "score1": 1,
           "score2": 0,
-          "team1": "koi-spanish-team",
+          "team1": "rogue-european-team",
           "team2": "gam-esports",
-          "winner": "koi-spanish-team"
+          "winner": "rogue-european-team"
         },
         {
           "bestOf": 1,
@@ -5782,7 +5782,7 @@
                   "Kalista",
                   "Nasus"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 1
               },
               "winner": "blue"
@@ -5793,7 +5793,7 @@
           "score1": 1,
           "score2": 0,
           "team1": "kiwoom-drx",
-          "team2": "koi-spanish-team",
+          "team2": "rogue-european-team",
           "winner": "kiwoom-drx"
         },
         {
@@ -5918,7 +5918,7 @@
                   "Caitlyn",
                   "Lux"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 1
               },
               "winner": "blue"
@@ -5929,7 +5929,7 @@
           "score1": 1,
           "score2": 0,
           "team1": "top-esports",
-          "team2": "koi-spanish-team",
+          "team2": "rogue-european-team",
           "winner": "top-esports"
         },
         {
@@ -6054,7 +6054,7 @@
                   "Ezreal",
                   "Karma"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 1
               },
               "winner": "blue"
@@ -6065,7 +6065,7 @@
           "score1": 1,
           "score2": 0,
           "team1": "kiwoom-drx",
-          "team2": "koi-spanish-team",
+          "team2": "rogue-european-team",
           "winner": "kiwoom-drx"
         },
         {
@@ -6606,7 +6606,7 @@
                   "Lucian",
                   "Nami"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 3
               },
               "winner": "blue"
@@ -6633,7 +6633,7 @@
                   "Lucian",
                   "Nami"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 2
               },
               "durationSec": 1779,
@@ -6688,7 +6688,7 @@
                   "Kalista",
                   "Soraka"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 1
               },
               "durationSec": 1986,
@@ -6727,7 +6727,7 @@
           "score1": 3,
           "score2": 0,
           "team1": "jd-gaming",
-          "team2": "koi-spanish-team",
+          "team2": "rogue-european-team",
           "winner": "jd-gaming"
         },
         {

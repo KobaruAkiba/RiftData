@@ -164,7 +164,7 @@
                   "Miss Fortune",
                   "Rell"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 2
               },
               "durationSec": 1877,
@@ -219,7 +219,7 @@
                   "Jhin",
                   "Rell"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 10
               },
               "durationSec": 1677,
@@ -302,7 +302,7 @@
                   "Jhin",
                   "Leona"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 9
               },
               "winner": "red"
@@ -312,9 +312,9 @@
           "round": "Round 1",
           "score1": 2,
           "score2": 1,
-          "team1": "talon-hong-kong-team",
+          "team1": "psg-talon",
           "team2": "pain-gaming",
-          "winner": "talon-hong-kong-team"
+          "winner": "psg-talon"
         },
         {
           "bestOf": 3,
@@ -671,7 +671,7 @@
                   "Ashe",
                   "Braum"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 2
               },
               "winner": "blue"
@@ -698,7 +698,7 @@
                   "Miss Fortune",
                   "Leona"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 10
               },
               "durationSec": 2096,
@@ -781,7 +781,7 @@
                   "Miss Fortune",
                   "Leona"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 3
               },
               "winner": "blue"
@@ -792,7 +792,7 @@
           "score1": 2,
           "score2": 1,
           "team1": "movistar-koi",
-          "team2": "talon-hong-kong-team",
+          "team2": "psg-talon",
           "winner": "movistar-koi"
         },
         {
@@ -1368,7 +1368,7 @@
                   "Jhin",
                   "Alistar"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 10
               },
               "durationSec": 1578,
@@ -1423,7 +1423,7 @@
                   "Ezreal",
                   "Alistar"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 10
               },
               "durationSec": 1863,
@@ -1461,9 +1461,9 @@
           "round": "Round 2",
           "score1": 2,
           "score2": 0,
-          "team1": "talon-hong-kong-team",
+          "team1": "psg-talon",
           "team2": "100-thieves",
-          "winner": "talon-hong-kong-team"
+          "winner": "psg-talon"
         }
       ],
       "name": "Play-In",
@@ -1867,7 +1867,7 @@
                   "Kai'Sa",
                   "Alistar"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 0
               },
               "winner": "blue"
@@ -1878,7 +1878,7 @@
           "score1": 1,
           "score2": 0,
           "team1": "hanwha-life-esports",
-          "team2": "talon-hong-kong-team",
+          "team2": "psg-talon",
           "winner": "hanwha-life-esports"
         },
         {
@@ -2519,7 +2519,7 @@
                   "Kai'Sa",
                   "Rell"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 10
               },
               "durationSec": 1917,
@@ -2557,9 +2557,9 @@
           "round": "Round 2",
           "score1": 1,
           "score2": 0,
-          "team1": "talon-hong-kong-team",
+          "team1": "psg-talon",
           "team2": "movistar-koi",
-          "winner": "talon-hong-kong-team"
+          "winner": "psg-talon"
         },
         {
           "bestOf": 3,
@@ -3052,7 +3052,7 @@
                   "Jhin",
                   "Rell"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 4
               },
               "winner": "blue"
@@ -3062,7 +3062,7 @@
           "round": "Round 3",
           "score1": 0,
           "score2": 1,
-          "team1": "talon-hong-kong-team",
+          "team1": "psg-talon",
           "team2": "flyquest",
           "winner": "flyquest"
         },
@@ -3913,7 +3913,7 @@
                   "Ezreal",
                   "Rell"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 7
               },
               "winner": "blue"
@@ -3940,7 +3940,7 @@
                   "Xayah",
                   "Rakan"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 3
               },
               "durationSec": 1689,
@@ -3979,7 +3979,7 @@
           "score1": 2,
           "score2": 0,
           "team1": "bilibili-gaming",
-          "team2": "talon-hong-kong-team",
+          "team2": "psg-talon",
           "winner": "bilibili-gaming"
         },
         {

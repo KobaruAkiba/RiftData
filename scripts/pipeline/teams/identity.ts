@@ -1,5 +1,6 @@
 import type { Team, TeamId } from "../../../src/data/schema/index.js";
 import type { RenameRow, TeamRow } from "../leaguepedia/queries.js";
+import { createTerminalResolver, type Edge } from "./terminals.js";
 
 export interface TeamOverrides {
   merge: { from: string; into: string }[];
@@ -31,20 +32,15 @@ export function isSameOrgVerb(verb: string): boolean {
   return SAME_ORG.some((s) => v.includes(s)) && !OTHER_ORG.some((s) => v.includes(s));
 }
 
-interface Edge {
-  to: string;
-  date: string;
-}
-
-/** `from -> to` edges: latest rename per name, then overrides, which always win. */
+/** `from -> to` edges: latest rename per name, then overrides, which replace them and are marked `pinned`. */
 function buildEdges(renames: RenameRow[], overrides: TeamOverrides): Map<string, Edge> {
   const edges = new Map<string, Edge>();
   for (const row of renames) {
     if (!isSameOrgVerb(row.Verb)) continue;
     const current = edges.get(row.OriginalName);
-    if (!current || row.Date >= current.date) edges.set(row.OriginalName, { to: row.NewName, date: row.Date });
+    if (!current || row.Date >= current.date) edges.set(row.OriginalName, { to: row.NewName, date: row.Date, pinned: false });
   }
-  for (const { from, into } of overrides.merge) edges.set(from, { to: into, date: "" });
+  for (const { from, into } of overrides.merge) edges.set(from, { to: into, date: "", pinned: true });
   return edges;
 }
 
@@ -52,17 +48,7 @@ export function buildTeamIdentity(renames: RenameRow[], teamRows: TeamRow[], nam
   const edges = buildEdges(renames, overrides);
   const rowByName = new Map(teamRows.map((row) => [row.Name, row]));
 
-  /** Follows edges to the terminal name; stops before re-entering a visited name (cycle guard). */
-  const terminalOf = (name: string): string => {
-    const visited = new Set<string>();
-    let current = name;
-    for (;;) {
-      visited.add(current);
-      const next = edges.get(current);
-      if (!next || visited.has(next.to)) return current;
-      current = next.to;
-    }
-  };
+  const terminalOf = createTerminalResolver(edges);
 
   // Terminals reached by the names in use, sorted so slug collisions resolve deterministically.
   const usedNames = namesInUse.filter((n) => !PLACEHOLDERS.has(n.trim().toLowerCase()));

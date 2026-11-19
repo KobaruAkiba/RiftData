@@ -165,7 +165,7 @@
                   "Tristana",
                   "Nami"
                 ],
-                "team": "bbl-dark-passage",
+                "team": "dark-passage",
                 "towers": 2
               },
               "durationSec": 2408,
@@ -201,7 +201,7 @@
           "round": "Day 1",
           "score1": 0,
           "score2": 1,
-          "team1": "bbl-dark-passage",
+          "team1": "dark-passage",
           "team2": "ahq-esports-club",
           "winner": "ahq-esports-club"
         },
@@ -511,7 +511,7 @@
                   "Lucian",
                   "Thresh"
                 ],
-                "team": "bbl-dark-passage",
+                "team": "dark-passage",
                 "towers": 3
               },
               "winner": "blue"
@@ -522,7 +522,7 @@
           "score1": 1,
           "score2": 0,
           "team1": "edward-gaming",
-          "team2": "bbl-dark-passage",
+          "team2": "dark-passage",
           "winner": "edward-gaming"
         },
         {
@@ -613,7 +613,7 @@
                   "Jinx",
                   "Thresh"
                 ],
-                "team": "bbl-dark-passage",
+                "team": "dark-passage",
                 "towers": 0
               },
               "durationSec": 1408,
@@ -649,7 +649,7 @@
           "round": "Day 2",
           "score1": 0,
           "score2": 1,
-          "team1": "bbl-dark-passage",
+          "team1": "dark-passage",
           "team2": "samsung-white",
           "winner": "samsung-white"
         },
@@ -831,7 +831,7 @@
                   "Ezreal",
                   "Braum"
                 ],
-                "team": "bbl-dark-passage",
+                "team": "dark-passage",
                 "towers": 0
               },
               "winner": "blue"
@@ -842,7 +842,7 @@
           "score1": 1,
           "score2": 0,
           "team1": "samsung-white",
-          "team2": "bbl-dark-passage",
+          "team2": "dark-passage",
           "winner": "samsung-white"
         },
         {
@@ -1061,7 +1061,7 @@
                   "Lucian",
                   "Braum"
                 ],
-                "team": "bbl-dark-passage",
+                "team": "dark-passage",
                 "towers": 0
               },
               "durationSec": 1627,
@@ -1097,7 +1097,7 @@
           "round": "Day 3",
           "score1": 0,
           "score2": 1,
-          "team1": "bbl-dark-passage",
+          "team1": "dark-passage",
           "team2": "edward-gaming",
           "winner": "edward-gaming"
         },
@@ -1279,7 +1279,7 @@
                   "Lucian",
                   "Janna"
                 ],
-                "team": "bbl-dark-passage",
+                "team": "dark-passage",
                 "towers": 1
               },
               "winner": "blue"
@@ -1290,7 +1290,7 @@
           "score1": 1,
           "score2": 0,
           "team1": "ahq-esports-club",
-          "team2": "bbl-dark-passage",
+          "team2": "dark-passage",
           "winner": "ahq-esports-club"
         },
         {

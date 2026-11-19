@@ -786,7 +786,7 @@
                   "Sivir",
                   "Rell"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 0
               },
               "winner": "blue"
@@ -797,7 +797,7 @@
           "score1": 1,
           "score2": 0,
           "team1": "gen-g",
-          "team2": "talon-hong-kong-team",
+          "team2": "psg-talon",
           "winner": "gen-g"
         },
         {
@@ -1330,7 +1330,7 @@
                   "Caitlyn",
                   "Karma"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 2
               },
               "winner": "blue"
@@ -1340,7 +1340,7 @@
           "round": "Round 2",
           "score1": 0,
           "score2": 1,
-          "team1": "talon-hong-kong-team",
+          "team1": "psg-talon",
           "team2": "hanwha-life-esports",
           "winner": "hanwha-life-esports"
         },
@@ -2121,7 +2121,7 @@
                   "Corki",
                   "Rakan"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 1
               },
               "durationSec": 1534,
@@ -2176,7 +2176,7 @@
                   "Varus",
                   "Leona"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 8
               },
               "durationSec": 2058,
@@ -2259,7 +2259,7 @@
                   "Xayah",
                   "Braum"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 0
               },
               "winner": "blue"
@@ -2270,7 +2270,7 @@
           "score1": 2,
           "score2": 1,
           "team1": "vivo-keyd-stars",
-          "team2": "talon-hong-kong-team",
+          "team2": "psg-talon",
           "winner": "vivo-keyd-stars"
         },
         {

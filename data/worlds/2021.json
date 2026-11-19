@@ -2573,7 +2573,7 @@
                   "Aphelios",
                   "Thresh"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 3
               },
               "winner": "blue"
@@ -2584,7 +2584,7 @@
           "score1": 1,
           "score2": 0,
           "team1": "royal-never-give-up",
-          "team2": "talon-hong-kong-team",
+          "team2": "psg-talon",
           "winner": "royal-never-give-up"
         },
         {
@@ -2953,7 +2953,7 @@
                   "Lucian",
                   "Nami"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 10
               },
               "durationSec": 1954,
@@ -2991,9 +2991,9 @@
           "round": "Day 1",
           "score1": 1,
           "score2": 0,
-          "team1": "koi-spanish-team",
+          "team1": "rogue-european-team",
           "team2": "cloud9",
-          "winner": "koi-spanish-team"
+          "winner": "rogue-european-team"
         },
         {
           "bestOf": 1,
@@ -3089,7 +3089,7 @@
                   "Lucian",
                   "Nami"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 4
               },
               "durationSec": 2223,
@@ -3127,7 +3127,7 @@
           "round": "Day 2",
           "score1": 0,
           "score2": 1,
-          "team1": "koi-spanish-team",
+          "team1": "rogue-european-team",
           "team2": "dplus-kia",
           "winner": "dplus-kia"
         },
@@ -3157,7 +3157,7 @@
                   "Jhin",
                   "Yuumi"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 10
               },
               "durationSec": 2286,
@@ -3195,9 +3195,9 @@
           "round": "Day 2",
           "score1": 1,
           "score2": 0,
-          "team1": "talon-hong-kong-team",
+          "team1": "psg-talon",
           "team2": "hanwha-life-esports",
-          "winner": "talon-hong-kong-team"
+          "winner": "psg-talon"
         },
         {
           "bestOf": 1,
@@ -3729,7 +3729,7 @@
                   "Miss Fortune",
                   "Braum"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 2
               },
               "winner": "blue"
@@ -3739,7 +3739,7 @@
           "round": "Day 3",
           "score1": 0,
           "score2": 1,
-          "team1": "koi-spanish-team",
+          "team1": "rogue-european-team",
           "team2": "funplus-phoenix",
           "winner": "funplus-phoenix"
         },
@@ -3769,7 +3769,7 @@
                   "Miss Fortune",
                   "Braum"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 8
               },
               "durationSec": 2771,
@@ -3808,8 +3808,8 @@
           "score1": 0,
           "score2": 1,
           "team1": "fnatic",
-          "team2": "talon-hong-kong-team",
-          "winner": "talon-hong-kong-team"
+          "team2": "psg-talon",
+          "winner": "psg-talon"
         },
         {
           "bestOf": 1,
@@ -4205,7 +4205,7 @@
                   "Draven",
                   "Braum"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 1
               },
               "winner": "blue"
@@ -4215,7 +4215,7 @@
           "round": "Day 4",
           "score1": 0,
           "score2": 1,
-          "team1": "koi-spanish-team",
+          "team1": "rogue-european-team",
           "team2": "cloud9",
           "winner": "cloud9"
         },
@@ -4341,7 +4341,7 @@
                   "Miss Fortune",
                   "Leona"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 3
               },
               "winner": "blue"
@@ -4351,7 +4351,7 @@
           "round": "Day 4",
           "score1": 0,
           "score2": 1,
-          "team1": "koi-spanish-team",
+          "team1": "rogue-european-team",
           "team2": "dplus-kia",
           "winner": "dplus-kia"
         },
@@ -4381,7 +4381,7 @@
                   "Lucian",
                   "Nami"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 10
               },
               "durationSec": 2457,
@@ -4419,9 +4419,9 @@
           "round": "Day 4",
           "score1": 1,
           "score2": 0,
-          "team1": "koi-spanish-team",
+          "team1": "rogue-european-team",
           "team2": "funplus-phoenix",
-          "winner": "koi-spanish-team"
+          "winner": "rogue-european-team"
         },
         {
           "bestOf": 1,
@@ -4545,7 +4545,7 @@
                   "Miss Fortune",
                   "Rakan"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 11
               },
               "winner": "red"
@@ -4556,8 +4556,8 @@
           "score1": 0,
           "score2": 1,
           "team1": "funplus-phoenix",
-          "team2": "koi-spanish-team",
-          "winner": "koi-spanish-team"
+          "team2": "rogue-european-team",
+          "winner": "rogue-european-team"
         },
         {
           "bestOf": 1,
@@ -4613,7 +4613,7 @@
                   "Jhin",
                   "Rakan"
                 ],
-                "team": "koi-spanish-team",
+                "team": "rogue-european-team",
                 "towers": 5
               },
               "winner": "blue"
@@ -4624,7 +4624,7 @@
           "score1": 1,
           "score2": 0,
           "team1": "cloud9",
-          "team2": "koi-spanish-team",
+          "team2": "rogue-european-team",
           "winner": "cloud9"
         },
         {
@@ -5089,7 +5089,7 @@
                   "Miss Fortune",
                   "Leona"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 3
               },
               "winner": "blue"
@@ -5099,7 +5099,7 @@
           "round": "Day 6",
           "score1": 0,
           "score2": 1,
-          "team1": "talon-hong-kong-team",
+          "team1": "psg-talon",
           "team2": "hanwha-life-esports",
           "winner": "hanwha-life-esports"
         },
@@ -5197,7 +5197,7 @@
                   "Jhin",
                   "Yuumi"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 1
               },
               "durationSec": 1943,
@@ -5235,7 +5235,7 @@
           "round": "Day 6",
           "score1": 0,
           "score2": 1,
-          "team1": "talon-hong-kong-team",
+          "team1": "psg-talon",
           "team2": "royal-never-give-up",
           "winner": "royal-never-give-up"
         },
@@ -5429,7 +5429,7 @@
                   "Miss Fortune",
                   "Nautilus"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 11
               },
               "winner": "red"
@@ -5440,8 +5440,8 @@
           "score1": 0,
           "score2": 1,
           "team1": "fnatic",
-          "team2": "talon-hong-kong-team",
-          "winner": "talon-hong-kong-team"
+          "team2": "psg-talon",
+          "winner": "psg-talon"
         },
         {
           "bestOf": 1,

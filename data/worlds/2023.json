@@ -41,7 +41,7 @@
                   "Xayah",
                   "Rakan"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 9
               },
               "durationSec": 1719,
@@ -96,7 +96,7 @@
                   "Aphelios",
                   "Rakan"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 8
               },
               "durationSec": 1822,
@@ -135,8 +135,8 @@
           "score1": 0,
           "score2": 2,
           "team1": "movistar-r7",
-          "team2": "talon-hong-kong-team",
-          "winner": "talon-hong-kong-team"
+          "team2": "psg-talon",
+          "winner": "psg-talon"
         },
         {
           "bestOf": 3,
@@ -588,7 +588,7 @@
                   "Xayah",
                   "Rell"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 7
               },
               "durationSec": 1977,
@@ -671,7 +671,7 @@
                   "Kai'Sa",
                   "Rell"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 10
               },
               "winner": "red"
@@ -682,8 +682,8 @@
           "score1": 0,
           "score2": 2,
           "team1": "loud",
-          "team2": "talon-hong-kong-team",
-          "winner": "talon-hong-kong-team"
+          "team2": "psg-talon",
+          "winner": "psg-talon"
         },
         {
           "bestOf": 3,
@@ -1614,7 +1614,7 @@
                   "Kai'Sa",
                   "Alistar"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 11
               },
               "durationSec": 2069,
@@ -1697,7 +1697,7 @@
                   "Kai'Sa",
                   "Rell"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 11
               },
               "winner": "red"
@@ -1752,7 +1752,7 @@
                   "Caitlyn",
                   "Rell"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 5
               },
               "winner": "blue"
@@ -1779,7 +1779,7 @@
                   "Aphelios",
                   "Alistar"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 1
               },
               "durationSec": 1600,
@@ -1834,7 +1834,7 @@
                   "Aphelios",
                   "Rell"
                 ],
-                "team": "talon-hong-kong-team",
+                "team": "psg-talon",
                 "towers": 9
               },
               "durationSec": 2635,
@@ -1872,7 +1872,7 @@
           "round": "Qualifiers",
           "score1": 2,
           "score2": 3,
-          "team1": "talon-hong-kong-team",
+          "team1": "psg-talon",
           "team2": "shifters",
           "winner": "shifters"
         }

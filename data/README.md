@@ -67,7 +67,7 @@ Stages are ordered by the date of their first match. Wrong results are fixed in 
 
 Ids follow Leaguepedia rename chains (`TeamRenames`) to the latest name. The id is the slug of that terminal name. Example: `SK Telecom T1` renamed to `T1` gives id `t1`, aliases `["SK Telecom T1", "T1"]`.
 
-Only renames of the same organisation count. Overrides win over Leaguepedia. If two terminal names give the same slug, the second id gets the region (or `-2`) appended.
+Only renames of the same organisation count. Overrides win over Leaguepedia. A rename cycle (A to B, later B to A) ends at the target of its latest rename, whichever name you start from. If two terminal names give the same slug, the second id gets the region (or `-2`) appended.
 
 ## Commands
 
@@ -106,13 +106,13 @@ Manual corrections in `overrides/`, loaded on every ingest. A missing file means
 | `stages.json` | `{ "<year>/<stage-id>": { "name", "type" } }` | Replace stage name and/or type. The id does not change. |
 | `matches.json` | `{ "<MatchId>": { "score1", "score2", "winner", "date" } }` | Patch single fields of a match. `winner` is a team id or `null`. |
 
-Self-edge `{ "from": "X", "into": "X" }`: pins `X` as terminal name. Use it to break rename cycles, or to stop a chain at `X`.
+Self-edge `{ "from": "X", "into": "X" }`: pins `X` as terminal name. Use it to stop a chain at `X`, or to pick a different name for a rename cycle.
 
 Current entries:
 
 - `editions.json`: 2011 qualifiers excluded (`Season 1 World Championship/Qualifiers/Europe` and `.../North America`).
 - `stages.json`: `2011/swiss-stage` renamed `Main Event`, type `other`.
-- `teams.json`: merges and self-edges for Counter Logic Gaming, Royal Club, BBL Dark Passage, KOI (Spanish Team), SuperMassive Blaze, TALON (Hong Kong Team).
+- `teams.json`: empty.
 - `matches.json`: empty.
 
 ## Known gaps

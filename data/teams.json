@@ -79,16 +79,6 @@
     },
     {
       "aliases": [
-        "BBL Dark Passage",
-        "Dark Passage"
-      ],
-      "id": "bbl-dark-passage",
-      "name": "BBL Dark Passage",
-      "region": "EMEA",
-      "short": "BLDP"
-    },
-    {
-      "aliases": [
         "Beyond Gaming"
       ],
       "id": "beyond-gaming",
@@ -152,6 +142,16 @@
       "name": "CTBC Flying Oyster",
       "region": "Asia Pacific",
       "short": "CFO"
+    },
+    {
+      "aliases": [
+        "BBL Dark Passage",
+        "Dark Passage"
+      ],
+      "id": "dark-passage",
+      "name": "Dark Passage",
+      "region": "EMEA",
+      "short": "DP"
     },
     {
       "aliases": [
@@ -557,14 +557,6 @@
     },
     {
       "aliases": [
-        "KOI (Spanish Team)",
-        "Rogue (European Team)"
-      ],
-      "id": "koi-spanish-team",
-      "name": "KOI (Spanish Team)"
-    },
-    {
-      "aliases": [
         "KT Rolster"
       ],
       "id": "kt-rolster",
@@ -805,6 +797,17 @@
     },
     {
       "aliases": [
+        "Papara SuperMassive",
+        "SuperMassive Blaze",
+        "SuperMassive Esports"
+      ],
+      "id": "papara-supermassive",
+      "name": "Papara SuperMassive",
+      "region": "EMEA",
+      "short": "SUP"
+    },
+    {
+      "aliases": [
         "PEACE (Oceanic Team)"
       ],
       "id": "peace-oceanic-team",
@@ -824,6 +827,16 @@
     },
     {
       "aliases": [
+        "PSG Talon",
+        "TALON (Hong Kong Team)"
+      ],
+      "id": "psg-talon",
+      "name": "PSG Talon",
+      "region": "Asia Pacific",
+      "short": "PSG"
+    },
+    {
+      "aliases": [
         "INTZ Red",
         "RED Canids"
       ],
@@ -831,6 +844,14 @@
       "name": "RED Canids",
       "region": "Brazil",
       "short": "RED"
+    },
+    {
+      "aliases": [
+        "KOI (Spanish Team)",
+        "Rogue (European Team)"
+      ],
+      "id": "rogue-european-team",
+      "name": "Rogue (European Team)"
     },
     {
       "aliases": [
@@ -930,17 +951,6 @@
     },
     {
       "aliases": [
-        "Papara SuperMassive",
-        "SuperMassive Blaze",
-        "SuperMassive Esports"
-      ],
-      "id": "supermassive-blaze",
-      "name": "SuperMassive Blaze",
-      "region": "EMEA",
-      "short": "SMB"
-    },
-    {
-      "aliases": [
         "SK Telecom T1",
         "T1"
       ],
@@ -957,16 +967,6 @@
       "name": "Taipei Assassins",
       "region": "LMS",
       "short": "TPA"
-    },
-    {
-      "aliases": [
-        "PSG Talon",
-        "TALON (Hong Kong Team)"
-      ],
-      "id": "talon-hong-kong-team",
-      "name": "TALON (Hong Kong Team)",
-      "region": "Asia Pacific",
-      "short": "PSG"
     },
     {
       "aliases": [

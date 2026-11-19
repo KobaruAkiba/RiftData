@@ -65,6 +65,51 @@ describe("buildTeamIdentity", () => {
   });
 });
 
+describe("rename cycles", () => {
+  test("a two-name cycle resolves to the latest target from both names, as one team", () => {
+    const renames = [r("A", "B", "rename", "2014-01-01"), r("B", "A", "rename", "2016-01-01")];
+    const id = buildTeamIdentity(renames, [], ["A", "B"], { merge: [] });
+    expect(id.resolve("A")).toBe("a");
+    expect(id.resolve("B")).toBe("a");
+    expect(id.teams()).toEqual([{ id: "a", name: "A", aliases: ["A", "B"] }]);
+  });
+  test("the result does not depend on which cycle name is in use", () => {
+    const renames = [r("A", "B", "rename", "2014-01-01"), r("B", "A", "rename", "2016-01-01")];
+    expect(buildTeamIdentity(renames, [], ["A"], { merge: [] }).resolve("A")).toBe("a");
+    expect(buildTeamIdentity(renames, [], ["B"], { merge: [] }).resolve("B")).toBe("a");
+  });
+  test("a three-name cycle resolves to the target of its latest edge", () => {
+    const renames = [r("A", "B", "rename", "2015-01-01"), r("B", "C", "rename", "2017-01-01"), r("C", "A", "rename", "2016-01-01")];
+    const id = buildTeamIdentity(renames, [], ["A", "B", "C"], { merge: [] });
+    expect(["A", "B", "C"].map((n) => id.resolve(n))).toEqual(["c", "c", "c"]);
+    expect(id.teams()).toHaveLength(1);
+  });
+  test("a tail leading into a cycle shares the cycle's terminal", () => {
+    const renames = [r("T", "A", "rename", "2012-01-01"), r("A", "B", "rename", "2014-01-01"), r("B", "A", "rename", "2016-01-01")];
+    const id = buildTeamIdentity(renames, [], ["T", "A", "B"], { merge: [] });
+    expect(["T", "A", "B"].map((n) => id.resolve(n))).toEqual(["a", "a", "a"]);
+    expect(id.teams()).toEqual([{ id: "a", name: "A", aliases: ["A", "B", "T"] }]);
+  });
+  test("equal dates go to the smallest target name", () => {
+    const renames = [r("A", "B", "rename", "2015-01-01"), r("B", "A", "rename", "2015-01-01")];
+    const id = buildTeamIdentity(renames, [], ["A", "B"], { merge: [] });
+    expect(id.resolve("B")).toBe("a");
+  });
+  test("an override edge inside a cycle beats a later dated edge", () => {
+    const renames = [r("A", "B", "rename", "2014-01-01"), r("B", "A", "rename", "2020-01-01")];
+    const id = buildTeamIdentity(renames, [], ["A", "B"], { merge: [{ from: "A", into: "B" }] });
+    expect(id.resolve("A")).toBe("b");
+    expect(id.resolve("B")).toBe("b");
+  });
+  test("a self-edge override pins the name as terminal", () => {
+    const renames = [r("A", "B", "rename", "2014-01-01"), r("B", "A", "rename", "2016-01-01")];
+    const id = buildTeamIdentity(renames, [], ["A", "B"], { merge: [{ from: "B", into: "B" }] });
+    expect(id.resolve("A")).toBe("b");
+    expect(id.resolve("B")).toBe("b");
+    expect(id.teams()).toEqual([{ id: "b", name: "B", aliases: ["A", "B"] }]);
+  });
+});
+
 describe("isSameOrgVerb", () => {
   test("classifies every real Leaguepedia verb", async () => {
     const verbs: Record<string, number> = JSON.parse(await readFile("tests/fixtures/leaguepedia/rename-verbs.json", "utf8"));

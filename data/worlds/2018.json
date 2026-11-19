@@ -545,7 +545,7 @@
                   "Varus",
                   "Tahm Kench"
                 ],
-                "team": "supermassive-blaze",
+                "team": "papara-supermassive",
                 "towers": 11
               },
               "winner": "red"
@@ -556,8 +556,8 @@
           "score1": 0,
           "score2": 1,
           "team1": "g2-esports",
-          "team2": "supermassive-blaze",
-          "winner": "supermassive-blaze"
+          "team2": "papara-supermassive",
+          "winner": "papara-supermassive"
         },
         {
           "bestOf": 1,
@@ -681,7 +681,7 @@
                   "Lucian",
                   "Braum"
                 ],
-                "team": "supermassive-blaze",
+                "team": "papara-supermassive",
                 "towers": 8
               },
               "winner": "red"
@@ -692,8 +692,8 @@
           "score1": 0,
           "score2": 1,
           "team1": "ascension-gaming",
-          "team2": "supermassive-blaze",
-          "winner": "supermassive-blaze"
+          "team2": "papara-supermassive",
+          "winner": "papara-supermassive"
         },
         {
           "bestOf": 1,
@@ -1333,7 +1333,7 @@
                   "Caitlyn",
                   "Morgana"
                 ],
-                "team": "supermassive-blaze",
+                "team": "papara-supermassive",
                 "towers": 3
               },
               "durationSec": 2119,
@@ -1371,7 +1371,7 @@
           "round": "Day 4",
           "score1": 0,
           "score2": 1,
-          "team1": "supermassive-blaze",
+          "team1": "papara-supermassive",
           "team2": "g2-esports",
           "winner": "g2-esports"
         },
@@ -1469,7 +1469,7 @@
                   "Varus",
                   "Thresh"
                 ],
-                "team": "supermassive-blaze",
+                "team": "papara-supermassive",
                 "towers": 8
               },
               "durationSec": 1630,
@@ -1507,9 +1507,9 @@
           "round": "Day 4",
           "score1": 1,
           "score2": 0,
-          "team1": "supermassive-blaze",
+          "team1": "papara-supermassive",
           "team2": "ascension-gaming",
-          "winner": "supermassive-blaze"
+          "winner": "papara-supermassive"
         },
         {
           "bestOf": 1,
@@ -1769,7 +1769,7 @@
                   "Ashe",
                   "Braum"
                 ],
-                "team": "supermassive-blaze",
+                "team": "papara-supermassive",
                 "towers": 2
               },
               "winner": "blue"
@@ -1780,7 +1780,7 @@
           "score1": 1,
           "score2": 0,
           "team1": "g2-esports",
-          "team2": "supermassive-blaze",
+          "team2": "papara-supermassive",
           "winner": "g2-esports"
         },
         {
@@ -2536,7 +2536,7 @@
                   "Kai'Sa",
                   "Rakan"
                 ],
-                "team": "supermassive-blaze",
+                "team": "papara-supermassive",
                 "towers": 9
               },
               "winner": "red"
@@ -2563,7 +2563,7 @@
                   "Xayah",
                   "Rakan"
                 ],
-                "team": "supermassive-blaze",
+                "team": "papara-supermassive",
                 "towers": 8
               },
               "durationSec": 2238,
@@ -2646,7 +2646,7 @@
                   "Lucian",
                   "Alistar"
                 ],
-                "team": "supermassive-blaze",
+                "team": "papara-supermassive",
                 "towers": 1
               },
               "winner": "blue"
@@ -2673,7 +2673,7 @@
                   "Lucian",
                   "Rakan"
                 ],
-                "team": "supermassive-blaze",
+                "team": "papara-supermassive",
                 "towers": 2
               },
               "durationSec": 2129,
@@ -2712,7 +2712,7 @@
           "score1": 3,
           "score2": 1,
           "team1": "g-rex",
-          "team2": "supermassive-blaze",
+          "team2": "papara-supermassive",
           "winner": "g-rex"
         }
       ],
