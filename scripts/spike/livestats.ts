@@ -1,11 +1,14 @@
 import type { HttpInit, HttpResult } from "../lib/http.js";
+import { buildFeedUrl, toStartingTime } from "../lib/lolesports/client.js";
 import {
-  LIVESTATS_FEED,
   LOLESPORTS_API,
   LOLESPORTS_PUBLIC_KEY,
   WORLDS_LEAGUE_ID,
 } from "../lib/sources.js";
 import type { ProbeDefinition, ProbeDeps, ProbeOutcome } from "./probe.js";
+
+// Moved to the lolesports client; re-exported so the spike keeps its public surface.
+export { buildFeedUrl, toStartingTime };
 
 export type FeedCoverage = "full" | "partial" | "none";
 export interface Tournament {
@@ -40,18 +43,6 @@ function framesOf(res: HttpResult): unknown[] {
   if (res.status !== 200) return [];
   const json = parseJson(res.text);
   return isRecord(json) && Array.isArray(json.frames) ? json.frames : [];
-}
-
-/** Floors to a 10 s boundary (the feed only accepts such values); ISO without milliseconds. */
-export function toStartingTime(d: Date): string {
-  const floored = new Date(Math.floor(d.getTime() / 10_000) * 10_000);
-  return floored.toISOString().replace(".000Z", "Z");
-}
-
-export function buildFeedUrl(kind: "window" | "details", gameId: string, startingTime?: string): string {
-  const base = `${LIVESTATS_FEED}/${kind}/${gameId}`;
-  if (startingTime === undefined) return base;
-  return `${base}?${new URLSearchParams({ startingTime }).toString()}`;
 }
 
 /** Timestamp of the first frame, or null for 204 / empty / non-JSON / no frames / bad timestamp. */

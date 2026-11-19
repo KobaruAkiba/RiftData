@@ -1,0 +1,359 @@
+{
+  "data": {
+    "schedule": {
+      "events": [
+        {
+          "startTime": "2026-10-15T18:00:00Z",
+          "blockName": "Play-Ins",
+          "league": {
+            "name": "Worlds"
+          },
+          "match": {
+            "id": "115660588583171786",
+            "type": "normal",
+            "teams": [
+              {
+                "name": "Karmine Corp",
+                "code": "KC",
+                "image": "http://static.lolesports.com/teams/1704714951336_KC.png",
+                "result": {
+                  "gameWins": 3
+                }
+              },
+              {
+                "name": "Cloud9 Kia",
+                "code": "C9",
+                "image": "http://static.lolesports.com/teams/1736924120254_C9Kia_IconBlue_Transparent_2000x2000.png",
+                "result": {
+                  "gameWins": 2
+                }
+              }
+            ],
+            "strategy": {
+              "type": "bestOf",
+              "count": 5
+            }
+          },
+          "games": [
+            {
+              "id": "115660588583171787",
+              "vods": [
+                {
+                  "parameter": "hegtEPxWCco"
+                }
+              ]
+            },
+            {
+              "id": "115660588583171788",
+              "vods": [
+                {
+                  "parameter": "hegtEPxWCco"
+                }
+              ]
+            },
+            {
+              "id": "115660588583171789",
+              "vods": [
+                {
+                  "parameter": "hegtEPxWCco"
+                }
+              ]
+            },
+            {
+              "id": "116299649500204436",
+              "vods": [
+                {
+                  "parameter": "hegtEPxWCco"
+                }
+              ]
+            },
+            {
+              "id": "116299649500204437",
+              "vods": [
+                {
+                  "parameter": "hegtEPxWCco"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "2026-10-15T23:00:00Z",
+          "blockName": "Play-Ins",
+          "league": {
+            "name": "Worlds"
+          },
+          "match": {
+            "id": "115660588583040710",
+            "type": "normal",
+            "teams": [
+              {
+                "name": "MVK Esports",
+                "code": "MVK",
+                "image": "http://static.lolesports.com/teams/1767089709161_White_Logo.png",
+                "result": {
+                  "gameWins": 3
+                }
+              },
+              {
+                "name": "FURIA",
+                "code": "FUR",
+                "image": "http://static.lolesports.com/teams/FURIA---black.png",
+                "result": {
+                  "gameWins": 0
+                }
+              }
+            ],
+            "strategy": {
+              "type": "bestOf",
+              "count": 5
+            }
+          },
+          "games": [
+            {
+              "id": "115660588583040711",
+              "vods": [
+                {
+                  "parameter": "hegtEPxWCco"
+                }
+              ]
+            },
+            {
+              "id": "115660588583171784",
+              "vods": [
+                {
+                  "parameter": "hegtEPxWCco"
+                }
+              ]
+            },
+            {
+              "id": "115660588583171785",
+              "vods": [
+                {
+                  "parameter": "hegtEPxWCco"
+                }
+              ]
+            },
+            {
+              "id": "116299649500204434",
+              "vods": []
+            },
+            {
+              "id": "116299649500204435",
+              "vods": []
+            }
+          ]
+        },
+        {
+          "startTime": "2026-10-16T18:00:00Z",
+          "blockName": "Play-Ins",
+          "league": {
+            "name": "Worlds"
+          },
+          "match": {
+            "id": "115660588583171790",
+            "type": "normal",
+            "teams": [
+              {
+                "name": "Karmine Corp",
+                "code": "KC",
+                "image": "http://static.lolesports.com/teams/1704714951336_KC.png",
+                "result": {
+                  "gameWins": 3
+                }
+              },
+              {
+                "name": "MVK Esports",
+                "code": "MVK",
+                "image": "http://static.lolesports.com/teams/1767089709161_White_Logo.png",
+                "result": {
+                  "gameWins": 0
+                }
+              }
+            ],
+            "strategy": {
+              "type": "bestOf",
+              "count": 5
+            }
+          },
+          "games": [
+            {
+              "id": "115660588583171791",
+              "vods": [
+                {
+                  "parameter": "yKydxdmRLVY"
+                }
+              ]
+            },
+            {
+              "id": "115660588583171792",
+              "vods": [
+                {
+                  "parameter": "yKydxdmRLVY"
+                }
+              ]
+            },
+            {
+              "id": "115660588583171793",
+              "vods": [
+                {
+                  "parameter": "yKydxdmRLVY"
+                }
+              ]
+            },
+            {
+              "id": "116299649500204438",
+              "vods": []
+            },
+            {
+              "id": "116299649500204439",
+              "vods": []
+            }
+          ]
+        },
+        {
+          "startTime": "2026-10-16T23:00:00Z",
+          "blockName": "Play-Ins",
+          "league": {
+            "name": "Worlds"
+          },
+          "match": {
+            "id": "115660588583171794",
+            "type": "normal",
+            "teams": [
+              {
+                "name": "FURIA",
+                "code": "FUR",
+                "image": "http://static.lolesports.com/teams/FURIA---black.png",
+                "result": {
+                  "gameWins": 3
+                }
+              },
+              {
+                "name": "Cloud9 Kia",
+                "code": "C9",
+                "image": "http://static.lolesports.com/teams/1736924120254_C9Kia_IconBlue_Transparent_2000x2000.png",
+                "result": {
+                  "gameWins": 1
+                }
+              }
+            ],
+            "strategy": {
+              "type": "bestOf",
+              "count": 5
+            }
+          },
+          "games": [
+            {
+              "id": "115660588583171795",
+              "vods": [
+                {
+                  "parameter": "yKydxdmRLVY"
+                }
+              ]
+            },
+            {
+              "id": "115660588583171796",
+              "vods": [
+                {
+                  "parameter": "yKydxdmRLVY"
+                }
+              ]
+            },
+            {
+              "id": "115660588583171797",
+              "vods": [
+                {
+                  "parameter": "yKydxdmRLVY"
+                }
+              ]
+            },
+            {
+              "id": "116299649500204440",
+              "vods": [
+                {
+                  "parameter": "yKydxdmRLVY"
+                }
+              ]
+            },
+            {
+              "id": "116299649500204441",
+              "vods": []
+            }
+          ]
+        },
+        {
+          "startTime": "2026-11-14T19:00:00Z",
+          "blockName": "Finals",
+          "league": {
+            "name": "Worlds"
+          },
+          "match": {
+            "id": "115660540726095133",
+            "type": "normal",
+            "teams": [
+              {
+                "name": "Gen.G Esports",
+                "code": "GEN",
+                "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                "result": {
+                  "gameWins": 1
+                }
+              },
+              {
+                "name": "BILIBILI GAMING",
+                "code": "BLG",
+                "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+                "result": {
+                  "gameWins": 3
+                }
+              }
+            ],
+            "strategy": {
+              "type": "bestOf",
+              "count": 5
+            }
+          },
+          "games": [
+            {
+              "id": "115660540726095134",
+              "vods": [
+                {
+                  "parameter": "uWnksRTYvW4"
+                }
+              ]
+            },
+            {
+              "id": "115660540726095135",
+              "vods": [
+                {
+                  "parameter": "uWnksRTYvW4"
+                }
+              ]
+            },
+            {
+              "id": "115660540726095136",
+              "vods": [
+                {
+                  "parameter": "uWnksRTYvW4"
+                }
+              ]
+            },
+            {
+              "id": "115660540726095137",
+              "vods": [
+                {
+                  "parameter": "uWnksRTYvW4"
+                }
+              ]
+            },
+            {
+              "id": "115660540726095138",
+              "vods": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
