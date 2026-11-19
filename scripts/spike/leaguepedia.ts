@@ -1,61 +1,17 @@
-import type { HttpResult } from "../lib/http.js";
-import { LEAGUEPEDIA_API } from "../lib/sources.js";
-import { loginWithBotPassword } from "./leaguepedia-auth.js";
+import { loginWithBotPassword } from "../lib/leaguepedia/auth.js";
+import {
+  buildCargoUrl,
+  classifyCargoResponse,
+  type CargoOutcome,
+  type CargoQuery,
+} from "../lib/leaguepedia/cargo.js";
 import type { ProbeDefinition, ProbeDeps, ProbeOutcome } from "./probe.js";
+
+export { buildCargoUrl, classifyCargoResponse };
+export type { CargoOutcome, CargoQuery };
 
 const REQUEST_INTERVAL_MS = 2000;
 const MAX_SAMPLE_ROWS = 5;
-
-export interface CargoQuery {
-  tables: string;
-  fields: string;
-  where?: string;
-  limit?: number;
-}
-
-export type CargoOutcome =
-  | { kind: "ok"; rows: Record<string, string>[] }
-  | { kind: "rate_limited" }
-  | { kind: "blocked"; status: number }
-  | { kind: "error"; message: string };
-
-export function buildCargoUrl(q: CargoQuery): string {
-  const params = new URLSearchParams({ action: "cargoquery", format: "json", tables: q.tables, fields: q.fields });
-  if (q.where !== undefined) params.set("where", q.where);
-  if (q.limit !== undefined) params.set("limit", String(q.limit));
-  return `${LEAGUEPEDIA_API}?${params.toString()}`;
-}
-
-interface CargoBody {
-  cargoquery?: unknown;
-  error?: { code?: string; info?: string };
-}
-
-/**
- * Maps an HTTP response to a Cargo outcome. Leaguepedia can answer 200 with an error body
- * (e.g. `ratelimited`), so the body is inspected before declaring success.
- */
-export function classifyCargoResponse(res: HttpResult): CargoOutcome {
-  if (res.status === 429) return { kind: "rate_limited" };
-  if ([401, 402, 403].includes(res.status)) return { kind: "blocked", status: res.status };
-
-  let body: CargoBody;
-  try {
-    const parsed: unknown = JSON.parse(res.text);
-    if (typeof parsed !== "object" || parsed === null) throw new Error("not an object");
-    body = parsed as CargoBody;
-  } catch {
-    return { kind: "error", message: `non-JSON response (status ${res.status})` };
-  }
-
-  if (body.error?.code === "ratelimited") return { kind: "rate_limited" };
-  if (res.status === 200 && Array.isArray(body.cargoquery)) {
-    const rows = (body.cargoquery as { title: Record<string, string> }[]).map((entry) => entry.title);
-    return { kind: "ok", rows };
-  }
-  const info = body.error?.info ? `: ${body.error.info}` : "";
-  return { kind: "error", message: `status ${res.status}${info}` };
-}
 
 const TOURNAMENTS_QUERY: CargoQuery = {
   tables: "Tournaments",
