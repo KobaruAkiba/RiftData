@@ -1,0 +1,58 @@
+[
+  {
+    "MatchId": "Season 3 World Championship_Day 1_1",
+    "OverviewPage": "Season 3 World Championship",
+    "Tab": "Day 1",
+    "Round": "",
+    "DateTimeUTC": "2013-09-15 19:00:00",
+    "BestOf": "1",
+    "Team1": "GamingGear.eu",
+    "Team2": "TSM",
+    "Team1Score": "0",
+    "Team2Score": "1",
+    "Winner": "2",
+    "DateTimeUTC__precision": "0"
+  },
+  {
+    "MatchId": "Season 3 World Championship_Day 1_2",
+    "OverviewPage": "Season 3 World Championship",
+    "Tab": "Day 1",
+    "Round": "",
+    "DateTimeUTC": "2013-09-15 20:00:00",
+    "BestOf": "1",
+    "Team1": "SK Telecom T1",
+    "Team2": "Lemondogs",
+    "Team1Score": "1",
+    "Team2Score": "0",
+    "Winner": "1",
+    "DateTimeUTC__precision": "0"
+  },
+  {
+    "MatchId": "Season 3 World Championship_Day 1_3",
+    "OverviewPage": "Season 3 World Championship",
+    "Tab": "Day 1",
+    "Round": "",
+    "DateTimeUTC": "2013-09-15 21:00:00",
+    "BestOf": "1",
+    "Team1": "TSM",
+    "Team2": "Oh My God",
+    "Team1Score": "0",
+    "Team2Score": "1",
+    "Winner": "2",
+    "DateTimeUTC__precision": "0"
+  },
+  {
+    "MatchId": "Season 3 World Championship_Day 1_4",
+    "OverviewPage": "Season 3 World Championship",
+    "Tab": "Day 1",
+    "Round": "",
+    "DateTimeUTC": "2013-09-15 22:00:00",
+    "BestOf": "1",
+    "Team1": "Lemondogs",
+    "Team2": "GamingGear.eu",
+    "Team1Score": "1",
+    "Team2Score": "0",
+    "Winner": "1",
+    "DateTimeUTC__precision": "0"
+  }
+]

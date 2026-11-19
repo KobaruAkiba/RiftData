@@ -1,0 +1,392 @@
+[
+  {
+    "Name": "Worlds 2027",
+    "OverviewPage": "2027 Season World Championship",
+    "DateStart": "",
+    "DateEnd": "",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "",
+    "DateEnd__precision": ""
+  },
+  {
+    "Name": "Worlds Season 1 Qualifier - Europe",
+    "OverviewPage": "Season 1 World Championship/Qualifiers/Europe",
+    "DateStart": "2011-05-28",
+    "DateEnd": "2011-05-29",
+    "League": "World Championship",
+    "Region": "Europe",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds Season 1 Qualifier - NA",
+    "OverviewPage": "Season 1 World Championship/Qualifiers/North America",
+    "DateStart": "2011-05-28",
+    "DateEnd": "2011-05-29",
+    "League": "World Championship",
+    "Region": "North America",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds Season 1",
+    "OverviewPage": "Season 1 World Championship",
+    "DateStart": "2011-06-18",
+    "DateEnd": "2011-06-20",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds Season 2",
+    "OverviewPage": "Season 2 World Championship",
+    "DateStart": "2012-10-04",
+    "DateEnd": "2012-10-13",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds Season 3",
+    "OverviewPage": "Season 3 World Championship",
+    "DateStart": "2013-09-15",
+    "DateEnd": "2013-10-04",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2014",
+    "OverviewPage": "2014 Season World Championship",
+    "DateStart": "2014-09-18",
+    "DateEnd": "2014-10-19",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2015",
+    "OverviewPage": "2015 Season World Championship",
+    "DateStart": "2015-10-01",
+    "DateEnd": "2015-10-31",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2016",
+    "OverviewPage": "2016 Season World Championship",
+    "DateStart": "2016-09-29",
+    "DateEnd": "2016-10-29",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2017",
+    "OverviewPage": "2017 Season World Championship",
+    "DateStart": "2017-09-23",
+    "DateEnd": "2017-11-04",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2017 Play-In",
+    "OverviewPage": "2017 Season World Championship/Play-In",
+    "DateStart": "2017-09-23",
+    "DateEnd": "2017-09-29",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2017 Main Event",
+    "OverviewPage": "2017 Season World Championship/Main Event",
+    "DateStart": "2017-10-05",
+    "DateEnd": "2017-11-04",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2018",
+    "OverviewPage": "2018 Season World Championship",
+    "DateStart": "2018-10-01",
+    "DateEnd": "2018-11-03",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2018 Play-In",
+    "OverviewPage": "2018 Season World Championship/Play-In",
+    "DateStart": "2018-10-01",
+    "DateEnd": "2018-10-07",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2018 Main Event",
+    "OverviewPage": "2018 Season World Championship/Main Event",
+    "DateStart": "2018-10-10",
+    "DateEnd": "2018-11-03",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2019",
+    "OverviewPage": "2019 Season World Championship",
+    "DateStart": "2019-10-02",
+    "DateEnd": "2019-11-10",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2019 Play-In",
+    "OverviewPage": "2019 Season World Championship/Play-In",
+    "DateStart": "2019-10-02",
+    "DateEnd": "2019-10-08",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2019 Main Event",
+    "OverviewPage": "2019 Season World Championship/Main Event",
+    "DateStart": "2019-10-12",
+    "DateEnd": "2019-11-10",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2020",
+    "OverviewPage": "2020 Season World Championship",
+    "DateStart": "2020-09-25",
+    "DateEnd": "2020-10-31",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2020 Play-In",
+    "OverviewPage": "2020 Season World Championship/Play-In",
+    "DateStart": "2020-09-25",
+    "DateEnd": "2020-09-30",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2020 Main Event",
+    "OverviewPage": "2020 Season World Championship/Main Event",
+    "DateStart": "2020-10-03",
+    "DateEnd": "2020-10-31",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2021",
+    "OverviewPage": "2021 Season World Championship",
+    "DateStart": "2021-10-05",
+    "DateEnd": "2021-11-06",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2021 Play-In",
+    "OverviewPage": "2021 Season World Championship/Play-In",
+    "DateStart": "2021-10-05",
+    "DateEnd": "2021-10-09",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2021 Main Event",
+    "OverviewPage": "2021 Season World Championship/Main Event",
+    "DateStart": "2021-10-11",
+    "DateEnd": "2021-11-06",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2022",
+    "OverviewPage": "2022 Season World Championship",
+    "DateStart": "2022-09-29",
+    "DateEnd": "2022-11-05",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2022 Play-In",
+    "OverviewPage": "2022 Season World Championship/Play-In",
+    "DateStart": "2022-09-29",
+    "DateEnd": "2022-10-04",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2022 Main Event",
+    "OverviewPage": "2022 Season World Championship/Main Event",
+    "DateStart": "2022-10-07",
+    "DateEnd": "2022-11-05",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2023",
+    "OverviewPage": "2023 Season World Championship",
+    "DateStart": "2023-10-10",
+    "DateEnd": "2023-11-19",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2023 Play-In",
+    "OverviewPage": "2023 Season World Championship/Play-In",
+    "DateStart": "2023-10-10",
+    "DateEnd": "2023-10-15",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2023 Main Event",
+    "OverviewPage": "2023 Season World Championship/Main Event",
+    "DateStart": "2023-10-19",
+    "DateEnd": "2023-11-19",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2024",
+    "OverviewPage": "2024 Season World Championship",
+    "DateStart": "2024-09-25",
+    "DateEnd": "2024-11-02",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2024 Play-In",
+    "OverviewPage": "2024 Season World Championship/Play-In",
+    "DateStart": "2024-09-25",
+    "DateEnd": "2024-09-29",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2024 Main Event",
+    "OverviewPage": "2024 Season World Championship/Main Event",
+    "DateStart": "2024-10-03",
+    "DateEnd": "2024-11-02",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2025",
+    "OverviewPage": "2025 Season World Championship",
+    "DateStart": "2025-10-14",
+    "DateEnd": "2025-11-09",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2025 Play-In",
+    "OverviewPage": "2025 Season World Championship/Play-In",
+    "DateStart": "2025-10-14",
+    "DateEnd": "2025-10-14",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2025 Main Event",
+    "OverviewPage": "2025 Season World Championship/Main Event",
+    "DateStart": "2025-10-15",
+    "DateEnd": "2025-11-09",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2026",
+    "OverviewPage": "2026 Season World Championship",
+    "DateStart": "2026-10-15",
+    "DateEnd": "2026-11-14",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2026 Play-In",
+    "OverviewPage": "2026 Season World Championship/Play-In",
+    "DateStart": "2026-10-15",
+    "DateEnd": "2026-10-18",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  },
+  {
+    "Name": "Worlds 2026 Main Event",
+    "OverviewPage": "2026 Season World Championship/Main Event",
+    "DateStart": "2026-10-23",
+    "DateEnd": "2026-11-14",
+    "League": "World Championship",
+    "Region": "International",
+    "DateStart__precision": "1",
+    "DateEnd__precision": "1"
+  }
+]

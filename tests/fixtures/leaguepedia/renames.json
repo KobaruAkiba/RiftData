@@ -1,0 +1,114 @@
+[
+  {
+    "Date": "2012-08-26 00:00:00",
+    "OriginalName": "Noah's Ark",
+    "NewName": "Oh My God",
+    "Verb": "acquire",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2012-12-13 00:00:00",
+    "OriginalName": "Eat Sleep Game",
+    "NewName": "SK Telecom T1 1",
+    "Verb": "acquire",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2013-01-08 00:00:00",
+    "OriginalName": "Team NomNom",
+    "NewName": "Cloud9",
+    "Verb": "rename",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2013-04-01 00:00:00",
+    "OriginalName": "Cloud9",
+    "NewName": "Quantic Gaming",
+    "Verb": "acquire",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2013-06-12 00:00:00",
+    "OriginalName": "Sinners Never Sleep",
+    "NewName": "Lemondogs",
+    "Verb": "acquire",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2013-11-12 00:00:00",
+    "OriginalName": "SK Telecom T1 1",
+    "NewName": "SK Telecom T1 S",
+    "Verb": "rename",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2013-11-12 00:00:00",
+    "OriginalName": "SK Telecom T1 2",
+    "NewName": "SK Telecom T1 K",
+    "Verb": "rename",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2019-12-08 00:00:00",
+    "OriginalName": "SK Telecom T1",
+    "NewName": "T1",
+    "Verb": "rebrand",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2020-05-27 00:00:00",
+    "OriginalName": "FURIA Uppercut",
+    "NewName": "FURIA",
+    "Verb": "rename",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2020-10-07 00:00:00",
+    "OriginalName": "T1 Academy",
+    "NewName": "T1 Rookies",
+    "Verb": "rename",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2020-11-16 00:00:00",
+    "OriginalName": "Kameto Corp",
+    "NewName": "Karmine Corp",
+    "Verb": "rebrand",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2023-06-05 00:00:00",
+    "OriginalName": "T1 Challengers",
+    "NewName": "T1 Esports Academy",
+    "Verb": "rename",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2023-09-20 00:00:00",
+    "OriginalName": "TSM",
+    "NewName": "Shopify Rebellion",
+    "Verb": "acquire",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2024-01-18 00:00:00",
+    "OriginalName": "T1 Rookies",
+    "NewName": "T1 Esports Academy Rookies",
+    "Verb": "rename",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2025-09-22 00:00:00",
+    "OriginalName": "MT1 Instinct",
+    "NewName": "MT1 Esports",
+    "Verb": "rename",
+    "Date__precision": "1"
+  },
+  {
+    "Date": "2025-12-30 00:00:00",
+    "OriginalName": "MGN Vikings Esports",
+    "NewName": "MVK Esports",
+    "Verb": "rebrand",
+    "Date__precision": "1"
+  }
+]
