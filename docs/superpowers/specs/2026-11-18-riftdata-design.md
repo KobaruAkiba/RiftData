@@ -94,14 +94,16 @@ Riot **non** offre un'API pubblica ufficiale per l'esports: la Riot Developer AP
 2. Scaricare i dati di ogni partita **una sola volta**, a partita conclusa.
 3. Salvarli nel repo: sopravvivono a cambi o chiusura dell'API.
 
-### 6.4 Non ancora verificato
+### 6.4 Punti aperti e verifiche
 
-| # | Punto aperto | Impatto se negativo |
-|---|---|---|
-| 1 | **Accesso a Leaguepedia dalla pipeline.** Un fetch automatico ha ricevuto HTTP 402: forse un blocco dello strumento usato, non dell'API. Verificare se serve un account bot / login. | Manca la fonte principale → valutare il fallback (riga 4). |
-| 2 | **Profondità storica del feed livestats**: fino a quanti anni indietro esistono i fotogrammi. In particolare: il **Worlds 2026** (concluso prima del lancio) è recuperabile a posteriori? | **[Utente]** Se no, il Worlds 2026 parte con i tabellini finali di Leaguepedia (campioni, ban, oggetti finali, oro finale, KDA, draghi, baroni) **senza grafici nel tempo**. La pagina partita deve quindi funzionare in due livelli: "tabellino finale" e "tabellino + timeline". Le pagine complete debuttano col Worlds 2027. |
-| 3 | **Calendario lolesports leggibile dal browser** (header `x-api-key` pubblico, CORS). | Se no, serve un piccolo proxy (es. funzione serverless) per il badge live. |
-| 4 | **Fallback CSV Oracle's Elixir** (statistiche per game; uso non commerciale con attribuzione). | Da valutare solo se Leaguepedia non è accessibile. |
+| # | Punto aperto | Impatto se negativo | Esito spike (2026-11-19) |
+|---|---|---|---|
+| 1 | **Accesso a Leaguepedia dalla pipeline.** Un fetch automatico ha ricevuto HTTP 402: forse un blocco dello strumento usato, non dell'API. Verificare se serve un account bot / login. | Manca la fonte principale → valutare il fallback (riga 4). | Risolto: accesso anonimo ok anche da GitHub Actions. |
+| 2 | **Profondità storica del feed livestats**: fino a quanti anni indietro esistono i fotogrammi. In particolare: il **Worlds 2026** (concluso prima del lancio) è recuperabile a posteriori? | **[Utente]** Se no, il Worlds 2026 parte con i tabellini finali di Leaguepedia (campioni, ban, oggetti finali, oro finale, KDA, draghi, baroni) **senza grafici nel tempo**. La pagina partita deve quindi funzionare in due livelli: "tabellino finale" e "tabellino + timeline". Le pagine complete debuttano col Worlds 2027. | Risolto: Worlds 2026 recuperabile al 100%. |
+| 3 | **Calendario lolesports leggibile dal browser** (header `x-api-key` pubblico, CORS). | Se no, serve un piccolo proxy (es. funzione serverless) per il badge live. | Risolto: CORS ok, nessun proxy. |
+| 4 | **Fallback CSV Oracle's Elixir** (statistiche per game; uso non commerciale con attribuzione). | Da valutare solo se Leaguepedia non è accessibile. | Non necessario. |
+
+Report completo: [esiti dello spike](../spikes/2026-11-19-data-sources-report.md).
 
 ## 7. Approcci considerati
 
@@ -142,7 +144,7 @@ L'utente ha accettato l'approccio A e delegato a Claude tecnologie e librerie. T
 
 - `LIVE · GAME N` e "torneo in corso" sono letti **dal browser del visitatore** in tempo reale, indipendenti dal rebuild.
 - Se la fonte fallisce, il badge **sparisce in silenzio**; il resto del sito non ne risente.
-- Eventuale proxy: dipende dal punto aperto §6.4-3.
+- Nessun proxy: CORS verificato (spike 2026-11-19).
 - Perimetro del live nel browser [Claude]: badge + punteggio della serie in corso (es. 2–1). Tutto il resto (grafici, tabellini, game appena concluso) arriva dal rebuild: un ritardo fino a 30 minuti è accettabile.
 - Il badge compare sulle partite in corso di **qualsiasi** competizione mostrata (Worlds e leghe) [Claude]: stessa fonte calendario, costo marginale.
 
@@ -250,9 +252,9 @@ Proposta di Claude, non contestata.
 
 | Rischio | Mitigazione |
 |---|---|
-| Leaguepedia non accessibile dalla pipeline (HTTP 402) | Spike iniziale; se serve, account bot Fandom **creato dall'utente**, che inserisce lui stesso le credenziali nei secrets di GitHub [Utente]. Se resta inaccessibile: ridurre il numero di edizioni passate piuttosto che aggiungere fonti più fragili [Claude]; fallback Oracle's Elixir per le statistiche per game (§6.4-4) |
+| Leaguepedia non accessibile dalla pipeline (HTTP 402) | Smentito dallo spike (2026-11-19): accesso anonimo ok anche da GitHub Actions. Resta il rischio futuro di cambi di policy. Mitigazione: se serve, account bot Fandom **creato dall'utente**, che inserisce lui stesso le credenziali nei secrets di GitHub [Utente]. Se resta inaccessibile: ridurre il numero di edizioni passate piuttosto che aggiungere fonti più fragili [Claude]; fallback Oracle's Elixir per le statistiche per game (§6.4-4) |
 | Cambio o chiusura delle API non ufficiali lolesports | Dati di partita salvati una volta nel repo; badge che sparisce in silenzio; file di override |
-| Calendario non leggibile dal browser (CORS / chiave) | Piccolo proxy serverless |
+| Calendario non leggibile dal browser (CORS / chiave) | Smentito dallo spike (2026-11-19): CORS ok. Resta il rischio futuro di cambi di policy. Mitigazione: piccolo proxy serverless |
 | Formati di torneo che cambiano negli anni (gironi, svizzera, Play-In) | Modello dei tabelloni generico per tipo di fase, non legato a un solo formato |
 | Limiti di richieste delle fonti | Download incrementali; nessun nuovo download di partite già salvate |
 | Repository privato → minuti Actions limitati | Ridurre la frequenza (§8.4) |
@@ -265,10 +267,10 @@ Proposta di Claude, non contestata.
 
 ### 13.3 Primi passi
 
-1. **Spike di verifica** dei tre punti aperti principali (§6.4):
+1. ✅ Completato (2026-11-19). **Spike di verifica** dei tre punti aperti principali (§6.4):
    1. accesso a Leaguepedia dalla pipeline (GitHub Actions);
    2. profondità storica del feed livestats;
    3. lettura del calendario lolesports dal browser.
-2. In base all'esito, confermare le fonti o attivare il fallback.
-3. **Solo dopo**, fissare lo schema dati.
-4. Creare il repo con `.superpowers/` nel `.gitignore`.
+2. ✅ Completato (2026-11-19). In base all'esito, confermare le fonti o attivare il fallback.
+3. **Solo dopo**, fissare lo schema dati. Prossimo passo: Piano 2.
+4. ✅ Completato (2026-11-19). Creare il repo con `.superpowers/` nel `.gitignore`.
