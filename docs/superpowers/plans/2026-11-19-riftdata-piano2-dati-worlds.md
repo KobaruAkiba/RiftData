@@ -473,7 +473,7 @@ git commit -m "feat(pipeline): resolve team identity through Leaguepedia rename 
   // normalize.ts
   export interface EditionInput { year: number; tournaments: TournamentRow[]; matches: MatchRow[]; games: GameRow[]; players: PlayerRow[] }
   export function normalizeEdition(input: EditionInput, identity: TeamIdentity, overrides: EditionOverrides, now: Date): Edition;
-  export function editionYear(row: TournamentRow): number | null;   // anno di DateStart; se vuoto, da OverviewPage: "^(d{4}) Season" → anno, "^Season (d+) " → 2010 + N; altrimenti null (riga ignorata)
+  export function editionYear(row: TournamentRow): number | null;   // anno di DateStart; se vuoto, da OverviewPage: "^(\d{4}) Season" → anno, "^Season (\d+) " → 2010 + N; altrimenti null (riga ignorata)
   export function stageNameOf(row: MatchRow): string;               // Tab; se vuoto, parte di OverviewPage dopo l'ultimo "/"; se assente, "Main Event"
   export function inferStageType(name: string): StageType;
   export function editionStatus(edition: Pick<Edition, "stages" | "startDate" | "endDate">, now: Date): EditionStatus;
