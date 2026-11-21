@@ -3,6 +3,7 @@ import type { HttpInit, HttpResult } from "../../../scripts/lib/http.js";
 import {
   LOLESPORTS_BACKOFF_MS,
   LOLESPORTS_INTERVAL_MS,
+  LolesportsRequestError,
   createLolesportsClient,
   toStartingTime,
 } from "../../../scripts/lib/lolesports/client.js";
@@ -96,6 +97,13 @@ test("persistent 5xx throws after the last attempt", async () => {
   const client = createLolesportsClient(makeDeps([res(503)]));
   await expect(client.window("1")).rejects.toThrow(/503/);
   expect(urls).toHaveLength(LOLESPORTS_BACKOFF_MS.length + 1);
+});
+
+test("exhausted retries throw LolesportsRequestError (5xx and network); a 403 does not", async () => {
+  await expect(createLolesportsClient(makeDeps([res(503)])).window("1")).rejects.toBeInstanceOf(LolesportsRequestError);
+  await expect(createLolesportsClient(makeDeps([new Error("socket hang up")])).details("1")).rejects.toBeInstanceOf(LolesportsRequestError);
+  const forbidden = createLolesportsClient(makeDeps([res(403)])).completedEvents("1");
+  await expect(forbidden).rejects.not.toBeInstanceOf(LolesportsRequestError);
 });
 
 test("a client error other than 429 throws without retrying (api), and a missing game is null (feed)", async () => {

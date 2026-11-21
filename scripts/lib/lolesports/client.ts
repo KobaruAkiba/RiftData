@@ -5,6 +5,11 @@ export const LOLESPORTS_INTERVAL_MS = 500;
 /** Waits before the 2nd, 3rd and 4th attempt of a request that failed with 429, 5xx or a network error. */
 export const LOLESPORTS_BACKOFF_MS = [2_000, 5_000, 15_000];
 
+/** Thrown when a request still fails (429, 5xx, network) after every retry: the feed is unreachable, not the game broken. */
+export class LolesportsRequestError extends Error {
+  override name = "LolesportsRequestError";
+}
+
 export interface LolesportsDeps {
   http: (url: string, init?: HttpInit) => Promise<HttpResult>;
   sleep: (ms: number) => Promise<void>;
@@ -69,7 +74,7 @@ async function requestWithRetry(
       failure = error instanceof Error ? error.message : String(error);
     }
     const wait = LOLESPORTS_BACKOFF_MS[attempt];
-    if (wait === undefined) throw new Error(`lolesports request failed after retries (${failure}): ${url}`);
+    if (wait === undefined) throw new LolesportsRequestError(`lolesports request failed after retries (${failure}): ${url}`);
     await deps.sleep(wait);
   }
 }

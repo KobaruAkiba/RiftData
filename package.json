@@ -16,7 +16,8 @@
     "spike": "tsx scripts/spike/run-all.ts",
     "discover": "tsx scripts/pipeline/discover.ts",
     "discover:livestats": "tsx scripts/pipeline/livestats/discover.ts",
-    "ingest": "tsx scripts/pipeline/ingest.ts"
+    "ingest": "tsx scripts/pipeline/ingest.ts",
+    "ingest:livestats": "tsx scripts/pipeline/ingest-livestats.ts"
   },
   "keywords": [],
   "author": "",
