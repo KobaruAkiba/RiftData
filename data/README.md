@@ -10,8 +10,9 @@ Do not hand-edit `worlds/` or `teams.json`. The ingest pipeline overwrites them.
 data/
   worlds/<year>.json   one file per edition
   teams.json           { "teams": [...] }, sorted by id
+  livestats/<year>/    per-game timelines from the lolesports feed (see Livestats archive)
   overrides/           manual corrections (hand-edited)
-    editions.json  teams.json  stages.json  matches.json
+    editions.json  teams.json  stages.json  matches.json  livestats.json
 ```
 
 Schemas: `src/data/schema/edition.ts`, `src/data/schema/team.ts`.
@@ -119,6 +120,99 @@ Current entries:
 
 - 2011: 16 bracket games discarded. Their `MatchId` does not match the schedule (gap in Leaguepedia). The ingest reports them as orphan games. 2011 keeps 12 games, all in the `Main Event` stage. Its knockout match has no games.
 - 2027: `upcoming`, no matches (`coverage` both `false`).
+
+## Livestats archive
+
+Minute-by-minute detail of every game of the current Worlds. Source: lolesports livestats feed. Leaguepedia gives only the link and the names.
+
+Do not hand-edit `livestats/`. To correct a link, add an entry in `overrides/livestats.json`.
+
+Schemas: `src/data/schema/timeline.ts` (`GameTimelineSchema`, `LivestatsIndexSchema`).
+
+### Layout
+
+```
+data/livestats/<year>/
+  <lolGameId>.json   one game, feed data only. Written once, never rewritten.
+  index.json         Leaguepedia link. Regenerated on every run.
+```
+
+- File name: lolesports game id, digits only. The Leaguepedia `GameId` contains spaces and `/`.
+- Only exception to "never rewritten": `--game` (see Livestats commands).
+
+### Game (`livestats/<year>/<lolGameId>.json`)
+
+| Field | Meaning |
+|---|---|
+| `gameId` | lolesports game id. |
+| `year` | Edition year. |
+| `minutes` | Samples per series, minute 0 included. |
+| `participants` | 10 entries: `participantId` (1-5 blue, 6-10 red), `side`, `role` (feed value), `championKey` (feed key), `runes` (`primary`, `secondary`, `perks`, numeric ids). |
+| `teams.blue`, `teams.red` | Series per minute: `gold`, `kills`, `towers`, `inhibitors`, `barons`, `dragons`. |
+| `players` | Per `participantId`, series per minute: `gold`, `level`, `kills`, `deaths`, `assists`, `cs`, `damageShare`, `killParticipation`, `wardsPlaced`, `wardsDestroyed`. |
+| `items` | Per `participantId`, inventory changes only: `{ minute, items }`. First change at minute 0. |
+| `events` | `minute`, `side`, `type` (`dragon`, `baron`, `tower`, `inhibitor`). `dragonType` (feed value) for dragons only. |
+
+Every series has length `minutes`. No player, team or champion names: they live in the index.
+
+### Index (`livestats/<year>/index.json`)
+
+`{ "games": { "<Leaguepedia GameId>": { "gameId": "<lolGameId>", "participants": [...] } } }`
+
+Participant: `participantId`, `player`, `team` (team id), `role`, `champion` (Leaguepedia name).
+
+Built from Leaguepedia on every run, without feed requests. A Leaguepedia correction reaches the index on the next run.
+
+### Precision
+
+- One sample per game minute. Sample `i` = frame nearest to game time `i:00`.
+- Minute 0 = first frame with total gold > 0.
+- Last sample = `finished` frame, even mid-minute.
+- Events: minute precision. Assigned to the first sample where the count changes.
+- Pauses: `gameState: paused` frames or stale feed responses. Detected and skipped: minutes stay game minutes, not wall-clock minutes.
+
+### Livestats commands
+
+Run from the repository root. Prerequisite: the edition is stored in `worlds/<year>.json` (`npm run ingest`).
+
+| Command | Effect |
+|---|---|
+| `npm run ingest:livestats` | Newest edition `ongoing` or `completed`. Downloads linked played games without a file. |
+| `npm run ingest:livestats -- --year 2026` | Limits the run to that edition. |
+| `npm run ingest:livestats -- --game <lolGameId>` | That game only. Downloads it again even if stored. It must be a played, linked game of the edition. |
+
+Behaviour:
+
+- Incremental. Stored games are skipped. A run with nothing new writes nothing.
+- A failed game writes no file. The other games go on. A sample count inconsistent with Leaguepedia `durationSec` counts as a failure.
+- The run aborts after 3 consecutive games lost to feed request errors (retries exhausted).
+- Exit code 1 when a game fails or the run aborts.
+- Leaguepedia bot login: same variables as `npm run ingest`, `LEAGUEPEDIA_BOT_USER` and `LEAGUEPEDIA_BOT_PASSWORD`.
+
+### Livestats overrides (`overrides/livestats.json`)
+
+```
+{ "games": { "<lolGameId>": "<Leaguepedia GameId>" | null }, "teams": { "<lolesports code>": "<team id>" } }
+```
+
+- `games`: forces a link. `null` excludes the game (e.g. a remake). Beats automatic linking.
+- `teams`: maps a lolesports team code to a `teams.json` id. For names the automatic lookup cannot match.
+- Missing file or missing key means no overrides.
+
+Current entries:
+
+- `games`: empty.
+- `teams`: `TLAW -> team-liquid`. lolesports calls the team `Team Liquid Alienware`.
+
+### Current archive
+
+- 2026: Worlds 2026, 98 games, about 4.6 MB.
+
+### Known limits
+
+- Pauses shorter than about 50 s can go unnoticed.
+- Two pauses within the first ~110 s merge into one.
+- Champion names differ between files. The game file keeps the feed key (`MonkeyKing`, `Renata`). The index keeps the Leaguepedia name (`Wukong`, `Renata Glasc`).
 
 ## Attribution
 

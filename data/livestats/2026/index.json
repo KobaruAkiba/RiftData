@@ -1,0 +1,7354 @@
+{
+  "games": {
+    "2026 Season World Championship/Main Event_Finals_1_1": {
+      "gameId": "115660540726095134",
+      "participants": [
+        {
+          "champion": "Olaf",
+          "participantId": 1,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Corki",
+          "participantId": 4,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Nami",
+          "participantId": 5,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        },
+        {
+          "champion": "K'Sante",
+          "participantId": 6,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 7,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 8,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 9,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 10,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Finals_1_2": {
+      "gameId": "115660540726095135",
+      "participants": [
+        {
+          "champion": "Vayne",
+          "participantId": 1,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Cho'Gath",
+          "participantId": 2,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 3,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 5,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Gnar",
+          "participantId": 6,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Naafiri",
+          "participantId": 7,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 8,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Ziggs",
+          "participantId": 9,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Camille",
+          "participantId": 10,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Finals_1_3": {
+      "gameId": "115660540726095136",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 2,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Annie",
+          "participantId": 3,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 5,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Jax",
+          "participantId": 6,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 7,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 8,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Taliyah",
+          "participantId": 9,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Finals_1_4": {
+      "gameId": "115660540726095137",
+      "participants": [
+        {
+          "champion": "Gwen",
+          "participantId": 1,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 2,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Twisted Fate",
+          "participantId": 3,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 4,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Neeko",
+          "participantId": 5,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Aurora",
+          "participantId": 6,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 7,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 8,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Xayah",
+          "participantId": 9,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 10,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_1_1": {
+      "gameId": "115660540726095110",
+      "participants": [
+        {
+          "champion": "Gnar",
+          "participantId": 1,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 2,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Kai'Sa",
+          "participantId": 4,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Ambessa",
+          "participantId": 6,
+          "player": "369",
+          "role": "top",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 7,
+          "player": "Tian",
+          "role": "jungle",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 8,
+          "player": "Creme",
+          "role": "mid",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "JackeyLove",
+          "role": "bottom",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Rell",
+          "participantId": 10,
+          "player": "Zhuo",
+          "role": "support",
+          "team": "top-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_1_2": {
+      "gameId": "115660540726095111",
+      "participants": [
+        {
+          "champion": "Vayne",
+          "participantId": 1,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 2,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 3,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 4,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 5,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Renekton",
+          "participantId": 6,
+          "player": "369",
+          "role": "top",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Xin Zhao",
+          "participantId": 7,
+          "player": "Tian",
+          "role": "jungle",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 8,
+          "player": "Creme",
+          "role": "mid",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 9,
+          "player": "JackeyLove",
+          "role": "bottom",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 10,
+          "player": "Zhuo",
+          "role": "support",
+          "team": "top-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_1_3": {
+      "gameId": "115660540726095112",
+      "participants": [
+        {
+          "champion": "Rumble",
+          "participantId": 1,
+          "player": "369",
+          "role": "top",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Skarner",
+          "participantId": 2,
+          "player": "Tian",
+          "role": "jungle",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Yone",
+          "participantId": 3,
+          "player": "Creme",
+          "role": "mid",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 4,
+          "player": "JackeyLove",
+          "role": "bottom",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 5,
+          "player": "Zhuo",
+          "role": "support",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Ornn",
+          "participantId": 6,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Jayce",
+          "participantId": 7,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Annie",
+          "participantId": 8,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Zeri",
+          "participantId": 9,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Yuumi",
+          "participantId": 10,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_1_4": {
+      "gameId": "115660540726095113",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Naafiri",
+          "participantId": 2,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Taliyah",
+          "participantId": 3,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 5,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Aatrox",
+          "participantId": 6,
+          "player": "369",
+          "role": "top",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Maokai",
+          "participantId": 7,
+          "player": "Tian",
+          "role": "jungle",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Aurora",
+          "participantId": 8,
+          "player": "Creme",
+          "role": "mid",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 9,
+          "player": "JackeyLove",
+          "role": "bottom",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 10,
+          "player": "Zhuo",
+          "role": "support",
+          "team": "top-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_2_1": {
+      "gameId": "115660540726095116",
+      "participants": [
+        {
+          "champion": "Olaf",
+          "participantId": 1,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 2,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Galio",
+          "participantId": 3,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Leona",
+          "participantId": 5,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Jax",
+          "participantId": 6,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 8,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 10,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_2_2": {
+      "gameId": "115660540726095117",
+      "participants": [
+        {
+          "champion": "Sion",
+          "participantId": 1,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 3,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 4,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 5,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Jayce",
+          "participantId": 6,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 7,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 8,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Mel",
+          "participantId": 9,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Pyke",
+          "participantId": 10,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_2_3": {
+      "gameId": "115660540726095118",
+      "participants": [
+        {
+          "champion": "Aurora",
+          "participantId": 1,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 2,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Taliyah",
+          "participantId": 3,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Xayah",
+          "participantId": 4,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 5,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Gangplank",
+          "participantId": 6,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Trundle",
+          "participantId": 7,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Anivia",
+          "participantId": 8,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Corki",
+          "participantId": 9,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_3_1": {
+      "gameId": "115660540726095098",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Naafiri",
+          "participantId": 2,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Galio",
+          "participantId": 3,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 4,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Siwoo",
+          "role": "top",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Lucid (Choi Yong-hyeok)",
+          "role": "jungle",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 8,
+          "player": "ShowMaker",
+          "role": "mid",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Corki",
+          "participantId": 9,
+          "player": "Smash (Shin Geum-jae)",
+          "role": "bottom",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Rell",
+          "participantId": 10,
+          "player": "Career",
+          "role": "support",
+          "team": "dplus-kia"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_3_2": {
+      "gameId": "115660540726095099",
+      "participants": [
+        {
+          "champion": "Kennen",
+          "participantId": 1,
+          "player": "Siwoo",
+          "role": "top",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Lucid (Choi Yong-hyeok)",
+          "role": "jungle",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Ryze",
+          "participantId": 3,
+          "player": "ShowMaker",
+          "role": "mid",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 4,
+          "player": "Smash (Shin Geum-jae)",
+          "role": "bottom",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 5,
+          "player": "Career",
+          "role": "support",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Gnar",
+          "participantId": 6,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 8,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Leona",
+          "participantId": 10,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_3_3": {
+      "gameId": "115660540726095100",
+      "participants": [
+        {
+          "champion": "Olaf",
+          "participantId": 1,
+          "player": "Siwoo",
+          "role": "top",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 2,
+          "player": "Lucid (Choi Yong-hyeok)",
+          "role": "jungle",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 3,
+          "player": "ShowMaker",
+          "role": "mid",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Aphelios",
+          "participantId": 4,
+          "player": "Smash (Shin Geum-jae)",
+          "role": "bottom",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Thresh",
+          "participantId": 5,
+          "player": "Career",
+          "role": "support",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Jax",
+          "participantId": 6,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Trundle",
+          "participantId": 7,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Ahri",
+          "participantId": 8,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 9,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 10,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_4_1": {
+      "gameId": "115660540726095104",
+      "participants": [
+        {
+          "champion": "Ornn",
+          "participantId": 1,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 3,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 4,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 5,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 8,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Leona",
+          "participantId": 10,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_4_2": {
+      "gameId": "115660540726095105",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Tristana",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Rell",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Olaf",
+          "participantId": 6,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Trundle",
+          "participantId": 7,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 8,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Kai'Sa",
+          "participantId": 9,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 10,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_4_3": {
+      "gameId": "115660540726095106",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Xin Zhao",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Anivia",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Jayce",
+          "participantId": 6,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Sejuani",
+          "participantId": 7,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "Taliyah",
+          "participantId": 8,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Zeri",
+          "participantId": 9,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Yuumi",
+          "participantId": 10,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Quarterfinals_4_4": {
+      "gameId": "115660540726095107",
+      "participants": [
+        {
+          "champion": "Renekton",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Ahri",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Xayah",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Camille",
+          "participantId": 6,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 7,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "Annie",
+          "participantId": 8,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Miss Fortune",
+          "participantId": 9,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Neeko",
+          "participantId": 10,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 1_1_1": {
+      "gameId": "115660540726095006",
+      "participants": [
+        {
+          "champion": "Rumble",
+          "participantId": 1,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Aurora",
+          "participantId": 3,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 5,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Ornn",
+          "participantId": 6,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 8,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Corki",
+          "participantId": 9,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 10,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 1_2_1": {
+      "gameId": "115660540726095014",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "369",
+          "role": "top",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Tian",
+          "role": "jungle",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 3,
+          "player": "Creme",
+          "role": "mid",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "JackeyLove",
+          "role": "bottom",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 5,
+          "player": "Zhuo",
+          "role": "support",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Ambessa",
+          "participantId": 6,
+          "player": "Zeus",
+          "role": "top",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 7,
+          "player": "Kanavi",
+          "role": "jungle",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 8,
+          "player": "Zeka (Kim Geon-woo)",
+          "role": "mid",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 9,
+          "player": "Gumayusi",
+          "role": "bottom",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Shen",
+          "participantId": 10,
+          "player": "Delight",
+          "role": "support",
+          "team": "hanwha-life-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 1_3_1": {
+      "gameId": "115660540726095020",
+      "participants": [
+        {
+          "champion": "Renekton",
+          "participantId": 1,
+          "player": "Myrwn",
+          "role": "top",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Elyoya",
+          "role": "jungle",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Sylas",
+          "participantId": 3,
+          "player": "Jojopyun",
+          "role": "mid",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Supa",
+          "role": "bottom",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 5,
+          "player": "Alvaro (Álvaro Fernández)",
+          "role": "support",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Ambessa",
+          "participantId": 6,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 7,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 8,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 9,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 10,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 1_4_1": {
+      "gameId": "115660540726095010",
+      "participants": [
+        {
+          "champion": "Jax",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Olaf",
+          "participantId": 6,
+          "player": "Breathe",
+          "role": "top",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 7,
+          "player": "Tarzan (Lee Seung-yong)",
+          "role": "jungle",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 8,
+          "player": "Shanks",
+          "role": "mid",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Miss Fortune",
+          "participantId": 9,
+          "player": "Hope (Wang Jie)",
+          "role": "bottom",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Neeko",
+          "participantId": 10,
+          "player": "Kael (Kim Jin-hong)",
+          "role": "support",
+          "team": "anyone-s-legend"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 1_5_1": {
+      "gameId": "115660540726095012",
+      "participants": [
+        {
+          "champion": "Olaf",
+          "participantId": 1,
+          "player": "Siwoo",
+          "role": "top",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 2,
+          "player": "Lucid (Choi Yong-hyeok)",
+          "role": "jungle",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "ShowMaker",
+          "role": "mid",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Ziggs",
+          "participantId": 4,
+          "player": "Smash (Shin Geum-jae)",
+          "role": "bottom",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Poppy",
+          "participantId": 5,
+          "player": "Career",
+          "role": "support",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "K'Sante",
+          "participantId": 6,
+          "player": "BrokenBlade",
+          "role": "top",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 7,
+          "player": "SkewMond",
+          "role": "jungle",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 8,
+          "player": "Caps",
+          "role": "mid",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 9,
+          "player": "Hans Sama",
+          "role": "bottom",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 10,
+          "player": "Labrov",
+          "role": "support",
+          "team": "g2-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 1_6_1": {
+      "gameId": "115660540726095008",
+      "participants": [
+        {
+          "champion": "Galio",
+          "participantId": 1,
+          "player": "Morgan",
+          "role": "top",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Josedeodo",
+          "role": "jungle",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "Quid",
+          "role": "mid",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "Yeon (Sean Sung)",
+          "role": "bottom",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 5,
+          "player": "CoreJJ",
+          "role": "support",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Rest",
+          "role": "top",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Shad0w",
+          "role": "jungle",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 8,
+          "player": "POUT",
+          "role": "mid",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Aphelios",
+          "participantId": 9,
+          "player": "Doggo",
+          "role": "bottom",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Kino",
+          "role": "support",
+          "team": "ctbc-flying-oyster"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 1_7_1": {
+      "gameId": "115660540726095016",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "Zest (Kim Dong-min)",
+          "role": "top",
+          "team": "l-s"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 2,
+          "player": "Curse (Raí Yamada)",
+          "role": "jungle",
+          "team": "l-s"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "Feisty",
+          "role": "mid",
+          "team": "l-s"
+        },
+        {
+          "champion": "Tristana",
+          "participantId": 4,
+          "player": "Duduhh",
+          "role": "bottom",
+          "team": "l-s"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 5,
+          "player": "Ackerman (Gabriel Aparicio)",
+          "role": "support",
+          "team": "l-s"
+        },
+        {
+          "champion": "Jayce",
+          "participantId": 6,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "LeBlanc",
+          "participantId": 8,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 9,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 1_8_1": {
+      "gameId": "115660540726095018",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 2,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Anivia",
+          "participantId": 3,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 5,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Pun",
+          "role": "top",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Hizto",
+          "role": "jungle",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Ryze",
+          "participantId": 8,
+          "player": "Dire",
+          "role": "mid",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Kai'Sa",
+          "participantId": 9,
+          "player": "Eddie",
+          "role": "bottom",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 10,
+          "player": "Bie",
+          "role": "support",
+          "team": "team-secret-whales"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 2_1_1": {
+      "gameId": "115660540726095030",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "369",
+          "role": "top",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 2,
+          "player": "Tian",
+          "role": "jungle",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 3,
+          "player": "Creme",
+          "role": "mid",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 4,
+          "player": "JackeyLove",
+          "role": "bottom",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 5,
+          "player": "Zhuo",
+          "role": "support",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Breathe",
+          "role": "top",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 7,
+          "player": "Tarzan (Lee Seung-yong)",
+          "role": "jungle",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 8,
+          "player": "Shanks",
+          "role": "mid",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 9,
+          "player": "Hope (Wang Jie)",
+          "role": "bottom",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 10,
+          "player": "Kael (Kim Jin-hong)",
+          "role": "support",
+          "team": "anyone-s-legend"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 2_2_1": {
+      "gameId": "115660540726095022",
+      "participants": [
+        {
+          "champion": "Trundle",
+          "participantId": 1,
+          "player": "Myrwn",
+          "role": "top",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 2,
+          "player": "Elyoya",
+          "role": "jungle",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 3,
+          "player": "Jojopyun",
+          "role": "mid",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 4,
+          "player": "Supa",
+          "role": "bottom",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 5,
+          "player": "Alvaro (Álvaro Fernández)",
+          "role": "support",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Olaf",
+          "participantId": 6,
+          "player": "Rest",
+          "role": "top",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Shad0w",
+          "role": "jungle",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 8,
+          "player": "POUT",
+          "role": "mid",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Tristana",
+          "participantId": 9,
+          "player": "Doggo",
+          "role": "bottom",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 10,
+          "player": "Kino",
+          "role": "support",
+          "team": "ctbc-flying-oyster"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 2_3_1": {
+      "gameId": "115660540726095032",
+      "participants": [
+        {
+          "champion": "Jayce",
+          "participantId": 1,
+          "player": "Zest (Kim Dong-min)",
+          "role": "top",
+          "team": "l-s"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 2,
+          "player": "Curse (Raí Yamada)",
+          "role": "jungle",
+          "team": "l-s"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 3,
+          "player": "Feisty",
+          "role": "mid",
+          "team": "l-s"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 4,
+          "player": "Duduhh",
+          "role": "bottom",
+          "team": "l-s"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 5,
+          "player": "Ackerman (Gabriel Aparicio)",
+          "role": "support",
+          "team": "l-s"
+        },
+        {
+          "champion": "K'Sante",
+          "participantId": 6,
+          "player": "BrokenBlade",
+          "role": "top",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "SkewMond",
+          "role": "jungle",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 8,
+          "player": "Caps",
+          "role": "mid",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "Hans Sama",
+          "role": "bottom",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 10,
+          "player": "Labrov",
+          "role": "support",
+          "team": "g2-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 2_4_1": {
+      "gameId": "115660540726095024",
+      "participants": [
+        {
+          "champion": "Rumble",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Galio",
+          "participantId": 6,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 7,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 8,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 9,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 10,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 2_5_1": {
+      "gameId": "115660540726095034",
+      "participants": [
+        {
+          "champion": "Shen",
+          "participantId": 1,
+          "player": "Pun",
+          "role": "top",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 2,
+          "player": "Hizto",
+          "role": "jungle",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 3,
+          "player": "Dire",
+          "role": "mid",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Eddie",
+          "role": "bottom",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 5,
+          "player": "Bie",
+          "role": "support",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "K'Sante",
+          "participantId": 6,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 7,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 8,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 9,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 10,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 2_6_1": {
+      "gameId": "115660540726095026",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Zeus",
+          "role": "top",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 2,
+          "player": "Kanavi",
+          "role": "jungle",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Taliyah",
+          "participantId": 3,
+          "player": "Zeka (Kim Geon-woo)",
+          "role": "mid",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "Gumayusi",
+          "role": "bottom",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 5,
+          "player": "Delight",
+          "role": "support",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 8,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Leona",
+          "participantId": 10,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 2_7_1": {
+      "gameId": "115660540726095028",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "Siwoo",
+          "role": "top",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Lucid (Choi Yong-hyeok)",
+          "role": "jungle",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 3,
+          "player": "ShowMaker",
+          "role": "mid",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 4,
+          "player": "Smash (Shin Geum-jae)",
+          "role": "bottom",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 5,
+          "player": "Career",
+          "role": "support",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Jayce",
+          "participantId": 6,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 7,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "Anivia",
+          "participantId": 8,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Caitlyn",
+          "participantId": 9,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Neeko",
+          "participantId": 10,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 2_8_1": {
+      "gameId": "115660540726095036",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "Morgan",
+          "role": "top",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Josedeodo",
+          "role": "jungle",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 3,
+          "player": "Quid",
+          "role": "mid",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Yeon (Sean Sung)",
+          "role": "bottom",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 5,
+          "player": "CoreJJ",
+          "role": "support",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Camille",
+          "participantId": 6,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 8,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 9,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 10,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_1_1": {
+      "gameId": "115660540726095046",
+      "participants": [
+        {
+          "champion": "Kled",
+          "participantId": 1,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 2,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Annie",
+          "participantId": 3,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 4,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 5,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Olaf",
+          "participantId": 6,
+          "player": "Zeus",
+          "role": "top",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Kanavi",
+          "role": "jungle",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Lissandra",
+          "participantId": 8,
+          "player": "Zeka (Kim Geon-woo)",
+          "role": "mid",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 9,
+          "player": "Gumayusi",
+          "role": "bottom",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 10,
+          "player": "Delight",
+          "role": "support",
+          "team": "hanwha-life-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_2_1": {
+      "gameId": "115660540726095048",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "369",
+          "role": "top",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 2,
+          "player": "Tian",
+          "role": "jungle",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 3,
+          "player": "Creme",
+          "role": "mid",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Varus",
+          "participantId": 4,
+          "player": "JackeyLove",
+          "role": "bottom",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "Zhuo",
+          "role": "support",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Shen",
+          "participantId": 6,
+          "player": "BrokenBlade",
+          "role": "top",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 7,
+          "player": "SkewMond",
+          "role": "jungle",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 8,
+          "player": "Caps",
+          "role": "mid",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "Hans Sama",
+          "role": "bottom",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 10,
+          "player": "Labrov",
+          "role": "support",
+          "team": "g2-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_3_1": {
+      "gameId": "115660540726095038",
+      "participants": [
+        {
+          "champion": "Jayce",
+          "participantId": 1,
+          "player": "Myrwn",
+          "role": "top",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Trundle",
+          "participantId": 2,
+          "player": "Elyoya",
+          "role": "jungle",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Anivia",
+          "participantId": 3,
+          "player": "Jojopyun",
+          "role": "mid",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Supa",
+          "role": "bottom",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 5,
+          "player": "Alvaro (Álvaro Fernández)",
+          "role": "support",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Ornn",
+          "participantId": 6,
+          "player": "Siwoo",
+          "role": "top",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Lucid (Choi Yong-hyeok)",
+          "role": "jungle",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 8,
+          "player": "ShowMaker",
+          "role": "mid",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Kai'Sa",
+          "participantId": 9,
+          "player": "Smash (Shin Geum-jae)",
+          "role": "bottom",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 10,
+          "player": "Career",
+          "role": "support",
+          "team": "dplus-kia"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_3_2": {
+      "gameId": "115660540726095039",
+      "participants": [
+        {
+          "champion": "Irelia",
+          "participantId": 1,
+          "player": "Siwoo",
+          "role": "top",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Lucid (Choi Yong-hyeok)",
+          "role": "jungle",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "ShowMaker",
+          "role": "mid",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Caitlyn",
+          "participantId": 4,
+          "player": "Smash (Shin Geum-jae)",
+          "role": "bottom",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Bard",
+          "participantId": 5,
+          "player": "Career",
+          "role": "support",
+          "team": "dplus-kia"
+        },
+        {
+          "champion": "Gnar",
+          "participantId": 6,
+          "player": "Myrwn",
+          "role": "top",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 7,
+          "player": "Elyoya",
+          "role": "jungle",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Diana",
+          "participantId": 8,
+          "player": "Jojopyun",
+          "role": "mid",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 9,
+          "player": "Supa",
+          "role": "bottom",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 10,
+          "player": "Alvaro (Álvaro Fernández)",
+          "role": "support",
+          "team": "movistar-koi"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_4_1": {
+      "gameId": "115660540726095042",
+      "participants": [
+        {
+          "champion": "Olaf",
+          "participantId": 1,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Xin Zhao",
+          "participantId": 2,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Ahri",
+          "participantId": 3,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 4,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 5,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Anivia",
+          "participantId": 8,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 9,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_4_2": {
+      "gameId": "115660540726095043",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 2,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Lissandra",
+          "participantId": 3,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 4,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 5,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Shen",
+          "participantId": 6,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 7,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 8,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 9,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 10,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_4_3": {
+      "gameId": "115660540726095044",
+      "participants": [
+        {
+          "champion": "Camille",
+          "participantId": 1,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Jayce",
+          "participantId": 2,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Galio",
+          "participantId": 3,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        },
+        {
+          "champion": "K'Sante",
+          "participantId": 6,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Maokai",
+          "participantId": 7,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Tristana",
+          "participantId": 8,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 9,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 10,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_5_1": {
+      "gameId": "115660540726095050",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 2,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "Galio",
+          "participantId": 3,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 5,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Rest",
+          "role": "top",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Shad0w",
+          "role": "jungle",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Ryze",
+          "participantId": 8,
+          "player": "POUT",
+          "role": "mid",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Kai'Sa",
+          "participantId": 9,
+          "player": "Doggo",
+          "role": "bottom",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Kino",
+          "role": "support",
+          "team": "ctbc-flying-oyster"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_6_1": {
+      "gameId": "115660540726095052",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 3,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Kai'Sa",
+          "participantId": 4,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 8,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 9,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_7_1": {
+      "gameId": "115660540726095054",
+      "participants": [
+        {
+          "champion": "Shen",
+          "participantId": 1,
+          "player": "Pun",
+          "role": "top",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Hizto",
+          "role": "jungle",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 3,
+          "player": "Dire",
+          "role": "mid",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Caitlyn",
+          "participantId": 4,
+          "player": "Eddie",
+          "role": "bottom",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Elise",
+          "participantId": 5,
+          "player": "Bie",
+          "role": "support",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Gnar",
+          "participantId": 6,
+          "player": "Zest (Kim Dong-min)",
+          "role": "top",
+          "team": "l-s"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 7,
+          "player": "Curse (Raí Yamada)",
+          "role": "jungle",
+          "team": "l-s"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 8,
+          "player": "Feisty",
+          "role": "mid",
+          "team": "l-s"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 9,
+          "player": "Duduhh",
+          "role": "bottom",
+          "team": "l-s"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 10,
+          "player": "Ackerman (Gabriel Aparicio)",
+          "role": "support",
+          "team": "l-s"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_7_2": {
+      "gameId": "115660540726095055",
+      "participants": [
+        {
+          "champion": "Jax",
+          "participantId": 1,
+          "player": "Pun",
+          "role": "top",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 2,
+          "player": "Hizto",
+          "role": "jungle",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 3,
+          "player": "Dire",
+          "role": "mid",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Miss Fortune",
+          "participantId": 4,
+          "player": "Eddie",
+          "role": "bottom",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "Bie",
+          "role": "support",
+          "team": "team-secret-whales"
+        },
+        {
+          "champion": "Kennen",
+          "participantId": 6,
+          "player": "Zest (Kim Dong-min)",
+          "role": "top",
+          "team": "l-s"
+        },
+        {
+          "champion": "Trundle",
+          "participantId": 7,
+          "player": "Curse (Raí Yamada)",
+          "role": "jungle",
+          "team": "l-s"
+        },
+        {
+          "champion": "Galio",
+          "participantId": 8,
+          "player": "Feisty",
+          "role": "mid",
+          "team": "l-s"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 9,
+          "player": "Duduhh",
+          "role": "bottom",
+          "team": "l-s"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 10,
+          "player": "Ackerman (Gabriel Aparicio)",
+          "role": "support",
+          "team": "l-s"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_8_1": {
+      "gameId": "115660540726095058",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Breathe",
+          "role": "top",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Skarner",
+          "participantId": 2,
+          "player": "Tarzan (Lee Seung-yong)",
+          "role": "jungle",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 3,
+          "player": "Shanks",
+          "role": "mid",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 4,
+          "player": "Hope (Wang Jie)",
+          "role": "bottom",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 5,
+          "player": "Kael (Kim Jin-hong)",
+          "role": "support",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Camille",
+          "participantId": 6,
+          "player": "Morgan",
+          "role": "top",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Josedeodo",
+          "role": "jungle",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Galio",
+          "participantId": 8,
+          "player": "Quid",
+          "role": "mid",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 9,
+          "player": "Yeon (Sean Sung)",
+          "role": "bottom",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Nami",
+          "participantId": 10,
+          "player": "CoreJJ",
+          "role": "support",
+          "team": "team-liquid"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 3_8_2": {
+      "gameId": "115660540726095059",
+      "participants": [
+        {
+          "champion": "Kled",
+          "participantId": 1,
+          "player": "Morgan",
+          "role": "top",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 2,
+          "player": "Josedeodo",
+          "role": "jungle",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 3,
+          "player": "Quid",
+          "role": "mid",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Xayah",
+          "participantId": 4,
+          "player": "Yeon (Sean Sung)",
+          "role": "bottom",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 5,
+          "player": "CoreJJ",
+          "role": "support",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Olaf",
+          "participantId": 6,
+          "player": "Breathe",
+          "role": "top",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 7,
+          "player": "Tarzan (Lee Seung-yong)",
+          "role": "jungle",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Annie",
+          "participantId": 8,
+          "player": "Shanks",
+          "role": "mid",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Jinx",
+          "participantId": 9,
+          "player": "Hope (Wang Jie)",
+          "role": "bottom",
+          "team": "anyone-s-legend"
+        },
+        {
+          "champion": "Tahm Kench",
+          "participantId": 10,
+          "player": "Kael (Kim Jin-hong)",
+          "role": "support",
+          "team": "anyone-s-legend"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_1_1": {
+      "gameId": "115660540726095062",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Xayah",
+          "participantId": 4,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        },
+        {
+          "champion": "Gnar",
+          "participantId": 6,
+          "player": "Myrwn",
+          "role": "top",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Elyoya",
+          "role": "jungle",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 8,
+          "player": "Jojopyun",
+          "role": "mid",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Kai'Sa",
+          "participantId": 9,
+          "player": "Supa",
+          "role": "bottom",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Alvaro (Álvaro Fernández)",
+          "role": "support",
+          "team": "movistar-koi"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_1_2": {
+      "gameId": "115660540726095063",
+      "participants": [
+        {
+          "champion": "Gwen",
+          "participantId": 1,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 3,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 5,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        },
+        {
+          "champion": "Ornn",
+          "participantId": 6,
+          "player": "Myrwn",
+          "role": "top",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Xin Zhao",
+          "participantId": 7,
+          "player": "Elyoya",
+          "role": "jungle",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 8,
+          "player": "Jojopyun",
+          "role": "mid",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "Supa",
+          "role": "bottom",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 10,
+          "player": "Alvaro (Álvaro Fernández)",
+          "role": "support",
+          "team": "movistar-koi"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_2_1": {
+      "gameId": "115660540726095066",
+      "participants": [
+        {
+          "champion": "Rumble",
+          "participantId": 1,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 2,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Sylas",
+          "participantId": 3,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 5,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Ornn",
+          "participantId": 6,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 7,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Aurora",
+          "participantId": 8,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 9,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 10,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_2_2": {
+      "gameId": "115660540726095067",
+      "participants": [
+        {
+          "champion": "Zaahen",
+          "participantId": 1,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Annie",
+          "participantId": 3,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Olaf",
+          "participantId": 6,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Taliyah",
+          "participantId": 8,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Corki",
+          "participantId": 9,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_2_3": {
+      "gameId": "115660540726095068",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Xin Zhao",
+          "participantId": 2,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "LeBlanc",
+          "participantId": 3,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 4,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 5,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Jayce",
+          "participantId": 6,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Trundle",
+          "participantId": 7,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 8,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Caitlyn",
+          "participantId": 9,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Lux",
+          "participantId": 10,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_3_1": {
+      "gameId": "115660540726095074",
+      "participants": [
+        {
+          "champion": "Galio",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Tristana",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Rest",
+          "role": "top",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 7,
+          "player": "Shad0w",
+          "role": "jungle",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 8,
+          "player": "POUT",
+          "role": "mid",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Kai'Sa",
+          "participantId": 9,
+          "player": "Doggo",
+          "role": "bottom",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Kino",
+          "role": "support",
+          "team": "ctbc-flying-oyster"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_3_2": {
+      "gameId": "115660540726095075",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Rest",
+          "role": "top",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Shad0w",
+          "role": "jungle",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Ryze",
+          "participantId": 3,
+          "player": "POUT",
+          "role": "mid",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Caitlyn",
+          "participantId": 4,
+          "player": "Doggo",
+          "role": "bottom",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 5,
+          "player": "Kino",
+          "role": "support",
+          "team": "ctbc-flying-oyster"
+        },
+        {
+          "champion": "Camille",
+          "participantId": 6,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 7,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 8,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 9,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 10,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_4_1": {
+      "gameId": "115660540726095070",
+      "participants": [
+        {
+          "champion": "Gnar",
+          "participantId": 1,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 2,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 3,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Jayce",
+          "participantId": 6,
+          "player": "369",
+          "role": "top",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Tian",
+          "role": "jungle",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 8,
+          "player": "Creme",
+          "role": "mid",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 9,
+          "player": "JackeyLove",
+          "role": "bottom",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Zhuo",
+          "role": "support",
+          "team": "top-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_4_2": {
+      "gameId": "115660540726095071",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 2,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "LeBlanc",
+          "participantId": 3,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 4,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 5,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Aatrox",
+          "participantId": 6,
+          "player": "369",
+          "role": "top",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 7,
+          "player": "Tian",
+          "role": "jungle",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 8,
+          "player": "Creme",
+          "role": "mid",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 9,
+          "player": "JackeyLove",
+          "role": "bottom",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 10,
+          "player": "Zhuo",
+          "role": "support",
+          "team": "top-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_4_3": {
+      "gameId": "115660540726095072",
+      "participants": [
+        {
+          "champion": "Renekton",
+          "participantId": 1,
+          "player": "369",
+          "role": "top",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 2,
+          "player": "Tian",
+          "role": "jungle",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "Creme",
+          "role": "mid",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Tristana",
+          "participantId": 4,
+          "player": "JackeyLove",
+          "role": "bottom",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 5,
+          "player": "Zhuo",
+          "role": "support",
+          "team": "top-esports"
+        },
+        {
+          "champion": "Ambessa",
+          "participantId": 6,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Maokai",
+          "participantId": 7,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Yone",
+          "participantId": 8,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 9,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 10,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_5_1": {
+      "gameId": "115660540726095078",
+      "participants": [
+        {
+          "champion": "Jayce",
+          "participantId": 1,
+          "player": "Zest (Kim Dong-min)",
+          "role": "top",
+          "team": "l-s"
+        },
+        {
+          "champion": "Trundle",
+          "participantId": 2,
+          "player": "Curse (Raí Yamada)",
+          "role": "jungle",
+          "team": "l-s"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "Feisty",
+          "role": "mid",
+          "team": "l-s"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 4,
+          "player": "Duduhh",
+          "role": "bottom",
+          "team": "l-s"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 5,
+          "player": "Ackerman (Gabriel Aparicio)",
+          "role": "support",
+          "team": "l-s"
+        },
+        {
+          "champion": "Ambessa",
+          "participantId": 6,
+          "player": "Morgan",
+          "role": "top",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 7,
+          "player": "Josedeodo",
+          "role": "jungle",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Sylas",
+          "participantId": 8,
+          "player": "Quid",
+          "role": "mid",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Ziggs",
+          "participantId": 9,
+          "player": "Yeon (Sean Sung)",
+          "role": "bottom",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 10,
+          "player": "CoreJJ",
+          "role": "support",
+          "team": "team-liquid"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_5_2": {
+      "gameId": "115660540726095079",
+      "participants": [
+        {
+          "champion": "Rumble",
+          "participantId": 1,
+          "player": "Zest (Kim Dong-min)",
+          "role": "top",
+          "team": "l-s"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Curse (Raí Yamada)",
+          "role": "jungle",
+          "team": "l-s"
+        },
+        {
+          "champion": "Galio",
+          "participantId": 3,
+          "player": "Feisty",
+          "role": "mid",
+          "team": "l-s"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Duduhh",
+          "role": "bottom",
+          "team": "l-s"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 5,
+          "player": "Ackerman (Gabriel Aparicio)",
+          "role": "support",
+          "team": "l-s"
+        },
+        {
+          "champion": "Ornn",
+          "participantId": 6,
+          "player": "Morgan",
+          "role": "top",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Xin Zhao",
+          "participantId": 7,
+          "player": "Josedeodo",
+          "role": "jungle",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 8,
+          "player": "Quid",
+          "role": "mid",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 9,
+          "player": "Yeon (Sean Sung)",
+          "role": "bottom",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Nami",
+          "participantId": 10,
+          "player": "CoreJJ",
+          "role": "support",
+          "team": "team-liquid"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_5_3": {
+      "gameId": "115660540726095080",
+      "participants": [
+        {
+          "champion": "Gnar",
+          "participantId": 1,
+          "player": "Morgan",
+          "role": "top",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Sejuani",
+          "participantId": 2,
+          "player": "Josedeodo",
+          "role": "jungle",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 3,
+          "player": "Quid",
+          "role": "mid",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 4,
+          "player": "Yeon (Sean Sung)",
+          "role": "bottom",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 5,
+          "player": "CoreJJ",
+          "role": "support",
+          "team": "team-liquid"
+        },
+        {
+          "champion": "Tristana",
+          "participantId": 6,
+          "player": "Zest (Kim Dong-min)",
+          "role": "top",
+          "team": "l-s"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 7,
+          "player": "Curse (Raí Yamada)",
+          "role": "jungle",
+          "team": "l-s"
+        },
+        {
+          "champion": "Taliyah",
+          "participantId": 8,
+          "player": "Feisty",
+          "role": "mid",
+          "team": "l-s"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 9,
+          "player": "Duduhh",
+          "role": "bottom",
+          "team": "l-s"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 10,
+          "player": "Ackerman (Gabriel Aparicio)",
+          "role": "support",
+          "team": "l-s"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_6_1": {
+      "gameId": "115660540726095082",
+      "participants": [
+        {
+          "champion": "Olaf",
+          "participantId": 1,
+          "player": "BrokenBlade",
+          "role": "top",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 2,
+          "player": "SkewMond",
+          "role": "jungle",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 3,
+          "player": "Caps",
+          "role": "mid",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "Hans Sama",
+          "role": "bottom",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "Labrov",
+          "role": "support",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "K'Sante",
+          "participantId": 6,
+          "player": "Zeus",
+          "role": "top",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Kanavi",
+          "role": "jungle",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 8,
+          "player": "Zeka (Kim Geon-woo)",
+          "role": "mid",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Corki",
+          "participantId": 9,
+          "player": "Gumayusi",
+          "role": "bottom",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Delight",
+          "role": "support",
+          "team": "hanwha-life-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 4_6_2": {
+      "gameId": "115660540726095083",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Zeus",
+          "role": "top",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Kanavi",
+          "role": "jungle",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Swain",
+          "participantId": 3,
+          "player": "Zeka (Kim Geon-woo)",
+          "role": "mid",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 4,
+          "player": "Gumayusi",
+          "role": "bottom",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 5,
+          "player": "Delight",
+          "role": "support",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Camille",
+          "participantId": 6,
+          "player": "BrokenBlade",
+          "role": "top",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "SkewMond",
+          "role": "jungle",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Galio",
+          "participantId": 8,
+          "player": "Caps",
+          "role": "mid",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Xayah",
+          "participantId": 9,
+          "player": "Hans Sama",
+          "role": "bottom",
+          "team": "g2-esports"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 10,
+          "player": "Labrov",
+          "role": "support",
+          "team": "g2-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 5_1_1": {
+      "gameId": "115660540726095086",
+      "participants": [
+        {
+          "champion": "Renekton",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Camille",
+          "participantId": 6,
+          "player": "Myrwn",
+          "role": "top",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Sejuani",
+          "participantId": 7,
+          "player": "Elyoya",
+          "role": "jungle",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 8,
+          "player": "Jojopyun",
+          "role": "mid",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Zeri",
+          "participantId": 9,
+          "player": "Supa",
+          "role": "bottom",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Yuumi",
+          "participantId": 10,
+          "player": "Alvaro (Álvaro Fernández)",
+          "role": "support",
+          "team": "movistar-koi"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 5_1_2": {
+      "gameId": "115660540726095087",
+      "participants": [
+        {
+          "champion": "Rumble",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Sivir",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Ornn",
+          "participantId": 6,
+          "player": "Myrwn",
+          "role": "top",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Elyoya",
+          "role": "jungle",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Anivia",
+          "participantId": 8,
+          "player": "Jojopyun",
+          "role": "mid",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "Supa",
+          "role": "bottom",
+          "team": "movistar-koi"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 10,
+          "player": "Alvaro (Álvaro Fernández)",
+          "role": "support",
+          "team": "movistar-koi"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 5_2_1": {
+      "gameId": "115660540726095090",
+      "participants": [
+        {
+          "champion": "Rumble",
+          "participantId": 1,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 2,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 5,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Aurora",
+          "participantId": 6,
+          "player": "Zest (Kim Dong-min)",
+          "role": "top",
+          "team": "l-s"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 7,
+          "player": "Curse (Raí Yamada)",
+          "role": "jungle",
+          "team": "l-s"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 8,
+          "player": "Feisty",
+          "role": "mid",
+          "team": "l-s"
+        },
+        {
+          "champion": "Kai'Sa",
+          "participantId": 9,
+          "player": "Duduhh",
+          "role": "bottom",
+          "team": "l-s"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 10,
+          "player": "Ackerman (Gabriel Aparicio)",
+          "role": "support",
+          "team": "l-s"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 5_2_2": {
+      "gameId": "115660540726095091",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Zest (Kim Dong-min)",
+          "role": "top",
+          "team": "l-s"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 2,
+          "player": "Curse (Raí Yamada)",
+          "role": "jungle",
+          "team": "l-s"
+        },
+        {
+          "champion": "LeBlanc",
+          "participantId": 3,
+          "player": "Feisty",
+          "role": "mid",
+          "team": "l-s"
+        },
+        {
+          "champion": "Caitlyn",
+          "participantId": 4,
+          "player": "Duduhh",
+          "role": "bottom",
+          "team": "l-s"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 5,
+          "player": "Ackerman (Gabriel Aparicio)",
+          "role": "support",
+          "team": "l-s"
+        },
+        {
+          "champion": "Gnar",
+          "participantId": 6,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 7,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 8,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 9,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 10,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 5_2_3": {
+      "gameId": "115660540726095092",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "Dhokla",
+          "role": "top",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 2,
+          "player": "Inspired",
+          "role": "jungle",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Taliyah",
+          "participantId": 3,
+          "player": "Saint (Kang Sung-in)",
+          "role": "mid",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 4,
+          "player": "Berserker (Kim Min-cheol)",
+          "role": "bottom",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 5,
+          "player": "Isles",
+          "role": "support",
+          "team": "lyon-2024-american-team"
+        },
+        {
+          "champion": "Renekton",
+          "participantId": 6,
+          "player": "Zest (Kim Dong-min)",
+          "role": "top",
+          "team": "l-s"
+        },
+        {
+          "champion": "Cho'Gath",
+          "participantId": 7,
+          "player": "Curse (Raí Yamada)",
+          "role": "jungle",
+          "team": "l-s"
+        },
+        {
+          "champion": "Ryze",
+          "participantId": 8,
+          "player": "Feisty",
+          "role": "mid",
+          "team": "l-s"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 9,
+          "player": "Duduhh",
+          "role": "bottom",
+          "team": "l-s"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 10,
+          "player": "Ackerman (Gabriel Aparicio)",
+          "role": "support",
+          "team": "l-s"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 5_3_1": {
+      "gameId": "115660540726095094",
+      "participants": [
+        {
+          "champion": "Gnar",
+          "participantId": 1,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 3,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Zeus",
+          "role": "top",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 7,
+          "player": "Kanavi",
+          "role": "jungle",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 8,
+          "player": "Zeka (Kim Geon-woo)",
+          "role": "mid",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Corki",
+          "participantId": 9,
+          "player": "Gumayusi",
+          "role": "bottom",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Delight",
+          "role": "support",
+          "team": "hanwha-life-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Round 5_3_2": {
+      "gameId": "115660540726095095",
+      "participants": [
+        {
+          "champion": "Olaf",
+          "participantId": 1,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 2,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 3,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 4,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 5,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "K'Sante",
+          "participantId": 6,
+          "player": "Zeus",
+          "role": "top",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Skarner",
+          "participantId": 7,
+          "player": "Kanavi",
+          "role": "jungle",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 8,
+          "player": "Zeka (Kim Geon-woo)",
+          "role": "mid",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Caitlyn",
+          "participantId": 9,
+          "player": "Gumayusi",
+          "role": "bottom",
+          "team": "hanwha-life-esports"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 10,
+          "player": "Delight",
+          "role": "support",
+          "team": "hanwha-life-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Semifinals_1_1": {
+      "gameId": "115660540726095128",
+      "participants": [
+        {
+          "champion": "Olaf",
+          "participantId": 1,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 2,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 3,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Leona",
+          "participantId": 5,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Kled",
+          "participantId": 6,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 7,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 8,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Xayah",
+          "participantId": 9,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 10,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Semifinals_1_2": {
+      "gameId": "115660540726095129",
+      "participants": [
+        {
+          "champion": "Gwen",
+          "participantId": 1,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Ahri",
+          "participantId": 3,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 4,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 5,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 7,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Sylas",
+          "participantId": 8,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 9,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 10,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Semifinals_1_3": {
+      "gameId": "115660540726095130",
+      "participants": [
+        {
+          "champion": "Gnar",
+          "participantId": 1,
+          "player": "TheShy",
+          "role": "top",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Naafiri",
+          "participantId": 2,
+          "player": "Wei (Yan Yang-Wei)",
+          "role": "jungle",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 3,
+          "player": "Rookie",
+          "role": "mid",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "JiaQi",
+          "role": "bottom",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 5,
+          "player": "Meiko",
+          "role": "support",
+          "team": "invictus-gaming"
+        },
+        {
+          "champion": "Camille",
+          "participantId": 6,
+          "player": "Kiin",
+          "role": "top",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 7,
+          "player": "Canyon",
+          "role": "jungle",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Taliyah",
+          "participantId": 8,
+          "player": "Chovy",
+          "role": "mid",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 9,
+          "player": "Ruler",
+          "role": "bottom",
+          "team": "gen-g"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 10,
+          "player": "Duro",
+          "role": "support",
+          "team": "gen-g"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Semifinals_2_1": {
+      "gameId": "115660540726095122",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Naafiri",
+          "participantId": 2,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 3,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Corki",
+          "participantId": 4,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Nocturne",
+          "participantId": 7,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 8,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Xayah",
+          "participantId": 9,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 10,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Semifinals_2_2": {
+      "gameId": "115660540726095123",
+      "participants": [
+        {
+          "champion": "Olaf",
+          "participantId": 1,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Poppy",
+          "participantId": 5,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        },
+        {
+          "champion": "Camille",
+          "participantId": 6,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "LeBlanc",
+          "participantId": 8,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Kai'Sa",
+          "participantId": 9,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Semifinals_2_3": {
+      "gameId": "115660540726095124",
+      "participants": [
+        {
+          "champion": "Gnar",
+          "participantId": 1,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 2,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Taliyah",
+          "participantId": 3,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Nami",
+          "participantId": 5,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Ambessa",
+          "participantId": 6,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 7,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "Ahri",
+          "participantId": 8,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Sivir",
+          "participantId": 9,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 10,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        }
+      ]
+    },
+    "2026 Season World Championship/Main Event_Semifinals_2_4": {
+      "gameId": "115660540726095125",
+      "participants": [
+        {
+          "champion": "Vayne",
+          "participantId": 1,
+          "player": "Doran (Choi Hyeon-jun)",
+          "role": "top",
+          "team": "t1"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 2,
+          "player": "Oner",
+          "role": "jungle",
+          "team": "t1"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 3,
+          "player": "Faker",
+          "role": "mid",
+          "team": "t1"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 4,
+          "player": "Peyz",
+          "role": "bottom",
+          "team": "t1"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 5,
+          "player": "Keria",
+          "role": "support",
+          "team": "t1"
+        },
+        {
+          "champion": "Renekton",
+          "participantId": 6,
+          "player": "Bin (Chen Ze-Bin)",
+          "role": "top",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Skarner",
+          "participantId": 7,
+          "player": "Xun",
+          "role": "jungle",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 8,
+          "player": "Knight (Zhuo Ding)",
+          "role": "mid",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 9,
+          "player": "Viper (Park Do-hyeon)",
+          "role": "bottom",
+          "team": "bilibili-gaming"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 10,
+          "player": "ON",
+          "role": "support",
+          "team": "bilibili-gaming"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 1_1_1": {
+      "gameId": "115660588583171787",
+      "participants": [
+        {
+          "champion": "Rumble",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Miss Fortune",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Gnar",
+          "participantId": 6,
+          "player": "Thanatos (Park Seung-kyu)",
+          "role": "top",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Xin Zhao",
+          "participantId": 7,
+          "player": "Blaber",
+          "role": "jungle",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 8,
+          "player": "Loki (Lee Sang-min)",
+          "role": "mid",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "Tactical",
+          "role": "bottom",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 10,
+          "player": "Vulcan (Philippe Laflamme)",
+          "role": "support",
+          "team": "cloud9"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 1_1_2": {
+      "gameId": "115660588583171788",
+      "participants": [
+        {
+          "champion": "Camille",
+          "participantId": 1,
+          "player": "Thanatos (Park Seung-kyu)",
+          "role": "top",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 2,
+          "player": "Blaber",
+          "role": "jungle",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 3,
+          "player": "Loki (Lee Sang-min)",
+          "role": "mid",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 4,
+          "player": "Tactical",
+          "role": "bottom",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 5,
+          "player": "Vulcan (Philippe Laflamme)",
+          "role": "support",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Jayce",
+          "participantId": 6,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 7,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 8,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Varus",
+          "participantId": 9,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Vel'Koz",
+          "participantId": 10,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 1_1_3": {
+      "gameId": "115660588583171789",
+      "participants": [
+        {
+          "champion": "Kled",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Naafiri",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Anivia",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Nami",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Olaf",
+          "participantId": 6,
+          "player": "Thanatos (Park Seung-kyu)",
+          "role": "top",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 7,
+          "player": "Blaber",
+          "role": "jungle",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Annie",
+          "participantId": 8,
+          "player": "Loki (Lee Sang-min)",
+          "role": "mid",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 9,
+          "player": "Tactical",
+          "role": "bottom",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Vulcan (Philippe Laflamme)",
+          "role": "support",
+          "team": "cloud9"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 1_1_4": {
+      "gameId": "116299649500204436",
+      "participants": [
+        {
+          "champion": "Zaahen",
+          "participantId": 1,
+          "player": "Thanatos (Park Seung-kyu)",
+          "role": "top",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Sejuani",
+          "participantId": 2,
+          "player": "Blaber",
+          "role": "jungle",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Sylas",
+          "participantId": 3,
+          "player": "Loki (Lee Sang-min)",
+          "role": "mid",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 4,
+          "player": "Tactical",
+          "role": "bottom",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 5,
+          "player": "Vulcan (Philippe Laflamme)",
+          "role": "support",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Renekton",
+          "participantId": 6,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 8,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Xayah",
+          "participantId": 9,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 10,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 1_1_5": {
+      "gameId": "116299649500204437",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Trundle",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Ahri",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Kai'Sa",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Rell",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "K'Sante",
+          "participantId": 6,
+          "player": "Thanatos (Park Seung-kyu)",
+          "role": "top",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Lillia",
+          "participantId": 7,
+          "player": "Blaber",
+          "role": "jungle",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Yone",
+          "participantId": 8,
+          "player": "Loki (Lee Sang-min)",
+          "role": "mid",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Ziggs",
+          "participantId": 9,
+          "player": "Tactical",
+          "role": "bottom",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Shen",
+          "participantId": 10,
+          "player": "Vulcan (Philippe Laflamme)",
+          "role": "support",
+          "team": "cloud9"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 1_2_1": {
+      "gameId": "115660588583040711",
+      "participants": [
+        {
+          "champion": "Olaf",
+          "participantId": 1,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 2,
+          "player": "Gury",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 3,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 4,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 5,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Jax",
+          "participantId": 6,
+          "player": "Guigo",
+          "role": "top",
+          "team": "furia"
+        },
+        {
+          "champion": "Trundle",
+          "participantId": 7,
+          "player": "Tatu (Pedro Seixas)",
+          "role": "jungle",
+          "team": "furia"
+        },
+        {
+          "champion": "Galio",
+          "participantId": 8,
+          "player": "Tutsz",
+          "role": "mid",
+          "team": "furia"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 9,
+          "player": "Ayu (Andrey Saraiva)",
+          "role": "bottom",
+          "team": "furia"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 10,
+          "player": "JoJo (Gabriel Dzelme)",
+          "role": "support",
+          "team": "furia"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 1_2_2": {
+      "gameId": "115660588583171784",
+      "participants": [
+        {
+          "champion": "Rumble",
+          "participantId": 1,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Gury",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 3,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 4,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 5,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Ornn",
+          "participantId": 6,
+          "player": "Guigo",
+          "role": "top",
+          "team": "furia"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 7,
+          "player": "Tatu (Pedro Seixas)",
+          "role": "jungle",
+          "team": "furia"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 8,
+          "player": "Tutsz",
+          "role": "mid",
+          "team": "furia"
+        },
+        {
+          "champion": "Xayah",
+          "participantId": 9,
+          "player": "Ayu (Andrey Saraiva)",
+          "role": "bottom",
+          "team": "furia"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 10,
+          "player": "JoJo (Gabriel Dzelme)",
+          "role": "support",
+          "team": "furia"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 1_2_3": {
+      "gameId": "115660588583171785",
+      "participants": [
+        {
+          "champion": "Zaahen",
+          "participantId": 1,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Gury",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Kog'Maw",
+          "participantId": 3,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Camille",
+          "participantId": 5,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "K'Sante",
+          "participantId": 6,
+          "player": "Guigo",
+          "role": "top",
+          "team": "furia"
+        },
+        {
+          "champion": "Naafiri",
+          "participantId": 7,
+          "player": "Tatu (Pedro Seixas)",
+          "role": "jungle",
+          "team": "furia"
+        },
+        {
+          "champion": "Ryze",
+          "participantId": 8,
+          "player": "Tutsz",
+          "role": "mid",
+          "team": "furia"
+        },
+        {
+          "champion": "Kai'Sa",
+          "participantId": 9,
+          "player": "Ayu (Andrey Saraiva)",
+          "role": "bottom",
+          "team": "furia"
+        },
+        {
+          "champion": "Leona",
+          "participantId": 10,
+          "player": "JoJo (Gabriel Dzelme)",
+          "role": "support",
+          "team": "furia"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 1_3_1": {
+      "gameId": "115660588583171795",
+      "participants": [
+        {
+          "champion": "Ambessa",
+          "participantId": 1,
+          "player": "Guigo",
+          "role": "top",
+          "team": "furia"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Tatu (Pedro Seixas)",
+          "role": "jungle",
+          "team": "furia"
+        },
+        {
+          "champion": "Ahri",
+          "participantId": 3,
+          "player": "Tutsz",
+          "role": "mid",
+          "team": "furia"
+        },
+        {
+          "champion": "Kalista",
+          "participantId": 4,
+          "player": "Ayu (Andrey Saraiva)",
+          "role": "bottom",
+          "team": "furia"
+        },
+        {
+          "champion": "Renata Glasc",
+          "participantId": 5,
+          "player": "JoJo (Gabriel Dzelme)",
+          "role": "support",
+          "team": "furia"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Thanatos (Park Seung-kyu)",
+          "role": "top",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "Blaber",
+          "role": "jungle",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 8,
+          "player": "Loki (Lee Sang-min)",
+          "role": "mid",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 9,
+          "player": "Tactical",
+          "role": "bottom",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 10,
+          "player": "Vulcan (Philippe Laflamme)",
+          "role": "support",
+          "team": "cloud9"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 1_3_2": {
+      "gameId": "115660588583171796",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "Thanatos (Park Seung-kyu)",
+          "role": "top",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Blaber",
+          "role": "jungle",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Sylas",
+          "participantId": 3,
+          "player": "Loki (Lee Sang-min)",
+          "role": "mid",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Caitlyn",
+          "participantId": 4,
+          "player": "Tactical",
+          "role": "bottom",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Bard",
+          "participantId": 5,
+          "player": "Vulcan (Philippe Laflamme)",
+          "role": "support",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Olaf",
+          "participantId": 6,
+          "player": "Guigo",
+          "role": "top",
+          "team": "furia"
+        },
+        {
+          "champion": "Sejuani",
+          "participantId": 7,
+          "player": "Tatu (Pedro Seixas)",
+          "role": "jungle",
+          "team": "furia"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 8,
+          "player": "Tutsz",
+          "role": "mid",
+          "team": "furia"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 9,
+          "player": "Ayu (Andrey Saraiva)",
+          "role": "bottom",
+          "team": "furia"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 10,
+          "player": "JoJo (Gabriel Dzelme)",
+          "role": "support",
+          "team": "furia"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 1_3_3": {
+      "gameId": "115660588583171797",
+      "participants": [
+        {
+          "champion": "Volibear",
+          "participantId": 1,
+          "player": "Guigo",
+          "role": "top",
+          "team": "furia"
+        },
+        {
+          "champion": "Cho'Gath",
+          "participantId": 2,
+          "player": "Tatu (Pedro Seixas)",
+          "role": "jungle",
+          "team": "furia"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 3,
+          "player": "Tutsz",
+          "role": "mid",
+          "team": "furia"
+        },
+        {
+          "champion": "Sivir",
+          "participantId": 4,
+          "player": "Ayu (Andrey Saraiva)",
+          "role": "bottom",
+          "team": "furia"
+        },
+        {
+          "champion": "Karma",
+          "participantId": 5,
+          "player": "JoJo (Gabriel Dzelme)",
+          "role": "support",
+          "team": "furia"
+        },
+        {
+          "champion": "Renekton",
+          "participantId": 6,
+          "player": "Thanatos (Park Seung-kyu)",
+          "role": "top",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Naafiri",
+          "participantId": 7,
+          "player": "Blaber",
+          "role": "jungle",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Orianna",
+          "participantId": 8,
+          "player": "Loki (Lee Sang-min)",
+          "role": "mid",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "Tactical",
+          "role": "bottom",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "Vulcan (Philippe Laflamme)",
+          "role": "support",
+          "team": "cloud9"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 1_3_4": {
+      "gameId": "116299649500204440",
+      "participants": [
+        {
+          "champion": "Jax",
+          "participantId": 1,
+          "player": "Guigo",
+          "role": "top",
+          "team": "furia"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 2,
+          "player": "Tatu (Pedro Seixas)",
+          "role": "jungle",
+          "team": "furia"
+        },
+        {
+          "champion": "Twisted Fate",
+          "participantId": 3,
+          "player": "Tutsz",
+          "role": "mid",
+          "team": "furia"
+        },
+        {
+          "champion": "Miss Fortune",
+          "participantId": 4,
+          "player": "Ayu (Andrey Saraiva)",
+          "role": "bottom",
+          "team": "furia"
+        },
+        {
+          "champion": "Rell",
+          "participantId": 5,
+          "player": "JoJo (Gabriel Dzelme)",
+          "role": "support",
+          "team": "furia"
+        },
+        {
+          "champion": "Aatrox",
+          "participantId": 6,
+          "player": "Thanatos (Park Seung-kyu)",
+          "role": "top",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Trundle",
+          "participantId": 7,
+          "player": "Blaber",
+          "role": "jungle",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 8,
+          "player": "Loki (Lee Sang-min)",
+          "role": "mid",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Ziggs",
+          "participantId": 9,
+          "player": "Tactical",
+          "role": "bottom",
+          "team": "cloud9"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 10,
+          "player": "Vulcan (Philippe Laflamme)",
+          "role": "support",
+          "team": "cloud9"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 2_1_1": {
+      "gameId": "115660588583171791",
+      "participants": [
+        {
+          "champion": "Jayce",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Draven",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Nautilus",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Ambessa",
+          "participantId": 6,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Maokai",
+          "participantId": 7,
+          "player": "Gury",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "K'Sante",
+          "participantId": 8,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Tristana",
+          "participantId": 9,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 10,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 2_1_2": {
+      "gameId": "115660588583171792",
+      "participants": [
+        {
+          "champion": "Galio",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Ahri",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Twisted Fate",
+          "participantId": 6,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 7,
+          "player": "SanSan",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 8,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Pyke",
+          "participantId": 10,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 2_1_3": {
+      "gameId": "115660588583171793",
+      "participants": [
+        {
+          "champion": "Yorick",
+          "participantId": 1,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 2,
+          "player": "SanSan",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Kog'Maw",
+          "participantId": 3,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 4,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 5,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Kennen",
+          "participantId": 6,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 7,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 8,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Xayah",
+          "participantId": 9,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 10,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 2_2_1": {
+      "gameId": "115660588583171799",
+      "participants": [
+        {
+          "champion": "Zaahen",
+          "participantId": 1,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 2,
+          "player": "Gury",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 3,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 4,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 5,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Camille",
+          "participantId": 6,
+          "player": "Guigo",
+          "role": "top",
+          "team": "furia"
+        },
+        {
+          "champion": "Sejuani",
+          "participantId": 7,
+          "player": "Tatu (Pedro Seixas)",
+          "role": "jungle",
+          "team": "furia"
+        },
+        {
+          "champion": "Syndra",
+          "participantId": 8,
+          "player": "Tutsz",
+          "role": "mid",
+          "team": "furia"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 9,
+          "player": "Ayu (Andrey Saraiva)",
+          "role": "bottom",
+          "team": "furia"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 10,
+          "player": "JoJo (Gabriel Dzelme)",
+          "role": "support",
+          "team": "furia"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 2_2_2": {
+      "gameId": "115660588583171800",
+      "participants": [
+        {
+          "champion": "Gnar",
+          "participantId": 1,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Vi",
+          "participantId": 2,
+          "player": "Gury",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Kog'Maw",
+          "participantId": 3,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Jhin",
+          "participantId": 4,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Bard",
+          "participantId": 5,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Ambessa",
+          "participantId": 6,
+          "player": "Guigo",
+          "role": "top",
+          "team": "furia"
+        },
+        {
+          "champion": "Nasus",
+          "participantId": 7,
+          "player": "Tatu (Pedro Seixas)",
+          "role": "jungle",
+          "team": "furia"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 8,
+          "player": "Tutsz",
+          "role": "mid",
+          "team": "furia"
+        },
+        {
+          "champion": "Xayah",
+          "participantId": 9,
+          "player": "Ayu (Andrey Saraiva)",
+          "role": "bottom",
+          "team": "furia"
+        },
+        {
+          "champion": "Rakan",
+          "participantId": 10,
+          "player": "JoJo (Gabriel Dzelme)",
+          "role": "support",
+          "team": "furia"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 2_2_3": {
+      "gameId": "115660588583171801",
+      "participants": [
+        {
+          "champion": "K'Sante",
+          "participantId": 1,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Jayce",
+          "participantId": 2,
+          "player": "Gury",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Mel",
+          "participantId": 3,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Ziggs",
+          "participantId": 4,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Leona",
+          "participantId": 5,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Guigo",
+          "role": "top",
+          "team": "furia"
+        },
+        {
+          "champion": "Skarner",
+          "participantId": 7,
+          "player": "Tatu (Pedro Seixas)",
+          "role": "jungle",
+          "team": "furia"
+        },
+        {
+          "champion": "Twisted Fate",
+          "participantId": 8,
+          "player": "Tutsz",
+          "role": "mid",
+          "team": "furia"
+        },
+        {
+          "champion": "Miss Fortune",
+          "participantId": 9,
+          "player": "Ayu (Andrey Saraiva)",
+          "role": "bottom",
+          "team": "furia"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 10,
+          "player": "JoJo (Gabriel Dzelme)",
+          "role": "support",
+          "team": "furia"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 2_2_4": {
+      "gameId": "116299649500204442",
+      "participants": [
+        {
+          "champion": "Olaf",
+          "participantId": 1,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Wukong",
+          "participantId": 2,
+          "player": "Gury",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Ryze",
+          "participantId": 3,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Corki",
+          "participantId": 4,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Shen",
+          "participantId": 5,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Jax",
+          "participantId": 6,
+          "player": "Guigo",
+          "role": "top",
+          "team": "furia"
+        },
+        {
+          "champion": "Pantheon",
+          "participantId": 7,
+          "player": "Tatu (Pedro Seixas)",
+          "role": "jungle",
+          "team": "furia"
+        },
+        {
+          "champion": "Taliyah",
+          "participantId": 8,
+          "player": "Tutsz",
+          "role": "mid",
+          "team": "furia"
+        },
+        {
+          "champion": "Sivir",
+          "participantId": 9,
+          "player": "Ayu (Andrey Saraiva)",
+          "role": "bottom",
+          "team": "furia"
+        },
+        {
+          "champion": "Alistar",
+          "participantId": 10,
+          "player": "JoJo (Gabriel Dzelme)",
+          "role": "support",
+          "team": "furia"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 3_1_1": {
+      "gameId": "116299649498303885",
+      "participants": [
+        {
+          "champion": "Jayce",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Lee Sin",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Cassiopeia",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Zeri",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Yuumi",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Yorick",
+          "participantId": 6,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Jarvan IV",
+          "participantId": 7,
+          "player": "Gury",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Akali",
+          "participantId": 8,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Ashe",
+          "participantId": 9,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Seraphine",
+          "participantId": 10,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 3_1_2": {
+      "gameId": "116299649498303886",
+      "participants": [
+        {
+          "champion": "Galio",
+          "participantId": 1,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Qiyana",
+          "participantId": 2,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Ryze",
+          "participantId": 3,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Yunara",
+          "participantId": 4,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Lulu",
+          "participantId": 5,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Rumble",
+          "participantId": 6,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Malphite",
+          "participantId": 7,
+          "player": "Gury",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Hwei",
+          "participantId": 8,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Lucian",
+          "participantId": 9,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Milio",
+          "participantId": 10,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        }
+      ]
+    },
+    "2026 Season World Championship/Play-In_Round 3_1_3": {
+      "gameId": "116299649498303887",
+      "participants": [
+        {
+          "champion": "Yone",
+          "participantId": 1,
+          "player": "Kratos (Ngô Đức Khánh)",
+          "role": "top",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Aatrox",
+          "participantId": 2,
+          "player": "Gury",
+          "role": "jungle",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Locke",
+          "participantId": 3,
+          "player": "Chika",
+          "role": "mid",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Twitch",
+          "participantId": 4,
+          "player": "Harky",
+          "role": "bottom",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Camille",
+          "participantId": 5,
+          "player": "SiuLoong",
+          "role": "support",
+          "team": "mvk-esports"
+        },
+        {
+          "champion": "Zaahen",
+          "participantId": 6,
+          "player": "Canna",
+          "role": "top",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Naafiri",
+          "participantId": 7,
+          "player": "Yike",
+          "role": "jungle",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Viktor",
+          "participantId": 8,
+          "player": "kyeahoo",
+          "role": "mid",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Ezreal",
+          "participantId": 9,
+          "player": "Caliste",
+          "role": "bottom",
+          "team": "karmine-corp"
+        },
+        {
+          "champion": "Leona",
+          "participantId": 10,
+          "player": "Busio",
+          "role": "support",
+          "team": "karmine-corp"
+        }
+      ]
+    }
+  }
+}
