@@ -7,6 +7,8 @@ import { createTeamResolver } from "../../../scripts/pipeline/livestats/team-res
 import { fakeFeed, type FakeFeed, type FeedOptions } from "./fake-feed.js";
 import { champion, fakeLolesports } from "./fake-lolesports.js";
 
+const NO_OVERRIDES = { games: {}, teams: {} };
+
 // --- Fixture data -----------------------------------------------------------------------------
 
 const A = "1001"; // Gen.G - BLG, game 1
@@ -138,7 +140,7 @@ function setup(opts: Setup = {}) {
       return cargo.players;
     },
   };
-  const run = (args = {}) => ingestLivestats(lol.client, client, {}, args, mem.io);
+  const run = (args = {}) => ingestLivestats(lol.client, client, NO_OVERRIDES, args, mem.io);
   return { lol, mem, cargo, run };
 }
 
@@ -256,7 +258,7 @@ describe("ingestLivestats", () => {
       feeds: { [A]: fakeFeed({ lengthSec: LEN_A, t0: "2026-11-14T10:00:00.000Z" }), [B]: fakeFeed({ lengthSec: LEN_B, t0: "2026-11-15T10:00:00.000Z" }) },
       events,
     });
-    const r = await ingestLivestats(healthy.client, { query: async () => allRows }, {}, {}, broken.mem.io);
+    const r = await ingestLivestats(healthy.client, { query: async () => allRows }, NO_OVERRIDES, {}, broken.mem.io);
     expect(r.failed).toEqual([]);
     expect(healthy.callsOf(A)).toBe(0);
     expect(healthy.callsOf(B)).toBeGreaterThan(0);
@@ -289,7 +291,7 @@ describe("ingestLivestats", () => {
 
     const broken = setup();
     const failing: CargoClient = { query: async () => { throw new Error("cargo down"); } };
-    await expect(ingestLivestats(broken.lol.client, failing, {}, {}, broken.mem.io)).rejects.toThrow(/cargo down/);
+    await expect(ingestLivestats(broken.lol.client, failing, NO_OVERRIDES, {}, broken.mem.io)).rejects.toThrow(/cargo down/);
     expect(broken.lol.windowCalls).toEqual([]);
     expect(lol.windowCalls.length).toBeGreaterThan(0);
   });
@@ -335,7 +337,7 @@ describe("ingestLivestats", () => {
     const { lol, mem, cargo } = setup();
     const ticks = [0, 18 * 60_000, 65 * 60_000];
     const now = () => ticks.shift()!;
-    await ingestLivestats(lol.client, { query: async () => cargo.players }, {}, {}, mem.io, now);
+    await ingestLivestats(lol.client, { query: async () => cargo.players }, NO_OVERRIDES, {}, mem.io, now);
     const lines = mem.logs.filter((l) => l.startsWith("["));
     expect(lines[0]).toMatch(/elapsed 18m$/);
     expect(lines[1]).toMatch(/elapsed 1h05m$/);
@@ -385,12 +387,12 @@ describe("ingestLivestats", () => {
     const feeds = {};
     const lol = fakeLolesports({ feeds, events, tournaments: { data: { leagues: [{ tournaments: [] }] } } });
     const mem = memoryIo(edition());
-    await expect(ingestLivestats(lol.client, { query: async () => [] }, {}, {}, mem.io)).rejects.toThrow(/No lolesports tournament/);
+    await expect(ingestLivestats(lol.client, { query: async () => [] }, NO_OVERRIDES, {}, mem.io)).rejects.toThrow(/No lolesports tournament/);
   });
 
   test("an override to a missing Leaguepedia game leaves the game unlinked", async () => {
     const { lol, mem } = setup();
-    const r = await ingestLivestats(lol.client, { query: async () => allRows }, { [A]: "No/Such_Game" }, {}, mem.io);
+    const r = await ingestLivestats(lol.client, { query: async () => allRows }, { games: { [A]: "No/Such_Game" }, teams: {} }, {}, mem.io);
     expect(r.unlinked).toEqual([expect.stringContaining("No/Such_Game")]);
     expect(lol.callsOf(A)).toBe(0);
   });
@@ -413,7 +415,7 @@ describe("feed circuit breaker", () => {
     const evts = [lolEvent("2026-11-14T10:05:00Z", [["GEN", "Gen.G Esports"], ["BLG", "BILIBILI GAMING"]], IDS.map((id): [string, boolean] => [id, true]))];
     const lol = fakeLolesports({ feeds, events: evts, ...(opts.unreachable ? { unreachable: opts.unreachable } : {}) });
     const mem = memoryIo(ed5);
-    const run = () => ingestLivestats(lol.client, { query: async () => [] }, {}, {}, mem.io);
+    const run = () => ingestLivestats(lol.client, { query: async () => [] }, NO_OVERRIDES, {}, mem.io);
     return { lol, mem, run };
   }
 
@@ -464,7 +466,7 @@ test("a details frame that is not exactly at the sample timestamp fails the game
       return { frames: raw.frames.map((f) => ({ ...f, rfc460Timestamp: new Date(Date.parse(f.rfc460Timestamp) - 1).toISOString() })) };
     },
   };
-  const r = await ingestLivestats(shifted, { query: async () => cargo.players }, {}, {}, mem.io);
+  const r = await ingestLivestats(shifted, { query: async () => cargo.players }, NO_OVERRIDES, {}, mem.io);
   expect(r.failed).toHaveLength(2);
   expect(r.failed[0]).toMatch(/no details frame at minute/);
   expect(mem.games.size).toBe(0);

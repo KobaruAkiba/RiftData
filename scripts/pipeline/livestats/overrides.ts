@@ -1,15 +1,28 @@
 import { readFile } from "node:fs/promises";
 import { z } from "zod";
 
-/** lolesports game id -> Leaguepedia GameId, or null to ignore the game (e.g. a remake). */
-export type LivestatsOverrides = Record<string, string | null>;
+/**
+ * games: lolesports game id -> Leaguepedia GameId, or null to ignore the game (e.g. a remake).
+ * teams: lolesports team code -> team id (data/teams.json), for sponsored names the lookup cannot match.
+ */
+export interface LivestatsOverrides {
+  games: Record<string, string | null>;
+  teams: Record<string, string>;
+}
 
 const FILE = "livestats.json";
 
-const OverridesSchema = z.record(
-  z.string().regex(/^\d+$/, "keys must be numeric lolesports game ids"),
-  z.string().min(1).nullable(),
-);
+const OverridesSchema = z.object({
+  games: z
+    .record(z.string().regex(/^\d+$/, "keys must be numeric lolesports game ids"), z.string().min(1).nullable())
+    .default({}),
+  teams: z
+    .record(
+      z.string().min(1),
+      z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "values must be team id slugs"),
+    )
+    .default({}),
+});
 
 /** Reads the manual livestats overrides; a missing file means no overrides. */
 export async function loadLivestatsOverrides(path = `data/overrides/${FILE}`): Promise<LivestatsOverrides> {
@@ -17,7 +30,7 @@ export async function loadLivestatsOverrides(path = `data/overrides/${FILE}`): P
   try {
     text = await readFile(path, "utf8");
   } catch (error) {
-    if ((error as NodeJS.ErrnoException).code === "ENOENT") return {};
+    if ((error as NodeJS.ErrnoException).code === "ENOENT") return { games: {}, teams: {} };
     throw error;
   }
   let json: unknown;

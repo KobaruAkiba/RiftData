@@ -1,4 +1,5 @@
 import type { Edition, Game, Team } from "../../../src/data/schema/index.js";
+import { stripDisambiguation } from "../../../src/lib/format/team.js";
 import type { LivestatsOverrides } from "./overrides.js";
 import type { LolMatch } from "./types.js";
 
@@ -18,32 +19,50 @@ export function normalizeTeamKey(value: string): string {
 
 type TeamLookup = Map<string, Set<string>>;
 
-/** normalized short / name / alias -> team ids (a set: the same key may belong to several teams). */
+/**
+ * normalized short / name / alias -> team ids (a set: the same key may belong to several teams).
+ * Each label is also indexed without the trailing Leaguepedia disambiguation
+ * ("LYON (2024 American Team)" -> "LYON"); collisions make the key ambiguous, hence unlinked.
+ */
 function buildTeamLookup(teams: Team[]): TeamLookup {
   const lookup: TeamLookup = new Map();
   for (const team of teams) {
     for (const label of [team.short, team.name, ...team.aliases]) {
       if (!label) continue;
-      const key = normalizeTeamKey(label);
-      if (!key) continue;
-      const ids = lookup.get(key) ?? new Set<string>();
-      ids.add(team.id);
-      lookup.set(key, ids);
+      for (const key of new Set([normalizeTeamKey(label), normalizeTeamKey(stripDisambiguation(label))])) {
+        if (!key) continue;
+        const ids = lookup.get(key) ?? new Set<string>();
+        ids.add(team.id);
+        lookup.set(key, ids);
+      }
     }
   }
   return lookup;
 }
 
+type TeamResolution = { id: string } | { error: string };
+
 /**
  * Resolves a lolesports team (code + name) to a single team id.
- * Code and name must agree when both match something; null if absent or ambiguous.
+ * A team override (keyed by the normalized lolesports code, so "tlaw" and "TLAW" are equivalent)
+ * wins over the lookup, but its target must exist in teams.json.
+ * Otherwise code and name must agree when both match something; null if absent or ambiguous.
  */
-function resolveTeam(lookup: TeamLookup, team: { code: string; name: string }): string | null {
+function resolveTeam(
+  lookup: TeamLookup,
+  teamOverrides: Map<string, string>,
+  teamIds: Set<string>,
+  team: { code: string; name: string },
+): TeamResolution {
+  const forced = teamOverrides.get(normalizeTeamKey(team.code));
+  if (forced !== undefined) {
+    return teamIds.has(forced) ? { id: forced } : { error: `team override ${team.code} -> unknown team id ${forced}` };
+  }
   const byCode = lookup.get(normalizeTeamKey(team.code)) ?? new Set<string>();
   const byName = lookup.get(normalizeTeamKey(team.name)) ?? new Set<string>();
   const both = [...byCode].filter((id) => byName.has(id));
   const ids = both.length > 0 ? both : byCode.size > 0 ? [...byCode] : [...byName];
-  return ids.length === 1 ? ids[0]! : null;
+  return ids.length === 1 ? { id: ids[0]! } : { error: `unknown team ${team.code}` };
 }
 
 const utcDay = (iso: string): string => new Date(iso).toISOString().slice(0, 10);
@@ -64,7 +83,7 @@ function indexEditionMatches(edition: Edition): Map<string, Game[][]> {
 
 /**
  * Links played lolesports games to Leaguepedia games.
- * Order: override, then same UTC day + same team pair with the n-th played game <-> n-th game.
+ * Order: game override, then (team overrides apply to the team lookup)  same UTC day + same team pair with the n-th played game <-> n-th game.
  * Ambiguous or inconsistent matches stay unlinked (never a silent wrong link).
  * `commonIds` (lolesports id -> GameId) is optional and unused: Leaguepedia has no shared id.
  */
@@ -76,6 +95,8 @@ export function linkGames(
   commonIds?: Map<string, string>,
 ): LinkResult {
   const lookup = buildTeamLookup(teams);
+  const teamIds = new Set(teams.map((t) => t.id));
+  const teamOverrides = new Map(Object.entries(overrides.teams).map(([code, id]) => [normalizeTeamKey(code), id]));
   const editionMatches = indexEditionMatches(edition);
   const result: LinkResult = { links: [], unlinked: [] };
 
@@ -84,8 +105,8 @@ export function linkGames(
     const claimed = new Set<string>();
 
     for (const game of match.games.filter((g) => g.played)) {
-      const forced = overrides[game.id] ?? commonIds?.get(game.id);
-      if (forced === undefined && !(game.id in overrides)) {
+      const forced = overrides.games[game.id] ?? commonIds?.get(game.id);
+      if (forced === undefined && !(game.id in overrides.games)) {
         pending.push(game.id);
         continue;
       }
@@ -101,13 +122,15 @@ export function linkGames(
       for (const lolGameId of pending) result.unlinked.push({ lolGameId, reason });
     };
 
-    const ids = match.teams.map((t) => resolveTeam(lookup, t));
-    const [a, b] = ids;
-    if (match.teams.length !== 2 || !a || !b) {
-      const bad = match.teams.filter((_, i) => !ids[i]).map((t) => t.code);
-      fail(`unknown team ${bad.join(", ")}`);
+    const resolved = match.teams.map((t) => resolveTeam(lookup, teamOverrides, teamIds, t));
+    const errors = resolved.flatMap((r) => ("error" in r ? [r.error] : []));
+    const [ra, rb] = resolved;
+    if (match.teams.length !== 2 || errors.length > 0 || !ra || !rb || "error" in ra || "error" in rb) {
+      fail(errors.length > 0 ? errors.join("; ") : "unknown team: expected two teams");
       continue;
     }
+    const a = ra.id;
+    const b = rb.id;
     const candidates = editionMatches.get(pairKey(utcDay(match.startTime), a, b)) ?? [];
     if (candidates.length !== 1) {
       fail(candidates.length === 0 ? "no matching Leaguepedia match" : "ambiguous Leaguepedia match");
