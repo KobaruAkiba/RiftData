@@ -1,8 +1,8 @@
-import type { HttpInit, HttpResult } from "../http.js";
+import { NetworkError, withNetworkRetry, type HttpInit, type HttpResult } from "../http.js";
 import { LIVESTATS_FEED, LOLESPORTS_API, LOLESPORTS_PUBLIC_KEY, WORLDS_LEAGUE_ID } from "../sources.js";
 
 export const LOLESPORTS_INTERVAL_MS = 500;
-/** Waits before the 2nd, 3rd and 4th attempt of a request that failed with 429, 5xx or a network error. */
+/** Waits before the 2nd, 3rd and 4th attempt of a request that failed with 429 or 5xx. */
 export const LOLESPORTS_BACKOFF_MS = [2_000, 5_000, 15_000];
 
 /** Thrown when a request still fails (429, 5xx, network) after every retry: the feed is unreachable, not the game broken. */
@@ -56,7 +56,7 @@ function createPacer(sleep: (ms: number) => Promise<void>): () => Promise<void> 
 
 const isRetryable = (status: number): boolean => status === 429 || status >= 500;
 
-/** Paced request with retries on 429, 5xx and network errors; throws after the last attempt. */
+/** Paced request with retries on 429 and 5xx; throws after the last attempt. `deps.http` must already retry network errors. */
 async function requestWithRetry(
   deps: LolesportsDeps,
   pace: () => Promise<void>,
@@ -65,28 +65,36 @@ async function requestWithRetry(
 ): Promise<HttpResult> {
   for (let attempt = 0; ; attempt++) {
     await pace();
-    let failure: string;
+    let result: HttpResult;
     try {
-      const result = await deps.http(url, init);
-      if (!isRetryable(result.status)) return result;
-      failure = `status ${result.status}`;
+      result = await deps.http(url, init);
     } catch (error) {
-      failure = error instanceof Error ? error.message : String(error);
+      if (error instanceof NetworkError) {
+        throw new LolesportsRequestError(`lolesports request failed after retries (${error.message})`, { cause: error });
+      }
+      throw error;
     }
+    if (!isRetryable(result.status)) return result;
     const wait = LOLESPORTS_BACKOFF_MS[attempt];
-    if (wait === undefined) throw new LolesportsRequestError(`lolesports request failed after retries (${failure}): ${url}`);
+    if (wait === undefined) {
+      throw new LolesportsRequestError(`lolesports request failed after retries (status ${result.status}): ${url}`);
+    }
     await deps.sleep(wait);
   }
 }
 
-export function createLolesportsClient(deps: LolesportsDeps): LolesportsClient {
+export function createLolesportsClient(rawDeps: LolesportsDeps): LolesportsClient {
+  const deps: LolesportsDeps = { ...rawDeps, http: withNetworkRetry(rawDeps.http, { sleep: rawDeps.sleep }) };
   const pace = createPacer(deps.sleep);
   const apiHeaders = { "x-api-key": LOLESPORTS_PUBLIC_KEY };
 
   async function api(path: string): Promise<unknown> {
     const result = await requestWithRetry(deps, pace, `${LOLESPORTS_API}/${path}`, { headers: apiHeaders });
     if (result.status !== 200) throw new Error(`lolesports API ${path} returned status ${result.status}`);
-    return parseJson(result.text);
+    const body = parseJson(result.text);
+    // A 200 with an empty or non-JSON body (e.g. an HTML error page) is a failure, not "no data".
+    if (body === null) throw new LolesportsRequestError(`lolesports API ${path} returned an unreadable body (status 200)`);
+    return body;
   }
 
   async function feed(kind: "window" | "details", gameId: string, startingTime?: string): Promise<unknown | null> {

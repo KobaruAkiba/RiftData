@@ -1,7 +1,7 @@
 import { access, readdir } from "node:fs/promises";
 import { posix, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { EditionSchema, GameTimelineSchema, TeamsFileSchema } from "../../src/data/schema/index.js";
+import { EditionSchema, GameTimelineSchema, LivestatsIndexSchema, TeamsFileSchema } from "../../src/data/schema/index.js";
 import { httpRequest, sleep } from "../lib/http.js";
 import { connectCargo } from "../lib/leaguepedia/client.js";
 import { createLolesportsClient } from "../lib/lolesports/client.js";
@@ -9,6 +9,7 @@ import { ingestLivestats, parseLivestatsArgs, type LivestatsIO } from "./livesta
 import { loadLivestatsOverrides } from "./livestats/overrides.js";
 import { writeIfChangedAtomic } from "./livestats/atomic-write.js";
 import { DATA_DIR, editionPath, livestatsGamePath, livestatsIndexPath, readJson, TEAMS_PATH, writeIfChanged } from "./store.js";
+import { reportFatal } from "./cli.js";
 
 /** Years of the editions stored in data/worlds/<year>.json. */
 async function listEditionYears(): Promise<number[]> {
@@ -23,6 +24,7 @@ const fileIo: LivestatsIO = {
   gameExists: (year, gameId) => access(livestatsGamePath(year, gameId)).then(() => true, () => false),
   readGame: (year, gameId) => readJson(livestatsGamePath(year, gameId), GameTimelineSchema),
   writeGame: (year, timeline) => writeIfChangedAtomic(livestatsGamePath(year, timeline.gameId), timeline, { compactArrays: true }),
+  readIndex: (year) => readJson(livestatsIndexPath(year), LivestatsIndexSchema),
   writeIndex: (year, index) => writeIfChanged(livestatsIndexPath(year), index),
   log: (message) => console.log(message),
 };
@@ -46,8 +48,5 @@ async function main(): Promise<void> {
 
 // Run only when executed directly, not when imported by tests.
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  main().catch((error) => {
-    console.error(error instanceof Error ? error.message : String(error));
-    process.exitCode = 1;
-  });
+  main().catch(reportFatal);
 }

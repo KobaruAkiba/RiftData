@@ -1,5 +1,5 @@
 import { beforeEach, expect, test } from "vitest";
-import type { HttpInit, HttpResult } from "../../../scripts/lib/http.js";
+import { NetworkError, type HttpInit, type HttpResult } from "../../../scripts/lib/http.js";
 import { buildCargoUrl, cargoString } from "../../../scripts/lib/leaguepedia/cargo.js";
 import { connectCargo, createCargoClient } from "../../../scripts/lib/leaguepedia/client.js";
 
@@ -94,4 +94,33 @@ test("connectCargo returns an anonymous client when the probe succeeds", async (
   const client = await connectCargo({ ...makeDeps([ok(1), ok(2)]), env: {} });
   expect(await client.query(QUERY)).toHaveLength(2);
   expect(lastHeaders.cookie).toBeUndefined();
+});
+
+test("connectCargo retries a network error on the probe and on the login", async () => {
+  let probes = 0;
+  let logins = 0;
+  const http = async (url: string, init?: HttpInit): Promise<HttpResult> => {
+    if (url.includes("cargoquery")) {
+      if (probes++ === 0) throw new NetworkError("GET host/path: fetch failed <- read ECONNRESET");
+      return res(402, "");
+    }
+    if (init?.method === "POST") return res(200, JSON.stringify({ login: { result: "Success" } }));
+    if (logins++ === 0) throw new NetworkError("GET host/path: fetch failed <- getaddrinfo ENOTFOUND");
+    return res(200, JSON.stringify({ query: { tokens: { logintoken: "tok" } } }));
+  };
+  await connectCargo({ http, sleep: async (ms) => void sleeps.push(ms), env: { user: "bot", password: "s3cret-pw" } });
+  expect(probes).toBe(2);
+  expect(logins).toBe(2);
+  expect(sleeps).toContain(2000);
+});
+
+test("connectCargo gives up with a NetworkError that carries no credentials once the backoff is exhausted", async () => {
+  const http = async (): Promise<HttpResult> => {
+    throw new NetworkError("GET host/path: fetch failed");
+  };
+  const error = await connectCargo({ http, sleep: async () => {}, env: { user: "bot", password: "s3cret-pw" } }).catch(
+    (e: unknown) => e,
+  );
+  expect(error).toBeInstanceOf(NetworkError);
+  expect((error as Error).message).not.toContain("s3cret-pw");
 });

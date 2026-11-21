@@ -104,6 +104,7 @@ function memoryIo(ed: Edition): Memory {
     listEditionYears: async () => [ed.year],
     gameExists: async (_year, id) => mem.games.has(id),
     readGame: async (_year, id) => mem.games.get(id) ?? null,
+    readIndex: async () => mem.index,
     writeGame: async (_year, timeline) => {
       const changed = JSON.stringify(mem.games.get(timeline.gameId)) !== JSON.stringify(timeline);
       mem.games.set(timeline.gameId, timeline);
@@ -343,7 +344,7 @@ describe("ingestLivestats", () => {
     expect(lines[1]).toMatch(/elapsed 1h05m$/);
   });
 
-  test("a corrupt stored file is reported and left out of the index; the others still count", async () => {
+  test("a corrupt stored file is reported; its previous index entry is kept and the others still count", async () => {
     const { run, mem } = setup();
     await run();
     const read = mem.io.readGame;
@@ -352,8 +353,53 @@ describe("ingestLivestats", () => {
       return read(year, id);
     };
     const r = await run();
-    expect(r.warnings).toEqual([`corrupt file data/livestats/2026/${A}.json, delete it to re-download`]);
-    expect(Object.keys(mem.index!.games)).toEqual([GAME_B]);
+    expect(r.warnings).toEqual([
+      `corrupt file data/livestats/2026/${A}.json, delete it to re-download`,
+      `${GAME_A}: previous index entry kept, it could not be rebuilt this run`,
+    ]);
+    expect(Object.keys(mem.index!.games).sort()).toEqual([GAME_A, GAME_B]);
+  });
+
+  test("a transient empty players result keeps the previous index entries instead of dropping them", async () => {
+    const { run, mem, cargo } = setup();
+    await run();
+    const before = structuredClone(mem.index);
+    cargo.players = [];
+    const r = await run();
+    expect(mem.index).toEqual(before);
+    expect(r.written).toEqual([]);
+    expect(r.warnings).toEqual(
+      expect.arrayContaining([
+        expect.stringContaining(`${GAME_A} (lolesports ${A}): no players rows`),
+        `${GAME_A}: previous index entry kept, it could not be rebuilt this run`,
+        `${GAME_B}: previous index entry kept, it could not be rebuilt this run`,
+      ]),
+    );
+  });
+
+  test("an index entry is dropped only when its game file is gone", async () => {
+    const { run, mem } = setup();
+    await run();
+    mem.games.delete(A);
+    const r = await run();
+    // The game is downloaded again (no file), so its entry is rebuilt: nothing is dropped.
+    expect(Object.keys(mem.index!.games).sort()).toEqual([GAME_A, GAME_B]);
+    expect(r.warnings).toEqual([]);
+
+    // A stale entry whose game is no longer linked and whose file is gone does disappear.
+    mem.index = { games: { ...mem.index!.games, "Worlds/Stale_1": { gameId: "9999", participants: [] } } };
+    const r2 = await run();
+    expect(Object.keys(mem.index!.games).sort()).toEqual([GAME_A, GAME_B]);
+    expect(r2.warnings).toEqual(["Worlds/Stale_1: index entry dropped, game file 9999.json is gone"]);
+  });
+
+  test("a corrupt index stops the run before any download", async () => {
+    const { lol, mem, run } = setup();
+    mem.io.readIndex = async () => {
+      throw new Error("invalid index");
+    };
+    await expect(run()).rejects.toThrow(/invalid index/);
+    expect(lol.windowCalls).toEqual([]);
   });
 
   test("duration mismatch fails the game with a warning", async () => {
@@ -436,6 +482,14 @@ describe("feed circuit breaker", () => {
     expect(r.aborted).toBe(false);
     expect(r.failed).toHaveLength(4);
     expect([...mem.games.keys()]).toEqual(["3003"]);
+  });
+
+  test("a failure that is not a feed outage resets the counter", async () => {
+    // unreachable, unreachable, silent (content failure), unreachable: three outages but never in a row.
+    const { run } = fiveGames({ unreachable: ["3001", "3002", "3004"], silent: ["3003"] });
+    const r = await run();
+    expect(r.aborted).toBe(false);
+    expect(r.failed).toHaveLength(4);
   });
 
   test("games lost to the feed content (empty feed) never abort the run", async () => {

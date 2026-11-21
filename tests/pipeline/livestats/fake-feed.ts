@@ -9,7 +9,10 @@ import type { TeamFrame, WindowFrame } from "../../../scripts/pipeline/livestats
  * - a pause emits one `paused` frame at its start, then only sporadic `paused` frames, then an
  *   `in_game` frame with the same stats at the resume;
  * - an empty window (inside a pause, or past the end) returns the LAST 10 frames before S
- *   (a "stale" response): never empty, never 204. Past the end the last one is `finished`.
+ *   (a "stale" response): never empty, never 204. Past the end the last one is `finished`;
+ * - with `finishedTailSec`, several `finished` frames follow over that many seconds, gold still
+ *   rising: only the last one is the true final state;
+ * - with `nowMs`, a startingTime less than 20 s before now is refused (HTTP 400).
  */
 
 export interface FeedPause {
@@ -29,6 +32,10 @@ export interface FeedOptions {
   flatGoldUntilSec?: number;
   /** From this game second on, every request returns [] (the feed stops answering). */
   silentAfterGameSec?: number;
+  /** `finished` frames keep coming for this many seconds after the first one, gold rising. */
+  finishedTailSec?: number;
+  /** Current time: a request less than 20 s before it throws (HTTP 400 BAD_QUERY_PARAMETER). */
+  nowMs?: number;
 }
 
 export interface FakeFeed {
@@ -111,7 +118,13 @@ export function fakeFeed(opts: FeedOptions): FakeFeed {
     }
     const gameMs = gameMsAt(wall);
     if (gameMs >= lengthMs) {
-      frames.push(frame(wall, "finished", goldAt(lengthMs)));
+      // The game is over: one `finished` frame, or several with rising gold over `finishedTailSec`.
+      const until = wall + (opts.finishedTailSec ?? 0) * 1000;
+      for (let gold = goldAt(lengthMs); ; gold += 7) {
+        frames.push(frame(wall, "finished", gold));
+        wall += next();
+        if (wall > until) break;
+      }
       break;
     }
     // A pause can start before the next regular tick: its first frame lands exactly on it.
@@ -128,6 +141,7 @@ export function fakeFeed(opts: FeedOptions): FakeFeed {
   const windowAt: WindowAt = async (at) => {
     requests.push(at);
     const s = Math.floor(at.getTime() / 10_000) * 10_000;
+    if (opts.nowMs !== undefined && s > opts.nowMs - 20_000) throw new Error(`HTTP 400 BAD_QUERY_PARAMETER at ${new Date(s).toISOString()}`);
     if (silentAfter !== undefined && gameMsAt(s) >= silentAfter * 1000) return [];
     const inWindow = frames.filter((_, i) => times[i]! >= s && times[i]! < s + 10_000);
     if (inWindow.length > 0) return inWindow;

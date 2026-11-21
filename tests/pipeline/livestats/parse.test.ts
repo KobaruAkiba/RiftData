@@ -101,13 +101,84 @@ test("tournament id is picked by slug and year from the API shape", () => {
   expect(pickWorldsTournamentId({}, 2026)).toBeNull();
 });
 
-test("unexpected shapes give empty results, never throw", () => {
+test("unexpected window and details shapes give empty results, never throw", () => {
   expect(parseWindow(null).frames).toEqual([]);
   expect(parseWindow({ frames: "x" }).frames).toEqual([]);
   expect(parseWindow({ frames: [null, { gameState: "in_game" }] }).frames).toEqual([]);
   expect(parseDetails(undefined)).toEqual([]);
-  expect(parseCompletedEvents({ data: {} })).toEqual([]);
-  expect(parseCompletedEvents(null)).toEqual([]);
+});
+
+describe("completed events: an unrecognized response throws instead of looking like no matches", () => {
+  test.each([
+    ["null", null],
+    ["a string", "oops"],
+    ["data without schedule", { data: {} }],
+    ["schedule without events", { data: { schedule: {} } }],
+    ["events that are not a list", { data: { schedule: { events: "x" } } }],
+    ["an object that is not an event", { error: "rate limited" }],
+  ])("%s", (_label, json) => {
+    expect(() => parseCompletedEvents(json)).toThrow(/Unrecognized completed events response/);
+  });
+
+  test("an empty list of events is a valid answer", () => {
+    expect(parseCompletedEvents({ data: { schedule: { events: [] } } })).toEqual([]);
+    expect(parseCompletedEvents([])).toEqual([]);
+  });
+});
+
+describe("required numeric fields are never defaulted to 0", () => {
+  const participantWindow = (over: Record<string, unknown> = {}) => ({
+    participantId: 1, totalGold: 500, level: 1, kills: 0, deaths: 0, assists: 0, creepScore: 0, ...over,
+  });
+  const team = (participants: unknown[], over: Record<string, unknown> = {}) => ({
+    totalGold: 500, totalKills: 0, towers: 0, inhibitors: 0, barons: 0, dragons: [], participants, ...over,
+  });
+  const frame = (blue: unknown, red: unknown = team([])) => ({
+    frames: [{ rfc460Timestamp: "2026-11-14T10:00:00.000Z", gameState: "in_game", blueTeam: blue, redTeam: red }],
+  });
+
+  test("a complete frame parses", () => {
+    expect(parseWindow(frame(team([participantWindow()]))).frames[0]!.blue.participants).toHaveLength(1);
+  });
+
+  test("a participant missing a stat is dropped from the frame", () => {
+    const { totalGold: _gold, ...noGold } = participantWindow({ participantId: 2 });
+    const { frames } = parseWindow(frame(team([participantWindow(), noGold])));
+    expect(frames[0]!.blue.participants.map((p) => p.participantId)).toEqual([1]);
+  });
+
+  test("a team frame missing a count or the dragons list drops the whole frame", () => {
+    const { towers: _towers, ...noTowers } = team([participantWindow()]);
+    expect(parseWindow(frame(noTowers)).frames).toEqual([]);
+    const { dragons: _dragons, ...noDragons } = team([participantWindow()]);
+    expect(parseWindow(frame(noDragons)).frames).toEqual([]);
+  });
+
+  const details = (over: Record<string, unknown> = {}) => ({
+    participantId: 1, killParticipation: 0.5, championDamageShare: 0.2, wardsPlaced: 1, wardsDestroyed: 0,
+    items: [1055], perkMetadata: { styleId: 8000, subStyleId: 8100, perks: [8010, 9111] }, ...over,
+  });
+  const detailsFrame = (...participants: unknown[]) => ({
+    frames: [{ rfc460Timestamp: "2026-11-14T10:00:00.000Z", participants }],
+  });
+
+  test("details: a complete participant parses", () => {
+    expect(parseDetails(detailsFrame(details()))[0]!.participants).toHaveLength(1);
+  });
+
+  test.each([
+    ["no perkMetadata", { perkMetadata: undefined }],
+    ["no styleId", { perkMetadata: { subStyleId: 8100, perks: [1] } }],
+    ["no perks", { perkMetadata: { styleId: 8000, subStyleId: 8100 } }],
+    ["empty perks", { perkMetadata: { styleId: 8000, subStyleId: 8100, perks: [] } }],
+    ["no items", { items: undefined }],
+    ["no killParticipation", { killParticipation: undefined }],
+    ["no championDamageShare", { championDamageShare: undefined }],
+    ["no wardsPlaced", { wardsPlaced: undefined }],
+    ["a NaN stat", { wardsDestroyed: Number.NaN }],
+  ])("details: a participant with %s is dropped", (_label, over) => {
+    expect(parseDetails(detailsFrame(details(over), details({ participantId: 2 })))[0]!.participants.map((p) => p.participantId)).toEqual([2]);
+  });
 });
 
 describe("real fixtures (final of Worlds 2026, game 1)", () => {

@@ -18,9 +18,12 @@ const fixtureFrames = (name: string): WindowFrame[] =>
 const pauseFixture = (game: string, step: number): WindowFrame[] => fixtureFrames(`pause/${game}-step-${step}.json`);
 const ms = (iso: string): number => Date.parse(iso);
 
-async function sample(opts: FeedOptions): Promise<{ feed: FakeFeed; samples: Sample[] }> {
+/** Fixed clock long after every synthetic game: the request past the end goes 6 h after it. */
+const LATER = () => ms("2027-01-01T00:00:00Z");
+
+async function sample(opts: FeedOptions, now: () => number = LATER): Promise<{ feed: FakeFeed; samples: Sample[]; durationSec: number }> {
   const feed = fakeFeed(opts);
-  return { feed, samples: await sampleGame(feed.windowAt, firstGoldFrame(feed)) };
+  return { feed, ...(await sampleGame(feed.windowAt, firstGoldFrame(feed), now)) };
 }
 
 /** Samples 0..n-2 sit on game time i:00 (±10 s), the last one is the final state, minutes are 0..n-1. */
@@ -153,12 +156,13 @@ describe("sampleGame", () => {
     expect(samples.at(-1)!.frame.gameState).toBe("finished");
   });
 
-  test("the final state inside the last sampled window costs no extra request", async () => {
+  test("the final state inside the last sampled window costs one request past the end", async () => {
     // start = 20:00:02.0 -> minute 5 requests [20:05:00, 20:05:10), the game ends at 20:05:05.
     const { feed, samples } = await sample({ lengthSec: 303, t0: "2026-11-14T19:59:57.500Z" });
     expectOnGameMinutes(feed, samples, 303);
-    expect(feed.requests).toHaveLength(5);
-    expect(samples.at(-2)!.wall).toEqual(samples.at(-1)!.wall);
+    expect(feed.requests).toHaveLength(6);
+    expect(samples.at(-1)!.wall.getTime()).toBeGreaterThan(samples.at(-2)!.wall.getTime());
+    await expectWallMatchesFrame(feed, samples);
   });
 
   test("one paused-state pause keeps samples on game time within 10 s", async () => {
@@ -265,7 +269,93 @@ describe("sampleGame", () => {
       seen.push(wall);
       return feed.windowAt(wall);
     };
-    await sampleGame(spy, firstGoldFrame(feed));
+    await sampleGame(spy, firstGoldFrame(feed), LATER);
     expect(seen[0]!.getTime()).toBe(Math.floor((feed.start.getTime() + 60_000) / 10_000) * 10_000);
+  });
+});
+
+describe("final state", () => {
+  const gold = (f: WindowFrame): number => f.blue.totalGold + f.red.totalGold;
+  const window10s = (iso: string): number => Math.floor(ms(iso) / 10_000) * 10_000;
+  const finishedOf = (feed: FakeFeed): WindowFrame[] => feed.frames.filter((f) => f.gameState === "finished");
+
+  test("finished frames spilling into the next window: the last one is the final sample", async () => {
+    // Minute 5 requests [20:05:00, 20:05:10) at 20:05:04.5; the game ends at 20:05:07.5 and
+    // `finished` frames keep coming until after 20:05:11.5, in the next window.
+    const { feed, samples } = await sample({ lengthSec: 303, finishedTailSec: 4 });
+    const finished = finishedOf(feed);
+    expect(window10s(finished.at(-1)!.timestamp)).toBeGreaterThan(window10s(finished[0]!.timestamp));
+    expectOnGameMinutes(feed, samples, 303);
+    expect(gold(samples.at(-1)!.frame)).toBeGreaterThan(gold(finished[0]!));
+    await expectWallMatchesFrame(feed, samples);
+  });
+
+  test("a minute after the first finished frame is the final one, even with later finished frames in its window", async () => {
+    // Minute 5 at 20:05:04.5 falls between the first `finished` frame (~20:05:03) and the last (~20:05:07).
+    const { feed, samples } = await sample({ lengthSec: 298, finishedTailSec: 4 });
+    const finished = finishedOf(feed);
+    const wall5 = feed.start.getTime() + 300_000;
+    expect(ms(finished[0]!.timestamp)).toBeLessThan(wall5);
+    expect(ms(finished.at(-1)!.timestamp)).toBeGreaterThan(wall5);
+    expectOnGameMinutes(feed, samples, 298);
+    await expectWallMatchesFrame(feed, samples);
+  });
+
+  test("a response already past the end gives the final state without another request", async () => {
+    const { feed, samples } = await sample({ lengthSec: 330, finishedTailSec: 4 });
+    expectOnGameMinutes(feed, samples, 330);
+    expect(feed.requests).toHaveLength(6); // minutes 1-6, the last one past the end
+  });
+
+  test("the request past the end is the first finished frame + 6 h", async () => {
+    const { feed, samples } = await sample({ lengthSec: 303, finishedTailSec: 4 });
+    const tail = window10s(finishedOf(feed)[0]!.timestamp) + 6 * 3600_000;
+    expect(Math.floor(feed.requests.at(-1)!.getTime() / 10_000) * 10_000).toBe(tail);
+    expect(samples.at(-1)!.wall.getTime()).toBe(Math.floor((ms(finishedOf(feed)[0]!.timestamp) + 6 * 3600_000) / 10_000) * 10_000);
+  });
+
+  test("a game that ended minutes ago is read at now - 60 s, never too close to now (HTTP 400)", async () => {
+    const opts = { lengthSec: 303, finishedTailSec: 4 };
+    const nowMs = ms(fakeFeed(opts).frames.at(-1)!.timestamp) + 75_000;
+    const { feed, samples } = await sample({ ...opts, nowMs }, () => nowMs);
+    expect(feed.requests.at(-1)!.getTime()).toBe(Math.floor((nowMs - 60_000) / 10_000) * 10_000);
+    expectOnGameMinutes(feed, samples, 303);
+    await expectWallMatchesFrame(feed, samples);
+  });
+
+  test("a game that ended moments ago throws SamplingError (final state not settled)", async () => {
+    const opts = { lengthSec: 303, finishedTailSec: 4 };
+    const nowMs = ms(finishedOf(fakeFeed(opts))[0]!.timestamp) + 61_000;
+    await expect(sample({ ...opts, nowMs }, () => nowMs)).rejects.toThrow(/ended too recently/);
+  });
+});
+
+describe("measured duration", () => {
+  test("first finished frame - game start, without pauses", async () => {
+    const { durationSec } = await sample({ lengthSec: 303, finishedTailSec: 4 });
+    expect(durationSec).toBeGreaterThanOrEqual(303);
+    expect(durationSec).toBeLessThan(304);
+  });
+
+  test("pauses are not counted", async () => {
+    const { durationSec } = await sample({
+      lengthSec: 1200,
+      pauses: [
+        { atGameSec: 300, lengthSec: 120 },
+        { atGameSec: 610, lengthSec: 400 },
+        { atGameSec: 900, lengthSec: 60 },
+      ],
+    });
+    expect(Math.abs(durationSec - 1200)).toBeLessThan(1);
+  });
+
+  test("a pause inside the last window is not counted", async () => {
+    const { durationSec } = await sample({ lengthSec: 400, t0: "2026-11-14T19:59:57.500Z", pauses: [{ atGameSec: 362, lengthSec: 2 }] });
+    expect(Math.abs(durationSec - 400)).toBeLessThan(1);
+  });
+
+  test("a pause that ends with the game is not counted", async () => {
+    const { durationSec } = await sample({ lengthSec: 250, pauses: [{ atGameSec: 245, lengthSec: 200 }] });
+    expect(Math.abs(durationSec - 250)).toBeLessThan(1);
   });
 });

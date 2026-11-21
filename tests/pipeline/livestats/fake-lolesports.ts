@@ -38,7 +38,7 @@ const rawTeam = (t: TeamFrame, firstId: number) => ({
   ...t,
   participants: Array.from({ length: 5 }, (_, i) => ({
     participantId: firstId + i,
-    totalGold: t.totalGold / 5,
+    totalGold: Math.floor(t.totalGold / 5), // the real feed reports whole gold
     level: 1,
     kills: 0,
     deaths: 0,

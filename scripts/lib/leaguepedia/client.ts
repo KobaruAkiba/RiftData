@@ -1,4 +1,4 @@
-import type { HttpInit, HttpResult } from "../http.js";
+import { withNetworkRetry, type HttpInit, type HttpResult } from "../http.js";
 import { loginWithBotPassword } from "./auth.js";
 import { buildCargoUrl, classifyCargoResponse, type CargoOutcome, type CargoQuery } from "./cargo.js";
 
@@ -88,11 +88,14 @@ const PROBE_QUERY: CargoQuery = { tables: "Tournaments", fields: "Name", limit: 
  * Connects anonymously when possible. A probe query decides: if access is blocked or rate limited
  * and bot credentials exist, logs in and returns a client with the session cookie.
  * The probe, the login and the returned client share one pacer, so the 2000 ms interval holds throughout.
+ * Network errors are retried with backoff on every request, login included.
  */
 export async function connectCargo(
   deps: Omit<CargoClientDeps, "cookie"> & { env: { user?: string; password?: string } },
 ): Promise<CargoClient> {
-  const { env, ...base } = deps;
+  const { env, ...raw } = deps;
+  // Probe, login and Cargo queries all go through the same network retry: a transient reset must not abort a run.
+  const base = { ...raw, http: withNetworkRetry(raw.http, { sleep: raw.sleep }) };
   const pace = createPacer(base.sleep);
 
   await pace();

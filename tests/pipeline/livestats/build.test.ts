@@ -1,6 +1,12 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, test } from "vitest";
-import { buildGameTimeline, checkDuration, expectedMinutes, type BuildInput } from "../../../scripts/pipeline/livestats/build.js";
+import {
+  buildGameTimeline,
+  checkDuration,
+  checkMeasuredDuration,
+  expectedMinutes,
+  type BuildInput,
+} from "../../../scripts/pipeline/livestats/build.js";
 import type { Sample } from "../../../scripts/pipeline/livestats/sampling.js";
 import type { DetailsFrame, GameMetadata, ParticipantDetails, TeamFrame, WindowFrame } from "../../../scripts/pipeline/livestats/types.js";
 import { parseDetails, parseWindow } from "../../../scripts/pipeline/livestats/parse.js";
@@ -149,6 +155,14 @@ describe("duration check", () => {
     expect(checkDuration(withMinutes(34), 1993)).toBeNull(); // expected 35
     expect(checkDuration(withMinutes(36), 1993)).toBeNull();
     expect(checkDuration(withMinutes(32), 1993)).toMatch(/minutes/);
+  });
+  test("measured length within 15 s of Leaguepedia gives no warning", () => {
+    expect(checkMeasuredDuration("G", 1993 + 15, 1993)).toBeNull();
+    expect(checkMeasuredDuration("G", 1993 - 15, 1993)).toBeNull();
+  });
+  test("measured length over 15 s off gives a warning naming the game and the gap", () => {
+    expect(checkMeasuredDuration("G", 2010.4, 1993)).toBe("game G: measured length 2010.4s, Leaguepedia 1993s (+17.4s, over +/-15s)");
+    expect(checkMeasuredDuration("G", 1970, 1993)).toMatch(/-23.0s/);
   });
 });
 

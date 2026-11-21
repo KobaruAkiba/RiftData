@@ -25,6 +25,11 @@ function timelineFromFixture(): GameTimeline {
   const metas = [...meta.blueTeamMetadata.participantMetadata, ...meta.redTeamMetadata.participantMetadata];
   const one = [0];
   const team = { gold: one, kills: one, towers: one, inhibitors: one, barons: one, dragons: one };
+  const player = (participantId: number) => ({
+    participantId,
+    gold: one, level: one, kills: one, deaths: one, assists: one, cs: one,
+    damageShare: one, killParticipation: one, wardsPlaced: one, wardsDestroyed: one,
+  });
   return GameTimelineSchema.parse({
     gameId: "115660540726095134",
     year: 2026,
@@ -34,11 +39,11 @@ function timelineFromFixture(): GameTimeline {
       side: m.participantId <= 5 ? "blue" : "red",
       role: m.role,
       championKey: m.championId,
-      runes: { primary: 8000, secondary: 8100, perks: [] },
+      runes: { primary: 8000, secondary: 8100, perks: [8010, 9111] },
     })),
     teams: { blue: team, red: team },
-    players: [],
-    items: [],
+    players: metas.map((m) => player(m.participantId)),
+    items: metas.map((m) => ({ participantId: m.participantId, changes: [{ minute: 0, items: [] }] })),
     events: [],
   });
 }
@@ -73,7 +78,7 @@ test("real final: 10 participants matched by side and role", () => {
   expect(r.entry!.participants[5]).toMatchObject({ participantId: 6, player: "Bin (Chen Ze-Bin)", team: "blg" });
 });
 
-test("MonkeyKing and Renata keys match Wukong and Renata Glasc with a warning, not an error", () => {
+test("MonkeyKing and Renata keys match Wukong and Renata Glasc without any warning", () => {
   const t = timelineFromFixture();
   const swap = (id: number, key: string) => {
     t.participants.find((p) => p.participantId === id)!.championKey = key;
@@ -87,8 +92,17 @@ test("MonkeyKing and Renata keys match Wukong and Renata Glasc with a warning, n
   });
   const r = buildIndexEntry(t, finalGame(), rows, resolve);
   expect(r.entry).not.toBeNull();
-  expect(r.warnings).toEqual([expect.stringMatching(/MonkeyKing.*Wukong/), expect.stringMatching(/Renata.*Renata Glasc/)]);
+  expect(r.warnings).toEqual([]);
   expect(r.entry!.participants[2]!.champion).toBe("Wukong");
+});
+
+test("a real champion mismatch warns but the entry is kept", () => {
+  const t = timelineFromFixture();
+  t.participants.find((p) => p.participantId === 3)!.championKey = "Ahri";
+  const rows = gameRows().map((r) => (r.Side === "1" && r.Role === "Mid" ? { ...r, Champion: "Wukong" } : r));
+  const r = buildIndexEntry(t, finalGame(), rows, resolve);
+  expect(r.entry).not.toBeNull();
+  expect(r.warnings).toEqual([expect.stringMatching(/Ahri.*Wukong/)]);
 });
 
 test("equal champions after normalization give no warning (K'Sante/KSante, Jarvan IV/JarvanIV)", () => {

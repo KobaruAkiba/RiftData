@@ -37,4 +37,4 @@ Data schema and pipeline: [data/README.md](data/README.md).
 
 RiftData isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
 
-Data from [Leaguepedia](https://lol.fandom.com), licensed [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+Data from [Leaguepedia](https://lol.fandom.com), licensed [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Game timelines from the unofficial lolesports livestats feed, © Riot Games, not covered by CC BY-SA. Details: [data/README.md](data/README.md#attribution).

@@ -64,6 +64,50 @@ describe("GameTimelineSchema", () => {
     expect(GameTimelineSchema.safeParse(wrongSide).success).toBe(false);
   });
 
+  test("counts are non-negative integers", () => {
+    const negative = timeline();
+    negative.players[0]!.kills = [0, -1, 0];
+    expect(GameTimelineSchema.safeParse(negative).success).toBe(false);
+    const fractional = timeline();
+    fractional.teams.blue.gold = [0, 10.5, 20];
+    expect(GameTimelineSchema.safeParse(fractional).success).toBe(false);
+  });
+
+  test("damage share stays in [0, 1]; kill participation is only non-negative (the feed can exceed 1)", () => {
+    const share = timeline();
+    share.players[0]!.damageShare = [0, 1.01, 0];
+    expect(GameTimelineSchema.safeParse(share).success).toBe(false);
+    const kp = timeline();
+    kp.players[0]!.killParticipation = [0, 1.2, 0];
+    expect(GameTimelineSchema.safeParse(kp).success).toBe(true);
+    kp.players[0]!.killParticipation = [0, -0.1, 0];
+    expect(GameTimelineSchema.safeParse(kp).success).toBe(false);
+  });
+
+  test("runes need positive styles and at least one perk", () => {
+    for (const runes of [
+      { primary: 0, secondary: 8100, perks: [1] },
+      { primary: 8000, secondary: 0, perks: [1] },
+      { primary: 8000, secondary: 8100, perks: [] },
+    ]) {
+      const t = timeline();
+      t.participants[0]!.runes = runes;
+      expect(GameTimelineSchema.safeParse(t).success).toBe(false);
+    }
+  });
+
+  test("players and items need exactly one row per participant", () => {
+    const fewPlayers = timeline();
+    fewPlayers.players.pop();
+    expect(GameTimelineSchema.safeParse(fewPlayers).success).toBe(false);
+    const foreignItems = timeline();
+    foreignItems.items[0]!.participantId = 11;
+    expect(GameTimelineSchema.safeParse(foreignItems).success).toBe(false);
+    const dupPlayer = timeline();
+    dupPlayer.players[9]!.participantId = 1;
+    expect(GameTimelineSchema.safeParse(dupPlayer).success).toBe(false);
+  });
+
   test("the first item change must be at minute 0", () => {
     const t = timeline();
     t.items[0]!.changes = [{ minute: 1, items: [1] }];

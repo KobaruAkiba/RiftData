@@ -3,7 +3,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { describe, expect, test } from "vitest";
 import type { Edition, Game, Team } from "../../../src/data/schema/index.js";
-import { linkGames, normalizeTeamKey } from "../../../scripts/pipeline/livestats/link.js";
+import { linkGames } from "../../../scripts/pipeline/livestats/link.js";
 import { loadLivestatsOverrides, type LivestatsOverrides } from "../../../scripts/pipeline/livestats/overrides.js";
 import { parseCompletedEvents } from "../../../scripts/pipeline/livestats/parse.js";
 import type { LolMatch } from "../../../scripts/pipeline/livestats/types.js";
@@ -71,13 +71,6 @@ const lolMatch = (id: string, startTime: string, codes: [string, string], played
 const single = (games: Game[]): Edition =>
   editionOf([{ id: "m1", date: "2099-01-01T10:00:00Z", t1: "alpha", t2: "beta", games }]);
 
-describe("normalizeTeamKey", () => {
-  test("lowercases and keeps only alphanumerics", () => {
-    expect(normalizeTeamKey("Gen.G Esports")).toBe("gengesports");
-    expect(normalizeTeamKey("BILIBILI GAMING")).toBe("bilibiligaming");
-  });
-});
-
 describe("linkGames", () => {
   test("real 2026 fixture links every played game of the saved matches", () => {
     const matches = parseCompletedEvents(fixture("completed-events-2026.json"));
@@ -123,6 +116,61 @@ describe("linkGames", () => {
       expect(r.links).toEqual([]);
       expect(r.unlinked).toEqual([{ lolGameId: "1001", reason: expect.stringContaining("unknown team id no-such-team") }]);
     });
+  });
+
+  describe("code and name disagree", () => {
+    const tt = [team("team-liquid", "Team Liquid", "TL"), team("beta", "Beta Team", "BET")];
+    const ed = editionOf([{ id: "m1", date: "2099-01-01T10:00:00Z", t1: "team-liquid", t2: "beta", games: [game("G1", 1)] }]);
+    const lol = (): LolMatch => ({
+      ...lolMatch("100", "2099-01-01T12:00:00Z", ["TL", "BET"], [true]),
+      teams: [{ code: "TL", name: "Beta Team" }, { code: "BET", name: "Beta Team" }],
+    });
+
+    test("a code and a name matching different teams are ambiguous: unlinked, the code does not win", () => {
+      const r = linkGames([lol()], ed, tt, NONE);
+      expect(r.links).toEqual([]);
+      expect(r.unlinked).toEqual([{ lolGameId: "1001", reason: expect.stringMatching(/TL.*team-liquid.*beta/) }]);
+    });
+
+    test("a team override keyed by code still wins over a conflicting name", () => {
+      const r = linkGames([lol()], ed, tt, { games: {}, teams: { TL: "team-liquid" } });
+      expect(r.links).toEqual([{ lolGameId: "1001", leaguepediaGameId: "G1" }]);
+    });
+  });
+
+  test("a match without a start time is unlinked with a reason instead of throwing", () => {
+    const lol = lolMatch("100", "", ["ALP", "BET"], [true]);
+    const r = linkGames([lol], single([game("G1", 1)]), T, NONE);
+    expect(r.links).toEqual([]);
+    expect(r.unlinked).toEqual([{ lolGameId: "1001", reason: expect.stringMatching(/start time/) }]);
+  });
+
+  describe("a middle game without a VOD yet", () => {
+    const ed = single([game("G1", 1), game("G2", 2), game("G3", 3)]);
+    const hole = (): LolMatch => lolMatch("100", "2099-01-01T12:00:00Z", ["ALP", "BET"], [true, false, true]);
+
+    test("never links game 3 to Leaguepedia game 2: the played games are left unlinked", () => {
+      const r = linkGames([hole()], ed, T, NONE);
+      expect(r.links).toEqual([]);
+      expect(r.unlinked.map((u) => u.lolGameId)).toEqual(["1001", "1003"]);
+      expect(r.unlinked[0]!.reason).toMatch(/contiguous.*game 2/);
+    });
+
+    test("links once the hole is filled", () => {
+      const filled = lolMatch("100", "2099-01-01T12:00:00Z", ["ALP", "BET"], [true, true, true]);
+      expect(linkGames([filled], ed, T, NONE).links.map((l) => l.leaguepediaGameId)).toEqual(["G1", "G2", "G3"]);
+    });
+  });
+
+  test("two lolesports games claiming the same Leaguepedia game are both left unlinked", () => {
+    const first = lolMatch("100", "2099-01-01T12:00:00Z", ["ALP", "BET"], [true]);
+    const second = lolMatch("200", "2099-01-01T14:00:00Z", ["ALP", "BET"], [true]);
+    const r = linkGames([first, second], single([game("G1", 1)]), T, NONE);
+    expect(r.links).toEqual([]);
+    expect(r.unlinked).toEqual([
+      { lolGameId: "1001", reason: expect.stringContaining('"G1" is also claimed by 2001') },
+      { lolGameId: "2001", reason: expect.stringContaining('"G1" is also claimed by 1001') },
+    ]);
   });
 
   test("same pair twice on the same day (tiebreak) is left unlinked", () => {

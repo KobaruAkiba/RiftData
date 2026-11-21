@@ -5,7 +5,15 @@ export const LolGameIdSchema = z.string().regex(/^\d+$/);
 export type LolGameId = z.infer<typeof LolGameIdSchema>;
 
 const SideSchema = z.enum(["blue", "red"]);
-const Series = z.array(z.number());
+/** One non-negative integer per sampled minute (gold, kills, towers, wards...). */
+const CountSeries = z.array(z.number().int().nonnegative());
+/** One share in [0, 1] per sampled minute (damage share). */
+const ShareSeries = z.array(z.number().min(0).max(1));
+/**
+ * Kill participation is only non-negative: the feed itself reports values above 1 when assists
+ * outrun the team kill counter (game 115660540726095080, 1.2 for 10 minutes).
+ */
+const KillParticipationSeries = z.array(z.number().nonnegative());
 
 const ParticipantSchema = z.object({
   participantId: z.number().int().min(1).max(10),
@@ -13,34 +21,34 @@ const ParticipantSchema = z.object({
   role: z.string().min(1),
   championKey: z.string().min(1),
   runes: z.object({
-    primary: z.number().int(),
-    secondary: z.number().int(),
-    perks: z.array(z.number().int()),
+    primary: z.number().int().positive(),
+    secondary: z.number().int().positive(),
+    perks: z.array(z.number().int().positive()).min(1),
   }),
 });
 
 const TeamSeriesSchema = z.object({
-  gold: Series,
-  kills: Series,
-  towers: Series,
-  inhibitors: Series,
-  barons: Series,
-  dragons: Series,
+  gold: CountSeries,
+  kills: CountSeries,
+  towers: CountSeries,
+  inhibitors: CountSeries,
+  barons: CountSeries,
+  dragons: CountSeries,
 });
 type TeamSeries = z.infer<typeof TeamSeriesSchema>;
 
 const PlayerSeriesSchema = z.object({
   participantId: z.number().int().min(1).max(10),
-  gold: Series,
-  level: Series,
-  kills: Series,
-  deaths: Series,
-  assists: Series,
-  cs: Series,
-  damageShare: Series,
-  killParticipation: Series,
-  wardsPlaced: Series,
-  wardsDestroyed: Series,
+  gold: CountSeries,
+  level: CountSeries,
+  kills: CountSeries,
+  deaths: CountSeries,
+  assists: CountSeries,
+  cs: CountSeries,
+  damageShare: ShareSeries,
+  killParticipation: KillParticipationSeries,
+  wardsPlaced: CountSeries,
+  wardsDestroyed: CountSeries,
 });
 
 const ItemsSchema = z.object({
@@ -66,6 +74,12 @@ function participantsAreValid(ps: Array<z.infer<typeof ParticipantSchema>>): boo
   return ids.size === 10 && ps.every((p) => p.side === (p.participantId <= 5 ? "blue" : "red"));
 }
 
+/** True when `rows` hold exactly one row per participant id (no missing, duplicate or foreign ids). */
+function coversParticipants(rows: Array<{ participantId: number }>, ids: Set<number>): boolean {
+  const seen = new Set(rows.map((r) => r.participantId));
+  return rows.length === ids.size && seen.size === ids.size && [...seen].every((id) => ids.has(id));
+}
+
 /** Time series of one game from the lolesports feed, one sample per game minute (minute 0 included). */
 export const GameTimelineSchema = z
   .object({
@@ -83,6 +97,12 @@ export const GameTimelineSchema = z
     path: ["participants"],
   })
   .superRefine((t, ctx) => {
+    const ids = new Set(t.participants.map((p) => p.participantId));
+    for (const key of ["players", "items"] as const) {
+      if (!coversParticipants(t[key], ids)) {
+        ctx.addIssue({ code: "custom", message: `${key} must have exactly one row per participant`, path: [key] });
+      }
+    }
     const check = (series: number[], path: Array<string | number>) => {
       if (series.length !== t.minutes) {
         ctx.addIssue({ code: "custom", message: `series length ${series.length} != minutes ${t.minutes}`, path });

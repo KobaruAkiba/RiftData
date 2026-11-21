@@ -54,3 +54,18 @@ export function checkDuration(timeline: GameTimeline, durationSec: number): stri
   if (Math.abs(timeline.minutes - expected) <= 1) return null;
   return `game ${timeline.gameId}: ${timeline.minutes} minutes, expected ${expected} (+/-1) from duration ${durationSec}s`;
 }
+
+/** Largest accepted gap between the length measured on the feed and the Leaguepedia duration. */
+export const MEASURED_DURATION_TOLERANCE_SEC = 15;
+
+/**
+ * Null when the length measured on the feed is within 15 s of the Leaguepedia duration, else a
+ * warning. Finer than `checkDuration` (one sample = up to a minute) but only a warning: the game
+ * is kept, or the next run would download it again forever.
+ */
+export function checkMeasuredDuration(gameId: string, measuredSec: number, durationSec: number): string | null {
+  const gap = measuredSec - durationSec;
+  if (Math.abs(gap) <= MEASURED_DURATION_TOLERANCE_SEC) return null;
+  const signed = `${gap > 0 ? "+" : ""}${gap.toFixed(1)}`;
+  return `game ${gameId}: measured length ${measuredSec.toFixed(1)}s, Leaguepedia ${durationSec}s (${signed}s, over +/-${MEASURED_DURATION_TOLERANCE_SEC}s)`;
+}

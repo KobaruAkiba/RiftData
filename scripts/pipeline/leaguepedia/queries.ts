@@ -172,7 +172,8 @@ export function playersQuery(overviewPages: string[]): QueryDef {
     tables: "ScoreboardPlayers",
     fields: fieldList(["GameId", "Team", "Name", "Link", "Champion", "Role", ["Role_Number", "RoleNumber"], "Side", "Assists"]),
     where: `ScoreboardPlayers.OverviewPage IN ${inList(overviewPages)}`,
-    orderBy: "ScoreboardPlayers.GameId, ScoreboardPlayers.Team",
+    // A unique total order (a team has 5 rows per game): Cargo pages with OFFSET, so ties could skip or repeat rows.
+    orderBy: "ScoreboardPlayers.GameId, ScoreboardPlayers.Team, ScoreboardPlayers.Role_Number, ScoreboardPlayers.Side",
   };
 }
 

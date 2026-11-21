@@ -40,6 +40,15 @@ export function isStale(frames: WindowFrame[], requestedMs: number): boolean {
 }
 
 /**
+ * Answer past the end of the game: stale and ending on `finished`. It holds the last 10 frames
+ * of the feed, so its last frame is the true final state.
+ */
+export function isPastEnd(frames: WindowFrame[], requestedMs: number): boolean {
+  const last = frames.at(-1);
+  return last !== undefined && isFinished(last) && isStale(frames, requestedMs);
+}
+
+/**
  * True when the response cannot give the game state at `requested`: empty, or (without a
  * `finished` frame) holding a `paused` frame, or stale. `requested` is floored to 10 s.
  */

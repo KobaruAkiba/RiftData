@@ -10,6 +10,7 @@ import { loadOverrides, type Overrides } from "./overrides.js";
 import { editionPath, readJson, TEAMS_PATH, writeIfChanged } from "./store.js";
 import { buildTeamIdentity, type TeamIdentity } from "./teams/identity.js";
 import { editionYear, normalizeEdition, orphanGameIds, type EditionInput } from "./worlds/normalize.js";
+import { reportFatal } from "./cli.js";
 
 export { parseIngestArgs };
 
@@ -151,8 +152,5 @@ async function main(): Promise<void> {
 
 // Run only when executed directly, not when imported by tests.
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  main().catch((error) => {
-    console.error(error instanceof Error ? error.message : String(error));
-    process.exitCode = 1;
-  });
+  main().catch(reportFatal);
 }

@@ -167,7 +167,7 @@ Built from Leaguepedia on every run, without feed requests. A Leaguepedia correc
 
 - One sample per game minute. Sample `i` = frame nearest to game time `i:00`.
 - Minute 0 = first frame with total gold > 0.
-- Last sample = `finished` frame, even mid-minute.
+- Last sample = last `finished` frame (the true final state), even mid-minute.
 - Events: minute precision. Assigned to the first sample where the count changes.
 - Pauses: `gameState: paused` frames or stale feed responses. Detected and skipped: minutes stay game minutes, not wall-clock minutes.
 
@@ -216,6 +216,11 @@ Current entries:
 
 ## Attribution
 
-Data comes from [Leaguepedia](https://lol.fandom.com), licensed [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+Two sources, two licenses.
 
-Derived data in this folder is shared under the same license.
+| Data | Source | License |
+|---|---|---|
+| `worlds/`, `teams.json`, player and team names in `livestats/*/index.json` | [Leaguepedia](https://lol.fandom.com) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Derived data shared under the same license. |
+| Game timelines `livestats/<year>/<lolGameId>.json` | Unofficial lolesports livestats feed | © Riot Games. Not covered by CC BY-SA. |
+
+RiftData isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.

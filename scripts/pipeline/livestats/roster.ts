@@ -1,7 +1,8 @@
 import type { Game } from "../../../src/data/schema/edition.js";
 import type { GameTimeline, LivestatsIndex } from "../../../src/data/schema/timeline.js";
 import type { PlayerRow } from "../leaguepedia/queries.js";
-import { normalizeTeamKey } from "./link.js";
+import { sameChampion } from "./champion.js";
+import { normalizeKey } from "./normalize.js";
 
 export type IndexEntry = LivestatsIndex["games"][string];
 export interface RosterResult {
@@ -22,7 +23,7 @@ const ROLE_ALIASES: Record<string, string> = {
 
 /** Common key for Leaguepedia ("Bot", "Mid") and feed ("bottom", "mid") role names. */
 export function roleKey(value: string): string {
-  const key = normalizeTeamKey(value);
+  const key = normalizeKey(value);
   return ROLE_ALIASES[key] ?? key;
 }
 
@@ -70,7 +71,7 @@ export function buildIndexEntry(
     if (resolveTeam(row.Team) !== team) {
       warnings.push(`${label}: ${row.Link} plays for ${row.Team}, not the ${p.side} side team ${team}`);
     }
-    if (normalizeTeamKey(row.Champion) !== normalizeTeamKey(p.championKey)) {
+    if (!sameChampion(p.championKey, row.Champion)) {
       warnings.push(`${label}: champion ${p.championKey} (feed) differs from ${row.Champion} (Leaguepedia)`);
     }
     participants.push({ participantId: p.participantId, player: row.Link, team, role: roleKey(p.role), champion: row.Champion });

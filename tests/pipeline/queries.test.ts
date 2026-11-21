@@ -65,3 +65,8 @@ test("playersQuery selects the fields the livestats roster needs, Role_Number al
     expect(fields).toContain(f);
   }
 });
+
+test("playersQuery orders by a unique key so paging never skips or repeats rows", () => {
+  const orderBy = playersQuery(["P"]).orderBy;
+  for (const f of ["GameId", "Team", "Role_Number", "Side"]) expect(orderBy).toContain(`ScoreboardPlayers.${f}`);
+});

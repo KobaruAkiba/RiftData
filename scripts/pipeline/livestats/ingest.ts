@@ -6,9 +6,9 @@ import type { PlayerRow } from "../leaguepedia/queries.js";
 import { playersQuery } from "../leaguepedia/queries.js";
 import { livestatsGamePath, livestatsIndexPath } from "../store.js";
 import { parseLivestatsArgs, selectEditionYear, type LivestatsArgs } from "./args.js";
-import { checkDuration } from "./build.js";
+import { checkDuration, checkMeasuredDuration } from "./build.js";
 import { downloadGame } from "./download.js";
-import { buildLivestatsIndex, type IndexableGame } from "./index-build.js";
+import { buildLivestatsIndex, mergePreviousIndex, type IndexableGame } from "./index-build.js";
 import { linkGames, type GameLink } from "./link.js";
 import type { LivestatsOverrides } from "./overrides.js";
 import { parseCompletedEvents, pickWorldsTournamentId } from "./parse.js";
@@ -24,6 +24,8 @@ export interface LivestatsIO {
   listEditionYears(): Promise<number[]>;
   gameExists(year: number, gameId: string): Promise<boolean>;
   readGame(year: number, gameId: string): Promise<GameTimeline | null>;
+  /** The stored index, null when there is none yet; a corrupt one throws (it must never be overwritten blindly). */
+  readIndex(year: number): Promise<LivestatsIndex | null>;
   /** True when the file changed. */
   writeGame(year: number, timeline: GameTimeline): Promise<boolean>;
   writeIndex(year: number, index: LivestatsIndex): Promise<boolean>;
@@ -67,7 +69,7 @@ async function loadEdition(args: LivestatsArgs, io: LivestatsIO): Promise<Editio
   return edition;
 }
 
-/** A stored game that cannot be read stays out of the index with a warning: it must not block the others. */
+/** A stored game that cannot be read is warned about and not rebuilt (its previous index entry is kept): it must not block the others. */
 async function readStored(io: LivestatsIO, year: number, gameId: string, result: LivestatsResult): Promise<GameTimeline | null> {
   try {
     return await io.readGame(year, gameId);
@@ -138,6 +140,8 @@ export async function ingestLivestats(
   }
   io.log(`${year}: ${playedGames.length} played games, ${links.length} linked, ${todo.length} to download, ${result.skipped} already stored`);
 
+  // Read before the long download too: a corrupt index must stop the run at once, not after hours.
+  const previousIndex = await io.readIndex(year);
   // Fetched before the long download: a Leaguepedia problem shows up at once, not after hours.
   const players = links.length > 0 ? ((await cargo.query(playersQuery(edition.overviewPages))) as unknown as PlayerRow[]) : [];
 
@@ -152,6 +156,9 @@ export async function ingestLivestats(
       timeline = download.timeline;
       const mismatch = link.game.durationSec === undefined ? null : checkDuration(timeline, link.game.durationSec);
       if (mismatch !== null) throw new Error(mismatch);
+      // Measured length vs Leaguepedia: a large gap hints at a missed pause, but the file is kept.
+      const drift = link.game.durationSec === undefined ? null : checkMeasuredDuration(link.lolGameId, download.durationSec, link.game.durationSec);
+      if (drift !== null) result.warnings.push(drift);
       feedFailures = 0;
       io.log(`${prefix}: ${timeline.minutes} min, ${download.requests} req, elapsed ${formatElapsed(now() - startedAt)}`);
     } catch (error) {
@@ -159,7 +166,8 @@ export async function ingestLivestats(
       result.failed.push(reason);
       result.warnings.push(`Failed: ${reason}`);
       io.log(`${prefix}: FAILED - ${firstLine(describeError(error))}`);
-      if (error instanceof LolesportsRequestError) feedFailures++;
+      // Only consecutive feed outages count: any other failure proves the feed answered.
+      feedFailures = error instanceof LolesportsRequestError ? feedFailures + 1 : 0;
       if (feedFailures >= MAX_CONSECUTIVE_FEED_FAILURES) {
         result.aborted = true;
         result.warnings.push(`feed unreachable, aborted after ${i + 1} games`);
@@ -178,7 +186,14 @@ export async function ingestLivestats(
     const timeline = fresh.get(link.lolGameId) ?? (await readStored(io, year, link.lolGameId, result));
     if (timeline !== null) indexable.push({ game: link.game, timeline });
   }
-  const { index, warnings } = buildLivestatsIndex(indexable, players, createTeamResolver(teams));
+  const built = buildLivestatsIndex(indexable, players, createTeamResolver(teams));
+  result.warnings.push(...built.warnings);
+  // Entries that could not be rebuilt survive from the previous index as long as their game file exists.
+  const withFile = new Set<string>();
+  for (const { gameId } of Object.values(previousIndex?.games ?? {})) {
+    if (await io.gameExists(year, gameId)) withFile.add(gameId);
+  }
+  const { index, warnings } = mergePreviousIndex(built.index, previousIndex, (gameId) => withFile.has(gameId));
   result.warnings.push(...warnings);
   if (await io.writeIndex(year, index)) result.written.push(livestatsIndexPath(year));
   return result;

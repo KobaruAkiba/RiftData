@@ -1,5 +1,5 @@
 import { beforeEach, expect, test } from "vitest";
-import type { HttpInit, HttpResult } from "../../../scripts/lib/http.js";
+import { NetworkError, type HttpInit, type HttpResult } from "../../../scripts/lib/http.js";
 import {
   LOLESPORTS_BACKOFF_MS,
   LOLESPORTS_INTERVAL_MS,
@@ -88,9 +88,21 @@ test("429 then 200 retries and succeeds; the wait grows", async () => {
 });
 
 test("a network error is retried", async () => {
-  const client = createLolesportsClient(makeDeps([new Error("socket hang up"), res(200, "{}")]));
+  const client = createLolesportsClient(makeDeps([new NetworkError("GET host/path: socket hang up"), res(200, "{}")]));
   expect(await client.tournaments()).toEqual({});
   expect(urls).toHaveLength(2);
+});
+
+test("a non-network error from http is not retried", async () => {
+  const client = createLolesportsClient(makeDeps([new Error("boom")]));
+  await expect(client.tournaments()).rejects.toThrow("boom");
+  expect(urls).toHaveLength(1);
+});
+
+test("an API 200 with an empty or non-JSON body throws instead of returning null", async () => {
+  const html = createLolesportsClient(makeDeps([res(200, "<html>blocked</html>")]));
+  await expect(html.completedEvents("1")).rejects.toBeInstanceOf(LolesportsRequestError);
+  await expect(createLolesportsClient(makeDeps([res(200, "")])).tournaments()).rejects.toThrow(/unreadable body/);
 });
 
 test("persistent 5xx throws after the last attempt", async () => {
@@ -101,7 +113,7 @@ test("persistent 5xx throws after the last attempt", async () => {
 
 test("exhausted retries throw LolesportsRequestError (5xx and network); a 403 does not", async () => {
   await expect(createLolesportsClient(makeDeps([res(503)])).window("1")).rejects.toBeInstanceOf(LolesportsRequestError);
-  await expect(createLolesportsClient(makeDeps([new Error("socket hang up")])).details("1")).rejects.toBeInstanceOf(LolesportsRequestError);
+  await expect(createLolesportsClient(makeDeps([new NetworkError("GET host/path: socket hang up")])).details("1")).rejects.toBeInstanceOf(LolesportsRequestError);
   const forbidden = createLolesportsClient(makeDeps([res(403)])).completedEvents("1");
   await expect(forbidden).rejects.not.toBeInstanceOf(LolesportsRequestError);
 });

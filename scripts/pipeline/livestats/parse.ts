@@ -11,41 +11,47 @@ import type {
 } from "./types.js";
 
 /*
- * Raw lolesports payloads -> normalized types. Every function tolerates unexpected shapes:
- * it returns an empty result instead of throwing, so the caller decides what a missing piece means.
+ * Raw lolesports payloads -> normalized types. Window/details parsing tolerates unexpected shapes by
+ * dropping the incomplete record (a frame or participant lacking a required numeric field is never
+ * padded with zeros), so the builder fails loudly on the gap. `parseCompletedEvents` throws instead:
+ * an unrecognized response must never look like "no matches".
  */
 
 type Rec = Record<string, unknown>;
 
 const isRec = (v: unknown): v is Rec => typeof v === "object" && v !== null && !Array.isArray(v);
 const arr = (v: unknown): unknown[] => (Array.isArray(v) ? v : []);
-const num = (v: unknown): number => (typeof v === "number" && Number.isFinite(v) ? v : 0);
 const str = (v: unknown): string => (typeof v === "string" ? v : "");
 
+/** The listed fields as finite numbers; null when any is missing or not a number (never defaulted to 0). */
+function requiredNumbers<K extends string>(raw: Rec, keys: readonly K[]): Record<K, number> | null {
+  const out = {} as Record<K, number>;
+  for (const key of keys) {
+    const value = raw[key];
+    if (typeof value !== "number" || !Number.isFinite(value)) return null;
+    out[key] = value;
+  }
+  return out;
+}
+
+/** An array whose elements all pass `guard`; null when `v` is not an array or any element fails. */
+function arrayOf<T>(v: unknown, guard: (x: unknown) => x is T): T[] | null {
+  return Array.isArray(v) && v.every(guard) ? v : null;
+}
+const isNumber = (x: unknown): x is number => typeof x === "number" && Number.isFinite(x);
+const isString = (x: unknown): x is string => typeof x === "string";
+
 function parseParticipantWindow(raw: unknown): ParticipantWindow | null {
-  if (!isRec(raw) || typeof raw.participantId !== "number") return null;
-  return {
-    participantId: raw.participantId,
-    totalGold: num(raw.totalGold),
-    level: num(raw.level),
-    kills: num(raw.kills),
-    deaths: num(raw.deaths),
-    assists: num(raw.assists),
-    creepScore: num(raw.creepScore),
-  };
+  if (!isRec(raw)) return null;
+  return requiredNumbers(raw, ["participantId", "totalGold", "level", "kills", "deaths", "assists", "creepScore"]);
 }
 
 function parseTeamFrame(raw: unknown): TeamFrame | null {
   if (!isRec(raw)) return null;
-  return {
-    totalGold: num(raw.totalGold),
-    totalKills: num(raw.totalKills),
-    towers: num(raw.towers),
-    inhibitors: num(raw.inhibitors),
-    barons: num(raw.barons),
-    dragons: arr(raw.dragons).filter((d): d is string => typeof d === "string"),
-    participants: arr(raw.participants).flatMap((p) => parseParticipantWindow(p) ?? []),
-  };
+  const counts = requiredNumbers(raw, ["totalGold", "totalKills", "towers", "inhibitors", "barons"]);
+  const dragons = arrayOf(raw.dragons, isString);
+  if (counts === null || dragons === null) return null;
+  return { ...counts, dragons, participants: arr(raw.participants).flatMap((p) => parseParticipantWindow(p) ?? []) };
 }
 
 function parseWindowFrame(raw: unknown): WindowFrame | null {
@@ -82,22 +88,28 @@ export function parseWindow(json: unknown): { metadata: GameMetadata | null; fra
   };
 }
 
+/** Runes are required: a participant without them is dropped rather than stored as runes 0/0/[]. */
+function parsePerkMetadata(raw: unknown): ParticipantDetails["perkMetadata"] | null {
+  if (!isRec(raw)) return null;
+  const styles = requiredNumbers(raw, ["styleId", "subStyleId"]);
+  const perks = arrayOf(raw.perks, isNumber);
+  if (styles === null || perks === null || perks.length === 0) return null;
+  return { ...styles, perks };
+}
+
 function parseParticipantDetails(raw: unknown): ParticipantDetails | null {
-  if (!isRec(raw) || typeof raw.participantId !== "number") return null;
-  const perks = isRec(raw.perkMetadata) ? raw.perkMetadata : {};
-  return {
-    participantId: raw.participantId,
-    items: arr(raw.items).filter((i): i is number => typeof i === "number"),
-    perkMetadata: {
-      styleId: num(perks.styleId),
-      subStyleId: num(perks.subStyleId),
-      perks: arr(perks.perks).filter((p): p is number => typeof p === "number"),
-    },
-    killParticipation: num(raw.killParticipation),
-    championDamageShare: num(raw.championDamageShare),
-    wardsPlaced: num(raw.wardsPlaced),
-    wardsDestroyed: num(raw.wardsDestroyed),
-  };
+  if (!isRec(raw)) return null;
+  const stats = requiredNumbers(raw, [
+    "participantId",
+    "killParticipation",
+    "championDamageShare",
+    "wardsPlaced",
+    "wardsDestroyed",
+  ]);
+  const items = arrayOf(raw.items, isNumber);
+  const perkMetadata = parsePerkMetadata(raw.perkMetadata);
+  if (stats === null || items === null || perkMetadata === null) return null;
+  return { ...stats, items, perkMetadata };
 }
 
 export function parseDetails(json: unknown): DetailsFrame[] {
@@ -135,8 +147,11 @@ function parseEvent(raw: unknown): LolMatch | null {
 export function parseCompletedEvents(json: unknown): LolMatch[] {
   let events: unknown[];
   if (Array.isArray(json)) events = json;
-  else if (isRec(json) && isRec(json.data) && isRec(json.data.schedule)) events = arr(json.data.schedule.events);
-  else events = [json];
+  else if (isRec(json) && isRec(json.data) && isRec(json.data.schedule) && Array.isArray(json.data.schedule.events)) {
+    events = json.data.schedule.events;
+  } else if (parseEvent(json) !== null) events = [json];
+  else throw new Error("Unrecognized completed events response: expected data.schedule.events[], a list of events or one event");
+  // Single entries without a match id (not a match) are skipped; the response itself must be recognized.
   return events.flatMap((e) => parseEvent(e) ?? []);
 }
 

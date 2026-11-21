@@ -15,6 +15,7 @@ import { reduceCompletedEvents, saveFinalGameFixtures } from "./discover-fixture
 import { writeFixture } from "./discover-io.js";
 import { savePauseFixtures } from "./discover-pauses.js";
 import { parseCompletedEvents, pickWorldsTournamentId } from "./parse.js";
+import { reportFatal } from "../cli.js";
 
 /*
  * Network discovery, run by hand (`npm run discover:livestats`, a few minutes). Checks the real
@@ -111,8 +112,5 @@ async function main(): Promise<void> {
 
 // Run only when executed directly, not when imported.
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  main().catch((error) => {
-    console.error(error instanceof Error ? error.message : String(error));
-    process.exitCode = 1;
-  });
+  main().catch(reportFatal);
 }

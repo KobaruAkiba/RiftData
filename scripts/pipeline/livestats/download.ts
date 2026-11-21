@@ -9,6 +9,8 @@ export interface GameDownload {
   timeline: GameTimeline;
   /** Feed requests actually sent (cached windows and details are not counted). */
   requests: number;
+  /** Game length measured on the feed (first `finished` frame − game start − pauses), for `checkMeasuredDuration`. */
+  durationSec: number;
 }
 
 /** Details frame with exactly the sample timestamp: the same window gives the same timestamps, a gap means broken data. */
@@ -22,8 +24,14 @@ function alignedDetails(frames: DetailsFrame[], sample: Sample): DetailsFrame {
 /**
  * Downloads one game from the feed and builds its timeline (design §7.1, step 5).
  * Throws on any problem (empty feed, network, inconsistent data): the caller drops the game, no partial result.
+ * `now` is the clock that bounds the request past the end of the game.
  */
-export async function downloadGame(lol: LolesportsClient, gameId: string, year: number): Promise<GameDownload> {
+export async function downloadGame(
+  lol: LolesportsClient,
+  gameId: string,
+  year: number,
+  now: () => number = Date.now,
+): Promise<GameDownload> {
   let requests = 0;
 
   // Without startingTime the feed answers with the first frames of the game: metadata and t0.
@@ -37,9 +45,10 @@ export async function downloadGame(lol: LolesportsClient, gameId: string, year: 
     return parseWindow(await lol.window(gameId, toStartingTime(wall))).frames;
   };
   const first = await findGameStart(windowAt, new Date(t0.timestamp));
-  const samples = await sampleGame(windowAt, first);
+  const { samples, durationSec } = await sampleGame(windowAt, first, now);
 
   // One details request per 10 s window: the last sample often shares its window with the one before.
+  // The final sample's wall is its own request time (past the end when needed): same window, same timestamps.
   const detailsByWindow = new Map<string, DetailsFrame[]>();
   const details: DetailsFrame[] = [];
   for (const sample of samples) {
@@ -55,5 +64,5 @@ export async function downloadGame(lol: LolesportsClient, gameId: string, year: 
   }
 
   const timeline = buildGameTimeline({ gameId, year, metadata: head.metadata, samples, details });
-  return { timeline, requests };
+  return { timeline, requests, durationSec };
 }
